@@ -68,7 +68,7 @@ jobs:
           TG_SESSION: ${{ secrets.TG_SESSION }}
           TG_CHATS: ${{ secrets.TG_CHATS }}
           DATA_DIR: ${{ github.workspace }}/data
-          MAX_RUNTIME_MIN: ${{ vars.SCRAPE_MINUTES || '1' }}
+          MAX_RUNTIME_MIN: ${{ vars.SCRAPE_MINUTES || '57' }}
         run: |
           code=0
           python app/scraper/scrape.py || code=$?
