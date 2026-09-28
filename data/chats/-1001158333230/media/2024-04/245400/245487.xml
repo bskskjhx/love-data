@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+	<version>20220221</version>
+    <versioncode>20220627</versioncode>
+    <isOpen>1</isOpen>
+    <filter-name>sys_deviceidle_whitelist</filter-name>
+    <wl>cn.edaijia.android.driverclient</wl>
+    <wl>cn.xuexi.android</wl>
+    <wl>com.kuaidi.daijia.driver</wl>
+    <wl>com.sankuai.meituan.dispatch.homebrew</wl>
+    <wl>com.sankuai.meituan.meituanwaimaibusiness</wl>
+    <wl>com.sdu.didi.gsui</wl>
+    <wl>com.sdu.didi.gui</wl>
+    <wl>com.taobao.qianniu</wl>
+    <wl>com.tencent.mm</wl>
+    <wl>com.tencent.mobileqq</wl>
+    <wl>com.tencent.wework</wl>
+    <wl>com.xtc.watch</wl>
+    <wl>com.xunmeng.pinduoduo</wl>
+    <wl>me.ele.napos</wl>
+    <wl>com.alibaba.android.rimet</wl>
+
+    <wl>com.amap.android.location</wl>
+    <wl>com.baidu.map.location</wl>
+    <wl>com.android.dlna.service</wl>
+    <wl>com.android.email</wl>
+    <wl>com.android.providers.downloads</wl>
+    <wl>com.coloros.activation</wl>
+    <wl>com.coloros.alarmclock</wl>
+    <wl>com.coloros.backuprestore</wl>
+    <wl>com.coloros.familyguard</wl>
+    <wl>com.coloros.remoteguardservice</wl>
+    <wl>com.coloros.sharescreen</wl>
+    <wl>com.google.android.gsf</wl>
+    <wl>com.heytap.accessory</wl>
+    <wl>com.heytap.browser</wl>
+    <wl>com.heytap.cloud</wl>
+    <wl>com.heytap.health</wl>
+    <wl>com.heytap.mcs</wl>
+    <wl>com.heytap.pictorial</wl>
+    <wl>com.mobiletools.systemhelper</wl>
+    <wl>com.nearme.statistics.rom</wl>
+    <wl>com.oneplus.retailmode</wl>
+    <wl>com.oplus.cast</wl>
+    <wl>com.oplus.linker</wl>
+    <wl>com.oplus.ocar</wl>
+    <wl>com.oplus.ota</wl>
+    <wl>com.oplus.romupdate</wl>
+    <wl>com.oplus.sau</wl>
+    <wl>com.oplus.synergy</wl>
+</filter-conf>
