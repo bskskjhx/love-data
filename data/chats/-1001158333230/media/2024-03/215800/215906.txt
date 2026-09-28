@@ -1,0 +1,41 @@
+@echo off
+
+setlocal ENABLEDELAYEDEXPANSION
+pwsh -v >nul 2>nul
+if not "%errorlevel%" == "9009" (
+	set PS=call pwsh -Command
+) else (
+	powershell -v >nul 2>nul
+	if not "!errorlevel!" == "9009" (
+		set PS=call powershell
+	) else (
+		echo [#] Error: Powershell not found.
+		goto :EXIT
+	)
+)
+setlocal DISABLEDELAYEDEXPANSION
+
+if not exist "%~1" (
+	echo [#] Error: You need specify a valid input path.
+	goto :EXIT
+)
+set i=%~1\
+if not exist "%~2" (
+	set o=%~dp0out\
+) else (
+	set o=%~2\
+)
+
+setlocal ENABLEDELAYEDEXPANSION
+for %%i in ("%i%\*.dat") do (
+	set t=%%~ni !t!
+)
+setlocal DISABLEDELAYEDEXPANSION
+
+for /F "delims=" %%i in ('%PS% "$a=@{};'%t%'.Trim() -split '\s'|ForEach-Object{$i=$_ -split '_';$a[$i[1]]=$i[0]};$p=Get-Content '%i%\MediaCatalog.json'|ConvertFrom-Json;$p=$p.Table;$p.PSObject.Properties.Name|ForEach-Object{$h='%o%'+$p.$_.path -replace '/','\';New-Item -ItemType Directory -Path (Split-Path -Parent $h) -ErrorAction SilentlyContinue|Out-Null;if($a.ContainsKey([string]$p.$_.Crc)){Write-Host('""%i%'+$a[[string]$p.$_.Crc]+'""'+' ""'+$h+'""')}}"') do (
+    copy /Y %%i
+)
+
+:EXIT
+pause
+exit

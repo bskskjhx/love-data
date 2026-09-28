@@ -1,0 +1,182 @@
+- 1496245 <span >关于BL解锁说法正确的是</span> 【多选题】
+  - 4906024 <span >如果本次BL解锁申请通过，所获得的3次解锁资格，有效期至2024年12月31日</span>
+    - ⏹
+  - 4906021 <span >参与答题必须从“小米社区App-内测中心-BL解锁申请-去答题”进入，其他方式进入答题将无法展示分数，影响后续申请</span>
+    - ⏹
+  - 4906020 <span >未答题或未达到答题分数线时，每7天可重新参与一次答题</span>
+    - ⏹
+  - 4911376 BL解锁名额充足，满足申请条件后即可申请
+    - ⏹
+  - 4906022 本期答题的通过分数线为85分以上（不含85分）
+    - ⏹
+  - 4906023 <span >租借/转让/借用BL解锁资格、“代答”等行为均属违规</span>
+    - ⏹
+- 1497992 已满足BL解锁申请条件，但申请后被拒绝的原因，下列说法正确的有 【多选题】
+  - 4911374 <span >不填写</span>申请理由、或使用AI生成申请理由、或申请理由出现过辱骂威胁等内容
+    - ⏹
+  - 4911375 其他违反小米账号使用协议的相关情形
+    - ⏹
+  - 4911372 在社交媒介恶意诋毁、谩骂、造谣等<span >（包括但不限于各论坛、微博、微信、QQ群等）</span>
+    - ⏹
+  - 4911373 出现被判定为作弊的行为（包括但不限于<span >找人“代答”、</span>使用脚本或工具达到申请条件等）
+    - ⏹
+  - 4911400 确认无任何违规情形，被拒绝后可尝试再次申请
+    - ⏹
+- 1483415 以下说法关于Android权限的说法，不正确的有 【多选题】
+  - 4865051 <span >PROCESS_OUTGOING_CALLS权限</span>允许应用程序转接来电
+    - ⏹
+  - 4865050 <span >PROCESS_OUTGOING_CALLS权限</span>允许应用程序记录拨出电话
+    - ⏹
+  - 4865048 <span >PROCESS_OUTGOING_CALLS权限</span>允许应用程序访问通话记录
+    - ⏹
+  - 4865049 <span >PROCESS_OUTGOING_CALLS权限</span>应用程序监控或中止拨出呼叫
+    - ⏹
+- 1496266 <span style="color:rgb(102, 102, 102)">MTK刷机的报错，原因不匹配的有</span> 【多选题】
+  - 4906112 <span style="color:rgb(51, 51, 51)">S_DA_EMMC_FLASH_NOT_FOUND：手机的内存己经损坏</span>
+    - ⏹
+  - 4906114 <span style="color:rgb(51, 51, 51)">S_FT_NEED_DOWNLOAD_ALL_FAIL：目标ROM文件和手机系统差距过大</span>
+    - ⏹
+  - 4906113 <span style="color:rgb(51, 51, 51)">S_BROM_CMD_STARTCMD_FAIL：没有加载好刷机包文件</span>
+    - ⏹
+  - 4906115 <span style="color:rgb(38, 38, 38)">S_UNSUPPORTED_OPERATION</span><span style="color:rgb(51, 51, 51)">：已存在同名的程序</span>
+    - ⏹
+- 1496270 输入fastboot devices命令后，可能输出的结果是 【单选题】
+  - 4906134 MBR: verify success!
+    - ⏹
+  - 4906131 $ wget https://xxx.xxx/xxx/xxx/xxx.img
+    - ⏹
+  - 4906133 remount failed
+    - ⏹
+  - 4906132 XMABC100-01   fastboot
+    - ⏹
+- 1483408 <span >官方提供给用户的刷机工具是MiFlash</span> 【单选题】
+  - 4911633 正确
+    - ⏹
+  - 4911634 错误
+    - ⏹
+- 1483411 <span >以下说法正确的有</span> 【多选题】
+  - 4865035 发布新版本的应用程序时，必须从之前的versionCode开始递增
+    - ⏹
+  - 4865032 versionCode与用户侧显示的应用程序版本号相同
+    - ⏹
+  - 4865034 <span >同一个应用程序，versionCode变动时，versionName可以保持不变</span>
+    - ⏹
+  - 4865033 如果同一台手机已经安装一个高versionCode的客户端版本，则无法安装同包名的低versionCode客户端
+    - ⏹
+- 1496265 输入“adb logcat”后，出现“waiting for device”信息，可能的原因是 【多选题】
+  - 4906108 <span >在线ota升级后没自动双清</span>
+    - ⏹
+  - 4906109 <span >设备没有连接计算机</span>
+    - ⏹
+  - 4906111 <span >安装包签名不一致</span>
+    - ⏹
+  - 4906110 <span >ADB驱动程序没正确安装</span>
+    - ⏹
+- 1483422 关于9008模式刷机说法不正确的有？ 【多选题】
+  - 4865079 小米所有手机均可使用9008模式
+    - ⏹
+  - 4865077 <span style="color:rgb(51, 51, 51)">手机必须搭载高通处理器或联发科处理器才能使用9008模式刷机</span>
+    - ⏹
+  - 4865080 9008模式仅限手机可正常进入系统时才可使用
+    - ⏹
+  - 4865078 <span >9008模式下的刷机会比fastboot模式下的刷机更加彻底</span>
+    - ⏹
+- 1483416 如何退出FASTBOOT模式？ 【多选题】
+  - 4865052 在FASTBOOT模式下长按音量键约7-15秒重启进入系统
+    - ⏹
+  - 4865053 通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机
+    - ⏹
+  - 4865054 部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机
+    - ⏹
+  - 4865055 反复插拔数据线5次
+    - ⏹
+- 1497995 <span style="color:rgb(31, 35, 40)">以下说法不正确的有</span> 【多选题】
+  - 4911390 <span style="color:rgb(51, 51, 51)">Android的安全机制的包括进程沙箱隔离机制、应用程序签名机制、访问控制机制等</span>
+    - ⏹
+  - 4911388 <span style="color:rgb(51, 51, 51)">BootLoader是在Android设备启动时最先加载到RAM中的程序，它的主要作用是把系统OS拉起来并运行</span>
+    - ⏹
+  - 4911389 <span style="color:rgb(51, 51, 51)">AndroidManifest.xml中的manifest标签可以被嵌套在application的标签内</span>
+    - ⏹
+  - 4911387 <span style="color:rgb(51, 51, 51)">Android 7及更低版本的设备中，不使用JIT/AOT混合编译模式</span>
+    - ⏹
+  - 4911391 <span style="color:rgb(51, 51, 51)">刷机过程中如果变砖，可以通过9008的模式刷机救回MTK平台的机器</span>
+    - ⏹
+- 1497994 <span >以下说法不正确的有</span> 【多选题】
+  - 4911384 <span style="color:rgb(51, 51, 51)">手机如只能进入FASTBOOT，可能是引导程序损毁</span>
+    - ⏹
+  - 4911382 <span style="color:rgb(51, 51, 51)">刷机过程中出现Flash antirbpass error的报错，可以直接修改脚本强刷</span>
+    - ⏹
+  - 4911385 <span style="color:rgb(51, 51, 51)">正式版切换到开发版一般不需要解锁</span>
+    - ⏹
+  - 4911383 <span style="color:rgb(18, 18, 18)">刷入的系统版本与原系统差异较大时，通常建议执行四清</span>
+    - ⏹
+  - 4911386 <span style="color:rgb(51, 51, 51)">HAL介于Android framework层和应用层之间，屏蔽了硬件底层的具体实现，防止AOSP受GPL污染</span>
+    - ⏹
+- 1483423 FASTBOOT模式下如何输出防回滚机制（ANTI）版本号 【单选题】
+  - 4865082 fastboot -r ANTI
+    - ⏹
+  - 4865083 fastboot getvar anti
+    - ⏹
+  - 4865081 fastboot -w ANTI
+    - ⏹
+  - 4865084 fastboot devices
+    - ⏹
+- 1483412 以下FASTBOOT基本命令，对应不正确的有 【多选题】
+  - 4865037 <span >fastboot oem device-info：输出该设备的所有信息</span>
+    - ⏹
+  - 4865038 <span >fastboot erase &lt;分区名&gt;：</span>清除手机中所有数据
+    - ⏹
+  - 4865039 <span >fastboot oem lock：</span>开启BL锁保护
+    - ⏹
+  - 4865040 fastboot -w：<span >列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备</span>
+    - ⏹
+  - 4865036 fastboot getvar product：输出该机型内部代号名称
+    - ⏹
+- 1496229 Android原生提供的ContentProvider有 【多选题】
+  - 4906003 通话记录
+    - ⏹
+  - 4906004 书签
+    - ⏹
+  - 4906002 联系人
+    - ⏹
+  - 4906005 应用列表
+    - ⏹
+- 1497997 <span style="color:rgb(31, 35, 40)">以下说法不正确的有</span> 【多选题】
+  - 4911399 <span style="color:rgb(51, 51, 51)">Xiaomi/Redmi手机，一般长按电源键和音量减键即可进入Recovery</span>
+    - ⏹
+  - 4911398 <span style="color:rgb(51, 51, 51)">在正常情况下，所有非system分区的APP运行时的UID都是一样的</span>
+    - ⏹
+  - 4911397 <span style="color:rgb(51, 51, 51)">刷入第三方Recovery，通常数据不会丢失</span>
+    - ⏹
+  - 4911396 <span style="color:rgb(51, 51, 51)">刷入第三方TWRP，通常选择刷入到system分区</span>
+    - ⏹
+- 1496269 以下说法正确的有 【多选题】
+  - 4906127 线刷可以用来降级回到之前的系统版本、彻底删除设备数据、恢复误删除数据等
+    - ⏹
+  - 4906129 Android系统启动时，首先启动的是zygote进程
+    - ⏹
+  - 4906130 如果需要自定义绘制视图，则必须重写onDraw方法
+    - ⏹
+  - 4906128 <span >在FASTBOOT模式下，用flash命令刷写固件</span>
+    - ⏹
+  - 4907314 <span >擦除cache分区数据，个人数据通常不会丢失</span>
+    - ⏹
+- 1496669 <span style="color:rgb(31, 35, 40)">Android系统加密保护用户数据，Android 10或更高版本的设备使用全盘加密</span> 【单选题】
+  - 4907318 错误
+    - ⏹
+  - 4907317 正确
+    - ⏹
+- 1496669 <span style="color:rgb(31, 35, 40)">Android系统加密保护用户数据，Android 10或更高版本的设备使用全盘加密</span> 【单选题】
+  - 4907318 错误
+    - ⏹
+  - 4907317 正确
+    - ⏹
+- 1496690 以下说法正确的有 【多选题】
+  - 4907388 子网掩码的作用是识别子网
+    - ⏹
+  - 4907389 网桥可以有选择地转发数据帧
+    - ⏹
+  - 4907390 网络配置后不能进入Internet服务，ping 127.0.0.1是通的，ping 网关不通，原因可能是网关没有正确配置
+    - ⏹
+  - 4907391 通信子网为资源子网提供信息传输服务
+    - ⏹

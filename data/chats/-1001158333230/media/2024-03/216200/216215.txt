@@ -1,0 +1,104 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_core/_sockets.py", line 164, in try_connect
+    stream = await asynclib.connect_tcp(remote_host, remote_port, local_address)
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 1691, in connect_tcp
+    await get_running_loop().create_connection(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1064, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1049, in create_connection
+    sock = await self._connect_sock(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 960, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/lib/python3.10/asyncio/selector_events.py", line 500, in sock_connect
+    return await fut
+  File "/usr/lib/python3.10/asyncio/selector_events.py", line 535, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('100.115.84.105', 8080)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_exceptions.py", line 10, in map_exceptions
+    yield
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/backends/asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+  File "/usr/local/lib/python3.10/dist-packages/anyio/_core/_sockets.py", line 222, in connect_tcp
+    raise OSError("All connection attempts failed") from cause
+OSError: All connection attempts failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/backends/auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/backends/asyncio.py", line 109, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/usr/local/lib/python3.10/dist-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1457, in _request
+    response = await self._client.send(
+  File "/usr/local/lib/python3.10/dist-packages/sentry_sdk/integrations/httpx.py", line 88, in send
+    rv = await real_send(self, request, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_client.py", line 1620, in send
+    response = await self._send_handling_auth(
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_client.py", line 1648, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_client.py", line 1685, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_client.py", line 1722, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_transports/default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/usr/local/lib/python3.10/dist-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/pagermaid/workdir/plugins/tgopenai.py", line 201, in ai
+    response = await tgopenai.generate_response_by_my_prompt(client,chat_id,chat_title,user_prompt)
+  File "/pagermaid/workdir/plugins/tgopenai.py", line 140, in generate_response_by_my_prompt
+    response = (await self.openai_create(
+  File "/pagermaid/workdir/plugins/tgopenai.py", line 98, in openai_create
+    resp = (await self.openai.chat.completions.create(*args,**kwargs))
+  File "/usr/local/lib/python3.10/dist-packages/openai/resources/chat/completions.py", line 1330, in create
+    return await self._post(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1725, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1428, in request
+    return await self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1481, in _request
+    return await self._retry_request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1550, in _retry_request
+    return await self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1481, in _request
+    return await self._retry_request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1550, in _retry_request
+    return await self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1491, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.

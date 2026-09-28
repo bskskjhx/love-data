@@ -1,0 +1,10 @@
+在/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv下创建一个名为ntdou的文件夹之后在里面创建一个plugin.txt的文件
+在里面输入原神uid
+增加门槛  必须是原神冒险等级满足50级的用户只支持国服
+不满足的后续会开放其他游戏耐心等待
+并且模块有本地校验会识别uid是否在本机登陆
+乱填以及用别人的uid无效
+输入格式如下
+//原神内游戏名字
+//uid
+//QQ号

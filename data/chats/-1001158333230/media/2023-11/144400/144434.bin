@@ -1,0 +1,97 @@
+java.lang.Error: FATAL EXCEPTION [main]
+Unity version     : 2019.4.28f1
+Device model      : Xiaomi MI 6
+Device fingerprint: Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys
+
+Caused by: java.lang.Error: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Version '2019.4.28f1 (1381962e9d08)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+Build fingerprint: 'Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+Timestamp: 2022-03-27 00:19:00+0800
+pid: 5071, tid: 6816, name: Thread-36  >>> com.rayark.cytus2 <<<
+uid: 10203
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+    x0  0000000000000000  x1  0000000000001aa0  x2  0000000000000006  x3  0000007961ac8ab0
+    x4  5151441f43445342  x5  5151441f43445342  x6  5151441f43445342  x7  7f7f7f7f7f7f7f7f
+    x8  00000000000000f0  x9  0000007bb20d1740  x10 ffffff00fffffbdf  x11 0000000000000001
+    x12 0000007a7049badc  x13 0000000000000004  x14 0000007bb21c3cc0  x15 000000000000571c
+    x16 0000007bb21bd260  x17 0000007bb21934c0  x18 00000079ac757000  x19 00000000000000ac
+    x20 00000000000013cf  x21 00000000000000b2  x22 0000000000001aa0  x23 00000000ffffffff
+    x24 0000007b1c4b6456  x25 0000000000000000  x26 0000007bc01ec660  x27 0000007b1c49388c
+    x28 0000007b1ce17000  x29 0000007961ac8b30
+    sp  0000007961ac8a90  lr  0000007bb21431ac  pc  0000007bb21431dc
+
+backtrace:
+      #00 pc 00000000000991dc  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: a1957e9857adef58421c8c6a8e42764d)
+      #01 pc 000000000062f798  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+728) (BuildId: d29341f0a1df056e2631cbb847bad7bf)
+      #02 pc 0000000000015aa0  /system/lib64/libbase.so (BuildId: fc58b011b253e095bf1244e588fb3b2a)
+      #03 pc 000000000001508c  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+364) (BuildId: fc58b011b253e095bf1244e588fb3b2a)
+      #04 pc 0000000000454b84  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+2580) (BuildId: d29341f0a1df056e2631cbb847bad7bf)
+      #05 pc 000000000046f5f8  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+1368) (BuildId: d29341f0a1df056e2631cbb847bad7bf)
+      #06 pc 00000000001fd5a4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (_JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)+96) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #07 pc 0000000000244f6c  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::messaging::IsTokenRegistrationOnInitEnabled()+44) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #08 pc 0000000000244d34  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::messaging::Initialize(firebase::App const&, firebase::messaging::Listener*, firebase::messaging::MessagingOptions const&)+652) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #09 pc 0000000000266c74  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::AppCallback::NotifyAllAppCreated(firebase::App*, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, firebase::InitResult, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, std::__ndk1::allocator<std::__ndk1::pair<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const, firebase::InitResult> > >*)+112) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #10 pc 000000000025d908  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::app_common::AddApp(firebase::App*, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, firebase::InitResult, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, std::__ndk1::allocator<std::__ndk1::pair<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const, firebase::InitResult> > >*)+556) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #11 pc 0000000000293e1c  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::App::Create(firebase::AppOptions const&, char const*, _JNIEnv*, _jobject*)+1040) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #12 pc 00000000002939b0  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::App::Create(_JNIEnv*, _jobject*)+68) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #13 pc 00000000001e6128  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libFirebaseCppApp-7_2_0.so (firebase::AppGetOrCreateInstance(firebase::AppOptions const*, char const*)+144) (BuildId: 8d568dd0e4b159a2872a4b1a0357c8a3)
+      #14 pc 0000000002917944  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #15 pc 000000000291d140  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #16 pc 000000000291c500  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #17 pc 000000000291a994  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #18 pc 000000000291cd88  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #19 pc 000000000291d4f8  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #20 pc 0000000001aa9730  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #21 pc 000000000291a120  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #22 pc 000000000291cce4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #23 pc 000000000291d2d4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #24 pc 00000000024f7834  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #25 pc 00000000024a0db4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #26 pc 000000000141f04c  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #27 pc 0000000001fc63ac  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #28 pc 0000000001fc72ec  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #29 pc 000000000141f6f4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #30 pc 000000000141f52c  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #31 pc 0000000001427968  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #32 pc 0000000000ec7900  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #33 pc 000000000101cbdc  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #34 pc 0000000000fe7830  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #35 pc 0000000000fb66e8  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #36 pc 0000000000fb54c4  /data/app/~~sPmuLmFaso-r0LLc2Arj2Q==/com.rayark.cytus2-b-MrWPXIrU3IS9lvDAAs0A==/lib/arm64/libil2cpp.so
+      #37 pc 0000000000101570  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+264) (BuildId: a1957e9857adef58421c8c6a8e42764d)
+      #38 pc 000000000009a840  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: a1957e9857adef58421c8c6a8e42764d)
+
+	at libc.abort(abort:180)
+	at libart.art::Runtime::Abort(char const*)(Abort:728)
+	at libbase.0x15aa0(Native Method)
+	at libbase.android::base::LogMessage::~LogMessage()(~LogMessage:364)
+	at libart.art::JavaVMExt::JniAbort(char const*, char const*)(JniAbort:2580)
+	at libart.art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)(CallBooleanMethodV:1368)
+	at libFirebaseCppApp-7_2_0._JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)(CallBooleanMethod:96)
+	at libFirebaseCppApp-7_2_0.firebase::messaging::IsTokenRegistrationOnInitEnabled()(IsTokenRegistrationOnInitEnabled:44)
+	at libFirebaseCppApp-7_2_0.firebase::messaging::Initialize(firebase::App const&, firebase::messaging::Listener*, firebase::messaging::MessagingOptions const&)(Initialize:652)
+	at libFirebaseCppApp-7_2_0.firebase::AppCallback::NotifyAllAppCreated(firebase::App*, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, firebase::InitResult, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, std::__ndk1::allocator<std::__ndk1::pair<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const, firebase::InitResult> > >*)(NotifyAllAppCreated:112)
+	at libFirebaseCppApp-7_2_0.firebase::app_common::AddApp(firebase::App*, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, firebase::InitResult, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, std::__ndk1::allocator<std::__ndk1::pair<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const, firebase::InitResult> > >*)(AddApp:556)
+	at libFirebaseCppApp-7_2_0.firebase::App::Create(firebase::AppOptions const&, char const*, _JNIEnv*, _jobject*)(Create:1040)
+	at libFirebaseCppApp-7_2_0.firebase::App::Create(_JNIEnv*, _jobject*)(Create:68)
+	at libFirebaseCppApp-7_2_0.firebase::AppGetOrCreateInstance(firebase::AppOptions const*, char const*)(AppGetOrCreateInstance:144)
+	at libil2cpp.0x2917944(Native Method)
+	at libil2cpp.0x291d140(Native Method)
+	at libil2cpp.0x291c500(Native Method)
+	at libil2cpp.0x291a994(Native Method)
+	at libil2cpp.0x291cd88(Native Method)
+	at libil2cpp.0x291d4f8(Native Method)
+	at libil2cpp.0x1aa9730(Native Method)
+	at libil2cpp.0x291a120(Native Method)
+	at libil2cpp.0x291cce4(Native Method)
+	at libil2cpp.0x291d2d4(Native Method)
+	at libil2cpp.0x24f7834(Native Method)
+	at libil2cpp.0x24a0db4(Native Method)
+	at libil2cpp.0x141f04c(Native Method)
+	at libil2cpp.0x1fc63ac(Native Method)
+	at libil2cpp.0x1fc72ec(Native Method)
+	at libil2cpp.0x141f6f4(Native Method)
+	at libil2cpp.0x141f52c(Native Method)
+	at libil2cpp.0x1427968(Native Method)

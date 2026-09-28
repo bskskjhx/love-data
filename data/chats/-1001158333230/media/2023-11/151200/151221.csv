@@ -1,0 +1,19 @@
+﻿questionId,questionContent,type,choiceId1,choiceContent1,choiceId2,choiceContent2,choiceId3,choiceContent3,choiceId4,choiceContent4,choiceId5,choiceContent5,choice
+1481260,以下关于BL解锁刷机的说法中，正确的有,2,4859659,刷入第三方TWRP，通常选择刷入到system分区,4859660,刷入第三方Recovery，数据通常不会丢失,4859661,擦除cache分区数据，个人数据通常不会丢失,4859662,Xiaomi/Redmi手机一般长按电源键和音量加键即可进入Recovery,4859752,线刷刷机前应当备份重要数据,4859660/4859661/4859662/4859752
+1481262,关于9008模式刷机说法正确的有？,2,4859667,手机必须搭载高通处理器才能使用9008模式刷机,4859668,9008模式下的刷机会比fastboot模式下的刷机更加彻底,4859669,小米所有手机均可使用9008模式,4859941,9008模式仅限手机可正常进入系统时才可使用,,,4859667/4859668
+1481264,以下Bootloader锁表述错误的是？,1,4859673,正式版切换到开发版必须解锁,4859674,解锁时需要登录小米账号,4859675,小米账号需要与手机绑定,4859676,解锁后系统安全系数会降低,,,4859673
+1481265,下列刷机工具中，属于官方提供给用户的工具是？,1,4859677,MiFlash,4859678,刷机大师,4859679,线刷宝,4859946,91助手,,,4859677
+1481266,如何在FASTBOOT命令行内，刷入twrp到boot分区？,1,4859680,fastboot flash boot boot.img,4859681,fastboot flash recovery boot.img,4859682,fastboot flash update boot.img,4859683,fastboot flash update recovery boot.img,,,4859680
+1481268,如何烧录img、bin、mbn、elf等镜像文件内容到指定分区？,1,4859688,fastboot getvar all <分区名>,4859689,fastboot boot <内核镜像文件名或路径> <分区名>,4859690,fastboot flash <镜像路径> <分区名>,4859691,fastboot flash <分区名> <镜像文件名或路径>,,,4859691
+1481270,如何退出FASTBOOT模式？,2,4859696,在FASTBOOT模式下长按电源键约7-15秒重启进入系统,4859697,通过“fastboot reboot”及“fastboot oem poweroff”命令重启进入系统或拔线关机,4859698,部分机型在FASTBOOT模式下不插入数据线，5分钟到半小时内会自动重启或关机,4859947,反复插拔数据线5次,,,4859696/4859697/4859698
+1481272,关于FASTBOOT devices的作用，错误的说法有,2,4859704,列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备,4859705,列出当前已进入Recovery模式，且与PC连接正常的所有设备,4859706,无响应命令检测,4859707,检查手机是否已经更新,,,4859705/4859706/4859707
+1481274,以下FASTBOOT基本命令的说法，正确的有,2,4859712,fastboot getvar product：输出该机型内部代号名称,4859713,fastboot oem device-info：输出该设备的所有信息,4859714,fastboot erase <分区名>：清除手机中所有数据,4859715,fastboot oem lock：开启BL锁保护,4859985,fastboot -w：列出当前已进入FASTBOOT模式，且与PC连接正常的所有设备,4859712/4859715
+1481275,线刷可以用来解决哪些场景问题？,2,4859716,希望降级回到之前的系统版本,4859717,希望彻底删除数据，保护隐私,4859718,手机无法开机但已解锁,,,,,4859716/4859717/4859718
+1481276,FASTBOOT getvar all 命令有何作用？,1,4859720,输出该设备的所有信息,4859721,输出该设备的手机密码,4859722,输出该设备的手机号,4859723,输出该设备的更新版本,,,4859720
+1481277,关于JVM的垃圾回收机制说法正确的是,2,4859724,Serial Collector适合内存有限的情况,4859725,CMS Collctor在Old区回收暂停时间长,4859726,Parallel Collector效率高,4859727,Serial Collector回收速度快,,,4859724/4859726
+1481278,FASTBOOT模式通常用于哪些操作？,2,4859728,解锁引导加载程序,4859729,更新设备驱动程序,4859730,启用设备无线功能,4859731,刷写设备固件,4859984,大量文件数据传输,4859728/4859731
+1481279,安卓系统中负责启动应用，管理应用生命周期的系统服务是,1,4859732,SystemManager,4859733,ApplicationManagerService,4859734,SystemServer,4859735,ActivityManagerService,,,4859735
+1481367,以下哪条命令可间接直观检查出设备是否正常连接？,1,4859980,fastboot getvar all,4859981,fastboot getvar product,4859982,fastboot devices,4859983,fastboot getvar anti,,,4859982
+1482215,FastBoot命令有哪些类型,2,4862229,执行动作类,4862230,数据备份类,4862231,输出信息类,4862232,擦写数据类,,,4862229/4862231/4862232
+1482216,执行以下哪些操作需要解Bootloader锁？,2,4862233,卡刷方法刷机,4862234,FASTBOOT模式下线刷,4862235,ROOT权限,4862236,线刷开发版ROM,,,4862234/4862235/4862236
+1482217,FASTBOOT模式下如何输出防回滚机制（ANTI）版本号,1,4862237,fastboot -w ANTI,4862238,fastboot -r ANTI,4862239,fastboot getvar anti,4862240,fastboot devices,,,4862239
