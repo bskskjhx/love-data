@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTE U60 Pro Debug 启用工具</title>
+</head>
+<body>
+    <h1>ZTE U60 Pro Debug 启用工具</h1>
+    
+    <form id="form">
+        <p>
+            <label>网关地址:</label><br>
+            <input type="text" id="gateway" value="192.168.0.1" required>
+        </p>
+        
+        <p>
+            <label>管理员密码:</label><br>
+            <input type="password" id="password" required>
+        </p>
+        
+        <button type="submit" id="btn">启用 Debug 端口</button>
+    </form>
+    
+    <div id="result"></div>
+
+    <script>
+        form.onsubmit = async (e) => {
+            e.preventDefault();
+            btn.disabled = true;
+            btn.textContent = '执行中...';
+            result.innerHTML = '<p>正在执行...</p>';
+            
+            try {
+                const gw = gateway.value;
+                const pw = password.value;
+                
+                const salt = (await call(gw, "web_login_info", {"": ""})).zte_web_sault;
+                
+                const hash = (await sha256((await sha256(pw)).toUpperCase() + salt)).toUpperCase();
+                
+                const session = (await call(gw, "web_login", {password: hash})).ubus_rpc_session;
+                
+                const res = await call(gw, "set", {mode: "debug"}, session, "zwrt_bsp.usb");
+                
+                result.innerHTML = '<p>Debug 端口已启用!</p><pre>' + JSON.stringify(res, null, 2) + '</pre>';
+            } catch (error) {
+                result.innerHTML = '<p>错误: ' + error.message + '</p>';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '启用 Debug 端口';
+            }
+        };
+
+        async function call(gw, method, params, session = "00000000000000000000000000000000", service = "zwrt_web") {
+            const res = await fetch(`http://${gw}/ubus/?t=${Date.now()}`, {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify([{
+                    jsonrpc: "2.0",
+                    id: 1,
+                    method: "call",
+                    params: [session, service, method, params]
+                }])
+            });
+            
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const data = await res.json();
+            if (data[0].error) throw new Error(JSON.stringify(data[0].error));
+            return data[0].result[1];
+        }
+
+        async function sha256(msg) {
+            const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+            return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+    </script>
+</body>
+</html>
