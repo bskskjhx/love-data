@@ -403,5 +403,7 @@
 {"id":967491,"date":1790631345,"from":594317380,"media":{"type":"sticker","size":9778,"mime":"image/webp","w":512,"h":275,"emoji":"😶","file":"chats/-1001158333230/media/2026-09/967400/967491.webp"}},
 {"id":967492,"date":1790631375,"from":594317380,"text":"Haddock  我正在清洗 commit 所以你可以晚点再 fork","ents":[["mname",0,7,1048457726]],"edit":1790632371},
 {"id":967493,"date":1790633794,"from":5506662351,"text":"💩","reply":{"id":967077,"from":-1001231173515,"text":"[图片]"}},
-{"id":967494,"date":1790634131,"from":594317380,"text":"OK，洗干净了"}
+{"id":967494,"date":1790634131,"from":594317380,"text":"OK，洗干净了"},
+{"id":967495,"date":1790635154,"from":648806410,"text":"修了","reply":{"id":967488,"from":1541031247,"text":"oppo修了ghostlock吗"}},
+{"id":967496,"date":1790635204,"from":648806410,"text":"Haddock 有没有研究过 gms 的 GoogleCertificatesRslt: debug cert rejected 逻辑","ents":[["mname",0,7,1048457726]]}
 ]
