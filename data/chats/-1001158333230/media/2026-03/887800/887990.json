@@ -1,0 +1,14 @@
+{
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 9 Pro",
+    "FINGERPRINT": "google/caiman_beta/caiman:CANARY/ZP11.260220.007/14993212:user/release-keys",
+    "BRAND": "google",
+    "PRODUCT": "caiman_beta",
+    "DEVICE": "caiman",
+    "VERSION.RELEASE": "16",
+    "ID": "ZP11.260220.007",
+    "VERSION.INCREMENTAL": "14993212",
+    "TYPE": "user",
+    "TAGS": "release-keys",
+    "VERSION.DEVICE_INITIAL_SDK_INT": "32"
+}

