@@ -1,0 +1,96 @@
+E/AndroidRuntime( 1730): Process: com.ruanmei.ithome, PID: 1730
+E/AndroidRuntime( 1730): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.alibaba.wireless.security.open.initialize.а" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.ruanmei.ithome-2/base.apk"],nativeLibraryDirectories=[/data/app/com.ruanmei.ithome-2/lib/x86, /vendor/lib, /system/lib]]
+E/AndroidRuntime( 1934): Process: com.ruanmei.ithome, PID: 1934
+E/AndroidRuntime( 1934): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.alibaba.wireless.security.open.initialize.а" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.ruanmei.ithome-2/base.apk"],nativeLibraryDirectories=[/data/app/com.ruanmei.ithome-2/lib/x86, /vendor/lib, /system/lib]]
+W/PackageManager( 3743): Unknown permission android.permission.REQUEST_INSTALL_PACKAGES in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.QUERY_ALL_PACKAGES in package com.ruanmei.ithome
+W/PackageManager( 3743): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.ruanmei.ithome (protectionLevel=18 flags=0x183e44)
+W/PackageManager( 3743): Unknown permission android.permission.READ_SETTINGS in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.ruanmei.ithome
+W/PackageManager( 3743): Not granting permission android.permission.CHANGE_CONFIGURATION to package com.ruanmei.ithome (protectionLevel=50 flags=0x183e44)
+W/PackageManager( 3743): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.ruanmei.ithome (protectionLevel=18 flags=0x183e44)
+W/PackageManager( 3743): Unknown permission com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.POST_NOTIFICATIONS in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.FOREGROUND_SERVICE in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.hihonor.security.permission.ACCESS_THREAT_DETECTION in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.google.android.gms.permission.AD_ID in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.huawei.android.launcher.permission.CHANGE_BADGE in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.vivo.notification.permission.BADGE_ICON in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.REQUEST_INSTALL_PACKAGES in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.QUERY_ALL_PACKAGES in package com.ruanmei.ithome
+W/PackageManager( 3743): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.ruanmei.ithome (protectionLevel=18 flags=0x183e44)
+W/PackageManager( 3743): Unknown permission android.permission.READ_SETTINGS in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.ruanmei.ithome
+W/PackageManager( 3743): Not granting permission android.permission.CHANGE_CONFIGURATION to package com.ruanmei.ithome (protectionLevel=50 flags=0x183e44)
+W/PackageManager( 3743): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.ruanmei.ithome (protectionLevel=18 flags=0x183e44)
+W/PackageManager( 3743): Unknown permission com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.POST_NOTIFICATIONS in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission android.permission.FOREGROUND_SERVICE in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.hihonor.security.permission.ACCESS_THREAT_DETECTION in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.google.android.gms.permission.AD_ID in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.huawei.android.launcher.permission.CHANGE_BADGE in package com.ruanmei.ithome
+W/PackageManager( 3743): Unknown permission com.vivo.notification.permission.BADGE_ICON in package com.ruanmei.ithome
+I/ActivityManager( 3743): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ruanmei.ithome/.ui.MainActivity (has extras)} from uid 10015 on display 0
+I/ActivityManager( 3743): Start proc com.ruanmei.ithome for activity com.ruanmei.ithome/.ui.MainActivity: pid=5093 uid=10161 gids={50161, 9997, 3003, 1028, 1015} abi=x86
+W/BroadcastQueue( 3743): Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) } from null (pid=-1, uid=-1) requires com.tencent.bugly.BuglyBroadcastReceiver.permission due to registered receiver BroadcastFilter{12d50c01 u0 ReceiverList{17434de8 5093 com.ruanmei.ithome/10161/u0 remote:2f315b0b}}
+E/AndroidRuntime( 5093): Process: com.ruanmei.ithome, PID: 5093
+E/AndroidRuntime( 5093): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.alibaba.wireless.security.open.initialize.а" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.ruanmei.ithome-2/base.apk"],nativeLibraryDirectories=[/data/app/com.ruanmei.ithome-2/lib/x86, /vendor/lib, /system/lib]]
+W/ActivityManager( 3743):   Force finishing activity com.ruanmei.ithome/.ui.MainActivity
+I/WindowManager( 3743): Screenshot max retries 4 of Token{18fb9db2 ActivityRecord{32143bd u0 com.ruanmei.ithome/.ui.MainActivity t1290 f}} appWin=Window{c6afcac u0 Starting com.ruanmei.ithome} drawState=4
+W/ActivityManager( 3743): Activity pause timeout for ActivityRecord{32143bd u0 com.ruanmei.ithome/.ui.MainActivity t1290 f}
+I/ActivityManager( 3743): Process com.ruanmei.ithome (pid 5093) has died
+W/ActivityManager( 3743): App Op not allow to restart app com.ruanmei.ithome/10161
+W/BroadcastQueue( 3743): Reject to launch app com.ruanmei.ithome/10161 for broadcast: App Op 48
+W/BroadcastQueue( 3743): Reject to launch app com.ruanmei.ithome/10161 for broadcast: App Op 48
+I/ActivityManager( 3743): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ruanmei.ithome/.ui.MainActivity (has extras)} from uid 10015 on display 0
+D/LauncherLog( 4157): Launcher:: startActivity: pkg: com.ruanmei.ithome clz: com.ruanmei.ithome.ui.MainActivity
+I/ActivityManager( 3743): Start proc com.ruanmei.ithome for activity com.ruanmei.ithome/.ui.MainActivity: pid=10023 uid=10161 gids={50161, 9997, 3003, 1028, 1015} abi=x86
+V/Monotype(10023): SetAppTypeFace- try to flip, app = com.ruanmei.ithome
+I/Utils   (10023): com.ruanmei.ithome reflect app success.
+E/SQLiteLog(10023): (283) recovered 27 frames from WAL file /data/data/com.ruanmei.ithome/databases/androidx.work.workdb-wal
+E/BypassProvider(10023): 	at com.ruanmei.ithome.MyWrapperProxyApplication.onCreate(MyWrapperProxyApplication.java:13)
+V/Monotype(10023): SetAppTypeFace- try to flip, app = com.ruanmei.ithome
+W/System.err(10023): java.io.FileNotFoundException: /data/data/com.ruanmei.ithome/cache/nlfcid: open failed: ENOENT (No such file or directory)
+W/System.err(10023): 	at com.ruanmei.ithome.utils.i1.e(WebUtils.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.utils.i1.x(WebUtils.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.NewsListFilterKeywordHelper.initFilterIdDislike(NewsListFilterKeywordHelper.java:5)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.NewsListFilterKeywordHelper.init(NewsListFilterKeywordHelper.java:8)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.g(MyApplication.java:8)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.j(MyApplication.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.AppInitHelper.init(AppInitHelper.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.f(MyApplication.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.onCreate(MyApplication.java:4)
+W/System.err(10023): 	at com.ruanmei.ithome.MyWrapperProxyApplication.onCreate(MyWrapperProxyApplication.java:13)
+W/System.err(10023): java.io.FileNotFoundException: /data/data/com.ruanmei.ithome/files/postListDislike: open failed: ENOENT (No such file or directory)
+W/System.err(10023): 	at com.ruanmei.ithome.utils.i1.e(WebUtils.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.utils.i1.x(WebUtils.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.NewsListFilterKeywordHelper.initFilterIdDislike(NewsListFilterKeywordHelper.java:12)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.NewsListFilterKeywordHelper.init(NewsListFilterKeywordHelper.java:8)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.g(MyApplication.java:8)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.j(MyApplication.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.AppInitHelper.init(AppInitHelper.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.f(MyApplication.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.onCreate(MyApplication.java:4)
+W/System.err(10023): 	at com.ruanmei.ithome.MyWrapperProxyApplication.onCreate(MyWrapperProxyApplication.java:13)
+W/System.err(10023): java.io.FileNotFoundException: /data/data/com.ruanmei.ithome/files/hw.dat: open failed: ENOENT (No such file or directory)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.ServerInterfaceHelper.<init>(ServerInterfaceHelper.java:10)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.ServerInterfaceHelper.init(ServerInterfaceHelper.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.j(MyApplication.java:3)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.AppInitHelper.init(AppInitHelper.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.f(MyApplication.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.base.MyApplication.onCreate(MyApplication.java:4)
+W/System.err(10023): 	at com.ruanmei.ithome.MyWrapperProxyApplication.onCreate(MyWrapperProxyApplication.java:13)
+W/BroadcastQueue( 3743): Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 (has extras) } from null (pid=-1, uid=-1) requires com.tencent.bugly.BuglyBroadcastReceiver.permission due to registered receiver BroadcastFilter{2a80c970 u0 ReceiverList{2c20efb3 10023 com.ruanmei.ithome/10161/u0 remote:3da8922}}
+D/EventBus(10023): No subscribers registered for event class com.ruanmei.ithome.d.g
+D/kepler  (10023): get-str:067708f2309b400196fada48769ace45,com.ruanmei.ithome,bcb9f0e9c21041845b375f1f2071e973,7a68b74d11f7b2af498acbea6cc9d51d3de2a4e7
+D/EventBus(10023): No subscribers registered for event class com.ruanmei.ithome.c.e0$c0
+V/Monotype(10023): SetAppTypeFace- try to flip, app = com.ruanmei.ithome
+E/AndroidRuntime(10023): Process: com.ruanmei.ithome, PID: 10023
+E/AndroidRuntime(10023): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.alibaba.wireless.security.open.initialize.а" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.ruanmei.ithome-2/base.apk"],nativeLibraryDirectories=[/data/app/com.ruanmei.ithome-2/lib/x86, /vendor/lib, /system/lib]]
+W/ActivityManager( 3743):   Force finishing activity com.ruanmei.ithome/.ui.MainActivity
+I/WindowManager( 3743): Screenshot max retries 4 of Token{28dfa428 ActivityRecord{394c224b u0 com.ruanmei.ithome/.ui.MainActivity t1298 f}} appWin=Window{31389827 u0 Starting com.ruanmei.ithome} drawState=4
+W/ActivityManager( 3743): Activity pause timeout for ActivityRecord{394c224b u0 com.ruanmei.ithome/.ui.MainActivity t1298 f}
+W/System.err(10023): java.io.FileNotFoundException: /data/data/com.ruanmei.ithome/files/bottom_nav.json: open failed: ENOENT (No such file or directory)
+W/System.err(10023): 	at com.ruanmei.ithome.utils.s.S1(CommonTools.java:2)
+W/System.err(10023): 	at com.ruanmei.ithome.helpers.BottomNavBarHelper.getAllNavJson(BottomNavBarHelper.java:1)
+W/System.err(10023): 	at com.ruanmei.ithome.hel

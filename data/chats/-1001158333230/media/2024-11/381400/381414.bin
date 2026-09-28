@@ -1,0 +1,147 @@
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "none"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10810,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10811,
+      "listen": "0.0.0.0",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "应该没问题",
+            "port": 13023,
+            "users": [
+              {
+                "id": "应该没问题",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8",
+          "headers": {}
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:example-example.com",
+          "domain:example-example2.com"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",
+        "domain": [
+          "geosite:category-ads-all"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:cn"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private",
+          "geoip:cn"
+        ]
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy"
+      }
+    ]
+  }
+}
