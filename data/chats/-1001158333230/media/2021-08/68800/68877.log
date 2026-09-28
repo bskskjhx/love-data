@@ -1,0 +1,243 @@
+SagerNet 0.3-rc12 (390) on API 31
+----------------------------------------------------------------------
+BUILD: SPB4.210715.011
+DISPLAY: SPB4.210715.011
+PRODUCT: coral
+DEVICE: coral
+BOARD: coral
+MANUFACTURER: Google
+BOOTLOADER: c2f2-0.4-7513103
+HARDWARE: coral
+SUPPORTED_ABIS: [arm64-v8a, armeabi-v7a, armeabi]
+USER: android-build
+HOST: abfarm786
+TYPE: user
+TAGS: release-keys
+----------------------------------------------------------------------
+--------- beginning of main
+08-12 11:19:15.852 16319 16319 D ConfigBuilderKt: Index 0, proxyEntity: 
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt: {
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "tx": 464653,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "ping": 0,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "rx": 3803165,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "groupId": 1,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "type": 6,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "uuid": "",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "userOrder": 1,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "id": 1,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "trojanBean": {
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "alpn": "",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "serverAddress": "**********",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "serverPort": **********,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "extraType": 0,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "sni": "",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "tags": [
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         ],
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "password": "**********",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "security": "tls",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "profileId": "",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "name": "",
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "allowInsecure": false,
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:         "group": ""
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     },
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt:     "status": 0
+08-12 11:19:15.855 16319 16319 D ConfigBuilderKt: }
+08-12 11:19:15.861 16319 16319 D ProxyInstance: {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "dns": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "hosts": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "domain:googleapis.cn": "googleapis.com"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "servers": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "https://1.0.0.1/dns-query",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "address": "https+local://223.5.5.5/dns-query",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "domains": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "full:**********"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "skipFallback": true
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     ]
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "inbounds": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "listen": "127.0.0.1",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "port": 2080,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "socks",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "auth": "noauth",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "udp": true,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "userLevel": 8
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "sniffing": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "destOverride": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "http",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "tls"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "enabled": true,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "metadataOnly": false
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "socks"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "listen": "127.0.0.1",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "port": 9080,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "http",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "allowTransparent": true,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "userLevel": 8
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "sniffing": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "destOverride": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "http",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "tls"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "enabled": true,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "metadataOnly": false
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "http"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "listen": "127.0.0.1",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "port": 6450,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "dokodemo-door",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "address": "1.0.0.1",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "network": "tcp,udp",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "port": 53
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "dns-in"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "log": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "loglevel": "error"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "outbounds": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "trojan",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "servers": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:             "address": "**********",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:             "level": 8,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:             "password": "**********",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:             "port": **********
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         ]
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "streamSettings": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "network": "tcp",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "security": "tls",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "tlsSettings": {}
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "proxy-global-1"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "freedom",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {},
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "direct"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "freedom",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {},
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "bypass"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "blackhole",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "block"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "protocol": "dns",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "settings": {},
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "tag": "dns-out"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "policy": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "levels": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "8": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "connIdle": 300,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "downlinkOnly": 1,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "handshake": 4,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "uplinkOnly": 1
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "system": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "statsOutboundDownlink": true,
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       "statsOutboundUplink": true
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "routing": {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "domainMatcher": "mph",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "domainStrategy": "IPIfNonMatch",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     "rules": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       {
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "inboundTag": [
+08-12 11:19:15.861 16319 16319 D ProxyInstance:           "dns-in"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         ],
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "outboundTag": "dns-out",
+08-12 11:19:15.861 16319 16319 D ProxyInstance:         "type": "field"
+08-12 11:19:15.861 16319 16319 D ProxyInstance:       }
+08-12 11:19:15.861 16319 16319 D ProxyInstance:     ]
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   },
+08-12 11:19:15.861 16319 16319 D ProxyInstance:   "stats": {}
+08-12 11:19:15.861 16319 16319 D ProxyInstance: }
+08-12 11:19:15.864 16319 16319 I GoLog   : Prepare Result:
+08-12 11:19:15.864 16319 16319 I GoLog   :  Domain: 127.0.0.1
+08-12 11:19:15.864 16319 16319 I GoLog   :  Port: 11451
+08-12 11:19:15.864 16319 16319 I GoLog   :  IPs: [127.0.0.1]
+08-12 11:19:15.864 16319 16319 I GoLog   : Loading v2ray config
+08-12 11:19:15.866 16319 16319 I GoLog   : New v2ray core
+08-12 11:19:15.867 16319 16319 I GoLog   : Start v2ray core
+08-12 11:19:15.868 16319 16319 I V2RayInstance$SagerSupportSet: onEmitStatus Running
+08-12 11:19:15.884 16319 16319 I GuardedProcessPool: start process: /data/app/~~SmJnJWj3PGySrYzYEgXDqg==/io.nekohasekai.sagernet-HksPx--A6Rr4mzNqadCT3w==/lib/arm64/libtun2socks.so --netif-ipaddr 172.19.0.2 --socks-server-addr 127.0.0.1:2080 --tunmtu 1500 --sock-path /data/user_de/0/io.nekohasekai.sagernet/no_backup/sock_path --loglevel warning --dnsgw 127.0.0.1:6450 --netif-ip6addr fdfe:dcba:9876::2 --enable-udprelay
+08-12 11:19:16.084 16319 16353 I GoLog   : 127.0.0.1:40258 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:16.476 16319 17824 I GoLog   : 127.0.0.1:40262 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:16.476 16319 17824 I GoLog   : 127.0.0.1:40264 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:16.483 16319 17824 I GoLog   : 127.0.0.1:40266 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:16.516 16319 18129 I GoLog   : 127.0.0.1:40274 accepted //optimizationguide-pa.googleapis.com:443 [proxy-global-1]
+08-12 11:19:16.936 16319 16348 I GoLog   : tcp:127.0.0.1:48496 accepted tcp:172.19.0.2:853 [proxy-global-1]
+08-12 11:19:17.114 16319 18129 I GoLog   : 127.0.0.1:40282 accepted //beacons.gvt2.com:443 [proxy-global-1]
+08-12 11:19:17.132 16319 16353 I GoLog   : 127.0.0.1:40286 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:18.696 16319 16352 I GoLog   : 127.0.0.1:40290 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:18.890 16319 18132 I GoLog   : 127.0.0.1:40294 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:18.961 16319 18129 I GoLog   : 127.0.0.1:40298 accepted //connectivitycheck.gstatic.com:443 [proxy-global-1]
+08-12 11:19:19.058 16319 18132 I GoLog   : 127.0.0.1:40302 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:19.248 16319 18129 I GoLog   : 127.0.0.1:40306 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:19.431 16319 18129 I GoLog   : 127.0.0.1:40310 accepted //play-fe.googleapis.com:443 [proxy-global-1]
+08-12 11:19:19.493 16319 18132 I GoLog   : 127.0.0.1:40314 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:21.562 16319 17824 I GoLog   : 127.0.0.1:40318 accepted //play-lh.googleusercontent.com:443 [proxy-global-1]
+08-12 11:19:21.565 16319 17824 I GoLog   : 127.0.0.1:40320 accepted //play-lh.googleusercontent.com:443 [proxy-global-1]
+08-12 11:19:21.569 16319 18129 I GoLog   : 127.0.0.1:40326 accepted //play-lh.googleusercontent.com:443 [proxy-global-1]
+08-12 11:19:21.570 16319 18129 I GoLog   : 127.0.0.1:40328 accepted //play-lh.googleusercontent.com:443 [proxy-global-1]
+08-12 11:19:22.360 16319 18129 I GoLog   : 127.0.0.1:40334 accepted //play.googleapis.com:443 [proxy-global-1]
+08-12 11:19:27.421 16319 16348 I GoLog   : 127.0.0.1:40338 accepted //clients4.google.com:443 [proxy-global-1]
+08-12 11:19:44.472 16319 16352 I GoLog   : 127.0.0.1:40346 accepted //play.googleapis.com:443 [proxy-global-1]
+08-12 11:19:45.502 16319 17824 I GoLog   : 127.0.0.1:40350 accepted //r3---sn-4g5edn6k.gvt1.com:443 [proxy-global-1]
+08-12 11:19:49.515 16319 16353 I GoLog   : 127.0.0.1:40354 accepted //www.googleapis.com:443 [proxy-global-1]
+08-12 11:19:50.108 16319 18132 I GoLog   : 127.0.0.1:40358 accepted //playatoms-pa.googleapis.com:443 [proxy-global-1]
+08-12 11:19:51.253 16319 17301 I GoLog   : 127.0.0.1:40362 accepted //www.googleapis.com:443 [proxy-global-1]
+08-12 11:19:51.325 16319 16353 I GoLog   : 127.0.0.1:40366 accepted //play.googleapis.com:443 [proxy-global-1]
+08-12 11:19:51.564 16319 17824 I GoLog   : 127.0.0.1:40370 accepted //r5---sn-4g5ednld.gvt1.com:443 [proxy-global-1]
+08-12 11:19:51.579 16319 16352 I GoLog   : 127.0.0.1:40374 accepted //android-safebrowsing.google.com:443 [proxy-global-1]
+08-12 11:19:52.880 16319 17301 I GoLog   : 127.0.0.1:40378 accepted //www.gstatic.com:443 [proxy-global-1]
+08-12 11:19:53.029 16319 16353 I GoLog   : 127.0.0.1:40382 accepted //www.googleapis.com:443 [proxy-global-1]
+08-12 11:19:53.554 16319 17794 I GoLog   : 127.0.0.1:40386 accepted //android.googleapis.com:443 [proxy-global-1]
+08-12 11:19:54.484 16319 18129 I GoLog   : 127.0.0.1:40390 accepted //voledevice-pa.googleapis.com:443 [proxy-global-1]
+08-12 11:19:55.630 16319 16353 I GoLog   : 127.0.0.1:40394 accepted //play.googleapis.com:443 [proxy-global-1]
+08-12 11:19:55.648 16319 16353 I GoLog   : 127.0.0.1:40398 accepted //firebaseinstallations.googleapis.com:443 [proxy-global-1]
+08-12 11:19:55.938 16319 16348 I GoLog   : 127.0.0.1:40416 accepted //people-pa.googleapis.com:443 [proxy-global-1]
+08-12 11:19:56.007 16319 17794 I GoLog   : 127.0.0.1:40420 accepted //play.googleapis.com:443 [proxy-global-1]
+08-12 11:19:56.513 16319 16353 I GoLog   : 127.0.0.1:40426 accepted //r3---sn-4g5ednd7.gvt1.com:443 [proxy-global-1]
+08-12 11:19:56.518 16319 17824 I GoLog   : 127.0.0.1:40430 accepted //r5---sn-4g5e6nss.gvt1.com:443 [proxy-global-1]
+08-12 11:19:57.718 16319 16352 I GoLog   : 127.0.0.1:40442 accepted //firebaseremoteconfig.googleapis.com:443 [proxy-global-1]
+08-12 11:19:57.737 16319 16348 I GoLog   : 127.0.0.1:40446 accepted //android.clients.google.com:443 [proxy-global-1]
+08-12 11:19:58.806 16319 16353 I GoLog   : 127.0.0.1:40456 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:19:59.618 16319 16352 I GoLog   : 127.0.0.1:40466 accepted //www.google.ru:443 [proxy-global-1]
+08-12 11:20:00.574 16319 16353 I GoLog   : 127.0.0.1:40476 accepted //google.com:443 [proxy-global-1]
+08-12 11:20:01.451 16319 17824 I GoLog   : 127.0.0.1:40484 accepted //dns.google.com:443 [proxy-global-1]
+08-12 11:20:09.877 16319 16348 I GoLog   : 127.0.0.1:40496 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:20:10.897 16319 16348 I GoLog   : 127.0.0.1:40502 accepted //www.google.ru:443 [proxy-global-1]
+08-12 11:20:12.227 16319 17824 I GoLog   : 127.0.0.1:40506 accepted //google.com:443 [proxy-global-1]
+08-12 11:20:27.996 16319 17301 I GoLog   : 127.0.0.1:40516 accepted //www.google.com:443 [proxy-global-1]
+08-12 11:20:28.921 16319 17301 I GoLog   : 127.0.0.1:40522 accepted //www.google.ru:443 [proxy-global-1]
+08-12 11:20:29.811 16319 17824 I GoLog   : 127.0.0.1:40526 accepted //google.com:443 [proxy-global-1]
+

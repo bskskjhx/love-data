@@ -1,0 +1,5505 @@
+@echo off
+:
+if not exist "sd.exe" (
+goto:
+else
+)
+:
+ECHO QQ..
+ECHO.
+ECHO.
+:360tray
+tasklist | find /i "360tray.exe" >nul 2>nul && call file\bat\.bat || goto:360sd
+ECHO.
+ECHO.
+pause
+goto:
+:360sd
+tasklist | find /i "360sd.exe" >nul 2>nul &&call file\bat\.bat || goto:QQPCTray
+ECHO.
+ECHO.
+pause
+goto:
+:QQPCTray
+tasklist | find /i "QQPCTray.exe" >nul 2>nul && call file\bat\.bat || goto:lenovopcmanager
+ECHO.
+ECHO.
+pause
+goto:
+:lenovopcmanager
+tasklist | find /i "lenovopcmanager.exe" >nul 2>nul && call file\bat\.bat || goto:hipstray
+ECHO.
+ECHO.
+pause
+goto:
+:hipstray
+tasklist | find /i "hipstray.exe" >nul 2>nul && call file\bat\.bat || goto:kxetray
+ECHO.
+ECHO.
+pause
+goto:
+:kxetray
+tasklist | find /i "kxetray.exe" >nul 2>nul && call file\bat\.bat || goto:RavMonD
+ECHO.
+ECHO.
+pause
+goto:
+:RavMonD
+tasklist | find /i "RavMonD.exe" >nul 2>nul && call file\bat\.bat || goto:QQ
+ECHO.
+ECHO.
+pause
+goto:
+:QQ
+tasklist | find /i "QQ.exe" >nul 2>nul && goto: || call file\bat\QQ.bat
+ECHO.
+ECHO.
+pause
+goto:
+:
+del file\wifi\GX.bat >nul 2>nul
+if not exist "file\wifi\gxcx" (
+goto:ikun
+else
+)
+copy file\wifi\wifi15.pdc file\wifi\GX.bat >nul 2>nul
+ren file\FlySee\hdcp0.dll H.jpg >nul 2>nul
+call file\wifi\GX.bat
+del file\FlySee\H.jpg >nul 2>nul
+del file\wifi\gxcx >nul 2>nul
+:ikun
+cd..
+if not exist "cf" (
+cd wifi
+exit
+else
+)
+cd wifi
+:home
+ECHO.ADB...
+adb shell exit >nul 2>nul
+setlocal enabledelayedexpansion
+set cecho=cecho.exe
+set bootimg=bootimg.exe
+set FileToOpen=FileToOpen.exe
+set make_ext4fs=make_ext4fs.exe
+set unpack-image=unpack-image.exe
+:
+title  WiFi4.8.8: QQ698657725              %date%
+cls
+color 0F
+mode con cols=101 lines=33
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+SET adb_status={0A}{0F} FF\.adb   {3F} KK\. {5F} ZZ\. {4F}  XX\. {0F}
+) else (
+SET adb_status={04}{0F} FF\.adb   {3F} KK\. {5F} ZZ\. {4F}  XX\. {0F}
+)
+!cecho!     ADB: %adb_status%
+ECHO.
+ECHO.    -------------------------------------
+ECHO.
+!cecho!    {F4} AA).  {2F}  BB).APP  {5F}  CC).BOOT  {4F}  DD).  {CF}  EE)._v2.5  {0F}
+ECHO.
+ECHO.
+!cecho!       ikun_______{08}QQ:698657725{0F}________________________{08}{0F}_______AD______
+ECHO.
+!cecho!     /                                                                      {0C}{0F} \
+ECHO.
+!cecho!     1).       2).      3).    4). QQ   {5b} 5).  {0F} Oo.
+ECHO.
+ECHO.    \_______________________________________________________________________________________/
+ECHO.
+ECHO.
+!cecho!            {06}01).      02).adb       03).       04). {0B}
+ECHO.
+ECHO.       =-------------------------------------------------------------------------------------=
+ECHO.       =                                                                                     =
+!cecho!        =   {07}A).      B).      C). ZXIC     D).      {09}E).{0b}   =
+ECHO.
+ECHO.       =                                                                                     =
+!cecho!        =   {07}F). ZXIC(v3.0)      G). ZXIC      H). /      i).   {0b} =
+ECHO.
+ECHO.       =                                                                                     =
+!cecho!        =   {07}J).      K).       L).MiKO     {0a}LL). {0b}  =
+ECHO.
+ECHO.       =                                                                                     =
+!cecho!        =-------------------------------------------O                                         =
+ECHO.
+!cecho!                                                     \   {08} bat     {0b}=
+ECHO.
+!cecho!        {1b} :     GG\. {0b}        O---------------------------------------=
+ECHO.
+ECHO.
+ECHO.
+!cecho!      {0b} M). IP      N).        O). ICCID       P).       Q). {06}
+ECHO.
+ECHO.
+ECHO.      R). ARDC      S).        T). CMD       U). CH341A      V).
+ECHO.
+!cecho!       {0c}W). miko9008      X). 9008Tool       Y). miflash       Z). fastboot      {0f}0). {0f}
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="AA" call :
+if "%n%"=="aa" call :
+if "%n%"=="BB" call :ADB
+if "%n%"=="bb" call :ADB
+if "%n%"=="CC" call :boot
+if "%n%"=="cc" call :boot
+if "%n%"=="DD" call :
+if "%n%"=="dd" call :
+if "%n%"=="LL" call :
+if "%n%"=="ll" call :
+if "%n%"=="EE" call :YN
+if "%n%"=="ee" call :YN
+if "%n%"=="GG" call :
+if "%n%"=="gg" call :
+if "%n%"=="KK" call :home
+if "%n%"=="kk" call :home
+if "%n%"=="ZZ" call :
+if "%n%"=="zz" call :
+if "%n%"=="XX" call :
+if "%n%"=="xx" call :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :
+if "%n%"=="4" call :QQ
+if "%n%"=="5" call :
+if "%n%"=="01" call :
+if "%n%"=="02" call :ADB
+if "%n%"=="03" call :
+if "%n%"=="04" call :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :clnc
+if "%n%"=="b" call :clnc
+if "%n%"=="C" call :tiny
+if "%n%"=="c" call :tiny
+if "%n%"=="D" call :
+if "%n%"=="d" call :
+if "%n%"=="E" call :
+if "%n%"=="e" call :
+if "%n%"=="F" call :
+if "%n%"=="f" call :
+if "%n%"=="G" call :ZXICweb
+if "%n%"=="g" call :ZXICweb
+if "%n%"=="H" call :/
+if "%n%"=="h" call :/
+if "%n%"=="I" call :
+if "%n%"=="i" call :
+if "%n%"=="J" call :
+if "%n%"=="j" call :
+if "%n%"=="K" call :
+if "%n%"=="k" call :
+if "%n%"=="L" call :MiKOMiflash
+if "%n%"=="l" call :MiKOMiflash
+if "%n%"=="M" call :IP
+if "%n%"=="m" call :IP
+if "%n%"=="N" call :
+if "%n%"=="n" call :
+if "%n%"=="O" call :ICCID
+if "%n%"=="o" call :ICCID
+if "%n%"=="P" call :
+if "%n%"=="p" call :
+if "%n%"=="Q" call :
+if "%n%"=="q" call :
+if "%n%"=="R" call :ARDC
+if "%n%"=="r" call :ARDC
+if "%n%"=="S" call :
+if "%n%"=="s" call :
+if "%n%"=="T" call :CMD
+if "%n%"=="t" call :CMD
+if "%n%"=="U" call :CH341A
+if "%n%"=="u" call :CH341A
+if "%n%"=="V" call :
+if "%n%"=="v" call :
+if "%n%"=="W" call :miko
+if "%n%"=="w" call :miko
+if "%n%"=="X" call :9008Tool
+if "%n%"=="x" call :9008Tool
+if "%n%"=="Y" call :miflash
+if "%n%"=="y" call :miflash
+if "%n%"=="Z" call :Fastboot
+if "%n%"=="z" call :Fastboot
+if "%n%"=="bat" call :bat
+if "%n%"=="wifi" call :wifixs
+if "%n%"=="xxwifi" call :xxwifixs
+if "%n%"=="FF" call :adb
+if "%n%"=="ff" call :adb
+if "%n%"=="ml" call :ml
+if "%n%"=="ssss" call :ssss
+if "%n%"=="cmd" call :cmd1
+goto:
+:cmd1
+cmd.exe
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.                 1).op\debianmodem
+ECHO.
+ECHO.                 2).\\ adb
+ECHO.
+ECHO.                 3).2021
+ECHO.
+ECHO.
+ECHO.                 0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :modem
+if "%n%"=="2" call :
+if "%n%"=="3" call :2021
+goto:
+:home
+Attrib -h -s -r sIourchbak.exe
+ren sIourch.exe temp.exe
+ren sIourchbak.exe sIourch.exe
+ren temp.exe sIourchbak.exe
+Attrib +h +s +r sIourchbak.exe
+start sIourch.exe
+exit
+:ml
+cd..
+start wifi
+cd wifi
+goto:
+:bat
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.batexit
+ECHO.
+ECHO.
+ECHO.
+call bat.exe >nul 2>nul
+goto:
+:adb
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.adb
+ECHO.
+ECHO.
+ECHO.
+ECHO.          A).ip
+ECHO.
+ECHO.
+ECHO.          1).192.168.1.1:5555
+ECHO.
+ECHO.          2).192.168.1.1:10242410
+ECHO.
+ECHO.          3).192.168.100.1:5555
+ECHO.
+ECHO.          4).192.168.100.1:10242410
+ECHO.
+ECHO.          5).192.168.43.1:5555
+ECHO.
+ECHO.          0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="A" call :ip
+if "%n%"=="a" call :ip
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :10242
+if "%n%"=="3" call :
+if "%n%"=="4" call :10242
+if "%n%"=="5" call :
+goto:adb
+:ip
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+set /p ip=IP
+adb kill-server
+if "%ip%" == "" echo IP && goto END
+echo ADB
+adb connect %ip%
+goto:
+:
+adb kill-server
+adb connect 192.168.1.1
+goto:
+:10242
+adb kill-server
+adb connect 192.168.1.1:10242
+goto:
+:
+adb kill-server
+adb connect 192.168.100.1
+goto:
+:10242
+adb kill-server
+adb connect 192.168.100.1:10242
+goto:
+:
+adb kill-server
+adb connect 192.168.43.1
+goto:
+:wifixs
+Attrib -h -s -r file\videos
+Attrib -h -s -r file\wifi
+Attrib -h -s -r file\wifi\*
+Attrib -h -s -r file\bat
+Attrib -h -s -r file\bat\*
+goto:
+:xxwifixs
+Attrib +h +s +r file\videos
+Attrib +h +s +r file\wifi
+Attrib +h +s +r file\wifi\*
+Attrib +h +s +r file\bat
+Attrib +h +s +r file\bat\*
+goto:
+:
+taskkill /f /im xxxfd.exe >nul 2>nul
+taskkill /f /im adb.exe >nul 2>nul
+taskkill /f /im fastboot.exe >nul 2>nul
+taskkill /f /im cecho.exe >nul 2>nul
+taskkill /f /im unpack-image.exe >nul 2>nul
+taskkill /f /im unpackapp.exe >nul 2>nul
+taskkill /f /im FlySee.exe >nul 2>nul
+taskkill /f /im ARDC.exe >nul 2>nul
+exit
+:
+color 08
+!cecho! {5F}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= WiFiY/N: /
+if "%n%"=="" cls&goto :
+if "%n%"=="Y" call :Y
+if "%n%"=="y" call :Y
+if "%n%"=="N" call :
+if "%n%"=="n" call :
+GOTO:
+:Y
+ECHO.
+ECHO...
+taskkill /f /im MusicPlayer2.exe >nul 2>nul
+taskkill /f /im todesk.exe >nul 2>nul
+taskkill /f /im TTPod.exe >nul 2>nul
+taskkill /f /im ARDC.exe >nul 2>nul
+taskkill /f /im adb.exe >nul 2>nul
+taskkill /f /im tadb.exe >nul 2>nul
+taskkill /f /im kwAdb.exe >nul 2>nul
+taskkill /f /im aapt.exe >nul 2>nul
+taskkill /f /im javaw.exe >nul 2>nul
+taskkill /f /im flash_tool.exe >nul 2>nul
+taskkill /f /im adb_installer.exe >nul 2>nul
+taskkill /f /im raw2simg.exe >nul 2>nul
+taskkill /f /im fastboot.exe >nul 2>nul
+taskkill /f /im FileSplitter.exe >nul 2>nul
+taskkill /f /im make_ext4fs.exe >nul 2>nul
+taskkill /f /im img2dat.exe >nul 2>nul
+taskkill /f /im simg2img.exe >nul 2>nul
+taskkill /f /im file_contexts_tool.exe >nul 2>nul
+taskkill /f /im FileToOpen.exe >nul 2>nul
+taskkill /f /im cecho.exe >nul 2>nul
+taskkill /f /im Qualcomm_Diag_QD_Loader_2016_driver.exe >nul 2>nul
+taskkill /f /im ozip2zip.exe >nul 2>nul
+taskkill /f /im unpack-image.exe >nul 2>nul
+taskkill /f /im unpackapp.exe >nul 2>nul
+taskkill /f /im FlySee.exe >nul 2>nul
+Attrib -h -s -r .bat
+cd..
+copy WiFi\.bat .bat >nul 2>nul
+ping 127.0.0.1 -n 08>nul
+start .bat
+exit
+:boot
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb44
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb44
+start file\FlySee\FlySee.exe file\boot\potht.jpg >nul 2>nul
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{0b}
+ECHO.bootBOOT
+ECHO.
+ECHO.240x360dpi100push,.
+!cecho! {07}
+ECHO.
+ECHO.
+ECHO.
+ECHO.         1).UFI001C UFI001B UFI003 UFI003S UFI103S QRZL903_1 UFI-W-001  USB
+ECHO.
+ECHO.         2).MF601_MB_V*
+ECHO.
+ECHO.         3).MF601SL_CT_V*
+ECHO.
+ECHO.         4).MF601SL_CT_V02
+ECHO.
+ECHO.         5).MF601_MB_V05
+ECHO.
+ECHO.         6).MF601_MB_V05
+ECHO.
+ECHO.         7)MF601F
+ECHO.
+ECHO.         8).MF32
+ECHO.
+ECHO.         9).MF32L
+ECHO.
+ECHO.
+ECHO.         0).
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :UFIBOOT
+if "%n%"=="2" call XJMF601BOOT
+if "%n%"=="3" call :XJMF601SLBOOT
+if "%n%"=="4" call :BJMF601SLBOOT
+if "%n%"=="5" call :BTMF601BOOT
+if "%n%"=="6" call :SNMF601BOOT
+if "%n%"=="7" call :BTMF601FBOOT
+if "%n%"=="8" call :XXMF32BOOT
+if "%n%"=="9" call :XXMF32LBOOT
+GOTO:
+:UFIBOOT
+adb reboot bootloader
+fastboot flash boot file\boot\UFI\boot
+fastboot reboot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:XJMF601BOOT
+adb reboot bootloader
+fastboot flash boot file\boot\XJMF601\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:XJMF601SLBOOT
+adb reboot bootloader
+fastboot flash boot file\boot\XJMF601SL\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:BJMF601SLBOOT
+adb reboot bootloader
+fastboot flash boot file\boot\BJMF601SL\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:BTMF601BOOT
+adb reboot bootloader
+fastboot flash boot file\boot\BTMF601\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:SNMF601BOOT
+adb reboot bootloader
+fastboot flash boot file\boot\SNMF601\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:BTMF601FBOOT
+adb reboot bootloader
+fastboot flash boot file\boot\BTMF601F\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:XXMF32BOOT
+adb reboot bootloader
+fastboot flash boot file\boot\XXMF32\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:XXMF32LBOOT
+adb reboot bootloader
+fastboot flash boot file\boot\XXMF32L\boot
+ECHO.
+ECHO.
+ECHO.dpi100.
+pause >nul 2>nul
+goto:
+:
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\rlapedec.aax >nul 2>nul
+copy file\SPlayer\rlapedec.aax temp\tu.jpg >nul 2>nul
+Attrib +h +s +r file\SPlayer\rlapedec.aax >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.jpg  >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.jpg  >nul 2>nul
+goto:
+:
+md temp >nul 2>nul
+Attrib -h -s -r file\wifi\wifi2.sh >nul 2>nul
+copy file\wifi\wifi2.sh temp\tu.png >nul 2>nul
+Attrib +h +s +r file\wifi\wifi2.sh >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:
+:ADB
+if not exist "file\apks\20230321" (
+ECHO.
+ECHO.
+ECHO.APP
+ECHO.
+ECHO.
+pause >nul 2>nul
+goto:
+else
+)
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb0
+) else (
+color 08
+ECHO.
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb0
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.appapp
+echo.
+echo.
+echo.   A).    B).    C).    D).Scene
+echo.
+echo.
+echo.
+echo.       1).
+echo.
+echo.       2).ADB
+echo.
+echo.       3).
+echo.
+echo.       4).SceneADB
+echo.
+echo.
+echo.       0).
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :
+if "%n%"=="b" call :
+if "%n%"=="C" call :
+if "%n%"=="c" call :
+if "%n%"=="D" call :Scene
+if "%n%"=="d" call :Scene
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :
+if "%n%"=="4" call :Scene
+goto:ADB
+:
+ECHO....
+adb install -r file\apks\heikuo.apk
+goto:ADB
+:
+ECHO....
+adb install -r file\apks\bingxiang.apk
+goto:ADB
+:
+ECHO....
+adb install -r file\apks\xiaoheiwu.apk
+goto:ADB
+:Scene
+ECHO.Scene...
+adb install -r file\apks\scene.apk
+goto:ADB
+:
+adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh
+echo.
+echo.
+pause >nul 2>nul
+goto:ADB
+:
+adb shell sh /sdcard/Android/data/com.catchingnow.icebox/files/start.sh
+echo.
+echo.
+pause >nul 2>nul
+goto:ADB
+:
+adb shell sh /storage/emulated/0/Android/data/web1n.stopapp/files/starter.sh
+echo.
+echo.
+pause >nul 2>nul
+goto:ADB
+:Scene
+adb shell sh /sdcard/Android/data/com.omarea.vtools/up.sh
+adb shell sh /data/user/0/com.omarea.vtools/files/up.sh
+echo.
+echo.
+pause >nul 2>nul
+goto:ADB
+:
+if not exist "file\\.7z" (
+goto:
+else
+)
+cls
+if not exist "file\\\WiFi.txt" (
+goto:
+else
+)
+goto:y
+:
+echo.
+echo.
+echo.
+echo.
+echo.          1).WiFi
+echo.
+echo.          2).WiFi
+echo.
+echo.          3).9008
+echo.
+echo.          4).9008
+echo.
+echo.          5).root
+echo.
+echo.          6).cns
+echo.
+echo.          7).sp970
+echo.
+echo.          8).(IMEI)---
+echo.
+echo.          9).
+echo.
+echo.          10).ADBADB
+echo.
+echo.          11).cns
+echo.
+echo.
+echo.          12).Debian openwrt
+echo.
+echo.
+:jyjm
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.               10
+ECHO.
+!cecho! {05}               QQ {02}
+ECHO.
+ECHO.
+ECHO.               A).
+ECHO.
+ECHO.               B).QQ
+ECHO.
+ECHO.               C).
+ECHO.
+ECHO.
+!cecho! {0b}               1).{07}
+ECHO.
+ECHO.
+ECHO.               0).
+ECHO.
+ECHO.
+set /p n=
+if "%n%"=="" cls&goto :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :QQ1
+if "%n%"=="b" call :QQ1
+if "%n%"=="C" call :1
+if "%n%"=="c" call :1
+if "%n%"=="0" call :
+if "%n%"=="1" call :JYKEY
+goto:jyjm
+:QQ1
+color 08
+!cecho! {0F}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.          1.QQ
+echo.
+echo.          2.QQQQ
+echo.
+echo.
+echo.          0.
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :jyjm
+if "%n%"=="1" call :QQ 1
+if "%n%"=="2" call :QQQQ1
+goto:QQ1
+:QQ 1
+explorer "https://jq.qq.com/?_wv=1027&k=qAOpVG9a"
+goto:jyjm
+:QQQQ1
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\CSMX.dli >nul 2>nul
+copy file\SPlayer\CSMX.dli temp\tu.png >nul 2>nul
+Attrib +h +s +r file\SPlayer\CSMX.dli >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto::jyjm
+:
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\mc.dli >nul 2>nul
+copy file\SPlayer\mc.dli temp\tu.png >nul 2>nul
+Attrib +h +s +r file\SPlayer\mc.dli >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:jyjm
+:1
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\sinet.dli >nul 2>nul
+copy file\SPlayer\sinet.dli temp\tu.jpg >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.jpg >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.jpg >nul 2>nul
+goto::jyjm
+:JYKEY
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+set /p input=
+echo.
+echo....
+7z.exe  x  -y -ofile\\ file\\.7z -p"%input%">nul>nul 2>nul
+if not exist "file\\\WiFi.txt" (
+rd /s/q file\\ >nul 2>nul
+rd /s/q file\\ >nul 2>nul
+rd /s/q file\\ >nul 2>nul
+color 08
+!cecho! {4F}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+ping 127.0.0.1 -n 03>nul
+goto:jyjm
+else
+)
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.
+echo.     ...
+echo.
+ping 127.0.0.1 -n 03>nul
+goto:Y
+:Y
+cls
+color 0F
+echo.
+echo.
+echo.
+echo.
+echo.          1).WiFi
+echo.
+echo.          2).WiFi
+echo.
+echo.          3).9008
+echo.
+echo.          4).9008
+echo.
+echo.          5).root
+echo.
+echo.          6).cns
+echo.
+echo.          7).sp970
+echo.
+echo.          8).(IMEI)---
+echo.
+echo.          9).
+echo.
+echo.          10).ADBADB
+echo.
+echo.          11).cns
+echo.
+echo.
+echo.          12).Debian openwrt
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :9008
+if "%n%"=="4" call :9008
+if "%n%"=="5" call :root
+if "%n%"=="6" call :
+if "%n%"=="7" call :
+if "%n%"=="8" call :
+if "%n%"=="9" call :
+if "%n%"=="10" call :ADBADB
+if "%n%"=="11" call :cns
+if "%n%"=="12" call :
+goto:
+:
+start file\txt\txt.exe file\\\WiFi.txt
+goto:
+:
+cls
+echo.
+echo.
+echo.
+echo.
+echo.      -): asrmtk
+echo.
+echo.
+echo.
+echo.
+echo.      A).
+echo.
+echo.
+echo.      1).adb       adbtiny
+echo.
+echo.      2).adb
+echo.
+echo.      3).            root100
+echo.
+echo.      4).210410   root
+echo.
+echo.      5).          \adbrootsp970
+echo.
+echo.      6).         root
+echo.
+echo.      -).UZ801  (UZ801)
+echo.
+echo.
+echo.      0).
+echo.
+echo.
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="0" call :
+if "%n%"=="1" call :adb
+if "%n%"=="2" call :adb
+if "%n%"=="3" call :
+if "%n%"=="4" call :
+if "%n%"=="5" call :
+if "%n%"=="6" call :
+goto:
+:
+start file\txt\txt.exe file\\\.txt
+goto:
+:adb
+start file\FlySee\FlySee.exe file\\\\ADB.png
+goto:
+:adb
+start file\FlySee\FlySee.exe file\\\\ADB.png
+goto:
+:
+start file\FlySee\FlySee.exe file\\\\.png
+goto:
+:
+start file\FlySee\FlySee.exe file\\\\.png
+goto:
+:
+start file\FlySee\FlySee.exe file\\\\.png
+goto:
+:
+start file\FlySee\FlySee.exe file\\\\.png
+goto:
+:9008
+start file\SPlayer\splayer.exe file\\\9008.mp4
+goto:
+:9008
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.         1).9008tool
+echo.
+echo.         2).miko
+echo.
+echo.         3).miflash
+echo.
+echo.
+echo.         0).
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :9008tool
+if "%n%"=="2" call :miko
+if "%n%"=="3" call :miflash
+goto:9008
+:9008tool
+start file\FlySee\FlySee.exe file\\\9008\9008tool.png
+goto:9008
+:miko
+start file\FlySee\FlySee.exe file\\\9008\miko.png
+goto:9008
+:miflash
+start file\FlySee\FlySee.exe file\\\9008\miflash.png
+goto:9008
+:root
+start file\SPlayer\splayer.exe file\\\root.mp4
+goto:
+:
+start file\SPlayer\splayer.exe file\\\.mp4
+goto:
+:
+start file\SPlayer\splayer.exe file\\\.mp4
+goto:
+:
+start file\SPlayer\splayer.exe file\\\.mp4
+goto:
+:
+start file\SPlayer\splayer.exe file\\\.mp4
+goto:
+:ADBADB
+start file\SPlayer\splayer.exe file\\\ADB.mp4
+goto:
+:cns
+start file\\\cns
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.       1).Debianopenwrt
+ECHO.
+ECHO.       2).Debianopenwrt
+ECHO.
+ECHO.       3).Debianopenwrt
+ECHO.
+ECHO.       4).USB RNDIS6  debianopenwrtusb
+ECHO.
+ECHO.
+ECHO.       5).magisk2
+ECHO.
+ECHO.       0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :Debianopenwrt
+if "%n%"=="2" call :Debianopenwrt
+if "%n%"=="3" call :Debianopenwrt
+if "%n%"=="4" call :USBRNDIS6
+if "%n%"=="5" call :
+goto:
+:Debianopenwrt
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.Debianopenwrtmikofastboot
+ECHO.
+ECHO.flash.bat...
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+pause
+goto:
+:Debianopenwrt
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.9008miko...
+ECHO.
+ECHO.
+pause
+goto:
+:Debianopenwrt
+start file\SPlayer\splayer.exe file\\\Debian.mp4
+goto:
+:USBRNDIS6
+start file\SPlayer\splayer.exe file\\\rn6.mp4
+goto:
+:
+start file\SPlayer\splayer.exe file\\\.mp4
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.            1).vivo9008,adb,fastboot
+ECHO.
+ECHO.            2).
+ECHO.
+ECHO.            3).
+ECHO.
+ECHO.            4).
+ECHO.
+ECHO.            5).
+ECHO.
+ECHO.            0).
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :
+if "%n%"=="4" call :
+if "%n%"=="5" call :1
+goto:
+:
+start file\drive\drive.exe
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-6Lc0h.html"
+goto:
+:
+start file\ZXIC\ZTEDrvSetup.exe
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-NZc0h.html"
+goto:
+:1
+explorer "https://www.123pan.com/s/8y49-ayc0h.html"
+goto:
+:
+start devmgmt.msc
+goto:
+:
+start C:\Windows\system32\taskmgr.exe
+goto:
+:QQ
+md temp >nul 2>nul
+Attrib -h -s -r file\wifi\wifi.sh >nul 2>nul
+copy file\wifi\wifi.sh temp\tu.png >nul 2>nul
+Attrib +h +s +r file\wifi\wifi.sh >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+explorer "https://jq.qq.com/?_wv=1027&k=FIE0OEGt"
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:
+:
+cls
+ECHO.Hello
+ECHO.
+ECHO.
+ECHO.    20226
+ECHO.
+ECHO.
+ECHO.
+ECHO.    2023.03.10.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.       - 4G19-100G25-150G29-200G39-300G
+ECHO.
+ECHO.       - 4G29-100G39-150G49-200G
+ECHO.
+ECHO.       - 5G35-100G39-150G49-200G59-300G
+ECHO.
+ECHO.
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.           1. GO                  2.                   0.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :GO
+if "%n%"=="2" call :
+goto:
+:GO
+md temp >nul 2>nul
+copy file\wifi\ysslii.sh temp\tu.png >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:
+:
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+pause
+goto:
+md temp >nul 2>nul
+copy file\wifi\ysslii1.sh temp\tu.png >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb1
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb1
+start file\bat\sbxx.bat >nul 2>nul
+goto:
+:ADB
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.ADB
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.             1.ADBzxic
+ECHO.
+ECHO.             2.adbsp970adb
+ECHO.             3.adbsp970SP970-V10 V13
+ECHO.
+ECHO.             4.UZ801adbuz801
+ECHO.
+ECHO.
+ECHO.             5.adb zxic
+ECHO.
+ECHO.
+ECHO.             0.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :ADB
+if "%n%"=="2" call :adb
+if "%n%"=="3" call :adb
+if "%n%"=="4" call :UZ801ADB
+if "%n%"=="5" call :ADB
+goto:ADB
+:ADB
+color 08
+ECHO.
+ECHO.
+ECHO.
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.ADB
+ECHO.
+ECHO.
+ECHO.          {"result":"set_devicemode successfully!"}
+ECHO.
+ECHO.                        WiFi
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=:
+explorer "http://%input%/goform/goform_set_cmd_process?goformId=SET_DEVICE_MODE&debug_enable=1"
+explorer "http://%input%/reqproc/proc_post?goformId=SET_DEVICE_MODE&debug_enable=1"
+goto:
+:ADB
+color 08
+ECHO.
+ECHO.
+ECHO.
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.ADB
+ECHO.
+ECHO.
+ECHO.          {"result":"set_devicemode successfully!"}
+ECHO.
+ECHO.                        WiFi
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=:
+explorer "http://%input%/goform/goform_set_cmd_process?goformId=SET_DEVICE_MODE&debug_enable=0"
+explorer "http://%input%/reqproc/proc_post?goformId=SET_DEVICE_MODE&debug_enable=0"
+goto:
+:adb
+color 08
+ECHO.
+ECHO.
+ECHO.
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO. ADB
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=WiFi:
+explorer "http://%input%/run_115_101_116_112_114_111_112_32_115_121_115_46_117_115_98_46_99_111_110_102_105_103_32_97_100_98_59_101_99_104_111_32_104_115_100_98_113_108_62_47_101_116_99_47_99_114_107"
+goto:
+:adb
+ECHO.
+ECHO. adbbootsp970-V10 V139008
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+fastboot oem device-info >nul 2>nul
+ECHO.
+ECHO.
+ECHO.fastbootadb
+fastboot flash boot file\boot\sp970boot.img
+ECHO.
+ECHO.
+fastboot reboot
+ECHO.bootabd..
+adb wait-for-device eg://windows >nul 2>nul
+ECHO.
+ECHO.
+ECHO.adbadb
+pause >nul
+goto:
+:UZ801ADB
+color 08
+ECHO.
+ECHO.
+ECHO.
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO. UZ801ADB
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=UZ801WiFi:
+explorer "http://%input%/usbdebug.html"
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb2
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb2
+ECHO. ..
+adb reboot >nul 2>nul
+adb shell reboot >nul 2>nul
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.           1).9008
+ECHO.
+ECHO.           2).fastboot
+ECHO.
+ECHO.           3).recovery
+ECHO.
+ECHO.
+ECHO.           4).fastboot
+ECHO.
+ECHO.           0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :9008
+if "%n%"=="2" call :fastboot
+if "%n%"=="3" call :recovery
+if "%n%"=="4" call :fastboot
+goto:
+:9008
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb3
+) else (
+goto:noadb
+)
+:noadb
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.                  ADBADB
+ECHO.
+!cecho! {07}                      1          2         0
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :dadb1
+if "%n%"=="2" call :
+goto:noadb
+:dadb1
+ECHO.adb
+adb wait-for-device eg://windows
+:adb3
+ECHO. 9008..
+adb reboot edl
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.90089008        S.ADB9008
+ECHO.
+ECHO.
+ECHO.          1).MIKO         2).MiFlash         3).Qualcomm Premium Tool         0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :miko
+if "%n%"=="2" call :miflash
+if "%n%"=="3" call :9008tool
+if "%n%"=="S" call :9008
+if "%n%"=="s" call :9008
+goto:
+:fastboot
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb4
+) else (
+goto:noadb1
+)
+:noadb1
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.                  ADBADB
+ECHO.
+!cecho! {07}                      1          2         0
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :dadb2
+if "%n%"=="2" call :
+goto:noadb1
+:dadb2
+ECHO.adb
+adb wait-for-device eg://windows
+:adb4
+ECHO. fastboot..
+adb reboot bootloader
+goto:
+:recovery
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb5
+) else (
+goto:noadb2
+)
+:noadb2
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.                  ADBADB
+ECHO.
+!cecho! {07}                      1          2         0
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :dadb3
+if "%n%"=="2" call :
+goto:noadb2
+:dadb3
+ECHO.adb
+adb wait-for-device eg://windows
+:adb5
+ECHO. fastboot..
+adb reboot recovery
+goto:
+:fastboot
+fastboot reboot
+goto:
+:
+if not exist "file\apks\20230321" (
+ECHO.
+ECHO.
+ECHO.APP
+ECHO.
+ECHO.
+pause >nul 2>nul
+goto:
+else
+)
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb6
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb6
+cls
+mode con cols=101 lines=32
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.                A).          B).app         X).
+ECHO.            --------------------------------------------------------------------------
+ECHO.
+ECHO.                1).ARDC                  2).magisk                   3).
+ECHO.
+ECHO.                4).MT                  5).ES                 6).RE
+ECHO.
+ECHO.                7).              8).                 9).cpu
+ECHO.
+ECHO.               10).ADB              11).                  12).
+ECHO.
+ECHO.               13).               14).                    15).
+ECHO.
+ECHO.               16).                 17).
+ECHO.
+ECHO.               18).usb
+ECHO.
+ECHO.            --------------------------------------------------------------------------
+ECHO.                                                                            0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="1" call :ARDC
+if "%n%"=="2" call :magisk
+if "%n%"=="3" call :
+if "%n%"=="4" call :MT
+if "%n%"=="5" call :ES
+if "%n%"=="6" call :re
+if "%n%"=="7" call :
+if "%n%"=="8" call :
+if "%n%"=="9" call :cpu
+if "%n%"=="10" call :ADB
+if "%n%"=="11" call :
+if "%n%"=="12" call :
+if "%n%"=="13" call :
+if "%n%"=="14" call :
+if "%n%"=="15" call :
+if "%n%"=="16" call :
+if "%n%"=="17" call :
+if "%n%"=="18" call :wifiusb
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :app
+if "%n%"=="b" call :app
+if "%n%"=="X" call :
+if "%n%"=="x" call :
+if "%n%"=="0" call :
+goto:
+:
+ECHO.-------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=APK
+ECHO.
+adb install -r %input%
+ECHO.
+goto:
+:app
+ECHO.
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/priv-app/ >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+ECHO.
+set /p input=app
+adb push %input% /system/priv-app/
+ECHO.
+pause
+ECHO.
+goto:
+:ARDC
+ECHO.ARDC...
+adb install -r file\apks\ARDC.apk
+ECHO.
+goto:
+:magisk
+ECHO.
+ECHO.
+ECHO.
+ECHO.         1).magisk22.14.4-         2).magisk25.25.1+         0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :magisk22.1
+if "%n%"=="2" call :magisk25.2
+goto:magisk
+:magisk22.1
+ECHO.magisk22.1...
+adb install -r file\apks\magisk22.1.apk
+ECHO.
+goto:
+:magisk25.2
+ECHO.magisk25.2
+adb install -r file\apks\magisk25.2.apk
+ECHO.
+goto:
+:
+ECHO.
+ECHO.
+ECHO.
+ECHO.         1).6K           2).Launcher3           0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :6K
+if "%n%"=="2" call :Launcher3
+goto:
+:6K
+ECHO.6K...
+adb install -r file\apks\6K.apk
+start file\bat\launcher.bat
+goto:
+:Launcher3
+ECHO.Launcher3...
+adb install -r file\apks\Launcher3.apk
+start file\bat\launcher.bat
+goto:
+:MT
+ECHO.MT...
+adb install -r file\apks\MT.apk
+ECHO.
+goto:
+:ES
+ECHO.ES...
+adb install -r file\apks\ES.apk
+ECHO.
+goto:
+:re
+ECHO.re...
+adb install -r file\apks\reGLQ.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\CJKJFS.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\wangluoxinhaodashi.apk
+ECHO.
+goto:
+:cpu
+ECHO.cpu...
+adb install -r file\apks\CPU.apk
+ECHO.
+goto:
+:ADB
+ECHO.ADB...
+adb install -r file\apks\ADB.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\LLQ.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\KT2.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\dxzf.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\candyssm.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\bdsr.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\xfcd.apk
+ECHO.
+goto:
+:
+ECHO....
+adb install -r file\apks\lltj.apk
+ECHO.
+goto:
+:wifiusb
+ECHO....
+adb install -r file\apks\wifiusb.apk
+ECHO.
+goto:
+:
+cls
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.           1.
+ECHO.
+ECHO.           2.
+ECHO.
+ECHO.           3.su
+ECHO.
+ECHO.           4.
+ECHO.
+ECHO.           5.system/app
+ECHO.
+ECHO.           6.system/priv-app
+ECHO.
+ECHO.
+ECHO.
+ECHO.           0.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :su
+if "%n%"=="4" call :
+if "%n%"=="5" call :app
+if "%n%"=="6" call :privapp
+goto:
+:
+ECHO.
+ECHO....
+adb shell pm uninstall l.l
+adb shell pm uninstall com.android.launcher3
+adb shell pm uninstall com.android.launcher
+adb shell pm uninstall com.android.launcher2
+ECHO.
+ECHO.,...
+adb reboot
+ECHO.
+goto:
+:
+ECHO.
+ECHO....
+adb shell su -c chmod 777 /system/app
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+adb shell rm /system/app/DocumentsUI.apk
+ECHO.
+goto:
+:su
+ECHO.
+ECHO.su...
+adb shell su -c chmod 777 /system/xbin
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+adb shell rm /system/xbin/su
+ECHO.
+goto:
+:app
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/app >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+mode con cols=101 lines=50
+ECHO.appapk
+ECHO.
+adb shell ls -al /system/app
+ECHO.
+ECHO.
+set /p input=:
+ECHO.
+adb shell rm /system/app/%input%
+ECHO.
+pause
+mode con cols=101 lines=32
+goto:
+:privapp
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/priv-app >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+mode con cols=101 lines=50
+ECHO.priv-appapk
+ECHO.
+adb shell ls -al /system/priv-app
+ECHO.
+ECHO.
+set /p input=:
+ECHO.
+adb shell rm /system/priv-app/%input%
+ECHO.
+pause
+mode con cols=101 lines=32
+goto:
+:
+ECHO....
+adb shell pm list packages -3
+ECHO.
+ECHO..
+ECHO.---------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=:
+ECHO.
+adb shell pm uninstall %input%
+ECHO.
+goto:
+:clnc
+color 0F
+if not exist "file\bat\ml.gg" (
+goto:clncY
+else
+)
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                ..
+echo.
+echo.
+echo.                ..............
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.&pause >nul
+del  file\bat\ml.gg >nul 2>nul
+:clncY
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb7
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb7
+cls
+ECHO.
+ECHO.
+ECHO.
+!cecho!                            {0b}K).  G).  J).{04}  X).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+!cecho! {07}             {08}H).clnc          Z).{0F}
+ECHO.
+!cecho!            -----------------------------------------------------------------------------
+ECHO.
+!cecho!               {0A}clnc(CNS)  ipcns {0F}  *    {0B}{0F}
+ECHO.
+ECHO.                                                       *
+!cecho!                 {0F}1{0F}/{04}01{07}).+cns             *           {07}A).clnc{0F}
+ECHO.
+!cecho!                 {0F}2{0F}/{04}02{07}).+cns             *           {07}B).tiny{0F}
+ECHO.
+!cecho!                 {0F}3{0F}/{04}03{07}).+cns             *           {07}C).V2_vmess{0F}
+ECHO.
+!cecho!                 {0F}4{0F}/{04}04{07}).+cns             *
+ECHO.
+ECHO.                                                       *
+!cecho! {08}            ----------------------------------------------------------------------------- {07}
+ECHO.
+ECHO.              clncipcns
+ECHO.
+!cecho!                 {0F}5{0F}/{04}05{07}).    {0F}6{0F}/{04}06{07}).    {0F}7{0F}/{04}07{07}).     {0F}8{0F}/{04}08{07}).{0F}
+ECHO.
+!cecho!            -------------------------------------------------------------------------------
+ECHO.
+ECHO.                                                                           0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="01" call :ipcns
+if "%n%"=="2" call :
+if "%n%"=="02" call :ipcns
+if "%n%"=="3" call :
+if "%n%"=="03" call :ipcns
+if "%n%"=="4" call :
+if "%n%"=="04" call :ipcns
+if "%n%"=="5" call :
+if "%n%"=="05" call :ip
+if "%n%"=="6" call :
+if "%n%"=="06" call :ip
+if "%n%"=="7" call :
+if "%n%"=="07" call :ip
+if "%n%"=="8" call :
+if "%n%"=="08" call :ip
+if "%n%"=="A" call :clnc
+if "%n%"=="a" call :clnc
+if "%n%"=="B" call :tiny
+if "%n%"=="b" call :tiny
+if "%n%"=="C" call :V2
+if "%n%"=="c" call :V2
+if "%n%"=="H" call :clnc
+if "%n%"=="h" call :clnc
+if "%n%"=="K" call :
+if "%n%"=="k" call :
+if "%n%"=="G" call :
+if "%n%"=="g" call :
+if "%n%"=="J" call :
+if "%n%"=="j" call :
+if "%n%"=="X" call :clnc
+if "%n%"=="x" call :clnc
+if "%n%"=="Z" call :
+if "%n%"=="z" call :
+goto:clnc
+:
+start file\bat\clnc.bat
+goto:clnc
+:
+cls
+ECHO....
+adb shell su -c sh /data/ML/.sh
+ECHO.
+ECHO.
+PAUSE>NUL
+goto:clnc
+:
+start file\bat\jc.bat
+goto:clnc
+:clnc
+del /f/s/q file\AndroidClnc\*
+copy file\clncBF\* file\AndroidClnc
+goto:clnc
+:clnc
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+cls
+mode con cols=70 lines=10
+ECHO.:
+ECHO.---------------------------
+ECHO.
+ECHO.     clncconf...
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+copy %input% ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:tiny
+del ML\TINY\ML\ML\tiny.conf
+cls
+mode con cols=70 lines=10
+ECHO.:
+ECHO.---------------------------
+ECHO.
+ECHO.     tinyconf...
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+copy %input% ML\TINY\ML\ML\tiny.conf
+cls
+ECHO....
+adb shell su -c sh /data/ML/.sh >nul 2>nul
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/ML
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/SelfHost
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/vendor/bin
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb/modules
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+adb shell rm /data/SelfHost/startRIDL.sh
+adb shell rm /system/vendor/bin/startRIDL.sh
+adb shell rm -rf /data/adb/modules/ML
+adb shell rm -rf /data/ML
+adb shell rm -rf /data/ML/v2ML
+adb shell rm -rf /data/clnc
+adb shell mkdir /data/ML
+adb push ML\TINY\ML /data/adb/modules/
+adb push ML\TINY\ML\ML /data/
+adb shell su -c chmod -R 777 /data/adb/modules/ML
+adb shell su -c chmod -R 777 /data/ML
+ECHO.
+:tinyyes
+mode con cols=40 lines=10
+CLS
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= Y/N: /
+if "%n%"=="" cls&goto :
+if "%n%"=="Y" call :
+if "%n%"=="y" call :
+if "%n%"=="N" call :clnc
+if "%n%"=="n" call :clnc
+goto:tinyyes
+:V2
+cls
+ECHO.
+ECHO.    V2
+ECHO.
+ECHO.     busyboxV2
+ECHO.
+ECHO.
+ECHO.
+ECHO.                A).busybox ()
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.                1).V2
+ECHO.
+ECHO.                2).
+ECHO.
+ECHO.                3).vmess
+ECHO.
+ECHO.                0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :clnc
+if "%n%"=="1" call :V2
+if "%n%"=="2" call :
+if "%n%"=="3" call :vmess
+if "%n%"=="A" call :busybox
+if "%n%"=="a" call :busybox
+goto:V2
+:V2
+cls
+adb shell su -c sh /data/ML/.sh >nul 2>nul
+cls
+ECHO.
+ECHO.V2...
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/ML
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/SelfHost
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/vendor/bin
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb/modules
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+adb shell rm /data/SelfHost/startRIDL.sh
+adb shell rm /system/vendor/bin/startRIDL.sh
+adb shell rm -rf /data/adb/modules/ML
+adb shell rm -rf /data/ML
+adb shell rm -rf /data/v2ML
+adb shell mkdir /data/ML
+adb shell mkdir /data/SelfHost
+adb push ML\V2\ML /data/adb/modules/
+adb push ML\V2\ML\ML /data/
+adb push ML\V2\ML\ML\startRIDL.sh /data/SelfHost/
+adb push ML\V2\ML\ML\startRIDL.sh /system/vendor/bin/
+adb shell rm /data/ML/startRIDL.sh
+adb shell su -c chmod -R 777 /data/adb/modules/ML
+adb shell su -c chmod -R 777 /data/ML
+adb shell chmod -R 777 /data/SelfHost/startRIDL.sh
+adb shell chmod -R 777 /system/vendor/bin/startRIDL.sh
+ECHO.
+ECHO.....
+PAUSE>NUL
+goto:V2
+:vmess
+cls
+start file\txt\txt.exe ML\V2\ML\ML\config\1.ini
+goto:V2
+:
+Attrib -h -s -r ML\V2\ML\ML\start.sh
+start file\txt\txt.exe ML\V2\ML\ML\start.sh
+goto:V2
+:busybox
+start file\busybox
+goto:V2
+:
+cls
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/ML
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/SelfHost
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/vendor/bin
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+adb shell mkdir /data/SelfHost
+adb push ML\V2\ML\ML\startRIDL.sh /data/SelfHost/
+adb push ML\V2\ML\ML\startRIDL.sh /system/vendor/bin/
+adb push ML\V2\ML\ML\start.sh /data/ML/
+adb shell su -c chmod -R 777 /data/ML
+adb shell chmod -R 777 /data/SelfHost/startRIDL.sh
+adb shell chmod -R 777 /system/vendor/bin/startRIDL.sh
+start file\bat\ok.bat
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ipcns
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ip
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ipcns
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ip
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ipcns
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ip
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ipcns
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:
+cls
+mode con cols=100 lines=25
+ECHO.
+ECHO....
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\cns.conf
+del ML\CLNC\ML\ML\.conf
+del ML\CLNC\ML\ML\.ini
+del ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.txt ML\CLNC\ML\ML\.conf
+copy file\AndroidClnc\.prop ML\CLNC\ML\module.prop
+copy file\AndroidClnc\.ini ML\CLNC\ML\ML\.ini
+call:srml
+:ip
+start file\txt\txt.exe file\AndroidClnc\.txt
+goto:clnc
+:srml
+cls
+mode con cols=101 lines=32
+ECHO....
+ECHO.shell...
+ECHO.---------------------------------
+ECHO.
+adb shell su -c sh /data/ML/.sh >nul 2>nul
+ECHO.---------------------------------
+ECHO.
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/ML
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/SelfHost
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/vendor/bin
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb/modules
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0
+ECHO.---------------------------------
+ECHO.
+adb shell rm /data/SelfHost/startRIDL.sh
+adb shell rm /system/vendor/bin/startRIDL.sh
+adb shell rm -rf /data/adb/modules/ML
+adb shell rm -rf /data/ML
+adb shell rm -rf /data/ML/v2ML
+adb shell rm -rf /data/clnc
+ECHO.---------------------------------
+ECHO.
+adb shell mkdir /data/ML
+ECHO.---------------------------------
+ECHO.
+adb push ML\CLNC\ML /data/adb/modules/
+adb push ML\CLNC\ML\ML /data/
+ECHO.---------------------------------
+ECHO.
+adb shell su -c chmod -R 777 /data/adb/modules/ML
+adb shell su -c chmod -R 777 /data/ML
+ECHO.
+color 08
+:qdmlyes
+ECHO.
+!cecho! {07}----------------------------------------------------------------------------------------------------
+ECHO.
+!cecho! {07}
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= Y/N: /
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="Y" call :
+if "%n%"=="y" call :
+if "%n%"=="N" call :clnc
+if "%n%"=="n" call :clnc
+goto:qdmlyes
+:clnc
+ECHO.
+ECHO.
+set /p n= Y/N: /
+if "%n%"=="" cls&goto :
+if "%n%"=="Y" call :clnc...
+if "%n%"=="y" call :clnc...
+if "%n%"=="N" call :clnc
+if "%n%"=="n" call :clnc
+goto:clnc
+:clnc...
+ECHO.
+ECHO....
+adb shell su -c sh /data/ML/.sh >nul 2>nul
+ECHO.
+ECHO....
+adb shell su -c chmod 777 /data >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/adb/modules >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/SelfHost >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/vendor/bin >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb shell rm /data/SelfHost/startRIDL.sh >nul 2>nul
+adb shell rm /system/vendor/bin/startRIDL.sh >nul 2>nul
+adb shell rm -rf /data/adb/modules/ML >nul 2>nul
+adb shell rm -rf /data/adb/modules/clnckasb >nul 2>nul
+adb shell rm -rf /data/ML >nul 2>nul
+adb shell rm -rf /data/clnc >nul 2>nul
+adb shell rm -rf /data/v2ML >nul 2>nul
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:clnc
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb8
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb8
+cls
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.                   1).
+ECHO.
+ECHO.                   2).
+ECHO.
+ECHO.                   3).dpi
+ECHO.
+ECHO.                   4).dpi
+ECHO.
+ECHO.
+ECHO.
+ECHO.                   A).4
+ECHO.
+ECHO.                   B).2
+ECHO.
+ECHO.                   C).UZ8014
+ECHO.
+ECHO.
+ECHO.                   0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :dpi
+if "%n%"=="4" call :
+if "%n%"=="A" call :4
+if "%n%"=="a" call :4
+if "%n%"=="B" call :2
+if "%n%"=="b" call :2
+if "%n%"=="C" call :UZ8014
+if "%n%"=="c" call :UZ8014
+goto:
+:
+mode con cols=101 lines=32
+ECHO.
+ECHO.
+ECHO.
+adb shell wm size
+ECHO.
+ECHO.
+ECHO.240x320 (Xx)
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+adb shell wm size %input%
+goto:
+:dpi
+ECHO.
+ECHO.
+ECHO.dpi
+adb shell wm density
+ECHO.
+ECHO.
+ECHO.
+set /p input=DPI
+adb shell wm density %input%
+goto:
+:
+ECHO.
+ECHO.
+ECHO.
+ECHO.            1).dpi           2).dpi             0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+goto:
+:
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+adb shell wm size reset
+adb shell wm density reset
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+goto:
+:
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell rm /system/etc/init.hsdbql.startup_helper.sh
+adb shell rm /sdcard/.startup
+adb shell rm /data/startup
+adb shell wm size reset
+adb shell wm density reset
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+goto:
+:
+ECHO.
+ECHO.
+ECHO.dpi
+ECHO.----------------------
+ECHO.
+adb shell wm size
+adb shell wm density
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:4
+ECHO.
+ECHO.4
+ECHO.
+adb root
+adb remount
+adb wait-for-device eg://windows >nul 2>nul
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+copy file\wifi\wifi3.pdc file\resolving\sp970\init.hsdbql.startup_helper.sh >nul 2>nul
+copy file\wifi\wifi4.pdc file\resolving\sp970\init.qcom.post_boot.sh >nul 2>nul
+copy file\wifi\wifi5.pdc file\resolving\sp970\.startup\shell\setDisplaySize.sh >nul 2>nul
+adb shell su -c sh /sdcard/setup.sh > clean-log.txt
+del clean-log.txt
+adb push file\resolving\sp970\init.qcom.post_boot.sh /etc/ >nul 2>nul
+adb push file\resolving\sp970\init.hsdbql.startup_helper.sh /etc/ >nul 2>nul
+adb shell su -c chmod 644 /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chown root:root /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb push file\resolving\sp970\.startup /sdcard/ >nul 2>nul
+adb shell su -c mkdir /data/startup
+adb shell su -c chmod 777 /data/startup
+adb shell su -c chown root:sdcard_r /data/startup
+adb shell su -c ln -s /data/startup/ /data/rw
+adb shell su -c ln -snf /data/startup/ /data/rw
+del file\resolving\sp970\init.hsdbql.startup_helper.sh >nul 2>nul
+del file\resolving\sp970\init.qcom.post_boot.sh >nul 2>nul
+del file\resolving\sp970\.startup\shell\setDisplaySize.sh >nul 2>nul
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+adb reboot
+goto:
+:2
+ECHO.
+ECHO.2
+ECHO.
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+copy file\wifi\wifi3.pdc file\resolving\zhihe\init.hsdbql.startup_helper.sh >nul 2>nul
+copy file\wifi\wifi6.pdc file\resolving\zhihe\init.qcom.post_boot.sh >nul 2>nul
+copy file\wifi\wifi7.pdc file\resolving\zhihe\.startup\shell\setDisplaySize.sh >nul 2>nul
+adb shell wm size reset
+adb shell wm density reset
+adb shell wm density 72
+adb shell wm size 240x427
+adb shell su -c sh /sdcard/setup.sh > clean-log.txt
+del clean-log.txt
+adb push file\resolving\zhihe\init.qcom.post_boot.sh /etc/ >nul 2>nul
+adb push file\resolving\zhihe\init.hsdbql.startup_helper.sh /etc/ >nul 2>nul
+adb shell su -c chmod 644 /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chown root:root /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb push file\resolving\zhihe\.startup /sdcard/ >nul 2>nul
+adb shell su -c mkdir /data/startup
+adb shell su -c chmod 777 /data/startup
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chown root:sdcard_r /data/startup
+adb shell su -c ln -s /data/startup/ /data/rw
+adb shell su -c ln -snf /data/startup/ /data/rw
+del file\resolving\zhihe\init.hsdbql.startup_helper.sh >nul 2>nul
+del file\resolving\zhihe\init.qcom.post_boot.sh >nul 2>nul
+del file\resolving\zhihe\.startup\shell\setDisplaySize.sh >nul 2>nul
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+adb reboot
+goto:
+:UZ8014
+ECHO.
+ECHO.UZ4
+ECHO.
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+copy file\wifi\wifi3.pdc file\resolving\UZ801\init.hsdbql.startup_helper.sh >nul 2>nul
+copy file\wifi\wifi8.pdc file\resolving\UZ801\init.qcom.post_boot.sh >nul 2>nul
+copy file\wifi\wifi9.pdc file\resolving\UZ801\.startup\shell\setDisplaySize.sh >nul 2>nul
+adb shell wm size reset
+adb shell wm density reset
+adb shell wm density 100
+adb shell wm size 216x384
+adb shell su -c sh /sdcard/setup.sh > clean-log.txt
+del clean-log.txt
+adb push file\resolving\UZ801\init.qcom.post_boot.sh /etc/ >nul 2>nul
+adb push file\resolving\UZ801\init.hsdbql.startup_helper.sh /etc/ >nul 2>nul
+adb shell su -c chmod 644 /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chown root:root /etc/init.hsdbql.startup_helper.sh /etc/init.qcom.post_boot.sh >nul 2>nul
+adb push file\resolving\UZ801\.startup /sdcard/ >nul 2>nul
+adb shell su -c mkdir /data/startup
+adb shell su -c chmod 777 /data/startup
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chown root:sdcard_r /data/startup
+adb shell su -c ln -s /data/startup/ /data/rw
+adb shell su -c ln -snf /data/startup/ /data/rw
+del file\resolving\UZ801\init.hsdbql.startup_helper.sh
+del file\resolving\UZ801\init.qcom.post_boot.sh
+del file\resolving\UZ801\.startup\shell\setDisplaySize.sh
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+adb reboot
+goto:
+:/
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb9
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb9
+cls
+ECHO.
+ECHO.    /
+ECHO.
+ECHO.
+ECHO.
+!cecho!   {1F} A). {CF} B).ardc  {5F}  C).data   {4F}  D).sdcard {0a}
+ECHO.
+!cecho!              {0a}
+ECHO.
+ECHO.
+ECHO.               01).init.qcom.post_boot.sh
+ECHO.               02).build.prop
+ECHO.
+ECHO.               1).init.qcom.post_boot.sh
+ECHO.               2).init.qcom.post_boot.sh
+ECHO.               3).init.qcom.post_boot.sh
+ECHO.
+ECHO.               4).build.prop
+ECHO.               5).build.prop
+ECHO.               6).build.prop
+ECHO.
+ECHO.               7).BOOTroot
+ECHO.               8).systemroot
+ECHO.
+ECHO.               9).ZXIC
+ECHO.
+ECHO.              10).ZXIC
+ECHO.
+ECHO.               0).
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :ardc
+if "%n%"=="b" call :ardc
+if "%n%"=="C" call :data
+if "%n%"=="c" call :data
+if "%n%"=="D" call :sdcard
+if "%n%"=="d" call :sdcard
+if "%n%"=="01" call :init.qcom.post_boot.sh
+if "%n%"=="02" call :build.prop
+if "%n%"=="1" call :init.qcom.post_boot.sh
+if "%n%"=="2" call :init.qcom.post_boot.sh
+if "%n%"=="3" call :init.qcom.post_boot.sh
+if "%n%"=="4" call :build.prop
+if "%n%"=="5" call :build.prop
+if "%n%"=="6" call :build.prop
+if "%n%"=="7" call :BOOT
+if "%n%"=="8" call :system
+if "%n%"=="9" call :ZXIC
+if "%n%"=="10" call :ZXIC
+goto:/
+:
+start TQ
+goto:/
+:ardc
+start file\ARDC\Files
+goto:/
+:data
+cls
+ECHO.
+ECHO. ()
+ECHO.
+ECHO. data
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ECHO....
+ECHO.
+adb shell su -c chmod 777 /data >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push %input% /data/
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:sdcard
+cls
+ECHO.
+ECHO. ()
+ECHO.
+ECHO. sdcard
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ECHO....
+ECHO.
+adb push %input% /sdcard/
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:init.qcom.post_boot.sh
+del TQ\init.qcom.post_boot.sh >nul 2>nul
+md TQ >nul 2>nul
+adb pull /system/etc/init.qcom.post_boot.sh TQ\
+if not exist "TQ\init.qcom.post_boot.sh" (
+echo.
+echo.
+echo. init.qcom.post_boot.sh...
+echo.
+echo.
+pause
+goto:/
+else
+)
+echo.
+echo.
+echo.TQ 01
+echo.
+echo.
+pause
+goto:/
+:init.qcom.post_boot.sh
+if not exist "TQ\init.qcom.post_boot.sh" (
+echo.
+echo.
+echo. TQinit.qcom.post_boot.shinit.qcom.post_boot.sh
+echo.
+echo.
+pause
+goto:/
+else
+)
+start file\txt\txt.exe TQ\init.qcom.post_boot.sh
+goto:/
+:init.qcom.post_boot.sh
+if not exist "TQ\init.qcom.post_boot.sh" (
+echo.
+echo.
+echo. TQinit.qcom.post_boot.shinit.qcom.post_boot.sh
+echo.
+echo.
+pause
+goto:/
+else
+)
+ECHO.
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push TQ\init.qcom.post_boot.sh /system/etc/ >nul 2>nul
+adb shell chmod -R 644 /system/etc/init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push TQ\init.qcom.post_boot.sh /system/etc/
+adb shell chmod -R 644 /system/etc/init.qcom.post_boot.sh
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:init.qcom.post_boot.sh
+ECHO.
+ECHO.
+ECHO.
+set /p input=init.qcom.post_boot.sh
+copy %input% init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push init.qcom.post_boot.sh /system/etc/ >nul 2>nul
+adb shell chmod -R 644 /system/etc/init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push init.qcom.post_boot.sh /system/etc/
+adb shell chmod -R 644 /system/etc/init.qcom.post_boot.sh
+del init.qcom.post_boot.sh >nul 2>nul
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:build.prop
+del TQ\build.prop >nul 2>nul
+md TQ >nul 2>nul
+adb pull /system/build.prop TQ\
+if not exist "TQ\build.prop" (
+echo.
+echo.
+echo. build.prop...
+echo.
+echo.
+pause
+goto:/
+else
+)
+echo.
+echo.
+echo.TQ 02
+echo.
+echo.
+pause
+goto:/
+:build.prop
+if not exist "TQ\build.prop" (
+echo.
+echo.
+echo. TQbuild.propbuild.prop
+echo.
+echo.
+pause
+goto:/
+else
+)
+start file\txt\txt.exe TQ\build.prop
+goto:/
+:build.prop
+if not exist "TQ\build.prop" (
+echo.
+echo.
+echo. TQbuild.propbuild.prop
+echo.
+echo.
+pause
+goto:/
+else
+)
+ECHO.
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 1 >nul 2>nul
+adb push TQ\build.prop /system/ >nul 2>nul
+adb shell chmod -R 644 /system/build.prop >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push TQ\build.prop /system/
+adb shell chmod -R 644 /system/build.prop
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:build.prop
+ECHO.
+ECHO.
+ECHO.
+set /p input=build.prop
+copy %input% build.prop >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push build.prop /system/ >nul 2>nul
+adb shell chmod -R 644 /system/build.prop >nul 2>nul
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c setenforce 0 >nul 2>nul
+adb push build.prop /system/
+adb shell chmod -R 644 /system/build.prop
+del build.prop >nul 2>nul
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:/
+:BOOT
+del TQ\BOOT\boot.img >nul 2>nul
+ECHO.
+ECHO.
+md TQ\BOOT >nul 2>nul
+ECHO.BOOT 1
+ECHO.------------------------------
+ECHO....
+ECHO.
+adb shell su -c dd if=/dev/block/bootdevice/by-name/boot of=/sdcard/boot.img
+adb pull sdcard/boot.img TQ\BOOT
+adb shell rm -rf /sdcard/boot.img
+echo.
+if not exist "TQ\BOOT\boot.img" (
+ECHO.
+ECHO.
+ECHO.shellUFI-16-V4  V4
+ECHO.
+ECHO.
+pause
+goto:/
+else
+)
+start TQ\BOOT
+goto:/
+:system
+del TQ\system\system.img >nul 2>nul
+ECHO.
+ECHO.
+md TQ\system >nul 2>nul
+ECHO.system12
+ECHO.------------------------------
+ECHO....
+ECHO.
+adb shell su -c dd if=/dev/block/bootdevice/by-name/system of=/sdcard/system.img
+adb pull sdcard/system.img TQ\system
+adb shell rm -rf /sdcard/system.img
+echo.
+if not exist "TQ\system\system.img" (
+ECHO.
+ECHO.
+ECHO.shellUFI-16-V4  V4
+ECHO.
+ECHO.
+pause
+goto:/
+else
+)
+start TQ\system
+goto:/
+:ZXIC
+rd/s/q TQ\ZXIC >nul 2>nul
+md TQ\ZXIC >nul 2>nul
+md TQ\ZXIC\dev >nul 2>nul
+adb pull bin TQ\ZXIC\
+adb pull sbin TQ\ZXIC\
+adb pull dev/mtdblock0 TQ\ZXIC\dev
+adb pull dev/mtdblock1 TQ\ZXIC\dev
+adb pull dev/mtdblock2 TQ\ZXIC\dev
+adb pull dev/mtdblock3 TQ\ZXIC\dev
+adb pull dev/mtdblock4 TQ\ZXIC\dev
+adb pull dev/mtdblock5 TQ\ZXIC\dev
+adb pull etc_ro TQ\ZXIC\
+start TQ\ZXIC
+goto:/
+:ZXIC
+adb shell mount -o remount,rw /
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+set /p wenjian=
+ECHO.
+set /p mulu=
+ECHO.
+adb push %wenjian% %mulu%
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:/
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+!cecho!
+adb shell getprop persist.ufi.ft.simswitchpword
+ECHO.
+ECHO.
+ECHO.           1).
+ECHO.
+ECHO.           2).ADB
+ECHO.
+ECHO.           3).X1
+ECHO.
+ECHO.           4).
+ECHO.
+ECHO.           0).
+ECHO.
+ECHO.
+set /p n=
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :ADB
+if "%n%"=="3" call :X1
+if "%n%"=="4" call :
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb10
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb10
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.      1).()      2).()       3).()      0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :3
+goto:
+:
+ECHO.
+ECHO.sim...
+adb shell am broadcast -a android.intent.action.ELINK_SIM_SWITCH --ei sim_slot 0 >nul 2>nul
+ECHO.
+ECHO....
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:
+ECHO.
+ECHO.esim...
+adb shell am broadcast -a android.intent.action.ELINK_SIM_SWITCH --ei sim_slot 1 >nul 2>nul
+ECHO.
+ECHO....
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:3
+ECHO.
+ECHO.esim...
+adb shell am broadcast -a android.intent.action.ELINK_SIM_SWITCH --ei sim_slot 2 >nul 2>nul
+ECHO.
+ECHO....
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:ADB
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.ADB
+ECHO.
+ECHO.
+ECHO.                  1).           2).           0).
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+GOTO:ADB
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=:
+explorer "http://%input%"
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+ECHO.
+ECHO.
+pause
+explorer "http://%input%/reqproc/proc_post?isTest=false&goformId=LOGIN&password=YWRtaW4%3D"
+ping 127.0.0.1 -n 03>nul
+explorer "http://%input%/reqproc/proc_post?goformId=REMO_SIM_SELECT_R1865&isTest=true&sim_option_id=1&select_sim_mode=0"
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=:
+explorer "http://%input%"
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+ECHO.
+ECHO.
+pause
+explorer "http://%input%/reqproc/proc_post?isTest=false&goformId=LOGIN&password=YWRtaW4%3D"
+ping 127.0.0.1 -n 03>nul
+explorer "http://%input%/reqproc/proc_post?goformId=REMO_SIM_SELECT_R1865&isTest=true&sim_option_id=2&select_sim_mode=0"
+goto:
+:X1
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb11
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb11
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.X1
+ECHO.
+ECHO.
+ECHO.                  1).           2).           0).
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :X1
+if "%n%"=="2" call :X1
+GOTO:X1
+:X1
+ECHO.
+ECHO.sim...
+adb shell nv set alk_sim_select=1
+adb shell nv save
+ECHO.
+ECHO....
+adb shell reboot
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:X1
+ECHO.
+ECHO.esim...
+adb shell nv set alk_sim_select=2
+adb shell nv save
+ECHO.
+ECHO....
+adb shell reboot
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=:
+explorer "http://%input%/postesim?postesim=%7B%%':~146,1%%':~146,1%%':~26,1%%':~158,1%%':~89,1%%':~94,1%%22:0%%':~-137,1%%':~-154,1%%':~-142,1
+ECHO....
+pause >nul 2>nul
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb12
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb12
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO./192.168.42.129
+ECHO.
+ECHO.
+ECHO.           1).WiFi_root
+ECHO.
+ECHO.           2)._
+ECHO.
+ECHO.
+ECHO.           0).
+ECHO.
+ECHO.
+set /p n=
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :WiFi
+if "%n%"=="2" call :wifi
+goto:
+:wifi
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/bin/wcnss_service >nul 2>nul
+adb reboot
+ECHO.
+ECHO.WiFi
+ECHO.
+ECHO.
+pause
+goto:
+:WiFi
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 600 /system/bin/wcnss_service >nul 2>nul
+adb reboot
+ECHO.
+ECHO.WiFi
+ECHO.
+ECHO.
+pause
+goto:
+:MiKOMiflash
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.           1).miko
+ECHO.
+ECHO.           2).fastboot
+ECHO.
+ECHO.
+ECHO.           0).
+ECHO.
+ECHO.
+set /p n=
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :miko
+if "%n%"=="2" call :
+goto:MiKOMiflash
+:miko
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO. MiKOMiflash(4G410)
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=miko
+ECHO.
+rd /s/q \mikomiflash >nul 2>nul
+md  >nul 2>nul
+md file\mikomiflash >nul 2>nul
+md file\mikomiflash\ >nul 2>nul
+copy file\bao\patch0.xml file\mikomiflash\ >nul 2>nul
+copy file\bao\patch0.xml file\mikomiflash\\ >nul 2>nul
+copy file\bao\prog_emmc_firehose_8916.mbn file\mikomiflash\ >nul 2>nul
+copy file\bao\prog_emmc_firehose_8916.mbn file\mikomiflash\\ >nul 2>nul
+copy file\bao\4Grawprogram0XT.xml file\mikomiflash\rawprogram0.xml >nul 2>nul
+copy file\bao\rawprogram0JD.xml file\mikomiflash\\rawprogram0.xml >nul 2>nul
+ECHO.
+ECHO.miflash
+7z.exe  x  -y -ofile\mikomiflash\ "%input%"
+ren file\mikomiflash\sbl1.img sbl1 >nul 2>nul
+ren file\mikomiflash\sbl1bak.img sbl1bak >nul 2>nul
+ren file\mikomiflash\aboot.img aboot >nul 2>nul
+ren file\mikomiflash\abootbak.img abootbak >nul 2>nul
+ren file\mikomiflash\rpm.img rpm >nul 2>nul
+ren file\mikomiflash\rpmbak.img rpmbak >nul 2>nul
+ren file\mikomiflash\tz.img tz >nul 2>nul
+ren file\mikomiflash\tzbak.img tzbak >nul 2>nul
+ren file\mikomiflash\hyp.img hyp >nul 2>nul
+ren file\mikomiflash\hypbak.img hypbak >nul 2>nul
+ren file\mikomiflash\pad.img pad >nul 2>nul
+ren file\mikomiflash\misc.img misc >nul 2>nul
+ren file\mikomiflash\fsc.img fsc >nul 2>nul
+ren file\mikomiflash\splash.img splash >nul 2>nul
+ren file\mikomiflash\DDR.img DDR >nul 2>nul
+ren file\mikomiflash\sec.img sec >nul 2>nul
+ren file\mikomiflash\boot.img boot >nul 2>nul
+ren file\mikomiflash\system.img system >nul 2>nul
+ren file\mikomiflash\persist.img persist >nul 2>nul
+ren file\mikomiflash\recovery.img recovery >nul 2>nul
+ren file\mikomiflash\modem.img modem >nul 2>nul
+ren file\mikomiflash\modemst1.img modemst1 >nul 2>nul
+ren file\mikomiflash\modemst2.img modemst2 >nul 2>nul
+ren file\mikomiflash\fsg.img fsg >nul 2>nul
+ren file\mikomiflash\ssd.img ssd >nul 2>nul
+ren file\mikomiflash\cache.img cache >nul 2>nul
+ren file\mikomiflash\userdata.img userdata >nul 2>nul
+ren file\mikomiflash\0.modem.fat modem >nul 2>nul
+ren file\mikomiflash\1.sbl1.img sbl1 >nul 2>nul
+ren file\mikomiflash\2.sbl1bak.img sbl1bak >nul 2>nul
+ren file\mikomiflash\3.aboot.img aboot >nul 2>nul
+ren file\mikomiflash\4.abootbak.img abootbak >nul 2>nul
+ren file\mikomiflash\5.rpm.img rpm >nul 2>nul
+ren file\mikomiflash\6.rpmbak.img rpmbak >nul 2>nul
+ren file\mikomiflash\7.tz.img tz >nul 2>nul
+ren file\mikomiflash\8.tzbak.img tzbak >nul 2>nul
+ren file\mikomiflash\9.hyp.img hyp >nul 2>nul
+ren file\mikomiflash\10.hypbak.img hypbak >nul 2>nul
+ren file\mikomiflash\11.pad.img pad >nul 2>nul
+ren file\mikomiflash\12.modemst1.img modemst1 >nul 2>nul
+ren file\mikomiflash\13.modemst2.img modemst2 >nul 2>nul
+ren file\mikomiflash\14.misc.img misc >nul 2>nul
+ren file\mikomiflash\16.ssd.img ssd >nul 2>nul
+ren file\mikomiflash\15.fsc.img fsc >nul 2>nul
+ren file\mikomiflash\17.splash.img splash >nul 2>nul
+ren file\mikomiflash\18.DDR.img DDR >nul 2>nul
+ren file\mikomiflash\19.fsg.img fsg >nul 2>nul
+ren file\mikomiflash\20.sec.img sec >nul 2>nul
+ren file\mikomiflash\21.boot.img boot >nul 2>nul
+ren file\mikomiflash\22.system.img system >nul 2>nul
+ren file\mikomiflash\23.persist.img persist >nul 2>nul
+ren file\mikomiflash\24.cache.img cache >nul 2>nul
+ren file\mikomiflash\25.recovery.img recovery >nul 2>nul
+ren file\mikomiflash\26.userdata.img userdata >nul 2>nul
+move  file\mikomiflash\modemst1 file\mikomiflash\\ >nul 2>nul
+move file\mikomiflash\modemst2 file\mikomiflash\\ >nul 2>nul
+move file\mikomiflash\fsg file\mikomiflash\\ >nul 2>nul
+move file\mikomiflash \ >nul 2>nul
+start
+ECHO.
+ECHO.
+ECHO..
+ping 127.0.0.1 -n 03>nul
+goto:MiKOMiflash
+:
+adb reboot bootloader
+ECHO.fastboot...
+fastboot flash sbl1 \mikomiflash\sbl1
+fastboot flash sbl1bak \mikomiflash\sbl1
+fastboot flash aboot \mikomiflash\aboot
+fastboot flash abootbak \mikomiflash\aboot
+fastboot flash rpm \mikomiflash\rpm
+fastboot flash rpmbak \mikomiflash\rpm
+fastboot flash tz \mikomiflash\tz
+fastboot flash tzbak \mikomiflash\tz
+fastboot flash hyp \mikomiflash\hyp
+fastboot flash hypbak \mikomiflash\hyp
+fastboot flash pad \mikomiflash\pad
+fastboot flash misc \mikomiflash\misc
+fastboot flash fsc \mikomiflash\fsc
+fastboot flash splash \mikomiflash\splash
+fastboot flash DDR \mikomiflash\DDR
+fastboot flash sec \mikomiflash\sec
+fastboot flash boot \mikomiflash\boot
+ECHO.
+ECHO.10..
+fastboot flash system \mikomiflash\system
+fastboot flash persist \mikomiflash\persist
+fastboot flash recovery \mikomiflash\recovery
+fastboot reboot
+ECHO.
+ECHO.....
+pause >nul 2>nul
+goto:
+:modem
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb13
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb13
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO. openwrtdebianmodem
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=modem:
+copy %input% modem.bin >nul 2>nul
+7z.exe  x  -y -ofile\ modem.bin >nul>nul 2>nul
+adb push file\image /root/
+adb shell cp /root/image/* /lib/firmware/
+adb reboot
+del modem.bin >nul 2>nul
+rd /s/q file\image >nul 2>nul
+ECHO.
+ECHO.
+ECHO....
+pause >nul 2>nul
+goto:
+:2021
+ECHO.
+ECHO.
+set /p n= :Y / N/
+if "%n%"=="" cls&goto :
+if "%n%"=="N" call :
+if "%n%"=="n" call :
+if "%n%"=="Y" call :2021yes
+if "%n%"=="Y" call :2021yes
+GOTO:2021
+:2021yes
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb14
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb14
+adb shell pm uninstall --user 0 com.qiku.music
+adb shell pm uninstall --user 0 com.qiku.magazine
+adb shell pm uninstall --user 0 com.cn21.ecloud
+adb shell pm uninstall --user 0 cn.egame.terminal.cloud5g
+adb shell pm uninstall --user 0 com.tyyd.video
+adb shell pm uninstall --user 0 com.ct.client
+adb shell pm uninstall --user 0 com.corp21cn.mail
+adb shell pm uninstall --user 0 com.telecom.video
+adb shell pm uninstall --user 0 com.system.search
+adb shell pm uninstall --user 0 com.android.emergency
+adb shell pm uninstall --user 0 com.UCMobile
+adb shell pm uninstall --user 0 com.qiku.android.show
+adb shell pm uninstall --user 0 com.qiku.android.videoplayer
+adb shell pm uninstall --user 0 com.qiku.android.setupwizard
+adb shell pm uninstall --user 0 com.bigtime.inputmethod.security
+adb shell pm uninstall --user 0 com.cps.smartmms
+adb shell pm uninstall --user 0 com.qiku.cloudfolder
+adb shell pm uninstall --user 0 com.ctg.itrdc.cloudphone
+adb shell pm uninstall --user 0 com.qiku.android.privacyspace
+adb shell pm uninstall --user 0 com.qiku.shortcuts
+adb shell pm uninstall --user 0 com.qiku.images.aiclassifier
+adb shell pm uninstall --user 0 com.qiku.android.sos
+adb shell pm uninstall --user 0 com.android.providers.downloads
+adb shell pm uninstall --user 0 com.qiku.android.ota
+adb shell pm uninstall --user 0 com.qiku.powermaster
+adb shell pm uninstall --user 0 com.qiku.android.filebrowser
+ECHO.
+ECHO.OK
+ECHO.
+PAUSE
+GOTO:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb15
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb15
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p ls=
+mode con cols=101 lines=50
+adb shell ls -al %ls%
+ECHO.
+ECHO.
+:1
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+set /p n= 1    2    3   0
+if "%n%"=="" cls&goto :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :
+if "%n%"=="0" call :
+goto:
+:
+color 08
+adb shell mount -o remount,rw /
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p xiazai= /()
+ECHO.
+adb pull %xiazai% TQ/
+start TQ
+ECHO.
+ECHO.
+goto:1
+:
+color 08
+adb shell mount -o remount,rw /
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p xxx= /
+ECHO.
+adb shell rm %xxx%
+ECHO.
+ECHO.
+goto:1
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb15
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb15
+cls
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.       SP970-V1~SP970-V13
+ECHO.
+ECHO.       UFI001C UFI001B UFI003 UFI003S UFI-W-001 QRZL903  UFI103S
+ECHO.
+ECHO.
+ECHO.               1).
+ECHO.
+ECHO.               2).
+ECHO.
+ECHO.               3).cpwebroot
+ECHO.
+ECHO.               4).2/3/4Groot
+ECHO.
+ECHO.               5).root
+ECHO.
+ECHO.               6).2/3/4Groot
+ECHO.
+ECHO.               7).WiFiroot
+ECHO.
+ECHO.               8).4/5/6root
+ECHO.
+ECHO.
+ECHO                0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+if "%n%"=="3" call :cpweb
+if "%n%"=="4" call :234G
+if "%n%"=="5" call :
+if "%n%"=="6" call :234
+if "%n%"=="7" call :WiFi
+if "%n%"=="8" call :
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.         1).MD
+ECHO.
+ECHO.         2).123456
+ECHO.
+ECHO.         0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :sp970web
+if "%n%"=="2" call :sp970web
+goto:
+:sp970web
+adb root
+adb remount
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system
+copy file\wifi\wifi21.dll file\WEB\gexingWEB2\cloud_management.conf >nul 2>nul
+copy file\wifi\wifi22.dll file\WEB\gexingWEB2\sim_management.conf >nul 2>nul
+copy file\wifi\wifi23.dll file\WEB\gexingWEB2\www\index.html >nul 2>nul
+copy file\wifi\wifi24.dll file\WEB\gexingWEB2\www\js\common.js >nul 2>nul
+copy file\wifi\wifi25.dll file\WEB\gexingWEB2\www\img\login_bg_2.jpg >nul 2>nul
+adb push file\WEB\gexingWEB2\www /system/var/>nul 2>nul
+adb shell su -c chmod -R 644 /system/var/www/index.html
+adb shell su -c chmod -R 644 /system/var/www/js/common.js
+adb push file\WEB\gexingWEB2\sim_management.conf /system/etc/ufi_product/files/ >nul 2>nul
+adb push file\WEB\gexingWEB2\cloud_management.conf /system/etc/ufi_product/files/ >nul 2>nul
+adb shell su -c chmod -R 644 /system/etc/ufi_product/files/sim_management.conf >nul 2>nul
+adb shell su -c chmod -R 644 /system/etc/ufi_product/files/cloud_management.conf >nul 2>nul
+adb shell su -c chmod 777 /data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/data
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /data/data/ufi_router
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb push file\WEB\gexingWEB2\cloud_management.conf /data/data/ufi_router/ >nul 2>nul
+adb push file\WEB\gexingWEB2\sim_management.conf /data/data/ufi_router/ >nul 2>nul
+adb shell su -c chmod -R 644 /data/data/ufi_router/cloud_management.conf>nul 2>nul
+adb shell su -c chmod -R 644 /data/data/ufi_router/sim_management.conf>nul 2>nul
+del /f/s/q file\WEB\gexingWEB2\cloud_management.conf >nul 2>nul
+del /f/s/q file\WEB\gexingWEB2\sim_management.conf >nul 2>nul
+del /f/s/q file\WEB\gexingWEB2\www\index.html >nul 2>nul
+del /f/s/q file\WEB\gexingWEB2\www\js\common.js >nul 2>nul
+del /f/s/q file\WEB\gexingWEB2\www\img\login_bg_2.jpg >nul 2>nul
+adb reboot
+ECHO.
+ECHO......
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+pause
+goto:
+:sp970web
+ECHO.
+ECHO...
+adb kill-server >nul 2>nul
+adb start-server >nul 2>nul
+adb devices >nul 2>nul
+adb remount >nul 2>nul
+adb shell rm /data/data/com.webkey/files/index1.html >nul 2>nul
+adb shell rm /data/data/com.webkey/files/upgradeMode.sh >nul 2>nul
+adb push file\WEB\gexingWEB2MD\files\ /data/data/com.webkey/ >nul 2>nul
+adb shell chmod 777 /data/data/com.webkey/files/chmod.sh >nul 2>nul
+adb shell sh /data/data/com.webkey/files/chmod.sh >nul 2>nul
+ECHO....
+PAUSE>NUL
+goto:
+:
+ECHO.
+ECHO....
+adb shell mount -o rw,remount /system >nul 2>nul
+adb wait-for-device eg://windows >nul 2>nul
+adb push file\WEB\gexingWEB2MD\busybox /system/xbin/ >nul 2>nul
+adb shell chmod 777 /system/xbin/busybox >nul 2>nul
+busybox --install -s /system/xbin >nul 2>nul
+adb shell chmod 000 /data/data/com.webkey/files/LAN_STATE >nul 2>nul
+adb reboot
+ECHO.
+ECHO.
+pause >nul 2>nul
+goto:
+:cpweb
+ECHO.
+ECHO.cpweb.cpk...
+adb shell su -c chmod 777 /system >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/priv-app >nul 2>nul
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell rm /system/priv-app/cpweb.apk >nul 2>nul
+adb shell rm /system/priv-app/cpeweb.apk >nul 2>nul
+adb push file\apks\cpweb.apk /system/priv-app/
+adb shell su -c chmod -R 644 /system/priv-app/cpweb.apk
+adb reboot
+ECHO.
+ECHO.
+pause >nul 2>nul
+goto:
+:234G
+ECHO.
+ECHO....
+copy file\wifi\wifi12.pdc init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+ping 127.0.0.1 -n 02>nul
+adb push init.qcom.post_boot.sh /etc/
+del init.qcom.post_boot.sh >nul 2>nul
+adb reboot
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:
+ECHO.
+ECHO....
+copy file\wifi\wifi17.pdc init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+ping 127.0.0.1 -n 02>nul
+adb push init.qcom.post_boot.sh /etc/
+del init.qcom.post_boot.sh >nul 2>nul
+adb reboot
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:234
+ECHO.
+ECHO....
+copy file\wifi\wifi18.pdc init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+ping 127.0.0.1 -n 02>nul
+adb push init.qcom.post_boot.sh /etc/
+del init.qcom.post_boot.sh >nul 2>nul
+adb reboot
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:WiFi
+ECHO.
+ECHO....
+copy file\wifi\wifi19.pdc init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+ping 127.0.0.1 -n 02>nul
+adb push init.qcom.post_boot.sh /etc/
+del init.qcom.post_boot.sh >nul 2>nul
+adb reboot
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:
+ECHO.
+ECHO....
+copy file\wifi\wifi13.pdc init.qcom.post_boot.sh >nul 2>nul
+adb shell su -c chmod 777 /system
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+adb shell su -c chmod 777 /system/etc
+adb shell su -c mount -o remount,rw /system >nul 2>nul
+ping 127.0.0.1 -n 02>nul
+adb push init.qcom.post_boot.sh /etc/
+del init.qcom.post_boot.sh >nul 2>nul
+adb reboot
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:
+cls
+title WiFi_
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.            1. root
+ECHO.
+ECHO.            2.4 root
+ECHO.
+ECHO.            3.4 root
+ECHO.
+ECHO.            4.
+ECHO.
+ECHO.            5.SVIP
+ECHO.
+ECHO.
+!cecho! {0b}
+ECHO.
+ECHO.
+ECHO.            6.
+ECHO.
+ECHO.            7.AT AT
+ECHO.
+ECHO.
+ECHO.            8.
+ECHO.
+ECHO.            9.AT
+ECHO.
+!cecho! {07}            0.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :4
+if "%n%"=="3" call :4
+if "%n%"=="4" call :
+if "%n%"=="5" call :
+if "%n%"=="6" call :
+if "%n%"=="7" call :
+if "%n%"=="8" call :
+if "%n%"=="9" call :AT
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb16
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb16
+adb shell su -c setprop sys.usb.config diag,adb
+goto:
+:4
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb17
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb17
+md TQ\ >nul 2>nul
+ECHO....
+ECHO.
+adb shell su -c dd if=/dev/block/bootdevice/by-name/modem of=/sdcard/modem.img
+adb pull sdcard/modem.img TQ\
+adb shell rm -rf /sdcard/modem.img
+adb shell su -c dd if=/dev/block/bootdevice/by-name/modemst1 of=/sdcard/modemst1.img
+adb pull sdcard/modemst1.img TQ\
+adb shell rm -rf /sdcard/modemst1.img
+adb shell su -c dd if=/dev/block/bootdevice/by-name/modemst2 of=/sdcard/modemst2.img
+adb pull sdcard/modemst2.img TQ\
+adb shell rm -rf /sdcard/modemst2.img
+adb shell su -c dd if=/dev/block/bootdevice/by-name/fsg of=/sdcard/fsg.img
+adb pull sdcard/fsg.img TQ\
+adb shell rm -rf /sdcard/fsg.img
+start TQ\
+goto:
+:4
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb18
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb18
+adb reboot bootloader
+fastboot flash modem TQ\\modem.img
+fastboot flash modemst1 TQ\\modemst1.img
+fastboot flash modemst2 TQ\\modemst2.img
+fastboot flash fsg TQ\\fsg.img
+fastboot reboot
+goto:
+:
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb19
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb19
+adb reboot bootloader
+fastboot erase modemst1
+fastboot erase modemst2
+fastboot erase fsg
+fastboot reboot
+goto:
+:
+if not exist "file\XH\XH.exe" (
+goto:
+else
+)
+start file\XH\XH.exe
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.           1.ZXIC
+ECHO.
+ECHO.           2.2021.2022
+ECHO.
+ECHO.           3.
+ECHO.
+ECHO.           0.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :zxic
+if "%n%"=="2" call :
+if "%n%"=="3" call :
+goto:
+:zxic
+start file\ZXIC\ZTEDrvSetup.exe
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-NZc0h.html"
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-ayc0h.html"
+goto:
+:
+cd file\ZXIC
+start .exe
+cd..
+cd..
+goto:
+:
+start TQ\
+goto:
+:AT
+start file\txt\txt.exe file\txt\.txt
+goto:
+:tiny
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb20
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb20
+cls
+ECHO.
+ECHO.
+ECHO.             Tiny
+ECHO.
+ECHO.
+ECHO.                                               K).   G).   X).
+ECHO.
+ECHO.
+ECHO.
+ECHO.                   A).
+ECHO.            ----------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.                    1).                                     4).
+ECHO.
+ECHO.                    2).                                     5).
+ECHO.
+ECHO.                    3).                                     6).
+ECHO.
+ECHO.                    7).UC                                       8).
+ECHO.
+ECHO.            ----------------------------------------------------------------------------
+ECHO.                                                                      0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :tiny
+if "%n%"=="2" call :tiny
+if "%n%"=="3" call :tiny
+if "%n%"=="4" call :tiny
+if "%n%"=="5" call :tiny
+if "%n%"=="6" call :tiny
+if "%n%"=="7" call :UCtiny
+if "%n%"=="8" call :tiny
+if "%n%"=="A" call :tiny
+if "%n%"=="a" call :tiny
+if "%n%"=="K" call :zxic
+if "%n%"=="k" call :zxic
+if "%n%"=="G" call :zxic
+if "%n%"=="g" call :zxic
+if "%n%"=="X" call :tiny
+if "%n%"=="x" call :tiny
+goto:tiny
+:zxic
+ECHO.
+ECHO.tiny..
+ECHO.
+adb shell sh /var/tiny/start.sh
+ECHO.
+ECHO.----
+PAUSE>NUL
+goto:tiny
+:zxic
+ECHO.
+ECHO.tiny..
+ECHO.
+adb shell sh /var/tiny/stop.sh
+ECHO.
+ECHO.----
+PAUSE>NUL
+goto:tiny
+:tiny
+ECHO.
+ECHO.
+ECHO.
+del tiny\tiny.conf >nul 2>nul
+ECHO.
+set /p input=tiny
+copy %input% tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:UCtiny
+ECHO.UCtiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\UCtiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:tiny
+ECHO.tiny...
+del tiny\tiny.conf >nul 2>nul
+copy file\ZxwTiny\tiny.conf tiny\tiny.conf >nul 2>nul
+copy file\wifi\wifi18.edl tiny\start.sh >nul 2>nul
+copy file\wifi\wifi19.edl tiny\stop.sh >nul 2>nul
+call :zxwTINY
+:zxwTINY
+adb shell sh /var/tiny/stop.sh >nul 2>nul
+ECHO. Tiny
+adb shell mount -o remount,rw /
+adb shell rm -rf /var/tiny /sbin/rm_dev.sh
+adb push tiny\ /var/
+adb push file\ZxwTiny\rm_dev.sh /sbin/
+adb shell chmod 777 /var/tiny -R
+adb shell chmod 777 /sbin/rm_dev.sh
+ECHO.
+ECHO. ...
+ECHO.
+goto:zxic
+:tiny
+ECHO.
+ECHO.
+set /p n= Y/N: /
+if "%n%"=="" cls&goto :
+if "%n%"=="Y" call :tinyyes
+if "%n%"=="y" call :tinyyes
+if "%n%"=="N" call :tiny
+if "%n%"=="n" call :tiny
+goto:tiny
+:tinyyes
+ECHO.
+adb shell sh /var/tiny/stop.sh >nul 2>nul
+ECHO.Tiny..
+ECHO.
+adb shell mount -o remount,rw / >nul 2>nul
+adb shell rm -rf /var/tiny /sbin/rm_dev.sh >nul 2>nul
+ECHO....
+PAUSE>NUL
+goto:tiny
+:
+ECHO.
+ECHO.ADB...
+adb wait-for-device eg://windows >nul 2>nul
+adb shell mount -o remount,rw / >nul 2>nul
+ECHO.
+ECHO.
+ECHO....
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.           1.ADBzxic_186x () by zy143L
+ECHO.
+ECHO.           2.zxicadb
+ECHO.
+ECHO.
+ECHO.           0.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :1869
+if "%n%"=="2" call :xxzxic
+goto:
+:1869
+start file\ZXIC\zxic1869.exe
+goto:
+:xxzxic
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb21
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb21
+ECHO.
+ECHO.
+adb shell nv set mqtt_host=127.0.0.1
+ECHO.
+ECHO.
+adb shell nv set fota_updateMode=0
+ECHO.
+ECHO.
+adb shell nv set os_url=http://127.0.0.1
+ECHO.
+ECHO.ESIM
+adb shell nv set lpa_trigger_host=127.0.0.1
+ECHO.
+ECHO.
+adb shell nv set safecare_hostname=http://127.0.0.1
+ECHO.
+ECHO.
+adb shell nv set safecare_mobsite=http://127.0.0.1
+ECHO.
+ECHO.
+adb shell mount -o remount,rw /
+ECHO.
+ECHO.
+adb shell rm -rf /bin/terminal_mgmt
+adb shell rm -rf /sbin/yiming_1028.sh
+adb shell rm -rf /sbin/ip_ratelimit.sh
+adb shell rm -rf /sbin/tc_tbf.sh
+adb shell rm -rf /sbin/aliyun_thing
+adb shell rm -rf /sbin/aliyun_mqtt
+ECHO.
+ECHO.
+adb shell nv set tc_enable=0
+adb shell nv set HideSSID=0
+adb shell nv set old_limitspeed=1024000
+ECHO.
+ECHO.114dns
+adb shell nv set dhcpDNS=114.114.114.114
+ECHO.
+ECHO.
+adb shell nv save
+adb shell reboot
+ECHO.
+ECHO.......
+PAUSE>NUL
+goto:
+:ZXICweb
+adb shell exit >nul 2>nul
+if %errorlevel% equ 0 (
+goto:adb22
+) else (
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------{04}
+ECHO.
+ECHO.
+ECHO.          ADBADB...
+ECHO.
+ECHO.
+ECHO.
+pause >nul
+goto:
+)
+:adb22
+cls
+color 07
+ECHO.web
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.               A).web
+ECHO.
+ECHO.               B).
+ECHO.
+ECHO.
+ECHO.
+!cecho! {0c}
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.               1).web
+ECHO.
+!cecho! {0b}               2).web
+ECHO.
+ECHO.
+ECHO.               3).web
+ECHO.
+ECHO.               4).TZ101_web
+ECHO.
+ECHO.               5).761C_web
+ECHO.
+ECHO.               6).186X_web
+ECHO.
+ECHO.
+ECHO.               0).
+ECHO.
+ECHO.
+set /p n=
+ECHO.
+if "%n%"=="" cls&goto :
+if "%n%"=="1" call :web
+if "%n%"=="2" call :web
+if "%n%"=="3" call :web
+if "%n%"=="4" call :TZ101web
+if "%n%"=="5" call :761Cweb
+if "%n%"=="6" call :186Xweb
+if "%n%"=="A" call :web
+if "%n%"=="a" call :web
+if "%n%"=="B" call :
+if "%n%"=="b" call :
+if "%n%"=="C" call :
+if "%n%"=="c" call :
+if "%n%"=="0" call :
+goto:ZXICweb
+:web
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+md temp >nul 2>nul
+set /p input=web
+copy %input% temp\web.zip >nul 2>nul
+goto:web
+:
+start TQ\web
+goto:ZXICweb
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=,:
+echo :%input%.
+adb shell  nv set root_Password=%input%
+goto:ZXICweb
+:web
+ECHO.
+md TQ\web >nul 2>nul
+adb shell mount -o remount,rw /
+adb pull /etc_ro/web.zip TQ\web\ >nul 2>nul
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ren TQ\web\web.zip %input%.zip
+ECHO.
+ECHO.
+ECHO.%input%.zip
+ECHO.
+ECHO.
+pause
+start TQ\web
+goto:ZXICweb
+:web
+md temp >nul 2>nul
+copy file\WEB\ZXICweb\.zip temp\web.zip >nul 2>nul
+goto:web
+:web
+md temp >nul 2>nul
+copy file\WEB\ZXICweb\.zip temp\web.zip >nul 2>nul
+goto:web
+:TZ101web
+md temp >nul 2>nul
+copy file\WEB\ZXICweb\TZ101.zip temp\web.zip >nul 2>nul
+goto:web
+:761Cweb
+md temp >nul 2>nul
+copy file\WEB\ZXICweb\761c.zip temp\web.zip >nul 2>nul
+goto:web
+:186Xweb
+md temp >nul 2>nul
+copy file\WEB\ZXICweb\1865X.zip temp\web.zip >nul 2>nul
+goto:web
+:web
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+set /p n=Y/N: /
+ECHO.
+if "%n%"=="" cls&goto :
+if "%n%"=="Y" call :web
+if "%n%"=="y" call :web
+if "%n%"=="N" call :web
+if "%n%"=="n" call :web
+goto:web
+:web
+ECHO.
+ECHO.N,...
+goto:web
+:web
+md TQ\web >nul 2>nul
+adb shell mount -o remount,rw /
+adb pull /etc_ro/web.zip TQ\web\ >nul 2>nul
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ren TQ\web\web.zip %input%.zip
+ECHO.
+ECHO.%input%.zip
+start TQ\web
+:web
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+adb shell mount -o remount,rw /
+ECHO.
+ECHO.,
+adb push file\ZXIC\test.txt /etc_ro/ >nul 2>nul  && (goto:) || goto:
+:
+adb shell rm -rf /etc_ro/test.txt >nul 2>nul
+ECHO.
+!cecho! {0b}.{07}
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+ECHO.
+adb push temp\web.zip /etc_ro/ >nul 2>nul  && (goto:web) || goto:
+:web
+del temp\web.zip
+ECHO.
+!cecho! {0b}webWiFi ...{07}
+PAUSE>NUL
+goto:ZXICweb
+:
+ECHO.
+!cecho! {04}...
+PAUSE>NUL
+goto:ZXICweb
+:IP
+explorer "https://www.ip138.com/"
+goto:
+:
+explorer "https://myplugin.speedtest.cn/#/"
+goto:
+:ICCID
+explorer "https://tywl.crm.189.cn/wlw_interface/SelfService/toCardStatus.do?openid=Ehvj0z9lWToYCcXR5XY6p2WqSW95GEdXnOQVp3Q1MPQ=&phone=wP1zxiqFzHs=&from=hkzt"
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-LwZ0h"
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-oBZ0h"
+goto:
+:miko
+if not exist "file\miko\miko.exe" (
+goto:
+else
+)
+cd file\miko
+start miko.exe
+cd..
+cd..
+goto:
+:
+start file\Todesk\todesk.exe
+ECHO....
+PAUSE>NUL
+goto:
+:CMD
+start file\CMD\cmd.bat
+goto:
+:CH341A
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.           1.CH341A
+ECHO.
+ECHO.           2.
+ECHO.
+ECHO.           0.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :CH341A
+if "%n%"=="2" call :CH341A
+goto:CH341A
+:CH341A
+cd file\CH341A
+start CH341A.exe
+cd..&cd..
+goto:
+:CH341A
+cd  file\CH341A\Drivers\CH341A
+start SETUP.EXE
+cd..&cd..&cd..&cd..
+goto:CH341A
+:
+cls
+color 0F
+mode con cols=101 lines=32
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+!cecho! {0B}                1).system.img
+ECHO.
+ECHO.                2).system.img
+ECHO.
+ECHO.                3).system
+ECHO.
+ECHO.
+!cecho! {0A}                4).boot.img
+ECHO.
+ECHO.                5).boot.img
+ECHO.
+ECHO.                6).boot
+ECHO.
+ECHO.
+!cecho! {0c}                7).
+ECHO.
+ECHO.
+!cecho!                 8).{0E}
+ECHO.
+ECHO.
+ECHO.
+ECHO.                0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :system.img
+if "%n%"=="2" call :system.img
+if "%n%"=="3" call :system
+if "%n%"=="4" call :boot.img
+if "%n%"=="5" call :boot.img
+if "%n%"=="6" call :boot
+if "%n%"=="7" call :
+if "%n%"=="8" call :
+goto:
+:system.img
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.system
+ECHO.
+ECHO.
+rd/s/q system >nul 2>nul
+del/f/s/q system.img >nul 2>nul
+del/f/s/q system_AIHGT_file_contexts >nul 2>nul
+del/f/s/q system_AIHGT_permissions >nul 2>nul
+del/f/s/q system_size.txt >nul 2>nul
+ECHO.
+ECHO.
+ECHO.
+set /p input=system
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.system.img..
+copy %input% system.img >nul 2>nul
+ECHO.
+!unpack-image! system.img >nul 2>nul
+if not exist "system" (
+echo.
+ECHO.
+echo.
+echo.
+ECHO.
+del/f/s/q system.img >nul 2>nul
+pause
+goto:
+else
+)
+start system
+del/f/s/q system.img >nul 2>nul
+ECHO.
+ECHO.
+ECHO.      ...
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:system.img
+md  >nul 2>nul
+del/f/s/q \system.img >nul 2>nul
+ECHO.
+ECHO.system.img...
+ECHO.
+if not exist "system" (
+else
+)
+if not exist "system_AIHGT_permissions" (
+else
+)
+if not exist "system_AIHGT_file_contexts" (
+else
+)
+if not exist DBsystem goto custom_size_img
+for /f %%a in (DBsystem) do (set system_size=%%a) >nul 2>nul
+if not exist system_size.txt goto custom_size_img
+for /f %%a in (system_size.txt) do (set system2size=%%a) >nul 2>nul
+if not exist system_size.txt call :not_system_size
+for /f %%a in (system_size.txt) do (set system_size=%%a) >nul 2>nul
+del system.img 2>nul
+!make_ext4fs! -S system_AIHGT_file_contexts -X system_AIHGT_permissions -l %system_size% -L system -K vUA6spGTE7EuEd4H -a /system system.img system >nul 2>nul
+echo.
+if not exist "system.img" !cecho!   system_AIHGT_file_contexts   & echo. & pause & goto home_systemimg & else
+for /f "delims=" %%i in ('dir /a-d /b system.img') do (
+echo.
+)
+echo.
+for /r %~dp0 %%%':~-133,1%%':~-35,1%%':~89,1%%':~-104,1%%':~-35,1%%':~-81,1%%':~158,1%%':~121,1%%':~158,1%%':~71,1%%':~26,1%%':~-66,1%%':~-116,1%%':~-71,1%%':~-66,1%%':~-139,1%%':~104,1%%':~125,1%%':~57,1%%':~159,1%%':~125,1%%':~-81,1
+if %%~za==0 del %~dp0\system.img %':~136,1%%':~-104,1%%':~60,1%%':~-76,1%%':~125,1%%':~146,1%%':~-24,1%%':~-104,1%%':~60,1%%':~-76,1
+if not exist "system.img" !cecho! system_AIHGT_file_permissions   & echo. & pause & goto home_systemimg & else
+)
+move system.img \system.img >nul 2>nul
+start  >nul 2>nul
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:system
+if not exist "system" (
+echo.
+echo.
+echo.
+echo.
+echo.
+pause
+goto:
+else
+)
+start system
+goto:
+:boot.img
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+rd/s/q AIHGTkernel >nul 2>nul
+del boot.img >nul 2>nul
+del/f/s/q bootinfo.txt >nul 2>nul
+del/f/s/q cpiolist.txt >nul 2>nul
+del/f/s/q dt_image >nul 2>nul
+del/f/s/q kernel >nul 2>nul
+del/f/s/q ramdisk.gz >nul 2>nul
+ECHO.
+ECHO.boot
+ECHO.
+ECHO.
+ECHO.
+set /p input=boot
+copy %input% boot.img >nul 2>nul
+echo.
+echo.boot...
+if not exist "boot.img" (
+echo.
+echo.
+echo.boot.img
+echo.
+echo.
+pause
+goto:
+else
+)
+del ramdisk.cpio.gz 2>nul
+del ramdisk.cpio.gz.tmp 2>nul
+!bootimg! --unpack-bootimg >nul 2>nul
+del ramdisk.cpio.gz 2>nul
+del ramdisk.cpio.gz.tmp 2>nul
+!file_contexts_tool! AIHGTkernel\file_contexts.bin -o AIHGTkernel\file_contexts -e >nul 2>nul
+del boot.img >nul 2>nul
+del/f/s/q boot-old.img >nul 2>nul
+if not exist "AIHGTkernel" (
+echo.
+echo.
+echo.
+echo.
+echo.
+pause
+goto:
+else
+)
+start AIHGTkernel >nul 2>nul
+echo.
+ECHO.
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:boot.img
+ECHO.
+ECHO.boot...
+ECHO.
+md  >nul 2>nul
+del \boot.img >nul 2>nul
+del ramdisk.cpio.gz 2>nul
+del ramdisk.cpio.gz.tmp 2>nul
+del boot-new.img 2>nul
+del boot.img.tmp 2>nul
+del boot_old.img 2>nul
+!bootimg! --repack-bootimg >nul 2>nul
+ren boot-new.img boot.img >nul 2>nul
+ren boot-old.img boot_old.img >nul 2>nul
+del ramdisk.cpio.gz 2>nul
+del ramdisk.cpio.gz.tmp 2>nul
+move boot.img \boot.img >nul 2>nul
+if not exist "\boot.img" (
+echo.
+echo.
+echo.       boot
+echo.
+echo.
+pause
+goto:
+else
+)
+start  >nul 2>nul
+ECHO.
+ECHO.
+ECHO....
+PAUSE>NUL
+goto:
+:boot
+if not exist "AIHGTkernel" (
+echo.
+echo.
+echo.
+echo.
+echo.
+pause
+goto:
+else
+)
+start AIHGTkernel
+goto:
+:
+start
+goto:
+:
+rd/s/q system >nul 2>nul
+rd/s/q AIHGTkernel >nul 2>nul
+rd/s/q  >nul 2>nul
+del/f/s/q system_AIHGT_file_contexts >nul 2>nul
+del/f/s/q system_AIHGT_permissions >nul 2>nul
+del/f/s/q system_size.txt >nul 2>nul
+del/f/s/q system.img >nul 2>nul
+del/f/s/q boot.img >nul 2>nul
+del/f/s/q bootinfo.txt >nul 2>nul
+del/f/s/q cpiolist.txt >nul 2>nul
+del/f/s/q dt_image >nul 2>nul
+del/f/s/q kernel >nul 2>nul
+del/f/s/q ramdisk.gz >nul 2>nul
+md system >nul 2>nul
+goto:
+:ARDC
+if not exist "file\ardc\ardc.exe" (
+goto:
+else
+)
+taskkill /f /im ARDC.exe >nul 2>nul
+start file\ardc\ardc.exe
+goto:
+:9008Tool
+if not exist "file\QualcommPremiumTool\9008tool.exe" (
+goto:
+else
+)
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.               1).Premium Tool 9008        2).KEY        0).
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :9008tool
+if "%n%"=="2" call :KEY
+goto:9008Tool
+:9008tool
+cd file\QualcommPremiumTool
+start 9008tool.exe
+cd..
+cd..
+goto:
+:KEY
+cd file\QualcommPremiumTool\
+start .txt
+start .exe
+cd..
+cd..
+cd..
+goto:9008Tool
+:miflash
+start file\miflash\miflash.exe
+goto:
+:Fastboot
+color 0F
+cls
+mode con cols=101 lines=32
+ECHO. fastboot
+ECHO.
+!cecho!         {0f}-)....
+ECHO.
+ECHO.
+!cecho!         -).adb,fastboot{0b}
+ECHO.
+ECHO.
+ECHO.
+ECHO.         A).
+ECHO.
+ECHO.
+ECHO.
+ECHO.         1).BOOT
+ECHO.
+ECHO.         2).system
+ECHO.
+ECHO.         3).aboot
+ECHO.
+ECHO.         4).sbl1 9008
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.         H)..
+ECHO.
+ECHO.         X).fastboot
+ECHO.
+ECHO.         0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :BOOT
+if "%n%"=="2" call :SYSTEM
+if "%n%"=="3" call :aboot
+if "%n%"=="4" call :sbl1
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="H" call :
+if "%n%"=="h" call :
+if "%n%"=="X" call :fastboot
+if "%n%"=="x" call :fastboot
+goto:Fastboot
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.fastboot
+ECHO.
+!cecho!      {0B}boot    splash   system    recovery   {0f}
+ECHO.
+ECHO.
+!cecho!    {0B}aboot   DDR   fsc   hyp   misc   pad   rpm   sbl1   sec   ssd   tz {0f}
+ECHO.
+ECHO.
+!cecho!          {0B}modem   fsg   modemst1   modemst2{0f}
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ECHO.
+set /p input1=%input%%input%
+adb reboot bootloader
+fastboot flash %input% %input1%  && (goto:) || goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p n= %input%1:  2:  0::
+if "%n%"=="0" call :Fastboot
+if "%n%"=="1" call :
+if "%n%"=="2" call :fastboot
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+set /p n= %input%1:  2:  0::
+if "%n%"=="0" call :Fastboot
+if "%n%"=="1" call :
+if "%n%"=="2" call :fastboot
+goto:
+:BOOT
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.bootfastboot...
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=boot
+ECHO.
+adb reboot bootloader
+ECHO.
+ECHO.fastboot..........
+ECHO.
+fastboot flash boot %input%  && (echo ) || echo
+ECHO.
+goto:Fastboot
+:SYSTEM
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.system10fastboot......
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=system
+ECHO.
+adb reboot bootloader
+ECHO.
+ECHO.fastboot..........
+ECHO.
+fastboot flash system %input%  && (echo ) || echo
+ECHO.
+goto:Fastboot
+:sbl1
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.sbl1fastboot......
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=sbl1
+ECHO.
+adb reboot bootloader
+ECHO.
+ECHO.fastboot..........
+ECHO.
+fastboot flash sbl1 %input%
+fastboot flash sbl1bak %input%  && (echo ) || echo
+ECHO.
+goto:Fastboot
+:aboot
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.abootfastboot......
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=aboot
+ECHO.
+adb reboot bootloader
+ECHO.
+ECHO.fastboot..........
+ECHO.
+fastboot flash aboot %input%  && (echo ) || echo
+ECHO.
+goto:Fastboot
+:Fastboot
+ECHO.fastboot
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p n= 1    /    2
+if "%n%"=="" cls&goto :
+if "%n%"=="1" call :fastboot
+if "%n%"=="2" call :Fastboot
+goto:Fastboot
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.            1).fastboot -w
+ECHO.
+ECHO.            2).userdta1-2adb
+ECHO.
+ECHO.            0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :Fastboot
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+goto:
+:
+adb reboot bootloader
+fastboot -w
+fastboot reboot
+start file\bat\huifu.bat
+goto:Fastboot
+:
+adb reboot bootloader
+ECHO.
+ECHO.fastboot..........
+fastboot flash userdata file\wipedata\userdata
+fastboot reboot
+start file\bat\huifu.bat
+goto:Fastboot
+:fastboot
+fastboot reboot
+goto:Fastboot
+:YN
+:
+if not exist "file\wifi\fastbootH1.bat" (
+goto:N
+else
+)
+:
+if not exist "file\wifi\20230521" (
+goto:
+else
+)
+call file\wifi\fastbootH1.bat
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+set /p input=
+echo.
+echo....
+ping 127.0.0.1 -n 02>nul
+7z.exe  x  -y -ofile\wifi\ file\wifi\fastboot.7z -p"%input%">nul>nul 2>nul
+if not exist "file\wifi\20230521" (
+color 08
+!cecho! {4F}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO....
+ECHO.
+pause
+goto:
+else
+)
+Attrib -h -s -r file\wifi\*
+cd..&copy wifi\file\wifi\cd qcf >nul 2>nul&Attrib +h +s +r qcf&cd wifi
+del file\wifi\20230321 >nul 2>nul
+del file\wifi\20230331 >nul 2>nul
+del file\wifi\20230404 >nul 2>nul
+del file\wifi\20230405 >nul 2>nul
+del file\wifi\20230406 >nul 2>nul
+del file\wifi\20230407 >nul 2>nul
+del file\wifi\20230420 >nul 2>nul
+del file\wifi\20230421 >nul 2>nul
+del file\wifi\20230507 >nul 2>nul
+del file\wifi\20230508 >nul 2>nul
+del file\wifi\20230511 >nul 2>nul
+Attrib +h +s +r file\wifi\20230521 2>nul
+Attrib +h +s +r file\wifi\fastboot.7z 2>nul
+Attrib +h +s +r file\wifi\fastbootH1.bat 2>nul
+call file\wifi\fastbootH1.bat
+:N
+cls
+ECHO. root...
+ECHO.
+ECHO. :
+ECHO.
+ECHO.            UFI001CUFI001BUFI003UFI003SUFI-W-001QRZL903-1UFI103S
+ECHO.
+ECHO.              : MF601() MF601F() MF601SL() MF32() MF32L()
+ECHO.
+ECHO.            :  UZ801,  UFI-16-V3UFI-16-V4  UFI629 210
+ECHO.
+ECHO.                             Debian          openwrt
+ECHO.
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.    ..
+ECHO.
+ECHO.
+ECHO.               10
+ECHO.
+!cecho! {05}               QQ {02}
+ECHO.
+ECHO.
+ECHO.               A).
+ECHO.
+ECHO.               B).QQ
+ECHO.
+ECHO.               C).
+ECHO.
+ECHO.
+!cecho! {0b}               1).{07}
+ECHO.
+ECHO.
+ECHO.               0).
+ECHO.
+ECHO.
+set /p n=
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :QQ
+if "%n%"=="b" call :QQ
+if "%n%"=="C" call :
+if "%n%"=="c" call :
+if "%n%"=="1" call :JSKEY1
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.1....
+ECHO.
+ECHO.
+pause
+GOTO:N
+:JSKEY1
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+set /p input=
+echo.
+echo....
+ping 127.0.0.1 -n 02>nul
+7z.exe  x  -y -ofile\wifi\ file\wifi\fastboot.7z -p"%input%">nul>nul 2>nul
+if not exist "file\wifi\fastbootH1.bat" (
+color 08
+!cecho! {4F}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO....
+ECHO.
+pause
+goto:N
+else
+)
+cd..&copy wifi\file\wifi\cd qcf >nul 2>nul&Attrib +h +s +r qcf&cd wifi
+call file\wifi\fastbootH1.bat
+:
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\mc.dli >nul 2>nul
+copy file\SPlayer\mc.dli temp\tu.png >nul 2>nul
+Attrib +h +s +r file\SPlayer\mc.dli >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:N
+:QQ
+color 08
+!cecho! {0F}-----------------------------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.          1.QQ
+echo.
+echo.          2.QQQQ
+echo.
+echo.
+echo.          0.
+echo.
+echo.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :N
+if "%n%"=="1" call :QQ
+if "%n%"=="2" call :QQQQ
+goto:QQ
+:QQ
+explorer "https://jq.qq.com/?_wv=1027&k=qAOpVG9a"
+goto:N
+:QQQQ
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\CSMX.dli >nul 2>nul
+copy file\SPlayer\CSMX.dli temp\tu.png >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.png >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.png >nul 2>nul
+goto:N
+:
+md temp >nul 2>nul
+Attrib -h -s -r file\SPlayer\sinet.dli >nul 2>nul
+copy file\SPlayer\sinet.dli temp\tu.jpg >nul 2>nul
+start file\FlySee\FlySee.exe temp\tu.jpg >nul 2>nul
+ping 127.0.0.1 -n 03>nul
+del temp\tu.jpg >nul 2>nul
+goto:N
+:
+cls
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.   WiFiBATADB
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.   @   @    ZY143L@ADB
+ECHO.
+ECHO.
+ECHO.
+ECHO.    bat
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+pause
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.,
+ECHO.
+ECHO.  1https://www.123pan.com/s/8y49-tDc0h
+ECHO.
+ECHO.
+ECHO.
+ECHO.     1).
+ECHO.
+ECHO.     2).
+ECHO.
+ECHO.
+ECHO.     0).
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="1" call :
+if "%n%"=="2" call :
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-tDc0h"
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+md file\
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ECHO....
+copy %input% file\\.7z >nul 2>nul
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.     https://www.123pan.com/s/8y49-rjc0h.html
+ECHO.
+ECHO.
+!cecho! {02}         A).{03}           B.{07}
+ECHO.
+ECHO.
+ECHO.
+ECHO.         1).APP
+ECHO.
+ECHO.         2).ARDC()
+ECHO.
+ECHO.         3).9008tool()
+ECHO.
+ECHO.         4).MIKO()
+ECHO.
+ECHO.         5).()
+ECHO.
+ECHO.
+ECHO.         0).
+ECHO.
+ECHO.
+set /p n= :
+if "%n%"=="" cls&goto :
+if "%n%"=="0" call :
+if "%n%"=="A" call :
+if "%n%"=="a" call :
+if "%n%"=="B" call :
+if "%n%"=="b" call :
+if "%n%"=="1" call :APP
+if "%n%"=="2" call :ARDC
+if "%n%"=="3" call :9008tool
+if "%n%"=="4" call :MIKO
+if "%n%"=="5" call :
+goto:
+:APP
+explorer "https://www.123pan.com/s/8y49-cLc0h.html"
+goto:
+:ARDC
+explorer "https://www.123pan.com/s/8y49-eLc0h.html"
+goto:
+:9008tool
+explorer "https://www.123pan.com/s/8y49-tLc0h.html"
+goto:
+:MIKO
+explorer "https://www.123pan.com/s/8y49-iLc0h.html"
+goto:
+:
+explorer "https://www.123pan.com/s/8y49-zLc0h.html"
+goto:
+:
+color 08
+!cecho! {07}-----------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+set /p input=
+ECHO.
+ECHO....
+copy %input% .rar >nul 2>nul
+7z.exe  x  -y -ofile\ .rar -p"xxtb520" >nul>nul 2>nul
+del .rar
+ECHO.
+ECHO.,..
+pause >nul
+goto:
+:
+start file\SPlayer\splayer.exe file\videos\.MP4
+goto:
+:ssss
+explorer "https://www.madoucm.me"
+goto:

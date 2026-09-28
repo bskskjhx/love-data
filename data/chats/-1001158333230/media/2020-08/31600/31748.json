@@ -1,0 +1,497 @@
+[{
+  "pkg": "lantern-installer",
+  "MD5": "FA67B36B112AF7E5927AEA125A26D0F1",
+  "source": "Lantern"
+},
+  {
+    "pkg": "com.golden.freegate",
+    "MD5": "6BC1A28F17404C9F7978857D756956E8",
+    "source": "；蓝光"
+  },
+
+
+  {
+    "pkg": "us.ultrasurf.mobile.ultrasurf",
+    "MD5": "71230E9F1982773511F716E51D75E220",
+    "source": "Ultrareach"
+  },
+  {
+    "pkg": "us.ultrasurf.mobile.ultrasurf",
+    "MD5": "8C56CB6EECCDBFBDB7CA1F3EEA065465",
+    "source": "Ultrareach"
+  },
+  {
+    "pkg": "us.ultrasurf.mobile.ultrasurf",
+    "MD5": "F2E2E244A7128B7B664EE23DFC4A4A62",
+    "source": "Ultrareach"
+  },
+  {
+    "pkg": "us.ultrasurf.mobile.ultrasurf",
+    "MD5": "8714684699903E48AC4F83915088BE0B",
+    "source": "Ultrareach"
+  },
+  {
+    "pkg": "us.ultrasurf.mobile.ultrasurf",
+    "MD5": "3A6D417251F613F4DCBB5CFE203F155B",
+    "source": "Ultrareach"
+  },
+
+
+
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "7CB08E84DD0078B8F492BC58CB02AAC2",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "A9F254A5DF1AF0E6112997B524D5910E",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "E8B43C7B3720B207AEF698978F36A4C0",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "CF4952F3673AA289C77BB6529D1476CB",
+    "source": "Lantern"
+  },
+
+
+
+  {
+    "pkg": "org.greatfire.freebrowser",
+    "MD5": "38974C8F7A8CD7B4BC162D188FEF4D66",
+    "source": "Greatfire.org"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "3B09B1B50AF2DC92FFF3573C1FF7DC06",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "5D0DDB41DF534ED162AA8FB7FBD86FB4",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "F0BE4CBD031E80C96C669B6E47409F3C",
+    "source": "Lantern"
+  },
+  {
+    "pkg": "org.getlantern.lantern",
+    "MD5": "33089E97F5FE391C13BE07D9914E5D91",
+    "source": "Lantern"
+  },
+
+
+
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "8190E0ABA73BAF88E5D17F927D36DA66",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "EC73B3DBE56318BBF2EDC4D5B9FC5337",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "3153911E13065CF7687A950F5873C5C1",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "9F9943216943C435BC660614C6F7FEF2",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "6BDC4C23354A9A7295360CF40DC317E6",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "E2ADF726875741EB8A7A55D33BE14A7C",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "736FB41F6CCD98B420B62DCCDB6C57CC",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "A0697D4ECE0B0F6E40A11EC2A0577348",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "818D6C695FD47570BAA653EB523CCD1D",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "3C38DD7B1D2F3D47BBAE331BDE5F572A",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "A5D2A1CD4A27F9B7E6B7BB99E9DF9CF9",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "6ABAF42E65FF470CDE31B1511D3027C5",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "75F6DABF00D672191F60BE1602418D51",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "C20280109A385EAE9B2DEDD324244D75",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "6FC60D3E0DB6401698F63E74275C36E7",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "35634111541990BB026A782B7C0E520B",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "0B2547584D2E3E4C33E1B94A64B842A0",
+    "source": "NordVPN"
+  },
+  {
+    "pkg": "com.nordvpn.android",
+    "MD5": "62B6BB0720431B1677CF6178BCFACD2D",
+    "source": "NordVPN"
+  },
+
+
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "FC5652632B3EC22C1D8E41C366BC6F5C",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "3D73DB243A0079D44B18CB4C71DE3AD3",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "E8FE439953222EF31175AE08C7D0A7F0",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "1535D4B337EF5A398D6187E27B2D3498",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "01A749D745BF5F26796012B363066815",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "15376C74F53BCDB1D1B46A9AAD657D8E",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "B5052B7D9C6308FCD94A72E2BAC59EDD",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "BAA0EA179FD268F04C755A52DD2CBC21",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "21298F7441578EAF924A3D9511B66B45",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "324501C3D635F1BE1D0F30F57E615D6F",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "55DB03741C8C0949A71FE7A4AA5E73E6",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "3CF4A0A238B5388D0DBF7B81F5861920",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "D5FA994FF350FEBE1F5D4A3737146193",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "D4068D1E6DA3427D7AE8AA4139914D41",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "157FF9E78A4BEE6F3A644C96C0DE0FD9",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "30A0A4EED6ED984D848D45B12729D7E0",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "9AF0AA274043F6F6856D2B6D45E2AC32",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "97823CDBE49E30D158AE18B83ED6A2BD",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.thunder.vpn",
+    "MD5": "AD6CDBDDEC82ED4A6AF300C98E088B6D",
+    "source": "Signal Lab"
+  },
+
+
+  {
+    "pkg": "com.xfx.surfvpn",
+    "MD5": "98F4EE21D3835F0C50A32CDAE7600B9C",
+    "source": "XSoft inc"
+  },
+  {
+    "pkg": "com.xfx.surfvpn",
+    "MD5": "6F3B7DA61DF864AAD31EEB7CBB34DDF4",
+    "source": "XSoft inc"
+  },
+  {
+    "pkg": "com.xfx.surfvpn",
+    "MD5": "3DFA4C9B1A578657E7A3997C8E3E7AA7",
+    "source": "XSoft inc"
+  },
+  {
+    "pkg": "com.xfx.surfvpn",
+    "MD5": "377C0D096586A251EB057016C77B9C2B",
+    "source": "XSoft inc"
+  },
+  {
+    "pkg": "com.xfx.surfvpn",
+    "MD5": "29F6226807D84D4C0D615742068C1DEA",
+    "source": "XSoft inc"
+  },
+
+
+  {
+    "pkg": "com.jrzheng.supervpnfree",
+    "MD5": "09667A7FF9C980D90594966034E5ED8F",
+    "source": "SuperSoftTech"
+  },
+  {
+    "pkg": "com.jrzheng.supervpnfree",
+    "MD5": "32C5AA6756BA7D8B2E96C1AE263BDC4B",
+    "source": "SuperSoftTech"
+  },
+  {
+    "pkg": "com.jrzheng.supervpnfree",
+    "MD5": "9063D17E4019B1D153AFA53C3BA41241",
+    "source": "SuperSoftTech"
+  },
+  {
+    "pkg": "com.jrzheng.supervpnfree",
+    "MD5": "FB802A37E7FBDBEB9ACC55F021994CEC",
+    "source": "SuperSoftTech"
+  },
+
+
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "DAFD22AC2C44BC5BD54BCE93626C09AD",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "0A473CE0E41760B52ED45461D610879F",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "DBA97E68AA96D8FCF57A7EEBEEA0B17F",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "B7475061BAD5BDD37E45E52FA1EF4265",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "295376FF9EC08F652CAEF99156272947",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "1D41411EA46D28E139E7D123FC63B066",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "62382B4F987AAC306661AE64ACF4D521",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "EFEB6F4E1824DE2916AF3780811BAB08",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "940B7CE7B2322D23DD0B38EB4F2862C4",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "ADC8DAAEB75872DD4012397F50005B5F",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "FA52D6A1FD6AA4EC17B56F40A9E6753E",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "124B55B8AC56C5A4F1AC975744A5CB82",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "573868BEF2D9AB578182F04ABFD52405",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "C9F3520BFA8E7165D0E6D1B5C6775896",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "AD07AED07AA7C6DF79C41492716118FE",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "4DFEFF76F34A8C78779CE8659E72F203",
+    "source": "Signal Lab"
+  },
+  {
+    "pkg": "com.fast.free.unblock.secure.vpn",
+    "MD5": "0104784F7BF4E8CB8AA42E20C4203FD0",
+    "source": "Signal Lab"
+  },
+
+
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "70C3578FB0FE5B234BB07628E501A81E",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "FA2B765A31438DE3F49EDA095A26C120",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "64F6B0D19B2097E215A486F971A09CB9",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "CF5BD4D5866BFD28B9BCB0068AC545E1",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "8CB26D1B02131C84BC991569095750DD",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "8CA039739AD1F9034FB6F09D6E61D76C",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "1B9026946B2D6BFA733C67F6C841FB13",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "37F4846FE09C33CDA66E4914F339BB6B",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "C2C40A3A4FBDFF0B29B149F810A51566",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "87D2D0BEC9EC530E74DBCFA2FEC19AE1",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "7DFB40397359C993280F9BAC1801269F",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "3C5F9D747686B3BC58CDD22674DFDDF2",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "A91823FF29C0ED5790E87135E8664D73",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "4BB910826AED927E28CF0DD0BE671552",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "94E4CC96F3C9D99D87A6142B342C4DE0",
+    "source": "ExpressVPN"
+  },
+  {
+    "pkg": "com.expressvpn.vpn",
+    "MD5": "223A26F4AD79580E0FF69B3334A66DFA",
+    "source": "ExpressVPN"
+  }
+]
