@@ -121,6 +121,10 @@
 {"id":967709,"date":1790644041,"from":880075932,"text":"那是二手","reply":{"id":967701,"from":331875747,"text":"三星不是说跳水厉害吗？"}},
 {"id":967710,"date":1790644047,"from":880075932,"text":"或者拼多多"},
 {"id":967711,"date":1790644367,"from":880075932,"text":"除非你要用三星pay，不然感觉三星也没什么必要买"},
-{"id":967712,"date":1790644390,"from":880075932,"text":"刚刚真神了，重启自动给我调到1nit亮度\n还以为重启个手机重启废了"},
-{"id":967713,"date":1790645352,"from":5943386652,"text":"有没有带root的O3测一下setprop后的音频延时\npersist.vendor.audio.aaudio.support=true\nvendor.audio.ull.playback.support=true","ents":[["url",28,35],["url",69,33]]}
+{"id":967712,"date":1790644390,"from":880075932,"text":"刚刚真神了，重启自动给我调到1nit亮度\n还以为重启个手机重启废了","reacts":[["😁",1]]},
+{"id":967713,"date":1790645352,"from":5943386652,"text":"有没有带root的O3测一下setprop后的音频延时\npersist.vendor.audio.aaudio.support=true\nvendor.audio.ull.playback.support=true","ents":[["url",28,35],["url",69,33]]},
+{"id":967714,"date":1790645606,"from":1541031247,"text":"群主有"},
+{"id":967715,"date":1790645630,"from":1541031247,"text":"三星pay也锁区","reply":{"id":967711,"from":880075932,"text":"除非你要用三星pay，不然感觉三星也没什么必要买"}},
+{"id":967716,"date":1790645632,"from":1541031247,"media":{"type":"sticker","size":233949,"mime":"video/webm","w":512,"h":170,"dur":3,"emoji":"😂","file":"chats/-1001158333230/media/2026-09/967600/967716.webm"}},
+{"id":967717,"date":1790645643,"from":1541031247,"text":"真要pay的估计真都买苹果了"}
 ]
