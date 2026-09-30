@@ -387,5 +387,7 @@
 {"id":968986,"date":1790798352,"from":5543063792,"text":"已反馈给Apple"},
 {"id":968987,"date":1790798874,"from":648806410,"text":"有版本号的话用AuroraStore下载指定版本","reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
 {"id":968988,"date":1790798882,"from":648806410,"text":"从其他机器提取的可能工作不正常"},
-{"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"}
+{"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"},
+{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA 要对 Windows 10 停止驱动支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",34,94]],"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"views":79},
+{"id":968991,"date":1790801459,"from":7352338657,"media":{"type":"sticker","size":207488,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/968800/968991.webm"},"reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA 要对 Windows 10 停止驱动支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-wi"}}
 ]
