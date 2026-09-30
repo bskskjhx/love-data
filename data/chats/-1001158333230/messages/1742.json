@@ -210,7 +210,7 @@
 {"id":968301,"date":1790705548,"from":609517172,"text":"Hey there Dialone, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":968302,"date":1790706120,"from":7352338657,"media":{"type":"sticker","size":138555,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"👍","file":"chats/-1001158333230/media/2026-09/968200/968302.webm"}},
 {"id":968303,"date":1790706982,"from":505585726,"text":"竟能如此相像","reply":{"id":968221,"from":-1001231173515,"text":"[图片] 群友："}},
-{"id":968304,"date":1790708225,"from":1200401626,"text":"Oppo issues DMCA notices to updater/OTA tracker repos related to Realme, OnePlus and Oppo on GitHub\n\nQ. What technological measures do you have in place and how do they effectively control access to your copyrighted material?\nOppo: We have updated to the new version of the API, introducing a new encryption mechanism.\n\nQ. How is the accused project designed to circumvent your technological protection measures?\nOppo: They cracked the new encryption mechanism and released its open-source code. 😭😭😭\n\nhttps://github.com/github/dmca/blob/fc8044455b2064648a1a7972e9038217038d1e38/2026/09/2026-09-01-coloros.md","ents":[["b",0,99],["b",100,4],["b",226,6],["i",232,86],["b",319,4],["b",412,83],["i",419,76],["b",502,1],["url",504,106]],"media":{"type":"photo","w":1353,"h":197,"size":41892,"file":"chats/-1001158333230/media/2026-09/968200/968304.jpg"},"fwd":{"name":"Tech & Leaks Zone","date":1790707735},"reacts":[["😁",1],["🤬",1]],"views":2336},
+{"id":968304,"date":1790708225,"from":1200401626,"text":"Oppo issues DMCA notices to updater/OTA tracker repos related to Realme, OnePlus and Oppo on GitHub\n\nQ. What technological measures do you have in place and how do they effectively control access to your copyrighted material?\nOppo: We have updated to the new version of the API, introducing a new encryption mechanism.\n\nQ. How is the accused project designed to circumvent your technological protection measures?\nOppo: They cracked the new encryption mechanism and released its open-source code. 😭😭😭\n\nhttps://github.com/github/dmca/blob/fc8044455b2064648a1a7972e9038217038d1e38/2026/09/2026-09-01-coloros.md","ents":[["b",0,99],["b",100,4],["b",226,6],["i",232,86],["b",319,4],["b",412,83],["i",419,76],["b",502,1],["url",504,106]],"media":{"type":"photo","w":1353,"h":197,"size":41892,"file":"chats/-1001158333230/media/2026-09/968200/968304.jpg"},"fwd":{"name":"Tech & Leaks Zone","date":1790707735},"reacts":[["😁",1],["🤬",1]],"views":2345},
 {"id":968305,"date":1790708238,"from":1200401626,"text":"@MlgmXyysd","ents":[["mention",0,10]],"reply":{"id":968304,"from":1200401626,"text":"[图片] Oppo issues DMCA notices to updater/OTA tracker repos related to Realme, OnePlus and Oppo on GitHub  Q. What techno"}},
 {"id":968306,"date":1790708440,"from":648806410,"text":"lol i reported them and advise to dmca","edit":1790708455,"reply":{"id":968304,"from":1200401626,"text":"[图片] Oppo issues DMCA notices to updater/OTA tracker repos related to Realme, OnePlus and Oppo on GitHub  Q. What techno"}},
 {"id":968307,"date":1790708469,"from":1200401626,"text":"with this reason ?","reply":{"id":968306,"from":648806410,"text":"lol i reported them and advise to dmca"}},
@@ -375,5 +375,16 @@
 {"id":968469,"date":1790751644,"from":470460877,"text":"只要没快应用就行","reply":{"id":968467,"from":1472644035,"text":"国际版也是OriginOS"}},
 {"id":968470,"date":1790751829,"from":1051201244,"text":"這是什麼app?","reply":{"id":966827,"from":331875747,"text":"[图片]"}},
 {"id":968471,"date":1790754771,"from":8721285449,"svc":{"type":"join"}},
-{"id":968472,"date":1790754771,"from":609517172,"text":"Hey there 泪如死水, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":968472,"date":1790754771,"from":609517172,"text":"Hey there 泪如死水, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":968473,"date":1790757087,"from":1526182805,"text":"我買來就是單純想換掉12SU 但我的12SU也有刷root什麼的","reply":{"id":968396,"from":5543063792,"text":"买OPPO想解锁 我觉得毫无必要 除非你机器是换下来的或者你单纯买来玩的"}},
+{"id":968474,"date":1790757110,"from":1526182805,"text":"13U台版太貴了 2200rmb起"},
+{"id":968475,"date":1790757111,"from":1526182805,"text":"11u又燒主機板"},
+{"id":968476,"date":1790757112,"from":1526182805,"text":"這確實是 有fbd就能隨便刷系統什麼的","reply":{"id":968397,"from":1541031247,"text":"有fastbootd够用"}},
+{"id":968477,"date":1790757540,"from":1526182805,"text":"funtouch真不好用","reply":{"id":968468,"from":1472644035,"text":"乐触皮丢了"}},
+{"id":968478,"date":1790757556,"from":1526182805,"text":"有點套皮的原生"},
+{"id":968479,"date":1790757562,"from":1048457726,"text":"检测root","reply":{"id":966828,"from":331875747,"text":"Apple Music会检测intergrity吗？换了两个keybox还是不能登录"}},
+{"id":968480,"date":1790757634,"from":1018446936,"text":"？你怎么在这","reply":{"id":968479,"from":1048457726,"text":"检测root"}},
+{"id":968481,"date":1790757644,"from":5004780197,"svc":{"type":"join"}},
+{"id":968482,"date":1790757644,"from":609517172,"text":"Hey there 9600彩娱乐-瑶瑶, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":968483,"date":1790757755,"from":1794475072,"text":"你怎么在这\n大帝巡视人间","ents":[["s",0,5]],"reply":{"id":968480,"from":1018446936,"text":"？你怎么在这"}}
 ]
