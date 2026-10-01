@@ -388,7 +388,7 @@
 {"id":968987,"date":1790798874,"from":648806410,"text":"有版本号的话用AuroraStore下载指定版本","reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
 {"id":968988,"date":1790798882,"from":648806410,"text":"从其他机器提取的可能工作不正常"},
 {"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"},
-{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",8]],"views":1198},
+{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",8]],"views":1242},
 {"id":968991,"date":1790801459,"from":7352338657,"media":{"type":"sticker","size":207488,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/968800/968991.webm"},"reacts":[["❤",1]],"reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
 {"id":968993,"date":1790802350,"from":609517172,"text":"Hey there 安全提醒, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":968994,"date":1790803150,"from":6615101524,"text":"啊","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
@@ -449,5 +449,9 @@
 {"id":969049,"date":1790824919,"from":707953138,"text":"也不用退账号也不用密码"},
 {"id":969050,"date":1790824925,"from":707953138,"text":"也不会刷机"},
 {"id":969051,"date":1790824928,"from":707953138,"text":"也不用回锁"},
-{"id":969052,"date":1790824939,"from":707953138,"text":"更不用强制回锁"}
+{"id":969052,"date":1790824939,"from":707953138,"text":"更不用强制回锁"},
+{"id":969053,"date":1790825299,"from":1794475072,"text":"禁止恶意评论售后"},
+{"id":969054,"date":1790825315,"from":1794475072,"text":"否则我就发到米安和米站","ents":[["a",6,2,"https://www.coolapk.com/"],["a",9,2,"https://www.bilibili.com/"]],"edit":1790825362},
+{"id":969055,"date":1790825332,"from":473107522,"text":"禁止恶意含沙射米"},
+{"id":969056,"date":1790825657,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/969000/969056.webm"}}
 ]
