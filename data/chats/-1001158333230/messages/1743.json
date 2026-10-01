@@ -388,7 +388,7 @@
 {"id":968987,"date":1790798874,"from":648806410,"text":"有版本号的话用AuroraStore下载指定版本","reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
 {"id":968988,"date":1790798882,"from":648806410,"text":"从其他机器提取的可能工作不正常"},
 {"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"},
-{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",7]],"views":1039},
+{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",7]],"views":1075},
 {"id":968991,"date":1790801459,"from":7352338657,"media":{"type":"sticker","size":207488,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/968800/968991.webm"},"reacts":[["❤",1]],"reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
 {"id":968993,"date":1790802350,"from":609517172,"text":"Hey there 安全提醒, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":968994,"date":1790803150,"from":6615101524,"text":"啊","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
@@ -414,5 +414,14 @@
 {"id":969014,"date":1790817179,"from":648806410,"text":"国际版有个 GPSU 功能，用来更新 APEX 模块"},
 {"id":969015,"date":1790818579,"from":8822407105,"text":"这就说明手机后台正在收集个人的App信息，所以豆包手机不能用。流氓最懂流氓，所以我相信腾讯的正确判断","reply":{"id":965886,"from":5694534255,"text":"一个豆包能有什么操作，封杀借口"}},
 {"id":969016,"date":1790818644,"from":868035986,"text":"我点踩了","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
-{"id":969017,"date":1790819143,"from":1794475072,"text":"谢谢。\n\n此外，由于App Store&Google Play的更新推送是灰度(A/B Test)的，更新检查是残废的(即便标记为正式发布，仍不会第一时间向全体用户推送)，加入后请前往app的商店页面主动检查更新。","media":{"type":"photo","w":582,"h":1280,"size":50416,"file":"chats/-1001158333230/media/2026-10/969000/969017.jpg"},"reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}}
+{"id":969017,"date":1790819143,"from":1794475072,"text":"谢谢。\n\n此外，由于App Store&Google Play的更新推送是灰度(A/B Test)的，更新检查是残废的(即便标记为正式发布，仍不会第一时间向全体用户推送)，加入后请前往app的商店页面主动检查更新。","media":{"type":"photo","w":582,"h":1280,"size":50416,"file":"chats/-1001158333230/media/2026-10/969000/969017.jpg"},"reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
+{"id":969018,"date":1790822218,"from":1391809469,"svc":{"type":"join"}},
+{"id":969019,"date":1790822218,"from":609517172,"text":"Hey there 麟, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":969020,"date":1790822297,"from":891951610,"text":"妈的一觉醒来am自动更新了咋变成这个丑b样子了"},
+{"id":969021,"date":1790822301,"from":891951610,"media":{"type":"sticker","size":17272,"mime":"image/webp","w":512,"h":512,"emoji":"📖","file":"chats/-1001158333230/media/2026-10/969000/969021.webp"}},
+{"id":969022,"date":1790822412,"from":5543063792,"text":"我是手机这边没有显示测试版，但是平板那边显示了","reply":{"id":969017,"from":1794475072,"text":"[图片] 谢谢。  此外，由于App Store&Google Play的更新推送是灰度(A/B Test)的，更新检查是残废的(即便标记为正式发布，仍不会第一时间向全体用户推送)，加入后请前往app的商店页面主动检查更新。"}},
+{"id":969023,"date":1790822544,"from":331875747,"text":"有了"},
+{"id":969024,"date":1790822572,"from":331875747,"media":{"type":"photo","w":1164,"h":2560,"size":180961,"file":"chats/-1001158333230/media/2026-10/969000/969024.jpg"},"reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
+{"id":969025,"date":1790822728,"from":331875747,"media":{"type":"photo","w":1164,"h":2560,"size":260341,"file":"chats/-1001158333230/media/2026-10/969000/969025.jpg"}},
+{"id":969026,"date":1790822729,"from":331875747,"text":"感觉没有目前正式版好看"}
 ]
