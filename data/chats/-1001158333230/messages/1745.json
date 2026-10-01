@@ -203,5 +203,6 @@
 {"id":969806,"date":1790879627,"from":5543063792,"text":"我的广电虽然是纯流量卡但是有VoLTE的"},
 {"id":969807,"date":1790879680,"from":891951610,"text":"并非不明原因"},
 {"id":969808,"date":1790879688,"from":891951610,"text":"你这俩玩意容易冲突的很"},
-{"id":969809,"date":1790879691,"from":891951610,"media":{"type":"sticker","size":5244,"mime":"image/webp","w":512,"h":326,"emoji":"😑","file":"chats/-1001158333230/media/2026-10/969800/969809.webp"}}
+{"id":969809,"date":1790879691,"from":891951610,"media":{"type":"sticker","size":5244,"mime":"image/webp","w":512,"h":326,"emoji":"😑","file":"chats/-1001158333230/media/2026-10/969800/969809.webp"}},
+{"id":969810,"date":1790880561,"from":780203240,"text":"我还在用1060？新驱动对我而言只会是负优化…","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}}
 ]
