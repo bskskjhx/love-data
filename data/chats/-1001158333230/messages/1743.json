@@ -388,7 +388,7 @@
 {"id":968987,"date":1790798874,"from":648806410,"text":"有版本号的话用AuroraStore下载指定版本","reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
 {"id":968988,"date":1790798882,"from":648806410,"text":"从其他机器提取的可能工作不正常"},
 {"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"},
-{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790803451,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"views":857},
+{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",1]],"views":893},
 {"id":968991,"date":1790801459,"from":7352338657,"media":{"type":"sticker","size":207488,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/968800/968991.webm"},"reacts":[["❤",1]],"reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
 {"id":968993,"date":1790802350,"from":609517172,"text":"Hey there 安全提醒, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":968994,"date":1790803150,"from":6615101524,"text":"啊","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
@@ -398,7 +398,7 @@
 {"id":968998,"date":1790805107,"from":8842822910,"text":"静息能量突然变少然后很多 0.08 的数据","media":{"type":"photo","w":589,"h":1280,"size":58202,"file":"chats/-1001158333230/media/2026-10/968800/968998.jpg"}},
 {"id":968999,"date":1790805110,"from":8842822910,"text":"太诡异了"},
 {"id":969000,"date":1790805115,"from":8842822910,"media":{"type":"sticker","size":30962,"mime":"image/webp","w":512,"h":481,"emoji":"☀️","file":"chats/-1001158333230/media/2026-10/969000/969000.webp"}},
-{"id":969001,"date":1790808899,"from":357270770,"text":"好在哪里","reply":{"id":968995,"from":5985511142,"text":"这是好事啊"}},
+{"id":969001,"date":1790808899,"from":357270770,"text":"好在哪里","reacts":[["👍",1]],"reply":{"id":968995,"from":5985511142,"text":"这是好事啊"}},
 {"id":969002,"date":1790813492,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":968956,"from":648806410,"text":"正在测试小米 18pro 呢"}},
 {"id":969003,"date":1790813494,"from":400911764,"text":"| ω・`)","reply":{"id":969002,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
 {"id":969004,"date":1790816792,"from":7798701997,"svc":{"type":"join"}},
@@ -411,5 +411,7 @@
 {"id":969011,"date":1790817100,"from":648806410,"text":"在让ai修"},
 {"id":969012,"date":1790817132,"from":774093367,"media":{"type":"sticker","size":45796,"mime":"image/webp","w":512,"h":512,"emoji":"❤️","file":"chats/-1001158333230/media/2026-10/969000/969012.webp"},"reply":{"id":969010,"from":648806410,"text":"Play 系统更新把系统蓝牙干废了"}},
 {"id":969013,"date":1790817158,"from":648806410,"text":"国行系统没这功能","reply":{"id":969012,"from":774093367,"text":"❤️ 贴纸"}},
-{"id":969014,"date":1790817179,"from":648806410,"text":"国际版有个 GPSU 功能，用来更新 APEX 模块"}
+{"id":969014,"date":1790817179,"from":648806410,"text":"国际版有个 GPSU 功能，用来更新 APEX 模块"},
+{"id":969015,"date":1790818579,"from":8822407105,"text":"这就说明手机后台正在收集个人的App信息，所以豆包手机不能用。流氓最懂流氓，所以我相信腾讯的正确判断","reply":{"id":965886,"from":5694534255,"text":"一个豆包能有什么操作，封杀借口"}},
+{"id":969016,"date":1790818644,"from":868035986,"text":"我点踩了","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}}
 ]
