@@ -388,7 +388,7 @@
 {"id":968987,"date":1790798874,"from":648806410,"text":"有版本号的话用AuroraStore下载指定版本","reply":{"id":968963,"from":5543063792,"text":"挖到测试链接了，但是不知道为什么我Play没弹测试版更新（"}},
 {"id":968988,"date":1790798882,"from":648806410,"text":"从其他机器提取的可能工作不正常"},
 {"id":968989,"date":1790798892,"from":648806410,"text":"现在全tm是apks 烦死个人"},
-{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",8]],"views":1242},
+{"id":968990,"date":1790800512,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了\n\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-plan-for-windows-10","ents":[["url",42,94]],"edit":1790818634,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1790800509},"reacts":[["👎",9]],"views":1269},
 {"id":968991,"date":1790801459,"from":7352338657,"media":{"type":"sticker","size":207488,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/968800/968991.webm"},"reacts":[["❤",1]],"reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
 {"id":968993,"date":1790802350,"from":609517172,"text":"Hey there 安全提醒, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":968994,"date":1790803150,"from":6615101524,"text":"啊","reply":{"id":968990,"from":-1001231173515,"text":"十月了，NVIDIA GeForce 驱动要对 Windows 10 停止支持了  https://nvidia.custhelp.com/app/answers/detail/a_id/5695/~/geforce-support-pla"}},
@@ -407,7 +407,7 @@
 {"id":969007,"date":1790816938,"from":648806410,"text":"蓝牙被 GPSU 干崩了","media":{"type":"photo","w":516,"h":365,"size":34302,"file":"chats/-1001158333230/media/2026-10/969000/969007.jpg"}},
 {"id":969008,"date":1790816941,"from":648806410,"text":"我服了"},
 {"id":969009,"date":1790817059,"from":774093367,"text":"这是在干啥"},
-{"id":969010,"date":1790817092,"from":648806410,"text":"Play 系统更新把系统蓝牙干废了","reply":{"id":969009,"from":774093367,"text":"这是在干啥"}},
+{"id":969010,"date":1790817092,"from":648806410,"text":"Play 系统更新把系统蓝牙干废了","reacts":[["😁",1]],"reply":{"id":969009,"from":774093367,"text":"这是在干啥"}},
 {"id":969011,"date":1790817100,"from":648806410,"text":"在让ai修"},
 {"id":969012,"date":1790817132,"from":774093367,"media":{"type":"sticker","size":45796,"mime":"image/webp","w":512,"h":512,"emoji":"❤️","file":"chats/-1001158333230/media/2026-10/969000/969012.webp"},"reply":{"id":969010,"from":648806410,"text":"Play 系统更新把系统蓝牙干废了"}},
 {"id":969013,"date":1790817158,"from":648806410,"text":"国行系统没这功能","reply":{"id":969012,"from":774093367,"text":"❤️ 贴纸"}},
@@ -453,5 +453,14 @@
 {"id":969053,"date":1790825299,"from":1794475072,"text":"禁止恶意评论售后"},
 {"id":969054,"date":1790825315,"from":1794475072,"text":"否则我就发到米安和米站","ents":[["a",6,2,"https://www.coolapk.com/"],["a",9,2,"https://www.bilibili.com/"]],"edit":1790825362},
 {"id":969055,"date":1790825332,"from":473107522,"text":"禁止恶意含沙射米"},
-{"id":969056,"date":1790825657,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/969000/969056.webm"}}
+{"id":969056,"date":1790825657,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/969000/969056.webm"}},
+{"id":969057,"date":1790826283,"from":331875747,"text":"小米换电池也不需要啊"},
+{"id":969058,"date":1790826410,"from":827228951,"text":"小米现在还有维修点嘛还是说和零售店在一起了"},
+{"id":969059,"date":1790826444,"from":891951610,"text":"绿线了如果还有屏就给换呢","reply":{"id":969046,"from":707953138,"text":"收了个8t"}},
+{"id":969060,"date":1790826469,"from":891951610,"media":{"type":"photo","w":2560,"h":1419,"size":521410,"file":"chats/-1001158333230/media/2026-10/969000/969060.jpg"},"reacts":[["❤",1]]},
+{"id":969061,"date":1790826474,"from":891951610,"text":"感觉不如："},
+{"id":969062,"date":1790826529,"from":891951610,"text":"还送了我一套充电器"},
+{"id":969063,"date":1790826533,"from":891951610,"media":{"type":"sticker","size":8362,"mime":"image/webp","w":512,"h":400,"emoji":"🙂","file":"chats/-1001158333230/media/2026-10/969000/969063.webp"}},
+{"id":969064,"date":1790826634,"from":5543063792,"text":"服务这么好","reply":{"id":969062,"from":891951610,"text":"还送了我一套充电器"}},
+{"id":969065,"date":1790826785,"from":1541031247,"text":"oppo售后确实挺好的","reply":{"id":969064,"from":5543063792,"text":"服务这么好"}}
 ]
