@@ -39,7 +39,7 @@
 {"id":970143,"date":1790953522,"from":868035986,"text":"翻了"},
 {"id":970144,"date":1790953867,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"},
 {"id":970145,"date":1790953968,"from":868035986,"text":"pp3复刻当年mi pad6 pro的孤儿命运","reply":{"id":970144,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"}},
-{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":89},
+{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":90},
 {"id":970147,"date":1790954546,"from":707953138,"media":{"type":"photo","w":1175,"h":2560,"size":225961,"file":"chats/-1001158333230/media/2026-10/970000/970147.jpg"}},
 {"id":970148,"date":1790954552,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-10/970000/970148.webm"},"reacts":[["❤",1]]},
 {"id":970149,"date":1790954580,"from":707953138,"text":"还有亡语说是"},
@@ -174,5 +174,12 @@
 {"id":970279,"date":1790963230,"from":707953138,"text":"那应该可以试试"},
 {"id":970280,"date":1790963278,"from":707953138,"text":"这个主要就是覆盖掉一些开机自启白名单，然后每次亮屏解锁把名单里的电池优化从无限制改成正常限制"},
 {"id":970281,"date":1790963298,"from":6608113823,"text":"更新到c17就修了免解"},
-{"id":970282,"date":1790963302,"from":6608113823,"text":"只能root用了"}
+{"id":970282,"date":1790963302,"from":6608113823,"text":"只能解锁用了","edit":1790963310},
+{"id":970283,"date":1790963311,"from":707953138,"text":"因为我没找到电池优化无限制白名单是有那个文件控制的"},
+{"id":970284,"date":1790963315,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/970200/970284.webm"}},
+{"id":970285,"date":1790963327,"from":707953138,"text":"我是彩笔"},
+{"id":970286,"date":1790963351,"from":707953138,"text":"就用的笨办法，每次亮屏自动执行一次"},
+{"id":970287,"date":1790963681,"from":707953138,"text":"反正ai告诉我这个实现方式基本没有性能开销，我就让他有个常驻进程了"},
+{"id":970288,"date":1790963713,"from":707953138,"text":"反正用很久了体感也没有待机耗电增加之类的问题"},
+{"id":970289,"date":1790964013,"from":1445849516,"media":{"type":"sticker","size":21028,"mime":"image/webp","w":512,"h":512,"emoji":"😐","file":"chats/-1001158333230/media/2026-10/970200/970289.webp"}}
 ]
