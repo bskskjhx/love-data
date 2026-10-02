@@ -39,7 +39,7 @@
 {"id":970143,"date":1790953522,"from":868035986,"text":"翻了"},
 {"id":970144,"date":1790953867,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"},
 {"id":970145,"date":1790953968,"from":868035986,"text":"pp3复刻当年mi pad6 pro的孤儿命运","reply":{"id":970144,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"}},
-{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":100},
+{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":101},
 {"id":970147,"date":1790954546,"from":707953138,"media":{"type":"photo","w":1175,"h":2560,"size":225961,"file":"chats/-1001158333230/media/2026-10/970000/970147.jpg"}},
 {"id":970148,"date":1790954552,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-10/970000/970148.webm"},"reacts":[["❤",1]]},
 {"id":970149,"date":1790954580,"from":707953138,"text":"还有亡语说是","reacts":[["😁",1]]},
@@ -201,5 +201,6 @@
 {"id":970306,"date":1790971024,"from":594317380,"media":{"type":"photo","w":2044,"h":522,"size":103269,"file":"chats/-1001158333230/media/2026-10/970200/970306.jpg"}},
 {"id":970307,"date":1790971028,"from":594317380,"text":"5个月前的更新"},
 {"id":970308,"date":1790971222,"from":594317380,"text":"检测内核模块和syscall是否被篡改，开机后一小时查一次，查到被篡改了只上报不拦截"},
-{"id":970309,"date":1790971252,"from":594317380,"text":"但是看了下算是有个kill switch","edit":1790971258}
+{"id":970309,"date":1790971252,"from":594317380,"text":"但是看了下算是有个kill switch","edit":1790971258},
+{"id":970310,"date":1790972133,"from":594317380,"text":"（没过TEE/Trustzone感觉形式大于实际作用","media":{"type":"file","size":1252001,"mime":"image/png","w":1251,"h":3725,"name":"image_2026-10-03_05-45-28.png","file":"chats/-1001158333230/media/2026-10/970200/970310.png","thumb":"chats/-1001158333230/media/2026-10/970200/970310_thumb.jpg"}}
 ]
