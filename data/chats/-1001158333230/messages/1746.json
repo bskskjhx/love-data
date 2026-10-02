@@ -39,7 +39,7 @@
 {"id":970143,"date":1790953522,"from":868035986,"text":"翻了"},
 {"id":970144,"date":1790953867,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"},
 {"id":970145,"date":1790953968,"from":868035986,"text":"pp3复刻当年mi pad6 pro的孤儿命运","reply":{"id":970144,"from":868035986,"text":"话说我今天一直纠结到底买一加pp2还是pp3，pp3没有类原生草死了"}},
-{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":76},
+{"id":970146,"date":1790954522,"from":470460877,"text":"LMNFlash Android 2.0 is now released.\nYou can now flash phone with another phone and USB-C to USB-C cable.","media":{"type":"photo","w":2560,"h":1920,"size":1078753,"file":"chats/-1001158333230/media/2026-10/970000/970146.jpg"},"fwd":{"name":"Hikari Calyx Tech","date":1790952899},"reacts":[["❤",1]],"views":79},
 {"id":970147,"date":1790954546,"from":707953138,"media":{"type":"photo","w":1175,"h":2560,"size":225961,"file":"chats/-1001158333230/media/2026-10/970000/970147.jpg"}},
 {"id":970148,"date":1790954552,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-10/970000/970148.webm"},"reacts":[["❤",1]]},
 {"id":970149,"date":1790954580,"from":707953138,"text":"还有亡语说是"},
@@ -146,5 +146,8 @@
 {"id":970250,"date":1790958842,"from":707953138,"text":"所以厂商都不动内核是吧"},
 {"id":970251,"date":1790958850,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/970200/970251.webm"}},
 {"id":970252,"date":1790958916,"from":5802487999,"text":"除了麒麟，xring，tensor之外都没怎么更新大版本内核的","reply":{"id":970250,"from":707953138,"text":"所以厂商都不动内核是吧"}},
-{"id":970253,"date":1790958926,"from":5802487999,"text":"还有些mtk低端u"}
+{"id":970253,"date":1790958926,"from":5802487999,"text":"还有些mtk低端u"},
+{"id":970254,"date":1790959215,"from":707953138,"text":"g99恒久远"},
+{"id":970255,"date":1790959233,"from":707953138,"text":"g99用了多少安卓大版本了"},
+{"id":970256,"date":1790959239,"from":707953138,"text":"现在还在用"}
 ]
