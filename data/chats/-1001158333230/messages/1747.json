@@ -213,7 +213,7 @@
 {"id":970820,"date":1791083961,"from":8978147532,"text":"6300就够了","reply":{"id":970797,"from":470460877,"text":"不打游戏的话估计7400都够"}},
 {"id":970821,"date":1791083980,"from":8978147532,"text":"百元机soc"},
 {"id":970822,"date":1791083985,"from":8978147532,"text":"开个微信还是可以的"},
-{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":262},
+{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":264},
 {"id":970824,"date":1791084268,"from":5799965478,"text":"好眼熟……"},
 {"id":970825,"date":1791084421,"from":470460877,"text":"LMNFlash就是我开发的啊"},
 {"id":970826,"date":1791088285,"from":707953138,"text":"mtk一直都是cpu挺好gpu一坨来着","reacts":[["👍",1]]},
@@ -321,5 +321,15 @@
 {"id":970929,"date":1791111241,"from":7292350442,"text":"有什么好玩的系统"},
 {"id":970930,"date":1791111366,"from":5506662351,"text":"直接刷个eu养老就行了"},
 {"id":970931,"date":1791111510,"from":8532603164,"text":"EU没有nfc公交卡"},
-{"id":970932,"date":1791111520,"from":8532603164,"text":"其他的挺好用的"}
+{"id":970932,"date":1791111520,"from":8532603164,"text":"其他的挺好用的"},
+{"id":970933,"date":1791111683,"from":1472644035,"media":{"type":"sticker","size":21444,"mime":"image/webp","w":512,"h":390,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/970800/970933.webp"},"reply":{"id":970926,"from":7292350442,"text":"我现在是 miboy 了"}},
+{"id":970934,"date":1791111697,"from":5506662351,"text":"我反正从来不用国内rom"},
+{"id":970935,"date":1791111772,"from":7292350442,"text":"我这个机器有 micare"},
+{"id":970936,"date":1791111779,"from":7292350442,"text":"micare 到 4 月份"},
+{"id":970937,"date":1791111794,"from":7292350442,"text":"而且最抽象的是，当时这个手机确实是我的国补资格买的"},
+{"id":970938,"date":1791111803,"from":7292350442,"text":"发票确实写的我名字"},
+{"id":970939,"date":1791111807,"from":7292350442,"media":{"type":"sticker","size":152046,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"6️⃣","file":"chats/-1001158333230/media/2026-10/970800/970939.webm"}},
+{"id":970940,"date":1791111823,"from":7292350442,"text":"我还真可以保修"},
+{"id":970941,"date":1791111890,"from":7292350442,"text":"所以我是必须用 CN 版系统了看起来"},
+{"id":970942,"date":1791112031,"from":8978147532,"media":{"type":"sticker","size":25282,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🚇","file":"chats/-1001158333230/media/2026-10/970800/970942.webm"}}
 ]
