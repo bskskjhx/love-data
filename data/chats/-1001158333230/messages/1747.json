@@ -213,7 +213,7 @@
 {"id":970820,"date":1791083961,"from":8978147532,"text":"6300就够了","reply":{"id":970797,"from":470460877,"text":"不打游戏的话估计7400都够"}},
 {"id":970821,"date":1791083980,"from":8978147532,"text":"百元机soc"},
 {"id":970822,"date":1791083985,"from":8978147532,"text":"开个微信还是可以的"},
-{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":259},
+{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":260},
 {"id":970824,"date":1791084268,"from":5799965478,"text":"好眼熟……"},
 {"id":970825,"date":1791084421,"from":470460877,"text":"LMNFlash就是我开发的啊"},
 {"id":970826,"date":1791088285,"from":707953138,"text":"mtk一直都是cpu挺好gpu一坨来着","reacts":[["👍",1]]},
@@ -267,5 +267,8 @@
 {"id":970875,"date":1791106303,"from":891951610,"text":"应该是","reply":{"id":970868,"from":258133673,"text":"就图里的这个元件负责传输图像raw数据"}},
 {"id":970876,"date":1791106329,"from":891951610,"text":"他cmos直接连rf小板的，中间没过isp"},
 {"id":970877,"date":1791106386,"from":891951610,"text":"应该是60GHz类似物","edit":1791106393,"reply":{"id":970866,"from":258133673,"text":"听说华为专利 实锤Z10用的就是毫米波通信，速率10Gbps"}},
-{"id":970878,"date":1791106513,"from":594317380,"text":"（你想的话也可以开放接口给你查的（","reply":{"id":970871,"from":1887638374,"text":"内核反作弊是只防游戏开挂，还是会被各类 APP 用于反用户 root？"}}
+{"id":970878,"date":1791106513,"from":594317380,"text":"（你想的话也可以开放接口给你查的（","reply":{"id":970871,"from":1887638374,"text":"内核反作弊是只防游戏开挂，还是会被各类 APP 用于反用户 root？"}},
+{"id":970879,"date":1791107453,"from":1663851031,"text":"但我不相信他只会前者","reply":{"id":970874,"from":648806410,"text":"只能前者"}},
+{"id":970880,"date":1791107461,"from":1663851031,"text":"就和小米解锁bl一样"},
+{"id":970881,"date":1791107463,"from":1663851031,"media":{"type":"gif","size":273752,"mime":"video/mp4","w":410,"h":230,"dur":5,"file":"chats/-1001158333230/media/2026-10/970800/970881.mp4","thumb":"chats/-1001158333230/media/2026-10/970800/970881_thumb.jpg"}}
 ]
