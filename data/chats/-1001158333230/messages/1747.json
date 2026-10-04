@@ -486,5 +486,13 @@
 {"id":971095,"date":1791117354,"from":5802487999,"text":"@David_Peng_0517 你可以换X6P了","ents":[["mention",0,16]],"reacts":[["👍",1]]},
 {"id":971096,"date":1791117356,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971000/971096.webm"},"reacts":[["👍",1]]},
 {"id":971097,"date":1791118822,"from":707953138,"text":"能不能把点赞bot给飞了"},
-{"id":971098,"date":1791118827,"from":707953138,"media":{"type":"sticker","size":40371,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😓","file":"chats/-1001158333230/media/2026-10/971000/971098.webm"}}
+{"id":971098,"date":1791118827,"from":707953138,"media":{"type":"sticker","size":40371,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😓","file":"chats/-1001158333230/media/2026-10/971000/971098.webm"},"reacts":[["👍",1]]},
+{"id":971099,"date":1791119525,"from":1870609732,"text":"啊？ 更新后又能换了吗","reply":{"id":971093,"from":5802487999,"text":"欧加8G2又能换ocdt和abl解锁了"}},
+{"id":971100,"date":1791119600,"from":868035986,"text":"不影响刷类原生就行","reacts":[["👍",1]],"reply":{"id":970945,"from":707953138,"text":"[图片] 🤣"}},
+{"id":971101,"date":1791119634,"from":5802487999,"text":"提权刷ocdt和abl","reacts":[["👍",1]],"reply":{"id":971099,"from":1870609732,"text":"啊？ 更新后又能换了吗"}},
+{"id":971102,"date":1791119639,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971000/971102.webm"},"reacts":[["👍",1]]},
+{"id":971103,"date":1791119659,"from":5802487999,"text":"而且X5P qcom也能走这个方法解锁","reacts":[["👍",1]]},
+{"id":971104,"date":1791119683,"from":8473768850,"text":"黑树HeiShu on X: \"11年前的iPhone6s手机屏幕可以称重 https://t.co/DtgVqKABoT\" / X\nhttps://x.com/HeiShuing/status/2106649087907140029","ents":[["url",38,23],["url",67,50]],"media":{"type":"webpage","url":"https://t.co/DtgVqKABoT","site":"X (formerly Twitter)","title":"黑树HeiShu (@HeiShuing) on X","desc":"11年前的iPhone6s手机屏幕可以称重"},"reacts":[["👍",1]]},
+{"id":971105,"date":1791119697,"from":1870609732,"text":"之前不是不能了吗 哈哈哈 他更新倒退了啊","reacts":[["👍",1]],"reply":{"id":971101,"from":5802487999,"text":"提权刷ocdt和abl"}},
+{"id":971106,"date":1791119723,"from":8473768850,"text":"用過這個功能嗎？","reacts":[["👍",1]]}
 ]
