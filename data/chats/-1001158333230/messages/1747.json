@@ -179,5 +179,8 @@
 {"id":970785,"date":1791070548,"from":5287285590,"text":"或者换个说法，8EE6卖3000价位那温度也不是问题了(这是不可能的)"},
 {"id":970786,"date":1791074562,"from":5976137354,"svc":{"type":"join"}},
 {"id":970787,"date":1791074562,"from":609517172,"text":"Hey there Debra, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":970788,"date":1791077547,"from":6255848494,"media":{"type":"sticker","size":32218,"mime":"image/webp","w":512,"h":512,"emoji":"😃","file":"chats/-1001158333230/media/2026-10/970600/970788.webp"}}
+{"id":970788,"date":1791077547,"from":6255848494,"media":{"type":"sticker","size":32218,"mime":"image/webp","w":512,"h":512,"emoji":"😃","file":"chats/-1001158333230/media/2026-10/970600/970788.webp"}},
+{"id":970789,"date":1791078830,"from":8075554190,"text":"/prpr@kotomei_bot","ents":[["cmd",0,17]]},
+{"id":970790,"date":1791078831,"from":400911764,"text":"( >  < )","reply":{"id":970789,"from":8075554190,"text":"/prpr@kotomei_bot"}},
+{"id":970791,"date":1791078839,"from":8075554190,"media":{"type":"sticker","size":253188,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"❤️","file":"chats/-1001158333230/media/2026-10/970600/970791.webm"}}
 ]
