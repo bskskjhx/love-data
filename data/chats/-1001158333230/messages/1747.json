@@ -213,7 +213,7 @@
 {"id":970820,"date":1791083961,"from":8978147532,"text":"6300就够了","reply":{"id":970797,"from":470460877,"text":"不打游戏的话估计7400都够"}},
 {"id":970821,"date":1791083980,"from":8978147532,"text":"百元机soc"},
 {"id":970822,"date":1791083985,"from":8978147532,"text":"开个微信还是可以的"},
-{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":264},
+{"id":970823,"date":1791084263,"from":5799965478,"text":"https://youtube.com/watch?v=eNzO5BL_DmE","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://youtube.com/watch?v=eNzO5BL_DmE","site":"YouTube","title":"Demonstration of how to use LMNFlash Android to flash stock firmware for Motorola Smartphones.","desc":"You can download LMNFlash from here.\nPC: https://github.com/HikariCalyx/lmnflash/releases/latest\nAndroid: https://github.com/HikariCalyx/lmnflash_android/releases/latest\n\nPlease read our video usage rules before you use this video: https://hikaricalyx.com/video-usage-rules/\n\nSong: 2frers - EYES ON US\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/EYESONUS\nWatch: http://ncs"},"fwd":{"name":"Tadi Channel","date":1791042301},"views":267},
 {"id":970824,"date":1791084268,"from":5799965478,"text":"好眼熟……"},
 {"id":970825,"date":1791084421,"from":470460877,"text":"LMNFlash就是我开发的啊"},
 {"id":970826,"date":1791088285,"from":707953138,"text":"mtk一直都是cpu挺好gpu一坨来着","reacts":[["👍",1]]},
@@ -369,5 +369,9 @@
 {"id":970978,"date":1791112892,"from":5802487999,"text":"为什么这个群体如此逆天"},
 {"id":970979,"date":1791112902,"from":5802487999,"text":"跟支女一样"},
 {"id":970980,"date":1791112925,"from":707953138,"text":"没有冒犯猫妈的意思，只是这种人确实逆天"},
-{"id":970981,"date":1791112933,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/970800/970981.webm"}}
+{"id":970981,"date":1791112933,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/970800/970981.webm"}},
+{"id":970982,"date":1791113483,"from":6000624484,"media":{"type":"photo","w":2560,"h":1920,"size":533171,"file":"chats/-1001158333230/media/2026-10/970800/970982.jpg"}},
+{"id":970983,"date":1791113601,"from":7292350442,"media":{"type":"sticker","size":202245,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"0️⃣","file":"chats/-1001158333230/media/2026-10/970800/970983.webm"}},
+{"id":970984,"date":1791113739,"from":5324653156,"text":"本来完全联想不到的……","reply":{"id":970980,"from":707953138,"text":"没有冒犯猫妈的意思，只是这种人确实逆天"}},
+{"id":970985,"date":1791113748,"from":5324653156,"media":{"type":"sticker","size":33500,"mime":"image/webp","w":512,"h":512,"emoji":"😜","file":"chats/-1001158333230/media/2026-10/970800/970985.webp"}}
 ]
