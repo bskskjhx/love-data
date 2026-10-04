@@ -378,7 +378,7 @@
 {"id":970987,"date":1791113933,"from":5506662351,"text":"别发鬼图"},
 {"id":970988,"date":1791113936,"from":5506662351,"media":{"type":"sticker","size":66809,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"😢","file":"chats/-1001158333230/media/2026-10/970800/970988.webm"}},
 {"id":970989,"date":1791114160,"from":5802487999,"text":"faker没绷住","reply":{"id":970986,"from":594317380,"text":"faker（bushi"}},
-{"id":970990,"date":1791114180,"from":5802487999,"text":"我觉得像一诺"},
+{"id":970990,"date":1791114180,"from":5802487999,"text":"我觉得像一诺","reacts":[["🐳",1]]},
 {"id":970991,"date":1791114183,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/970800/970991.webm"}},
 {"id":970992,"date":1791114419,"from":1472644035,"text":"怎么还自破防了😁","reply":{"id":970947,"from":707953138,"text":"[图片]"}},
 {"id":970993,"date":1791114545,"from":5324653156,"text":"不过这个确实是很不好的趋势"},
@@ -484,5 +484,7 @@
 {"id":971093,"date":1791117312,"from":5802487999,"text":"欧加8G2又能换ocdt和abl解锁了","edit":1791117330,"reacts":[["👍",1]]},
 {"id":971094,"date":1791117321,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971000/971094.webm"},"reacts":[["👍",1]]},
 {"id":971095,"date":1791117354,"from":5802487999,"text":"@David_Peng_0517 你可以换X6P了","ents":[["mention",0,16]],"reacts":[["👍",1]]},
-{"id":971096,"date":1791117356,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971000/971096.webm"},"reacts":[["👍",1]]}
+{"id":971096,"date":1791117356,"from":5802487999,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971000/971096.webm"},"reacts":[["👍",1]]},
+{"id":971097,"date":1791118822,"from":707953138,"text":"能不能把点赞bot给飞了"},
+{"id":971098,"date":1791118827,"from":707953138,"media":{"type":"sticker","size":40371,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😓","file":"chats/-1001158333230/media/2026-10/971000/971098.webm"}}
 ]
