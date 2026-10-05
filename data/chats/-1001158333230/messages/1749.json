@@ -47,5 +47,15 @@
 {"id":971662,"date":1791210644,"from":8986991321,"svc":{"type":"join"}},
 {"id":971663,"date":1791210645,"from":609517172,"text":"Hey there JiaqiXplorer, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":971664,"date":1791212047,"from":6948784790,"text":"@zihaodream 13更OS16会不会格式化","ents":[["mention",0,11]]},
-{"id":971665,"date":1791212085,"from":1472644035,"media":{"type":"sticker","size":7416,"mime":"image/webp","w":512,"h":423,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/971600/971665.webp"}}
+{"id":971665,"date":1791212085,"from":1472644035,"media":{"type":"sticker","size":7416,"mime":"image/webp","w":512,"h":423,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/971600/971665.webp"}},
+{"id":971666,"date":1791214550,"from":266806493,"text":"跨这么多","reply":{"id":971664,"from":6948784790,"text":"@zihaodream 13更OS16会不会格式化"}},
+{"id":971667,"date":1791214553,"from":266806493,"text":"8.41 复制打开抖音，看看【雁凝是兽兽🐾的作品】我又水了一期视频（os其实是在我快手搬来的🌚🆘）#... https://v.douyin.com/2EsqEz4s3Wc/ hbA:/ :9pm 08/20 i@c.Nj","ents":[["url",57,33],["email",108,6]]},
+{"id":971668,"date":1791214767,"from":470460877,"text":"lmnflash 0.1.9 即将追加联想平板的bootloader解锁功能。向导模式还在开发中。\n还在询问是否允许加入 lenovobl 网站的部分（鉴于今年发售的平板似乎已经无法使用那个网站了）。","media":{"type":"photo","w":722,"h":752,"size":59682,"file":"chats/-1001158333230/media/2026-10/971600/971668.jpg"},"reacts":[["👍",1]]},
+{"id":971669,"date":1791215203,"from":6615101524,"text":"牛掰","reply":{"id":971420,"from":-1001231173515,"text":"[图片] 国庆快乐！小米 18 Pro BootLoader 已攻破！🎉"}},
+{"id":971670,"date":1791215610,"from":470460877,"text":"那部分的内容，计划做进向导模式里面","reply":{"id":971668,"from":470460877,"text":"[图片] lmnflash 0.1.9 即将追加联想平板的bootloader解锁功能。向导模式还在开发中。 还在询问是否允许加入 lenovobl 网站的部分（鉴于今年发售的平板似乎已经无法使用那个网站了）。"}},
+{"id":971671,"date":1791215707,"from":470460877,"text":"就是接上设备之后，先尝试所有可用的解锁方式，如果全部失败，再来要求用户完成提交申请的流程。申请完成之后，要求用户等待收到邮件之后再来重新使用向导模式","edit":1791215726,"reply":{"id":971670,"from":470460877,"text":"那部分的内容，计划做进向导模式里面"}},
+{"id":971672,"date":1791216879,"from":470460877,"text":"下一个任务就是在motorola mtk服务上面狠狠得罪各种gsm工具。","media":{"type":"photo","w":1152,"h":2560,"size":238213,"file":"chats/-1001158333230/media/2026-10/971600/971672.jpg"},"fwd":{"name":"Calyx Hikari | TCC Bankruptcy Countdown","date":1791216659}},
+{"id":971673,"date":1791216909,"from":470460877,"text":"考虑到原始授权问题，不能做成lmnflash的内置功能，只能做成单独的程序。","reply":{"id":971672,"from":470460877,"text":"[图片] 下一个任务就是在motorola mtk服务上面狠狠得罪各种gsm工具。"}},
+{"id":971674,"date":1791217914,"from":7597320646,"svc":{"type":"join"}},
+{"id":971675,"date":1791217914,"from":609517172,"text":"Hey there 新一, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
