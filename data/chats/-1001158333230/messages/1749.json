@@ -62,7 +62,7 @@
 {"id":971677,"date":1791220031,"from":609517172,"text":"Hey there 浅, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":971678,"date":1791222239,"from":8833507097,"svc":{"type":"join"}},
 {"id":971679,"date":1791222239,"from":609517172,"text":"Hey there light, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":971680,"date":1791231935,"from":707953138,"text":"公差小了你怎么还不乐意了","media":{"type":"photo","w":1175,"h":2560,"size":338757,"file":"chats/-1001158333230/media/2026-10/971600/971680.jpg"},"reacts":[["🤣",2]]},
+{"id":971680,"date":1791231935,"from":707953138,"text":"公差小了你怎么还不乐意了","media":{"type":"photo","w":1175,"h":2560,"size":338757,"file":"chats/-1001158333230/media/2026-10/971600/971680.jpg"},"reacts":[["🤣",3]]},
 {"id":971681,"date":1791237876,"from":6591171944,"svc":{"type":"join"}},
 {"id":971682,"date":1791237876,"from":609517172,"text":"Hey there , and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":971683,"date":1791238109,"from":6591171944,"text":"不好拆🐓","reply":{"id":971680,"from":707953138,"text":"[图片] 公差小了你怎么还不乐意了"}},
@@ -71,5 +71,18 @@
 {"id":971686,"date":1791239812,"from":609517172,"text":"Hey there 新一, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":971687,"date":1791241577,"from":8756858791,"svc":{"type":"join"}},
 {"id":971688,"date":1791241577,"from":609517172,"text":"Hey there 宇, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":971689,"date":1791245439,"from":5799965478,"text":"这是啥原理 patch lk吗","reply":{"id":971672,"from":470460877,"text":"[图片] 下一个任务就是在motorola mtk服务上面狠狠得罪各种gsm工具。"}}
+{"id":971689,"date":1791245439,"from":5799965478,"text":"这是啥原理 patch lk吗","reply":{"id":971672,"from":470460877,"text":"[图片] 下一个任务就是在motorola mtk服务上面狠狠得罪各种gsm工具。"}},
+{"id":971690,"date":1791246106,"from":6151083078,"text":"我这清了","reply":{"id":971666,"from":266806493,"text":"跨这么多"}},
+{"id":971691,"date":1791246124,"from":266806493,"media":{"type":"sticker","size":30514,"mime":"image/webp","w":512,"h":512,"emoji":"😒","file":"chats/-1001158333230/media/2026-10/971600/971691.webp"},"reply":{"id":971690,"from":6151083078,"text":"我这清了"}},
+{"id":971692,"date":1791246129,"from":6151083078,"text":"没清会卡不开机"},
+{"id":971693,"date":1791246175,"from":7162243624,"text":"整个吸盘呀","reply":{"id":971680,"from":707953138,"text":"[图片] 公差小了你怎么还不乐意了"}},
+{"id":971694,"date":1791246180,"from":7162243624,"text":"为什么要扣"},
+{"id":971695,"date":1791246356,"from":470460877,"text":"对的，因为原始实现就是AGPL开放的，所以后续单独开发的部分也是AGPL开源","reply":{"id":971689,"from":5799965478,"text":"这是啥原理 patch lk吗"}},
+{"id":971696,"date":1791246389,"from":5799965478,"text":"对了 听说是不是有些联想可以改sn来免申请解锁码解锁什么的"},
+{"id":971697,"date":1791246402,"from":5799965478,"text":"lkpatcher吗","reply":{"id":971695,"from":470460877,"text":"对的，因为原始实现就是AGPL开放的，所以后续单独开发的部分也是AGPL开源"}},
+{"id":971698,"date":1791246417,"from":5799965478,"text":"还是fenrir kaeru"},
+{"id":971699,"date":1791246422,"from":470460877,"text":"Val Protocol https://github.com/Maikyxd/val-protocol","ents":[["url",13,39]],"media":{"type":"webpage","url":"https://github.com/Maikyxd/val-protocol","site":"GitHub","title":"GitHub - Maikyxd/val-protocol: Motorola LK Patcher That Allows Unlock Bootloader And Remove FRP on MTK Devices Using Fastboot and LK cert exploit","desc":"Motorola LK Patcher That Allows Unlock Bootloader And Remove FRP on MTK Devices Using Fastboot and LK cert exploit - Maikyxd/val-protocol"},"reply":{"id":971697,"from":5799965478,"text":"lkpatcher吗"}},
+{"id":971700,"date":1791246428,"from":470460877,"text":"一切的核心就是这个东西"},
+{"id":971701,"date":1791246462,"from":5799965478,"text":"待会我看看","reply":{"id":971699,"from":470460877,"text":"Val Protocol https://github.com/Maikyxd/val-protocol"}},
+{"id":971702,"date":1791246488,"from":5799965478,"text":"不过重写个应该也不难（）"}
 ]
