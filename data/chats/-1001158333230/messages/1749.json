@@ -134,7 +134,7 @@
 {"id":971749,"date":1791247687,"from":470460877,"media":{"type":"photo","w":1199,"h":582,"size":68945,"file":"chats/-1001158333230/media/2026-10/971600/971749.jpg"}},
 {"id":971750,"date":1791247772,"from":470460877,"media":{"type":"photo","w":1920,"h":2560,"size":732013,"file":"chats/-1001158333230/media/2026-10/971600/971750.jpg"}},
 {"id":971752,"date":1791252448,"from":5506662351,"media":{"type":"sticker","size":66809,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"😢","file":"chats/-1001158333230/media/2026-10/971600/971752.webm"}},
-{"id":971753,"date":1791252455,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的\n\nhttps://www.apple.com/legal/privacy/gle-inforequest.pdf\n\n其中不但包含了 iCloud 数据，而且即使开启了 ADP 也不能幸免（除了端对端加密的部分）\n\n所谓的 Apple 保护隐私、iPhone 安全就是个笑话罢了，比 Google 更招笑","ents":[["url",54,55]],"media":{"type":"webpage","url":"https://apple.com/legal/privacy/gle-inforequest.pdf"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791252452},"reacts":[["🤡",13],["💩",3],["👍",1],["👎",1],["😁",1]],"views":464,"reply":{"id":32301,"ext":true,"quote":"FBI通过苹果iCloud帐户获得微信聊天信息\n\n近期，美国联邦调查局在洛杉矶国际机场逮捕一名涉嫌为中国政府工作的女子。根据刑事诉状，邻居监控录像截图显示张婉莹二人似在拍摄赖廷宇和家人的画面，并在微信向中国政府联络人发送信息“看到他了，年轻男性，就是那个年轻的”，之后又表示“我在录影”，并附上两张车牌号码。\n\nFBI表示，这些信息是通过苹果 iCloud 帐户取得。诉状记载，2025年6月，经大学"}},
+{"id":971753,"date":1791252455,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的\n\nhttps://www.apple.com/legal/privacy/gle-inforequest.pdf\n\n其中不但包含了 iCloud 数据，而且即使开启了 ADP 也不能幸免（除了端对端加密的部分）\n\n所谓的 Apple 保护隐私、iPhone 安全就是个笑话罢了，比 Google 更招笑","ents":[["url",54,55]],"media":{"type":"webpage","url":"https://apple.com/legal/privacy/gle-inforequest.pdf"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791252452},"reacts":[["🤡",16],["💩",3],["👍",1],["👎",1],["😁",1]],"views":567,"reply":{"id":32301,"ext":true,"quote":"FBI通过苹果iCloud帐户获得微信聊天信息\n\n近期，美国联邦调查局在洛杉矶国际机场逮捕一名涉嫌为中国政府工作的女子。根据刑事诉状，邻居监控录像截图显示张婉莹二人似在拍摄赖廷宇和家人的画面，并在微信向中国政府联络人发送信息“看到他了，年轻男性，就是那个年轻的”，之后又表示“我在录影”，并附上两张车牌号码。\n\nFBI表示，这些信息是通过苹果 iCloud 帐户取得。诉状记载，2025年6月，经大学"}},
 {"id":971754,"date":1791252474,"from":266806493,"text":"知道买什么了吧（","reply":{"id":971753,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的  https://www.apple.com/legal/privacy/gle-inforequest.pdf  其中不但包含了 i"}},
 {"id":971755,"date":1791252486,"from":5506662351,"media":{"type":"sticker","size":66809,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"😢","file":"chats/-1001158333230/media/2026-10/971600/971755.webm"}},
 {"id":971756,"date":1791252493,"from":1405951570,"text":"HUAWEI","reacts":[["🤣",2]]},
@@ -176,7 +176,7 @@
 {"id":971792,"date":1791254014,"from":1794475072,"text":"那更完蛋，Google的调取比Apple更容易","reply":{"id":971790,"from":1284460361,"text":"[图片] 我用不了iCloud，只能用用谷歌相册凑合了😅"}},
 {"id":971793,"date":1791254046,"from":648806410,"text":"也能调取的","reply":{"id":971790,"from":1284460361,"text":"[图片] 我用不了iCloud，只能用用谷歌相册凑合了😅"}},
 {"id":971794,"date":1791254097,"from":8624028502,"text":"比烂的，啥手机系统都一样，国产安卓为中国政府服务，谷歌和苹果的给联邦调查局服务，不服去用石墨烯","reply":{"id":971753,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的  https://www.apple.com/legal/privacy/gle-inforequest.pdf  其中不但包含了 i"}},
-{"id":971795,"date":1791254127,"from":1284460361,"text":"问题是，FBI到不了中国大陆啊🤣","reply":{"id":971792,"from":1794475072,"text":"那更完蛋，Google的调取比Apple更容易"}},
+{"id":971795,"date":1791254127,"from":1284460361,"text":"问题是，FBI到不了中国大陆啊🤣","reacts":[["👍",1]],"reply":{"id":971792,"from":1794475072,"text":"那更完蛋，Google的调取比Apple更容易"}},
 {"id":971796,"date":1791254129,"from":648806410,"text":"那得多捏着鼻子才能吃下这坨啊","reply":{"id":971794,"quote":"不服去用石墨烯","from":8624028502,"text":"比烂的，啥手机系统都一样，国产安卓为中国政府服务，谷歌和苹果的给联邦调查局服务，不服去用石墨烯"}},
 {"id":971797,"date":1791254146,"from":8624028502,"text":"反正都不是啥好鸟","reply":{"id":971796,"from":648806410,"text":"那得多捏着鼻子才能吃下这坨啊"}},
 {"id":971798,"date":1791254148,"from":648806410,"text":"还真是","reply":{"id":971795,"from":1284460361,"text":"问题是，FBI到不了中国大陆啊🤣"}},
@@ -184,5 +184,9 @@
 {"id":971800,"date":1791254215,"from":8624028502,"text":"好像还真是","reply":{"id":971799,"from":1794475072,"text":"正常人也不需要担心这些问题，这次被调取是跑去人家地盘当间谍了"}},
 {"id":971801,"date":1791254221,"from":8624028502,"text":"老百姓享受服务就行了","reply":{"id":971753,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的  https://www.apple.com/legal/privacy/gle-inforequest.pdf  其中不但包含了 i"}},
 {"id":971803,"date":1791254463,"from":470460877,"media":{"type":"photo","w":433,"h":819,"size":63321,"file":"chats/-1001158333230/media/2026-10/971800/971803.jpg"}},
-{"id":971804,"date":1791254470,"from":470460877,"text":"求bloatware列表，用户应用也行","edit":1791254477}
+{"id":971804,"date":1791254470,"from":470460877,"text":"求bloatware列表，用户应用也行","edit":1791254477},
+{"id":971805,"date":1791255295,"from":5694534255,"text":"FBI也管不到中国啊，就是每次都警告有点烦","reacts":[["🤡",1]],"reply":{"id":971753,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的  https://www.apple.com/legal/privacy/gle-inforequest.pdf  其中不但包含了 i"}},
+{"id":971806,"date":1791255298,"from":5694534255,"media":{"type":"sticker","size":115353,"mime":"video/webm","w":381,"h":512,"dur":2,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/971800/971806.webm"},"reacts":[["🤡",1]],"reply":{"id":971753,"from":-1001231173515,"text":"很多人都不知道 Apple 是明文允许允许政府向 Apple 发送请求，以调阅个人 iPhone 数据的  https://www.apple.com/legal/privacy/gle-inforequest.pdf  其中不但包含了 i"}},
+{"id":971807,"date":1791255328,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":971796,"from":648806410,"text":"那得多捏着鼻子才能吃下这坨啊"}},
+{"id":971808,"date":1791255330,"from":400911764,"text":"| ω・`)","reply":{"id":971807,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
 ]
