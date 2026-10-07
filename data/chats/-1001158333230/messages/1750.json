@@ -296,7 +296,7 @@
 {"id":972420,"date":1791347495,"from":648806410,"text":"microG 可以给没 gms 的设备用，签名伪装可不止这一个用途","reply":{"id":972341,"from":6308095967,"text":"给没有gms的设备用的？"}},
 {"id":972421,"date":1791347763,"from":331875747,"media":{"type":"photo","w":1164,"h":2560,"size":147114,"file":"chats/-1001158333230/media/2026-10/972400/972421.jpg"}},
 {"id":972422,"date":1791347785,"from":331875747,"text":"刷类原生还是得买全球机型"},
-{"id":972423,"date":1791347882,"from":-1001231173515,"text":"Google 年初砍掉的 Borealis (Steam on ChromeOS / Steam VM) 特性也在最新的 FydeOS v23 上跑通了（FydeOS 官方仅支持到 v21），理论上其他 ChromeOS 发行版也可以用上","edit":1791347948,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791347879},"reacts":[["👍",9],["🌭",1]],"views":417},
+{"id":972423,"date":1791347882,"from":-1001231173515,"text":"Google 年初砍掉的 Borealis (Steam on ChromeOS / Steam VM) 特性也在最新的 FydeOS v23 上跑通了（FydeOS 官方仅支持到 v21），理论上其他 ChromeOS 发行版也可以用上","edit":1791347948,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791347879},"reacts":[["👍",10],["🌭",1]],"views":498},
 {"id":972424,"date":1791348106,"from":367489032,"text":"是都没有","reply":{"id":972417,"from":331875747,"text":"GSI没有自动亮度和指纹吧"}},
 {"id":972425,"date":1791348155,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了","ents":[["mention",0,7]]},
 {"id":972426,"date":1791348158,"from":648806410,"media":{"type":"sticker","size":11390,"mime":"image/webp","w":512,"h":512,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/972400/972426.webp"}},
@@ -311,5 +311,9 @@
 {"id":972435,"date":1791349152,"from":891951610,"text":"能看出来是苹果还是高通就有鬼了"},
 {"id":972436,"date":1791349193,"from":5799965478,"text":"哇 看看","reply":{"id":972425,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了"}},
 {"id":972437,"date":1791349201,"from":5799965478,"text":"我下来看看","reply":{"id":972432,"from":648806410,"text":"https://dl.google.com/device/recovery/ruby-user/16452207/recovery.zip"}},
-{"id":972438,"date":1791349261,"from":5799965478,"text":"7g 还挺小的嘛"}
+{"id":972438,"date":1791349261,"from":5799965478,"text":"7g 还挺小的嘛"},
+{"id":972439,"date":1791350010,"from":5799965478,"text":"➜  google-book zipinfo recovery.zip\nArchive:  recovery.zip\nZip file size: 7816442985 bytes, number of entries: 1\n-rw----     4.5 fat 19069493760 bX defN 26-Sep-26 03:30 android-desktop_signed_recovery_image.bin\n1 file, 19069493760 bytes uncompressed, 7816442685 bytes compressed:  59.0%\n➜  google-book","ents":[["pre",0,301]]},
+{"id":972440,"date":1791350018,"from":5799965478,"text":"这是什么格式 待会看看","edit":1791350097},
+{"id":972441,"date":1791350547,"from":648806410,"text":"a n d r o i d - d e s k t o p"},
+{"id":972442,"date":1791350552,"from":648806410,"media":{"type":"sticker","size":168939,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"💔","file":"chats/-1001158333230/media/2026-10/972400/972442.webm"}}
 ]
