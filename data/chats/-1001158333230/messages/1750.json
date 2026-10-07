@@ -293,5 +293,17 @@
 {"id":972417,"date":1791347444,"from":331875747,"text":"GSI没有自动亮度和指纹吧"},
 {"id":972418,"date":1791347451,"from":331875747,"text":"状态栏高度也有问题"},
 {"id":972419,"date":1791347455,"from":331875747,"text":"不过这机器可能没指纹"},
-{"id":972420,"date":1791347495,"from":648806410,"text":"microG 可以给没 gms 的设备用，签名伪装可不止这一个用途","reply":{"id":972341,"from":6308095967,"text":"给没有gms的设备用的？"}}
+{"id":972420,"date":1791347495,"from":648806410,"text":"microG 可以给没 gms 的设备用，签名伪装可不止这一个用途","reply":{"id":972341,"from":6308095967,"text":"给没有gms的设备用的？"}},
+{"id":972421,"date":1791347763,"from":331875747,"media":{"type":"photo","w":1164,"h":2560,"size":147114,"file":"chats/-1001158333230/media/2026-10/972400/972421.jpg"}},
+{"id":972422,"date":1791347785,"from":331875747,"text":"刷类原生还是得买全球机型"},
+{"id":972423,"date":1791347882,"from":-1001231173515,"text":"Google 年初砍掉的 Borealis (Steam on ChromeOS / Steam VM) 特性也在最新的 FydeOS v23 上跑通了（FydeOS 官方仅支持到 v21），理论上其他 ChromeOS 发行版也可以用上","edit":1791347948,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791347879},"reacts":[["👍",5],["🌭",1]],"views":171},
+{"id":972424,"date":1791348106,"from":367489032,"text":"是都没有","reply":{"id":972417,"from":331875747,"text":"GSI没有自动亮度和指纹吧"}},
+{"id":972425,"date":1791348155,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了","ents":[["mention",0,7]]},
+{"id":972426,"date":1791348158,"from":648806410,"media":{"type":"sticker","size":11390,"mime":"image/webp","w":512,"h":512,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/972400/972426.webp"}},
+{"id":972427,"date":1791348162,"from":367489032,"text":"没","reply":{"id":972421,"from":331875747,"text":"[图片]"}},
+{"id":972428,"date":1791348171,"from":367489032,"text":"这个可刷国际版rom（"},
+{"id":972429,"date":1791348177,"from":367489032,"media":{"type":"photo","w":1280,"h":960,"size":82345,"file":"chats/-1001158333230/media/2026-10/972400/972429.jpg"}},
+{"id":972430,"date":1791348276,"from":367489032,"text":"root是apatch"},
+{"id":972431,"date":1791348283,"from":331875747,"text":"让Claude帮你适配一个"},
+{"id":972432,"date":1791348307,"from":648806410,"text":"https://dl.google.com/device/recovery/ruby-user/16452207/recovery.zip","ents":[["url",0,69]],"reply":{"id":972425,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了"}}
 ]
