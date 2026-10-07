@@ -296,7 +296,7 @@
 {"id":972420,"date":1791347495,"from":648806410,"text":"microG 可以给没 gms 的设备用，签名伪装可不止这一个用途","reply":{"id":972341,"from":6308095967,"text":"给没有gms的设备用的？"}},
 {"id":972421,"date":1791347763,"from":331875747,"media":{"type":"photo","w":1164,"h":2560,"size":147114,"file":"chats/-1001158333230/media/2026-10/972400/972421.jpg"}},
 {"id":972422,"date":1791347785,"from":331875747,"text":"刷类原生还是得买全球机型"},
-{"id":972423,"date":1791347882,"from":-1001231173515,"text":"Google 年初砍掉的 Borealis (Steam on ChromeOS / Steam VM) 特性也在最新的 FydeOS v23 上跑通了（FydeOS 官方仅支持到 v21），理论上其他 ChromeOS 发行版也可以用上","edit":1791347948,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791347879},"reacts":[["👍",8],["🌭",1]],"views":316},
+{"id":972423,"date":1791347882,"from":-1001231173515,"text":"Google 年初砍掉的 Borealis (Steam on ChromeOS / Steam VM) 特性也在最新的 FydeOS v23 上跑通了（FydeOS 官方仅支持到 v21），理论上其他 ChromeOS 发行版也可以用上","edit":1791347948,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791347879},"reacts":[["👍",9],["🌭",1]],"views":417},
 {"id":972424,"date":1791348106,"from":367489032,"text":"是都没有","reply":{"id":972417,"from":331875747,"text":"GSI没有自动亮度和指纹吧"}},
 {"id":972425,"date":1791348155,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了","ents":[["mention",0,7]]},
 {"id":972426,"date":1791348158,"from":648806410,"media":{"type":"sticker","size":11390,"mime":"image/webp","w":512,"h":512,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/972400/972426.webp"}},
@@ -308,5 +308,8 @@
 {"id":972432,"date":1791348307,"from":648806410,"text":"https://dl.google.com/device/recovery/ruby-user/16452207/recovery.zip","ents":[["url",0,69]],"reply":{"id":972425,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了"}},
 {"id":972433,"date":1791349124,"from":891951610,"text":"补一张18p","media":{"type":"photo","w":588,"h":1280,"size":48618,"file":"chats/-1001158333230/media/2026-10/972400/972433.jpg"}},
 {"id":972434,"date":1791349130,"from":891951610,"media":{"type":"sticker","size":5244,"mime":"image/webp","w":512,"h":326,"emoji":"😑","file":"chats/-1001158333230/media/2026-10/972400/972434.webp"}},
-{"id":972435,"date":1791349152,"from":891951610,"text":"能看出来是苹果还是高通就有鬼了"}
+{"id":972435,"date":1791349152,"from":891951610,"text":"能看出来是苹果还是高通就有鬼了"},
+{"id":972436,"date":1791349193,"from":5799965478,"text":"哇 看看","reply":{"id":972425,"from":648806410,"text":"@winzkh googlebook 的包貌似已经能下到了"}},
+{"id":972437,"date":1791349201,"from":5799965478,"text":"我下来看看","reply":{"id":972432,"from":648806410,"text":"https://dl.google.com/device/recovery/ruby-user/16452207/recovery.zip"}},
+{"id":972438,"date":1791349261,"from":5799965478,"text":"7g 还挺小的嘛"}
 ]
