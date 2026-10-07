@@ -112,5 +112,6 @@
 {"id":972737,"date":1791359505,"from":1663851031,"text":"刷了没法开机"},
 {"id":972738,"date":1791360411,"from":5799965478,"text":"那就删掉","reply":{"id":972736,"from":1663851031,"text":"hpos有地区检测"}},
 {"id":972739,"date":1791360518,"from":66399710,"text":"?","reply":{"id":972603,"from":-1001231173515,"text":"Google 放出来 Googlebook 的 BootLoader 解锁指南了，系统恢复包也能公开下载 https://support.google.com/googlebook/answer/17389679"}},
-{"id":972740,"date":1791360529,"from":66399710,"text":"这么开放的吗","reply":{"id":972603,"from":-1001231173515,"text":"Google 放出来 Googlebook 的 BootLoader 解锁指南了，系统恢复包也能公开下载 https://support.google.com/googlebook/answer/17389679"}}
+{"id":972740,"date":1791360529,"from":66399710,"text":"这么开放的吗","reply":{"id":972603,"from":-1001231173515,"text":"Google 放出来 Googlebook 的 BootLoader 解锁指南了，系统恢复包也能公开下载 https://support.google.com/googlebook/answer/17389679"}},
+{"id":972741,"date":1791361259,"from":5799965478,"text":"并非开放","reply":{"id":972740,"from":66399710,"text":"这么开放的吗"}}
 ]
