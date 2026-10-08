@@ -433,7 +433,7 @@
 {"id":973059,"date":1791428333,"from":1405951570,"text":"司机开出事就是司机的问题"},
 {"id":973060,"date":1791428379,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"},
 {"id":973061,"date":1791428391,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"},
-{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",3]],"views":392},
+{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",3]],"views":451},
 {"id":973063,"date":1791428617,"from":5844954002,"text":"我加了AI，自动判断什么时候该断，你踩断了说明你寿数到了","ents":[["s",17,11]],"reply":{"id":973060,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"}},
 {"id":973064,"date":1791428741,"from":5811919476,"svc":{"type":"join"}},
 {"id":973065,"date":1791428741,"from":609517172,"text":"Hey there 阐述, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
@@ -447,5 +447,6 @@
 {"id":973073,"date":1791430478,"from":6656227782,"text":"这杂回事，换好几次头像了","media":{"type":"photo","w":1152,"h":2560,"size":310208,"file":"chats/-1001158333230/media/2026-10/973000/973073.jpg"}},
 {"id":973074,"date":1791430511,"from":1472644035,"media":{"type":"sticker","size":7416,"mime":"image/webp","w":512,"h":423,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/973000/973074.webp"}},
 {"id":973075,"date":1791430523,"from":1472644035,"text":"这又什么神必bot"},
-{"id":973076,"date":1791430788,"from":266806493,"text":"无法选中","reply":{"id":973061,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"}}
+{"id":973076,"date":1791430788,"from":266806493,"text":"无法选中","reply":{"id":973061,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"}},
+{"id":973077,"date":1791431431,"from":6656227782,"text":"换了三四个头像。现在这个过了","reply":{"id":973075,"from":1472644035,"text":"这又什么神必bot"}}
 ]
