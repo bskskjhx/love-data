@@ -433,7 +433,7 @@
 {"id":973059,"date":1791428333,"from":1405951570,"text":"司机开出事就是司机的问题"},
 {"id":973060,"date":1791428379,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"},
 {"id":973061,"date":1791428391,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"},
-{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",7]],"views":881},
+{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",7]],"views":933},
 {"id":973063,"date":1791428617,"from":5844954002,"text":"我加了AI，自动判断什么时候该断，你踩断了说明你寿数到了","ents":[["s",17,11]],"reply":{"id":973060,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"}},
 {"id":973064,"date":1791428741,"from":5811919476,"svc":{"type":"join"}},
 {"id":973065,"date":1791428741,"from":609517172,"text":"Hey there 阐述, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
@@ -495,7 +495,7 @@
 {"id":973121,"date":1791436414,"from":1541031247,"media":{"type":"sticker","size":233949,"mime":"video/webm","w":512,"h":170,"dur":3,"emoji":"😂","file":"chats/-1001158333230/media/2026-10/973000/973121.webm"}},
 {"id":973122,"date":1791436419,"from":1541031247,"text":"大粪一坨"},
 {"id":973123,"date":1791436420,"from":955821087,"text":"比如机身强度就远不如铝合金的MacBook"},
-{"id":973124,"date":1791436423,"from":-1001231173515,"text":"哇塞是磁吸 Type-C，微软你干得好啊","media":{"type":"photo","w":1080,"h":727,"size":63067,"file":"chats/-1001158333230/media/2026-10/973000/973124.jpg"},"edit":1791436454,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791436420},"reacts":[["🆒",10],["🌚",3],["🥰",1]],"views":270},
+{"id":973124,"date":1791436423,"from":-1001231173515,"text":"哇塞是磁吸 Type-C，微软你干得好啊","media":{"type":"photo","w":1080,"h":727,"size":63067,"file":"chats/-1001158333230/media/2026-10/973000/973124.jpg"},"edit":1791436454,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791436420},"reacts":[["🆒",14],["🌚",3],["🥰",2]],"views":394},
 {"id":973125,"date":1791436431,"from":1541031247,"text":"轻太多了","reacts":[["👍",1]],"reply":{"id":973123,"from":955821087,"text":"比如机身强度就远不如铝合金的MacBook"}},
 {"id":973126,"date":1791436442,"from":955821087,"text":"我舍友他爸被忽悠买了台华为的高端轻薄本","reacts":[["👍",1]]},
 {"id":973127,"date":1791436447,"from":955821087,"text":"九千块钱喔","reacts":[["👍",1]]}
