@@ -155,10 +155,10 @@
 {"id":973281,"date":1791442823,"from":7506944943,"text":"可能是真傻吧","reply":{"id":973280,"from":331875747,"text":"真情流露，串子串不出这种效果"}},
 {"id":973282,"date":1791442837,"from":331875747,"text":"断对了"},
 {"id":973283,"date":1791442842,"from":1032045797,"text":"我们尊界是这样子的，该刹车的时候不刹车，要保护我们用户双腿的完整性","reply":{"id":973277,"from":1032045797,"text":"[图片] 真牛逼，论傻逼还得我们钊哥，这个我是真的顶不住"}},
-{"id":973284,"date":1791443661,"from":1405951570,"text":"被吸进去了🥵","ents":[["spoiler",0,7]],"reacts":[["🤯",12]],"reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
+{"id":973284,"date":1791443661,"from":1405951570,"text":"被吸进去了🥵","ents":[["spoiler",0,7]],"reacts":[["🤯",13]],"reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
 {"id":973285,"date":1791444696,"from":1792016824,"svc":{"type":"join"}},
 {"id":973286,"date":1791444697,"from":609517172,"text":"Hey there Promise, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":973287,"date":1791445710,"from":-1001231173515,"text":"实测 CrOS M145 正式移除 Borealis 内容：\nhttps://gstatic.com/chromeos-borealis-motd/144/index.html -> 200\nhttps://gstatic.com/chromeos-borealis-motd/145/index.html -> 404","ents":[["url",31,57],["url",96,57]],"edit":1791445713,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791445707},"views":954},
+{"id":973287,"date":1791445710,"from":-1001231173515,"text":"实测 CrOS M145 正式移除 Borealis 内容：\nhttps://gstatic.com/chromeos-borealis-motd/144/index.html -> 200\nhttps://gstatic.com/chromeos-borealis-motd/145/index.html -> 404","ents":[["url",31,57],["url",96,57]],"edit":1791445713,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791445707},"views":1231},
 {"id":973288,"date":1791445921,"from":6699299689,"svc":{"type":"join"}},
 {"id":973289,"date":1791445922,"from":609517172,"text":"Hey there 凛, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":973290,"date":1791447174,"from":1794475072,"text":"一直有啊","reply":{"id":973086,"from":648806410,"text":"居然有 sudo"}},
@@ -176,5 +176,13 @@
 {"id":973302,"date":1791448591,"from":266806493,"text":"有必要吗","reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
 {"id":973303,"date":1791448772,"from":1794475072,"text":"起码舒服。这种用起来舒服的改动不嫌多的","reply":{"id":973302,"from":266806493,"text":"有必要吗"}},
 {"id":973304,"date":1791453054,"from":351667221,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":971420,"from":-1001231173515,"text":"[图片] 国庆快乐！小米 18 Pro BootLoader 已攻破！🎉"}},
-{"id":973305,"date":1791453056,"from":400911764,"text":"| ω・`)","reply":{"id":973304,"from":351667221,"text":"/prpr@MlgmXyysd"}}
+{"id":973305,"date":1791453056,"from":400911764,"text":"| ω・`)","reply":{"id":973304,"from":351667221,"text":"/prpr@MlgmXyysd"}},
+{"id":973306,"date":1791459660,"from":-1001231173515,"text":"复用原来的 UI 也不是不行","media":{"type":"photo","w":1112,"h":713,"size":53844,"file":"chats/-1001158333230/media/2026-10/973200/973306.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791459657},"reacts":[["👍",10]],"views":486},
+{"id":973307,"date":1791459726,"from":1138663747,"text":"这种应该没有供电功能吧稳固性不知道如何","reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
+{"id":973308,"date":1791459771,"from":648806410,"text":"这个看起来就是原装的供电线（）","reply":{"id":973307,"from":1138663747,"text":"这种应该没有供电功能吧稳固性不知道如何"}},
+{"id":973309,"date":1791459797,"from":1138663747,"text":"我靠,还带供电的吗?不会烧这么牛?"},
+{"id":973310,"date":1791459999,"from":648806410,"media":{"type":"photo","w":1020,"h":989,"size":77840,"file":"chats/-1001158333230/media/2026-10/973200/973310.jpg"},"reply":{"id":973306,"from":-1001231173515,"text":"[图片] 复用原来的 UI 也不是不行"}},
+{"id":973311,"date":1791460647,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":973310,"from":648806410,"text":"[图片]"}},
+{"id":973312,"date":1791460648,"from":400911764,"text":"| ω・`)","reply":{"id":973311,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":973313,"date":1791461533,"from":266806493,"text":"🐮来（","reply":{"id":973306,"from":-1001231173515,"text":"[图片] 复用原来的 UI 也不是不行"}}
 ]
