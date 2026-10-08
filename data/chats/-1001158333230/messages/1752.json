@@ -158,7 +158,7 @@
 {"id":973284,"date":1791443661,"from":1405951570,"text":"被吸进去了🥵","ents":[["spoiler",0,7]],"reacts":[["🤯",10]],"reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
 {"id":973285,"date":1791444696,"from":1792016824,"svc":{"type":"join"}},
 {"id":973286,"date":1791444697,"from":609517172,"text":"Hey there Promise, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":973287,"date":1791445710,"from":-1001231173515,"text":"实测 CrOS M145 正式移除 Borealis 内容：\nhttps://gstatic.com/chromeos-borealis-motd/144/index.html -> 200\nhttps://gstatic.com/chromeos-borealis-motd/145/index.html -> 404","ents":[["url",31,57],["url",96,57]],"edit":1791445713,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791445707},"views":397},
+{"id":973287,"date":1791445710,"from":-1001231173515,"text":"实测 CrOS M145 正式移除 Borealis 内容：\nhttps://gstatic.com/chromeos-borealis-motd/144/index.html -> 200\nhttps://gstatic.com/chromeos-borealis-motd/145/index.html -> 404","ents":[["url",31,57],["url",96,57]],"edit":1791445713,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791445707},"views":492},
 {"id":973288,"date":1791445921,"from":6699299689,"svc":{"type":"join"}},
 {"id":973289,"date":1791445922,"from":609517172,"text":"Hey there 凛, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":973290,"date":1791447174,"from":1794475072,"text":"一直有啊","reply":{"id":973086,"from":648806410,"text":"居然有 sudo"}},
@@ -167,5 +167,12 @@
 {"id":973293,"date":1791447252,"from":648806410,"media":{"type":"sticker","size":11390,"mime":"image/webp","w":512,"h":512,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/973200/973293.webp"}},
 {"id":973294,"date":1791447284,"from":1794475072,"text":"简单的、不涉及系统分区的可执行文件还是可以随便运行的，要不要打开开发者模式我忘了"},
 {"id":973295,"date":1791447507,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":973293,"from":648806410,"text":"🐱 贴纸"}},
-{"id":973296,"date":1791447508,"from":400911764,"text":"| ω・`)","reply":{"id":973295,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
+{"id":973296,"date":1791447508,"from":400911764,"text":"| ω・`)","reply":{"id":973295,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":973297,"date":1791447774,"from":5494601610,"text":"懂车帝测试尊界v800刹车踏板三辆车全断给江淮汽车干跌停了🤣","reacts":[["🤣",1]]},
+{"id":973298,"date":1791448373,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-10/973200/973298.webm"}},
+{"id":973299,"date":1791448456,"from":1526182805,"text":"找到個R40u 但是內螢幕內爆了"},
+{"id":973300,"date":1791448500,"from":5506662351,"media":{"type":"sticker","size":82147,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/973200/973300.webm"}},
+{"id":973301,"date":1791448541,"from":1526182805,"media":{"type":"photo","w":1080,"h":2316,"size":178703,"file":"chats/-1001158333230/media/2026-10/973200/973301.jpg"}},
+{"id":973302,"date":1791448591,"from":266806493,"text":"有必要吗","reply":{"id":973124,"from":-1001231173515,"text":"[图片] 哇塞是磁吸 Type-C，微软你干得好啊"}},
+{"id":973303,"date":1791448772,"from":1794475072,"text":"起码舒服。这种用起来舒服的改动不嫌多的","reply":{"id":973302,"from":266806493,"text":"有必要吗"}}
 ]
