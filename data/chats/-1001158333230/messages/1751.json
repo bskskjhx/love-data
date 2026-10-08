@@ -433,7 +433,7 @@
 {"id":973059,"date":1791428333,"from":1405951570,"text":"司机开出事就是司机的问题"},
 {"id":973060,"date":1791428379,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"},
 {"id":973061,"date":1791428391,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"},
-{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",3]],"views":451},
+{"id":973062,"date":1791428611,"from":-1001231173515,"text":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138\n\n先放个能找到的最新 Borealis-DLC 镜像，从 CrOS M138 提取","ents":[["url",0,71]],"media":{"type":"webpage","url":"https://github.com/MlgmXyysd/CROS-tricks/releases/tag/borealis-dlc-R138","site":"GitHub","title":"Release borealis-dlc-R138 · MlgmXyysd/CROS-tricks","desc":"Final borealis-dlc redistable from CrOS 138"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1791428608},"reacts":[["👍",4]],"views":503},
 {"id":973063,"date":1791428617,"from":5844954002,"text":"我加了AI，自动判断什么时候该断，你踩断了说明你寿数到了","ents":[["s",17,11]],"reply":{"id":973060,"from":1217249226,"text":"采用了多相高分子界面热力学非平衡态驱动下的分子链段跨界相互扩散与三维网状拓扑交联演化工艺，让刹车可以踩断，这是全球领先的技术"}},
 {"id":973064,"date":1791428741,"from":5811919476,"svc":{"type":"join"}},
 {"id":973065,"date":1791428741,"from":609517172,"text":"Hey there 阐述, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
@@ -448,5 +448,8 @@
 {"id":973074,"date":1791430511,"from":1472644035,"media":{"type":"sticker","size":7416,"mime":"image/webp","w":512,"h":423,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/973000/973074.webp"}},
 {"id":973075,"date":1791430523,"from":1472644035,"text":"这又什么神必bot"},
 {"id":973076,"date":1791430788,"from":266806493,"text":"无法选中","reply":{"id":973061,"from":1405951570,"text":"车不是我 hw 造的，又不是我江淮宣发的"}},
-{"id":973077,"date":1791431431,"from":6656227782,"text":"换了三四个头像。现在这个过了","reply":{"id":973075,"from":1472644035,"text":"这又什么神必bot"}}
+{"id":973077,"date":1791431431,"from":6656227782,"text":"换了三四个头像。现在这个过了","reply":{"id":973075,"from":1472644035,"text":"这又什么神必bot"}},
+{"id":973078,"date":1791431632,"from":1472644035,"text":"点点点"},
+{"id":973079,"date":1791431984,"from":266806493,"text":"显卡救星 驿晨宇首款1250W白金数字电源 即将上市 UP主: 尘雨or胖次 - https://www.bilibili.com/video/BV1QTHW63EKw","ents":[["url",41,43]],"media":{"type":"webpage","url":"https://bilibili.com/video/BV1QTHW63EKw","site":"哔哩哔哩","title":"显卡救星 驿晨宇首款1250W白金数字电源 即将上市_哔哩哔哩_bilibili","desc":"显卡救星 驿晨宇首款1250W白金数字电源 即将上市, 视频播放量 11487、弹幕量 1、点赞数 412、投硬币枚数 22、收藏人数 42、转发人数 96, 视频作者 尘雨or胖次, 作者简介 一个梦想做全自有品牌的00后，在实践了售后专线:400-082-7556 服务号：YESTARRY驿晨宇服务 Q群：1032400065，相关视频：玄武1050电源白色全网首炸，玄武电源能量大，玄武1050最新电源首烧，避坑，为什么不推荐网红电源，爆炸！玄武1050全网首个出厂无sn码！，震惊！！！玄武电源自燃 凶手竟然是它，谁又用玄武电源了 害我看视频都卡了，乌龟大翻模宇宙之玄冥刃-测评与拆解，512G 硬盘装完系统还剩多少可以用，原来华为大炮能通用，属于自己的全新显卡 为了这一天努力了好久"},"reacts":[["😁",1]]},
+{"id":973080,"date":1791432226,"from":1526182805,"text":"那其實差不多了 1400成色不好到2000都有","reply":{"id":973030,"from":563415545,"text":"[图片]"}}
 ]
