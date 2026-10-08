@@ -405,5 +405,8 @@
 {"id":973031,"date":1791402250,"from":266806493,"text":"有没有解决办法","reply":{"id":973026,"from":1541031247,"text":"雅典娜还是云控的"}},
 {"id":973032,"date":1791402253,"from":266806493,"media":{"type":"sticker","size":12046,"mime":"image/webp","w":509,"h":512,"emoji":"😋","file":"chats/-1001158333230/media/2026-10/973000/973032.webp"}},
 {"id":973033,"date":1791417426,"from":6404421862,"svc":{"type":"join"}},
-{"id":973034,"date":1791417426,"from":609517172,"text":"Hey there 拾忆江南, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":973034,"date":1791417426,"from":609517172,"text":"Hey there 拾忆江南, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":973035,"date":1791420079,"from":955821087,"text":"https://finance.caixin.com/m/2026-10-07/102491010.html","ents":[["url",0,54]],"media":{"type":"webpage","url":"https://finance.caixin.com/m/2026-10-07/102491010.html","site":"Caixin","title":"信用卡“撞库”升级 绑定Apple Pay的中行万事达卡因何被盗刷？","desc":"巴西一直是信用卡盗刷的高风险区域，此次犯罪分子的“撞库”手段有所升级"},"fwd":{"name":"Just Paper","date":1791420006}},
+{"id":973036,"date":1791420080,"from":955821087,"text":"据财新了解，目前看来，中行万事达信用卡持卡人是此次盗刷事件的主要受害者，中行的有效拦截将近一半；招行、农行基本成功拦截了万事达卡持卡人的这些异常交易。","fwd":{"name":"Just Paper","date":1791420023}},
+{"id":973037,"date":1791420081,"from":955821087,"text":"中行真不行啊","fwd":{"name":"Just Paper","date":1791420031}}
 ]
