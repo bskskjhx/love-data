@@ -468,8 +468,10 @@
 {"id":975111,"date":1791644778,"from":5506662351,"media":{"type":"sticker","size":59408,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/975000/975111.webm"}},
 {"id":975112,"date":1791644784,"from":8384169342,"text":"之前是花了8500多买的"},
 {"id":975113,"date":1791644795,"from":8384169342,"text":"@SanYueHuaKai 可以和你交朋友吗","ents":[["mention",0,13]]},
-{"id":975114,"date":1791644870,"from":5506662351,"text":"不和gay交朋友"},
+{"id":975114,"date":1791644870,"from":5506662351,"text":"不和gay交朋友","reacts":[["😁",1]]},
 {"id":975115,"date":1791644873,"from":5506662351,"media":{"type":"sticker","size":160060,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🤣","file":"chats/-1001158333230/media/2026-10/975000/975115.webm"}},
 {"id":975116,"date":1791644880,"from":8384169342,"text":"你啥意思😡"},
-{"id":975117,"date":1791645792,"from":1472644035,"media":{"type":"sticker","size":17774,"mime":"image/webp","w":512,"h":382,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/975000/975117.webp"}}
+{"id":975117,"date":1791645792,"from":1472644035,"media":{"type":"sticker","size":17774,"mime":"image/webp","w":512,"h":382,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/975000/975117.webp"}},
+{"id":975118,"date":1791647059,"from":7352338657,"media":{"type":"sticker","size":126220,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"🤣","file":"chats/-1001158333230/media/2026-10/975000/975118.webm"}},
+{"id":975119,"date":1791647079,"from":7352338657,"text":"群里有gal佬？"}
 ]
