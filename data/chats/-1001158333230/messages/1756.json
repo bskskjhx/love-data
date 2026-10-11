@@ -20,5 +20,16 @@
 {"id":975163,"date":1791683172,"from":357270770,"text":"快把你们的Agent掏出来，黑进去修一下"},
 {"id":975164,"date":1791683193,"from":594317380,"text":"什么广东小伙入侵银行"},
 {"id":975165,"date":1791683280,"from":357270770,"text":"https://www.coolapk1s.com/feed/74283598","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://coolapk1s.com/feed/74283598","site":"Coolapk1s","title":"驴友666622的动态","desc":"小米平板玄戒 O3 的 BL 锁\n\n#小米18Fold# #小米平板9ProMax# #小米解锁BL#\n\n这台机器的锁不在 fastboot，不在底层存储，在 esp 分区的 GBL 引导程序里。\n\nesp = EFI 系统分区，8MB 的 FAT12，里面装的 BOOTAA64.EFI（GBL）在开机早期决定一切：能不能 flash、能不能 unlock、锁算不算数，全看它。\n\n锁校验链绕了一圈..."},"reply":{"id":975148,"from":5799965478,"text":"https://www.coolapk1s.com/feed/74283598?s=MDRjMjY5ODYzOTgzZmFnNmFjYWU2M2J6a1664"}},
-{"id":975166,"date":1791683358,"from":7186939869,"media":{"type":"photo","w":622,"h":630,"size":39320,"file":"chats/-1001158333230/media/2026-10/975000/975166.jpg"}}
+{"id":975166,"date":1791683358,"from":7186939869,"media":{"type":"photo","w":622,"h":630,"size":39320,"file":"chats/-1001158333230/media/2026-10/975000/975166.jpg"}},
+{"id":975167,"date":1791685883,"from":955821087,"text":"为什么安卓版的telegram","reply":{"id":975159,"from":891951610,"text":"[图片]"}},
+{"id":975168,"date":1791685886,"from":955821087,"text":"变得那么iOS了"},
+{"id":975169,"date":1791685888,"from":955821087,"media":{"type":"sticker","size":13472,"mime":"image/webp","w":512,"h":479,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/975000/975169.webp"}},
+{"id":975170,"date":1791685894,"from":891951610,"text":"别问我"},
+{"id":975171,"date":1791685906,"from":891951610,"text":"问杜叔叔去"},
+{"id":975172,"date":1791686053,"from":880075932,"text":"还默认白条","reply":{"id":975168,"from":955821087,"text":"变得那么iOS了"}},
+{"id":975174,"date":1791686068,"from":880075932,"media":{"type":"photo","w":589,"h":1280,"size":97453,"file":"chats/-1001158333230/media/2026-10/975000/975174.jpg"}},
+{"id":975175,"date":1791686082,"from":880075932,"text":"没白条就变这样"},
+{"id":975176,"date":1791686136,"from":880075932,"text":"这是为了什么","reply":{"id":975150,"from":5799965478,"text":"真tm没安全启动啊"}},
+{"id":975177,"date":1791686218,"from":955821087,"text":"GPT：在当前地区不可用","media":{"type":"photo","w":1178,"h":2560,"size":56712,"file":"chats/-1001158333230/media/2026-10/975000/975177.jpg"}},
+{"id":975178,"date":1791686318,"from":955821087,"text":"降本增效的风最终还是吹到了 GPT 6.1……：\n\n▎Source","ents":[["b",26,1],["a",27,6,"https://x.com/CyberKanjousen/status/2108800444596150682"],["b",27,6]],"media":{"type":"photo","w":909,"h":2048,"size":164037,"file":"chats/-1001158333230/media/2026-10/975000/975178.jpg"},"fwd":{"name":"聚合解析姬","date":1791684411}}
 ]
