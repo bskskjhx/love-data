@@ -13,5 +13,12 @@
 {"id":975156,"date":1791682428,"from":5799965478,"text":"idk","reply":{"id":975152,"from":594317380,"text":"（为什么我这边跳转到 localhost"}},
 {"id":975157,"date":1791682435,"from":5799965478,"text":"我去我这也是"},
 {"id":975158,"date":1791682440,"from":891951610,"text":"这个正常的","reply":{"id":975155,"from":594317380,"text":"https://www.coolapk.com/feed/74283598"}},
-{"id":975159,"date":1791682455,"from":891951610,"media":{"type":"photo","w":558,"h":1280,"size":111587,"file":"chats/-1001158333230/media/2026-10/975000/975159.jpg"}}
+{"id":975159,"date":1791682455,"from":891951610,"media":{"type":"photo","w":558,"h":1280,"size":111587,"file":"chats/-1001158333230/media/2026-10/975000/975159.jpg"}},
+{"id":975160,"date":1791682823,"from":1051201244,"text":"我也是","reply":{"id":975152,"from":594317380,"text":"（为什么我这边跳转到 localhost"}},
+{"id":975161,"date":1791682888,"from":1051201244,"media":{"type":"photo","w":640,"h":1280,"size":49147,"file":"chats/-1001158333230/media/2026-10/975000/975161.jpg"}},
+{"id":975162,"date":1791683107,"from":594317380,"text":"这怎么把开发环境部署到生产环境上了","edit":1791683110},
+{"id":975163,"date":1791683172,"from":357270770,"text":"快把你们的Agent掏出来，黑进去修一下"},
+{"id":975164,"date":1791683193,"from":594317380,"text":"什么广东小伙入侵银行"},
+{"id":975165,"date":1791683280,"from":357270770,"text":"https://www.coolapk1s.com/feed/74283598","ents":[["url",0,39]],"media":{"type":"webpage","url":"https://coolapk1s.com/feed/74283598","site":"Coolapk1s","title":"驴友666622的动态","desc":"小米平板玄戒 O3 的 BL 锁\n\n#小米18Fold# #小米平板9ProMax# #小米解锁BL#\n\n这台机器的锁不在 fastboot，不在底层存储，在 esp 分区的 GBL 引导程序里。\n\nesp = EFI 系统分区，8MB 的 FAT12，里面装的 BOOTAA64.EFI（GBL）在开机早期决定一切：能不能 flash、能不能 unlock、锁算不算数，全看它。\n\n锁校验链绕了一圈..."},"reply":{"id":975148,"from":5799965478,"text":"https://www.coolapk1s.com/feed/74283598?s=MDRjMjY5ODYzOTgzZmFnNmFjYWU2M2J6a1664"}},
+{"id":975166,"date":1791683358,"from":7186939869,"media":{"type":"photo","w":622,"h":630,"size":39320,"file":"chats/-1001158333230/media/2026-10/975000/975166.jpg"}}
 ]
