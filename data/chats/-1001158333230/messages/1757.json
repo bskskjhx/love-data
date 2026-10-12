@@ -464,5 +464,9 @@
 {"id":976116,"date":1791824998,"from":8919405928,"svc":{"type":"join"}},
 {"id":976117,"date":1791824999,"from":609517172,"text":"Hey there TheforSaken, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":976118,"date":1791826563,"from":5207934356,"text":"No deleted account found from 3550 scanned users from this group 🚫👻","ents":[["code",30,4]]},
-{"id":976119,"date":1791826776,"from":7475026396,"media":{"type":"photo","w":1100,"h":396,"size":25582,"file":"chats/-1001158333230/media/2026-10/976000/976119.jpg"}}
+{"id":976119,"date":1791826776,"from":7475026396,"media":{"type":"photo","w":1100,"h":396,"size":25582,"file":"chats/-1001158333230/media/2026-10/976000/976119.jpg"}},
+{"id":976120,"date":1791831907,"from":7693473914,"media":{"type":"sticker","size":6012,"mime":"image/webp","w":512,"h":511,"emoji":"😚","file":"chats/-1001158333230/media/2026-10/976000/976120.webp"}},
+{"id":976121,"date":1791831929,"from":331875747,"text":"PB？","reply":{"id":976119,"from":7475026396,"text":"[图片]"}},
+{"id":976122,"date":1791831986,"from":266806493,"text":"bug吧","reply":{"id":976121,"from":331875747,"text":"PB？"}},
+{"id":976123,"date":1791832016,"from":331875747,"text":"肯定啊"}
 ]
