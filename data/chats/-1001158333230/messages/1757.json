@@ -496,5 +496,7 @@
 {"id":976148,"date":1791861390,"from":609517172,"text":"Hey there 泪如死水, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":976149,"date":1791862736,"from":7640518580,"svc":{"type":"join"}},
 {"id":976150,"date":1791862736,"from":609517172,"text":"Hey there 实名上网花火大人, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":976151,"date":1791864567,"from":1405951570,"text":"并非双显卡，那个只是cpu名，并且也很多bug，每次开机都得执行一次 sudo killall -9 WindowServer ，不然高刷新率一直闪屏，笔记本内屏也不能关，缩放只能2倍，1.25，1.6倍会回退","ents":[["code",35,28]],"reply":{"id":976126,"from":1865058930,"text":"xmsl双显卡都驱动上了"}}
+{"id":976151,"date":1791864567,"from":1405951570,"text":"并非双显卡，那个只是cpu名，并且也很多bug，每次开机都得执行一次 sudo killall -9 WindowServer ，不然高刷新率一直闪屏，笔记本内屏也不能关，缩放只能2倍，1.25，1.6倍会回退","ents":[["code",35,28]],"reply":{"id":976126,"from":1865058930,"text":"xmsl双显卡都驱动上了"}},
+{"id":976152,"date":1791865502,"from":6148384204,"svc":{"type":"join"}},
+{"id":976153,"date":1791865502,"from":609517172,"text":"Hey there iozz, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
