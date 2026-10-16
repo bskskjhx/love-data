@@ -225,5 +225,6 @@
 {"id":977397,"date":1792159658,"from":8532603164,"media":{"type":"sticker","size":19064,"mime":"image/webp","w":512,"h":460,"emoji":"😁","file":"chats/-1001158333230/media/2026-10/977200/977397.webp"}},
 {"id":977398,"date":1792159924,"from":266806493,"text":"精选评论是吧","reply":{"id":977395,"from":8532603164,"text":"竟然不是0"}},
 {"id":977399,"date":1792161161,"from":5506662351,"text":"必须严格控评","reply":{"id":977388,"from":7252855002,"text":"[图片] 😁"}},
-{"id":977400,"date":1792161165,"from":5506662351,"media":{"type":"sticker","size":19064,"mime":"image/webp","w":512,"h":460,"emoji":"😁","file":"chats/-1001158333230/media/2026-10/977400/977400.webp"},"fwd":{"name":"Fruit","date":1792159658}}
+{"id":977400,"date":1792161165,"from":5506662351,"media":{"type":"sticker","size":19064,"mime":"image/webp","w":512,"h":460,"emoji":"😁","file":"chats/-1001158333230/media/2026-10/977400/977400.webp"},"fwd":{"name":"Fruit","date":1792159658}},
+{"id":977401,"date":1792162133,"from":5207934356,"text":"No deleted account found from 3552 scanned users from this group 🚫👻","ents":[["code",30,4]]}
 ]
