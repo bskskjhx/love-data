@@ -492,5 +492,11 @@
 {"id":977667,"date":1792226088,"from":5287285590,"text":"收纳也还可以"},
 {"id":977668,"date":1792226121,"from":5287285590,"media":{"type":"photo","w":1280,"h":720,"size":85217,"file":"chats/-1001158333230/media/2026-10/977600/977668.jpg"}},
 {"id":977669,"date":1792226131,"from":5287285590,"text":"确实是体积有点大"},
-{"id":977670,"date":1792226140,"from":5287285590,"text":"但是这个收纳我是很满意了"}
+{"id":977670,"date":1792226140,"from":5287285590,"text":"但是这个收纳我是很满意了"},
+{"id":977671,"date":1792227112,"from":648806410,"text":"@eltavine 一加13T测试签发失败","ents":[["mention",0,9]]},
+{"id":977672,"date":1792227114,"from":648806410,"text":"8E"},
+{"id":977673,"date":1792227149,"from":8238059224,"media":{"type":"sticker","size":27660,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"🫠","file":"chats/-1001158333230/media/2026-10/977600/977673.webm"}},
+{"id":977674,"date":1792227157,"from":594317380,"text":"我好像可以","reply":{"id":977671,"from":648806410,"text":"@eltavine 一加13T测试签发失败"}},
+{"id":977675,"date":1792227177,"from":8238059224,"text":"OnePlus 13 (csr_v2)\nOnePlus Ace 5 Pro (csr_v2)\nPoco F6 Pro (V1 AIDL)\n\nThese devices worked as far as I know","fwd":{"name":"fatalcoder524","date":1792225233}},
+{"id":977676,"date":1792227189,"from":8238059224,"text":"部分 ace3p 也可以"}
 ]
