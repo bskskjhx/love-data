@@ -230,5 +230,9 @@
 {"id":977906,"date":1792235515,"from":648806410,"text":"https://t.me/duck_detector/985","ents":[["url",0,30]],"media":{"type":"webpage","url":"https://t.me/duck_detector/985","site":"Telegram","title":"Duck Apps","desc":"Channel: stable\nVersion: 0.1.4-stable\n\nCommit:\nchore(release): prepare 0.1.4-stable\nAuthor: eltavine\nBranch: main@fb6b1e4\nGitHub Action: Open run"},"reply":{"id":977899,"from":1018446936,"text":"给我测测"}},
 {"id":977907,"date":1792235539,"from":6814075513,"media":{"type":"sticker","size":36536,"mime":"image/webp","w":512,"h":512,"emoji":"😭","file":"chats/-1001158333230/media/2026-10/977800/977907.webp"}},
 {"id":977908,"date":1792235565,"from":1405951570,"text":"fw 雷军，怎么两年手机销量一直下滑","reply":{"id":977907,"from":6814075513,"text":"😭 贴纸"}},
-{"id":977909,"date":1792235569,"from":1405951570,"media":{"type":"sticker","size":24530,"mime":"image/webp","w":512,"h":512,"emoji":"🙂","file":"chats/-1001158333230/media/2026-10/977800/977909.webp"}}
+{"id":977909,"date":1792235569,"from":1405951570,"media":{"type":"sticker","size":24530,"mime":"image/webp","w":512,"h":512,"emoji":"🙂","file":"chats/-1001158333230/media/2026-10/977800/977909.webp"}},
+{"id":977910,"date":1792235994,"from":648806410,"text":"13 也死了","media":{"type":"photo","w":1080,"h":1920,"size":252710,"file":"chats/-1001158333230/media/2026-10/977800/977910.jpg"}},
+{"id":977911,"date":1792235996,"from":648806410,"media":{"type":"sticker","size":25764,"mime":"image/webp","w":512,"h":512,"emoji":"💪","file":"chats/-1001158333230/media/2026-10/977800/977911.webp"}},
+{"id":977912,"date":1792236012,"from":594317380,"media":{"type":"sticker","size":6966,"mime":"image/webp","w":512,"h":341,"emoji":"🥺","file":"chats/-1001158333230/media/2026-10/977800/977912.webp"}},
+{"id":977913,"date":1792236014,"from":1472644035,"media":{"type":"sticker","size":83396,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🧚‍♀️","file":"chats/-1001158333230/media/2026-10/977800/977913.webm"}}
 ]
