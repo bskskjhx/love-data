@@ -238,5 +238,16 @@
 {"id":977914,"date":1792236673,"from":648806410,"media":{"type":"photo","w":1920,"h":1080,"size":236363,"file":"chats/-1001158333230/media/2026-10/977800/977914.jpg"}},
 {"id":977915,"date":1792236682,"from":648806410,"text":"平板签成功了"},
 {"id":977916,"date":1792236686,"from":648806410,"text":"@eltavine","ents":[["mention",0,9]]},
-{"id":977917,"date":1792236803,"from":8238059224,"text":"👌","reply":{"id":977915,"from":648806410,"text":"平板签成功了"}}
+{"id":977917,"date":1792236803,"from":8238059224,"text":"👌","reply":{"id":977915,"from":648806410,"text":"平板签成功了"}},
+{"id":977918,"date":1792238451,"from":-1001231173515,"text":"从 Google RKP 签发自己的 Keybox，轻松通过 Play Integrity 认证 Strong 等级\n\n部分高通设备的 Keymaster/Keymint TA 支持这种操作，OnePlus Pad 2 Pro 测试签发成功，其他设备根据平台和系统版本不同，实际结果可能有差，建议自行测试，签发成功后也可以导出给别的设备用\n\n目前 Duck Toolbox 模块已支持该功能，并可在 Web UI 中一键完成操作，支持 Magisk/KernelSU\nhttps://github.com/eltavine/Duck-ToolBox/releases/latest\n\n需要注意的是，RKP 签发出来的 Keybox 有效期较短，实际部署时注意有效期，过期记得及时重签","ents":[["url",234,56]],"media":{"type":"photo","w":1280,"h":906,"size":59351,"file":"chats/-1001158333230/media/2026-10/977800/977918.jpg"},"edit":1792238568,"group":"-7614844844131450451","fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792238448},"reacts":[["👍",3],["🤯",2],["❤",1]],"views":115},
+{"id":977919,"date":1792238451,"from":-1001231173515,"media":{"type":"photo","w":1280,"h":906,"size":61338,"file":"chats/-1001158333230/media/2026-10/977800/977919.jpg"},"group":"-7614844844131450451","fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792238448},"views":111},
+{"id":977920,"date":1792238452,"from":-1001231173515,"media":{"type":"photo","w":1280,"h":906,"size":57661,"file":"chats/-1001158333230/media/2026-10/977800/977920.jpg"},"group":"-7614844844131450451","fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792238448},"views":137},
+{"id":977921,"date":1792238452,"from":-1001231173515,"media":{"type":"photo","w":1280,"h":906,"size":68614,"file":"chats/-1001158333230/media/2026-10/977800/977921.jpg"},"group":"-7614844844131450451","fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792238448},"views":137},
+{"id":977922,"date":1792238453,"from":-1001231173515,"media":{"type":"photo","w":1280,"h":906,"size":37149,"file":"chats/-1001158333230/media/2026-10/977800/977922.jpg"},"group":"-7614844844131450451","fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792238448},"views":139},
+{"id":977923,"date":1792238517,"from":331875747,"media":{"type":"photo","w":1000,"h":1824,"size":162399,"file":"chats/-1001158333230/media/2026-10/977800/977923.jpg"},"fwd":{"name":"每日沙雕墙","date":1792203988},"reacts":[["🤣",1]],"views":2071},
+{"id":977924,"date":1792238521,"from":331875747,"text":"这是真的吗"},
+{"id":977925,"date":1792238531,"from":1618541158,"svc":{"type":"join"}},
+{"id":977926,"date":1792238531,"from":609517172,"text":"Hey there a4acg, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":977927,"date":1792238620,"from":1838485179,"svc":{"type":"join"}},
+{"id":977928,"date":1792238620,"from":609517172,"text":"Hey there lyc8503, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
