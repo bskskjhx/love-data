@@ -94,5 +94,6 @@
 {"id":978777,"date":1792342074,"from":5799965478,"text":"明明代码里没少调GP API，我支持也很完善的说……"},
 {"id":978778,"date":1792342076,"from":5799965478,"text":"神秘"},
 {"id":978779,"date":1792342093,"from":5799965478,"text":"抱歉，我搞错了——我把Android 设备上的 Mitee 当成了唯一 TEE，忽略了我们自己的 nstrust-libutee。我现在直接看代码确认。"},
-{"id":978780,"date":1792342103,"from":5799965478,"text":"骂了一顿 感觉还是怪怪的"}
+{"id":978780,"date":1792342103,"from":5799965478,"text":"骂了一顿 感觉还是怪怪的"},
+{"id":978781,"date":1792342574,"from":6814075513,"text":"-10003 TEE好像有点真死了","reply":{"id":978745,"from":648806410,"text":"java.security.ProviderException: Fialed to generate key pair. android.security.KeyStoreException: -10003 (internal Keyst"}}
 ]
