@@ -1,0 +1,22 @@
+[
+{"id":978684,"date":1792334229,"from":1794475072,"text":"厂家自己的服务倒是有自建测试服务器"},
+{"id":978685,"date":1792334244,"from":5799965478,"text":"不是pi 而是remote provisioning那个"},
+{"id":978686,"date":1792334251,"from":5799965478,"text":"做个mock罢了"},
+{"id":978687,"date":1792334263,"from":1794475072,"text":"哦，这个啊"},
+{"id":978688,"date":1792334299,"from":5799965478,"text":"还有 我记得这玩意是没有test keybox类似的test uds的吧"},
+{"id":978689,"date":1792334304,"from":5799965478,"text":"但是了但是 有这个"},
+{"id":978690,"date":1792334320,"from":1794475072,"text":"国内设备因为连不上Google服务器，至少oddo不喜欢用。连不上服务器太伤了，除非像小米一样自己建个代理服务器"},
+{"id":978691,"date":1792334339,"from":5799965478,"media":{"type":"photo","w":576,"h":1280,"size":81664,"file":"chats/-1001158333230/media/2026-10/978600/978691.jpg"}},
+{"id":978692,"date":1792334345,"from":5799965478,"text":"确实","reply":{"id":978690,"from":1794475072,"text":"国内设备因为连不上Google服务器，至少oddo不喜欢用。连不上服务器太伤了，除非像小米一样自己建个代理服务器"}},
+{"id":978693,"date":1792334364,"from":5799965478,"text":"而且我记得如果设备geo=cn且没有启用gms服务的话"},
+{"id":978694,"date":1792334378,"from":5799965478,"text":"rkpdapp是不请求的"},
+{"id":978695,"date":1792334595,"from":891951610,"text":"这个apk有吗","reply":{"id":978691,"from":5799965478,"text":"[图片]"}},
+{"id":978696,"date":1792334612,"from":1794475072,"text":"GitHub有，","reply":{"id":978695,"from":891951610,"text":"这个apk有吗"}},
+{"id":978697,"date":1792334615,"from":1794475072,"text":"我找找"},
+{"id":978698,"date":1792334655,"from":5799965478,"text":"有","reply":{"id":978695,"from":891951610,"text":"这个apk有吗"}},
+{"id":978699,"date":1792334678,"from":5799965478,"media":{"type":"file","size":1753486,"mime":"application/octet-stream","name":"KeyAttestation-v2.0.3-Vision.apk","file":"chats/-1001158333230/media/2026-10/978600/978699.bin"},"fwd":{"name":"泥","date":1791116687}},
+{"id":978700,"date":1792334682,"from":5799965478,"text":"这个"},
+{"id":978701,"date":1792334685,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://github.com/vvb2060/KeyAttestation/releases","site":"GitHub","title":"Releases · vvb2060/KeyAttestation","desc":"Contribute to vvb2060/KeyAttestation development by creating an account on GitHub."}},
+{"id":978702,"date":1792334696,"from":891951610,"text":"不是老的","reply":{"id":978701,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases"}},
+{"id":978703,"date":1792334705,"from":5799965478,"text":"这个是原版的 可惜没有更新rkp的新root key","reply":{"id":978701,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases"}}
+]
