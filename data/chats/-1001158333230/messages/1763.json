@@ -18,5 +18,20 @@
 {"id":978700,"date":1792334682,"from":5799965478,"text":"这个"},
 {"id":978701,"date":1792334685,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://github.com/vvb2060/KeyAttestation/releases","site":"GitHub","title":"Releases · vvb2060/KeyAttestation","desc":"Contribute to vvb2060/KeyAttestation development by creating an account on GitHub."}},
 {"id":978702,"date":1792334696,"from":891951610,"text":"不是老的","reply":{"id":978701,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases"}},
-{"id":978703,"date":1792334705,"from":5799965478,"text":"这个是原版的 可惜没有更新rkp的新root key","reply":{"id":978701,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases"}}
+{"id":978703,"date":1792334705,"from":5799965478,"text":"这个是原版的 可惜没有更新rkp的新root key","reply":{"id":978701,"from":1794475072,"text":"https://github.com/vvb2060/KeyAttestation/releases"}},
+{"id":978704,"date":1792335780,"from":542519262,"text":"这和我氧啥关系啊","reply":{"id":976494,"from":-1001231173515,"text":"[图片] ColorOS 17 (Global) Roll-Out Schedule (OPPO / OnePlus / realme)"}},
+{"id":978705,"date":1792335869,"from":1472644035,"text":"你氧正式挂上ColorOS名头了"},
+{"id":978706,"date":1792335912,"from":1472644035,"text":"以前是ColorOS For OnePlus（又称OxygenOS）"},
+{"id":978707,"date":1792336066,"from":473107522,"text":"大氢大氧\n双双阵亡","reply":{"id":978704,"from":542519262,"text":"这和我氧啥关系啊"}},
+{"id":978708,"date":1792336082,"from":473107522,"text":"就这关系"},
+{"id":978709,"date":1792336136,"from":1472644035,"text":"氢和氧早在android11后期就死了"},
+{"id":978710,"date":1792336158,"from":1472644035,"text":"后者的11.3就已经是ColorOS的形状"},
+{"id":978711,"date":1792336192,"from":473107522,"text":"一起死掉的还有 realmeUI"},
+{"id":978712,"date":1792336207,"from":1472644035,"text":"realme就不算死"},
+{"id":978713,"date":1792336209,"from":473107522,"text":"卡勒OS一桶浆糊"},
+{"id":978714,"date":1792336215,"from":1472644035,"text":"本来就是ColorOS"},
+{"id":978715,"date":1792336236,"from":1472644035,"text":"只是把他们独占的一些外包给删干净了"},
+{"id":978716,"date":1792336288,"from":7186939869,"text":"6.1 sol蹬不完啊","reply":{"id":978540,"from":648806410,"text":"gpt 的五小时限额太那啥了"}},
+{"id":978717,"date":1792336305,"from":7186939869,"media":{"type":"sticker","size":31949,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"🙂","file":"chats/-1001158333230/media/2026-10/978600/978717.webm"}},
+{"id":978718,"date":1792336391,"from":542519262,"text":"那我在吃的oos16 \n后面就直接是cos17（海外版","reply":{"id":978709,"from":1472644035,"text":"氢和氧早在android11后期就死了"}}
 ]
