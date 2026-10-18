@@ -47,5 +47,21 @@
 {"id":978730,"date":1792338709,"from":648806410,"text":"我还以为是我找的不对"},
 {"id":978731,"date":1792338711,"from":5799965478,"text":"还自带烧录功能 那么好"},
 {"id":978732,"date":1792338723,"from":5799965478,"text":"我就是看这点不爽"},
-{"id":978733,"date":1792338738,"from":5799965478,"text":"所以自己的TEE模块直接换自己的Root CA了"}
+{"id":978733,"date":1792338738,"from":5799965478,"text":"所以自己的TEE模块直接换自己的Root CA了"},
+{"id":978734,"date":1792338765,"from":1405951570,"text":"那样google认吗"},
+{"id":978735,"date":1792338767,"from":5799965478,"text":"对了能看下一加高通没烧录的报错信息吗","reply":{"id":978730,"from":648806410,"text":"我还以为是我找的不对"}},
+{"id":978736,"date":1792338776,"from":5799965478,"text":"肯定不认","reply":{"id":978734,"from":1405951570,"text":"那样google认吗"}},
+{"id":978737,"date":1792338783,"from":648806410,"text":"RKP吗","reply":{"id":978735,"from":5799965478,"text":"对了能看下一加高通没烧录的报错信息吗"}},
+{"id":978738,"date":1792338798,"from":5799965478,"text":"不是 就是啥key都没有的状态","reply":{"id":978737,"from":648806410,"text":"RKP吗"}},
+{"id":978739,"date":1792338801,"from":5799965478,"text":"密钥验证app"},
+{"id":978740,"date":1792338819,"from":648806410,"text":"我这看不了"},
+{"id":978741,"date":1792338824,"from":648806410,"text":"我手上的全烧录过了"},
+{"id":978742,"date":1792338826,"from":648806410,"media":{"type":"sticker","size":11390,"mime":"image/webp","w":512,"h":512,"emoji":"🐱","file":"chats/-1001158333230/media/2026-10/978600/978742.webp"}},
+{"id":978743,"date":1792338829,"from":5799965478,"text":"6"},
+{"id":978744,"date":1792338841,"from":648806410,"text":"我搜一下有没有"},
+{"id":978745,"date":1792338985,"from":648806410,"text":"java.security.ProviderException: Fialed to generate key pair.\nandroid.security.KeyStoreException: -10003 (internal Keystore code: -10003 mesage: system/security/keystore2/src/security_level.rs:623\n  Caused by: 0: system/security/keystore2/src/security_level.rs:621: While generating Key without explicit attestation key.\n                    1: Error::Km(-10003)) (public error code: 10 internal Keystore code: -10003)"},
+{"id":978746,"date":1792338995,"from":648806410,"text":"似乎是这个","reply":{"id":978743,"from":5799965478,"text":"6"}},
+{"id":978747,"date":1792338998,"from":5799965478,"text":"谢了"},
+{"id":978748,"date":1792339005,"from":1255544320,"text":"强度太低了，我蹬luna都能蹬完（","reply":{"id":978716,"from":7186939869,"text":"6.1 sol蹬不完啊"}},
+{"id":978749,"date":1792339119,"from":7850892080,"text":"协议太少了","edit":1792339512,"reply":{"id":976554,"from":1541031247,"text":"oppo移动电源没什么优势"}}
 ]
