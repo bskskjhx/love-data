@@ -16,7 +16,7 @@
 {"id":978195,"date":1792260692,"from":630729873,"media":{"type":"sticker","size":30762,"mime":"image/webp","w":512,"h":512,"emoji":"😀","file":"chats/-1001158333230/media/2026-10/978000/978195.webp"}},
 {"id":978196,"date":1792260768,"from":5384201319,"text":"话说tees的rkp only会不会有影响"},
 {"id":978197,"date":1792260792,"from":5384201319,"text":"那玩意我发现关掉重启后还是开启的"},
-{"id":978198,"date":1792262720,"from":8238059224,"text":"Duck ToolBox 0.1.6-stable\n同一真机对照测试：返回首页约提速 18 倍，返回应用列表约提速 2 倍。\nOn-device comparison: about 18× faster returns home and 2× faster returns to the app list.\n修复更新检查失败后反复重试导致的卡顿。\nFixed freezes caused by repeated retries after failed update checks.\n优化列表渲染与布局测量，完善异步命令的错误处理和资源清理。\nOptimized list rendering and layout measurement, with improved async error handling and cleanup.","ents":[["a",0,25,"https://github.com/eltavine/Duck-ToolBox/releases/tag/v0.1.6-stable"],["b",0,25]],"media":{"type":"webpage","url":"https://github.com/eltavine/Duck-ToolBox/releases/tag/v0.1.6-stable","site":"GitHub","title":"Release v0.1.6-stable · eltavine/Duck-ToolBox","desc":"Changelog\n0.1.6-stable - 2026-10-18\nWebUI\n\nRun shell commands through the host's queued job API when available, so slow\ncommands no longer block return navigation. Preserve output, exit status ..."},"fwd":{"name":"Duck Apps","date":1792262178},"views":1947},
+{"id":978198,"date":1792262720,"from":8238059224,"text":"Duck ToolBox 0.1.6-stable\n同一真机对照测试：返回首页约提速 18 倍，返回应用列表约提速 2 倍。\nOn-device comparison: about 18× faster returns home and 2× faster returns to the app list.\n修复更新检查失败后反复重试导致的卡顿。\nFixed freezes caused by repeated retries after failed update checks.\n优化列表渲染与布局测量，完善异步命令的错误处理和资源清理。\nOptimized list rendering and layout measurement, with improved async error handling and cleanup.","ents":[["a",0,25,"https://github.com/eltavine/Duck-ToolBox/releases/tag/v0.1.6-stable"],["b",0,25]],"media":{"type":"webpage","url":"https://github.com/eltavine/Duck-ToolBox/releases/tag/v0.1.6-stable","site":"GitHub","title":"Release v0.1.6-stable · eltavine/Duck-ToolBox","desc":"Changelog\n0.1.6-stable - 2026-10-18\nWebUI\n\nRun shell commands through the host's queued job API when available, so slow\ncommands no longer block return navigation. Preserve output, exit status ..."},"fwd":{"name":"Duck Apps","date":1792262178},"views":2005},
 {"id":978199,"date":1792262727,"from":8238059224,"text":"修了下性能"},
 {"id":978200,"date":1792262732,"from":8238059224,"text":"()"},
 {"id":978201,"date":1792262740,"from":8238059224,"text":"之前没注意到太急吧卡了"},
@@ -92,5 +92,16 @@
 {"id":978272,"date":1792300853,"from":955821087,"text":"Siri残废","reply":{"id":978271,"from":868035986,"text":"我去。。。。。这还能参差不齐"}},
 {"id":978273,"date":1792300860,"from":955821087,"text":"Siri会有奇奇怪怪的问题"},
 {"id":978274,"date":1792300882,"from":891951610,"text":"拿pif fork跑一下基本就可以","reply":{"id":978259,"from":594317380,"text":"太神奇了，居然能刷，droidguard 强度下降了？"}},
-{"id":978275,"date":1792300904,"from":955821087,"text":"和homekit控制一大堆奇奇怪怪的问题"}
+{"id":978275,"date":1792300904,"from":955821087,"text":"和homekit控制一大堆奇奇怪怪的问题"},
+{"id":978276,"date":1792300923,"from":955821087,"text":"厂商和苹果之间扯皮"},
+{"id":978277,"date":1792301290,"from":955821087,"text":"这个不是Siri AI能解决的","reply":{"id":978272,"from":955821087,"text":"Siri残废"}},
+{"id":978278,"date":1792301306,"from":955821087,"text":"就是homekit配件厂商 苹果home团队和Siri团队三方扯皮的结果"},
+{"id":978279,"date":1792301308,"from":868035986,"text":"好吧，垃果","reply":{"id":978272,"from":955821087,"text":"Siri残废"}},
+{"id":978280,"date":1792301318,"from":955821087,"text":"我叫他开空调给我安防系统给打开了","reacts":[["😁",1]]},
+{"id":978281,"date":1792301330,"from":955821087,"text":"aqara和苹果扯皮来扯皮去"},
+{"id":978282,"date":1792301339,"from":955821087,"text":"aqara叫我自适应 名称要改成恒温器"},
+{"id":978283,"date":1792301366,"from":891951610,"text":"啥比的要死","reply":{"id":978282,"from":955821087,"text":"aqara叫我自适应 名称要改成恒温器"}},
+{"id":978284,"date":1792301393,"from":955821087,"text":"反正换小爱之后没遇到这个问题了"},
+{"id":978285,"date":1792301405,"from":955821087,"text":"在我房间用，也没遇到聋的传人"},
+{"id":978286,"date":1792301517,"from":868035986,"text":"垃果","reply":{"id":978280,"from":955821087,"text":"我叫他开空调给我安防系统给打开了"}}
 ]
