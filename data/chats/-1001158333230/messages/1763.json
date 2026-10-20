@@ -433,7 +433,7 @@
 {"id":979116,"date":1792461505,"from":648806410,"text":"忘了竖屏测一下了"},
 {"id":979117,"date":1792461510,"from":594317380,"text":"操。！","media":{"type":"photo","w":2560,"h":1782,"size":76802,"file":"chats/-1001158333230/media/2026-10/979000/979117.jpg"}},
 {"id":979118,"date":1792461534,"from":1472644035,"text":"绷不住了"},
-{"id":979119,"date":1792462353,"from":648806410,"media":{"type":"file","size":22044,"mime":"application/octet-stream","name":"app-release-signed.apk.idsig","file":"chats/-1001158333230/media/2026-10/979000/979119.bin"},"group":"14339698831640685"},
+{"id":979119,"date":1792462353,"from":648806410,"media":{"type":"file","size":22044,"mime":"application/octet-stream","name":"app-release-signed.apk.idsig","file":"chats/-1001158333230/media/2026-10/979000/979119.bin"},"group":"14339698831640685","reacts":[["👌",1]]},
 {"id":979120,"date":1792462354,"from":648806410,"text":"@wushidi @People11_Neko @winzkh","ents":[["mention",0,8],["mention",9,14],["mention",24,7]],"media":{"type":"file","size":1817044,"mime":"application/octet-stream","name":"app-release-signed.apk","file":"chats/-1001158333230/media/2026-10/979000/979120.bin"},"group":"14339698831640685"},
 {"id":979121,"date":1792462541,"from":1018446936,"text":"草","reply":{"id":979120,"from":648806410,"text":"📎 app-release-signed.apk @wushidi @People11_Neko @winzkh"}},
 {"id":979122,"date":1792462545,"from":1018446936,"media":{"type":"photo","w":1096,"h":2560,"size":197524,"file":"chats/-1001158333230/media/2026-10/979000/979122.jpg"}},
