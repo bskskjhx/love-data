@@ -283,7 +283,7 @@
 {"id":978966,"date":1792402796,"from":707953138,"text":"但我买了"},
 {"id":978967,"date":1792416970,"from":470460877,"text":"LMNFlash 0.2.1 PC 准备加入比QFIL更方便的高通分区管理器","media":{"type":"photo","w":722,"h":752,"size":30802,"file":"chats/-1001158333230/media/2026-10/978800/978967.jpg"}},
 {"id":978968,"date":1792417724,"from":331875747,"text":"有办法让Google Casting接入Airplay 2音箱吗？"},
-{"id":978969,"date":1792419082,"from":644021247,"text":"dmesg -w | grep mixdev:\nMakr:\niOS 16 on redmi note 12\n\nvideo.twimg.com/amplify_video/…\n\nhttps://x.com/makrotasuss/status/2111922103289045306\n\nhttps://x.com/usrbinmix/status/2112029030073741696","ents":[["a",0,22,"https://x.com/usrbinmix"],["b",0,22],["quote",24,116,1],["a",24,4,"https://x.com/makrotasuss"],["b",24,4],["a",55,31,"https://video.twimg.com/amplify_video/2111921906165092352/vid/avc1/720x1280/TCKf3c1HxqbyMskG.mp4?tag=29"],["url",88,52],["url",142,50]],"media":{"type":"photo","w":1154,"h":1363,"size":137328,"file":"chats/-1001158333230/media/2026-10/978800/978969.jpg"},"via":"mdshiroiro_link_bot","fwd":{"name":"MDシロ","date":1792393622},"views":1957},
+{"id":978969,"date":1792419082,"from":644021247,"text":"dmesg -w | grep mixdev:\nMakr:\niOS 16 on redmi note 12\n\nvideo.twimg.com/amplify_video/…\n\nhttps://x.com/makrotasuss/status/2111922103289045306\n\nhttps://x.com/usrbinmix/status/2112029030073741696","ents":[["a",0,22,"https://x.com/usrbinmix"],["b",0,22],["quote",24,116,1],["a",24,4,"https://x.com/makrotasuss"],["b",24,4],["a",55,31,"https://video.twimg.com/amplify_video/2111921906165092352/vid/avc1/720x1280/TCKf3c1HxqbyMskG.mp4?tag=29"],["url",88,52],["url",142,50]],"media":{"type":"photo","w":1154,"h":1363,"size":137328,"file":"chats/-1001158333230/media/2026-10/978800/978969.jpg"},"via":"mdshiroiro_link_bot","fwd":{"name":"MDシロ","date":1792393622},"views":1962},
 {"id":978970,"date":1792419094,"from":955821087,"text":"可以直接换AirPlay2","reply":{"id":978968,"from":331875747,"text":"有办法让Google Casting接入Airplay 2音箱吗？"}},
 {"id":978971,"date":1792419130,"from":955821087,"text":"或者直接换一个都支持的speaker"},
 {"id":978972,"date":1792419137,"from":955821087,"text":"高端音响应该问题不大"},
@@ -382,5 +382,17 @@
 {"id":979065,"date":1792453705,"from":331875747,"text":"可能是地球上唯一一台带EID的真我GT5 Pro（","media":{"type":"photo","w":1164,"h":2560,"size":97663,"file":"chats/-1001158333230/media/2026-10/979000/979065.jpg"}},
 {"id":979066,"date":1792455882,"from":648806410,"text":"坏了，另一台设备这么搞没成功清掉","reply":{"id":979013,"from":5799965478,"text":"6"}},
 {"id":979067,"date":1792455889,"from":648806410,"text":"KM版本不一样"},
-{"id":979068,"date":1792455892,"from":648806410,"text":"我再玩玩"}
+{"id":979068,"date":1792455892,"from":648806410,"text":"我再玩玩"},
+{"id":979069,"date":1792456276,"from":430290919,"text":"有群友遇到过升级到corloros 17 就进不去bootloader了嘛。"},
+{"id":979070,"date":1792456285,"from":8783842237,"svc":{"type":"join"}},
+{"id":979071,"date":1792456285,"from":609517172,"text":"Hey there Xi_xi, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":979072,"date":1792456296,"from":1794475072,"text":"还没进过bl，我看看"},
+{"id":979073,"date":1792456322,"from":430290919,"text":"adb 直接重启 ，关机音量-的话，会一直自动重启。"},
+{"id":979074,"date":1792456432,"from":1794475072,"text":"进不去"},
+{"id":979075,"date":1792456445,"from":1794475072,"text":"只能暂时用着fastbootd了"},
+{"id":979076,"date":1792456475,"from":430290919,"media":{"type":"video","size":2562949,"mime":"video/mp4","w":720,"h":1280,"dur":7,"file":"chats/-1001158333230/media/2026-10/979000/979076.mp4","thumb":"chats/-1001158333230/media/2026-10/979000/979076_thumb.jpg"}},
+{"id":979077,"date":1792456485,"from":430290919,"text":"就是这样了。"},
+{"id":979078,"date":1792456546,"from":430290919,"text":"晚上自动更新给我root掉了，现在想重新修补整这个是吧。"},
+{"id":979079,"date":1792456551,"from":430290919,"media":{"type":"sticker","size":19966,"mime":"image/webp","w":429,"h":512,"emoji":"🌿","file":"chats/-1001158333230/media/2026-10/979000/979079.webp"}},
+{"id":979080,"date":1792456572,"from":430290919,"text":"所以我都好奇是不是有啥传统啊，就是新系统会进不去BL。"}
 ]
