@@ -255,7 +255,7 @@
 {"id":979438,"date":1792468273,"from":707953138,"text":"改成这个然后怎么搞"},
 {"id":979439,"date":1792468274,"from":707953138,"media":{"type":"sticker","size":43879,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/979400/979439.webm"}},
 {"id":979440,"date":1792468331,"from":648806410,"text":"setprop remote_provisioning.tee.rkp_only true"},
-{"id":979441,"date":1792468353,"from":6814075513,"text":"联想某型号Android10系统persist分区","media":{"type":"photo","w":720,"h":1280,"size":186420,"file":"chats/-1001158333230/media/2026-10/979400/979441.jpg"},"reacts":[["😁",1]]},
+{"id":979441,"date":1792468353,"from":6814075513,"text":"联想某型号Android10系统persist分区","media":{"type":"photo","w":720,"h":1280,"size":186420,"file":"chats/-1001158333230/media/2026-10/979400/979441.jpg"},"reacts":[["😁",2]]},
 {"id":979442,"date":1792468365,"from":6814075513,"text":"更是加密都懒得写了"},
 {"id":979443,"date":1792468369,"from":6814075513,"media":{"type":"sticker","size":17562,"mime":"image/webp","w":512,"h":512,"emoji":"🥲","file":"chats/-1001158333230/media/2026-10/979400/979443.webp"}},
 {"id":979444,"date":1792468431,"from":5291332414,"text":"hyw","media":{"type":"photo","w":1175,"h":2560,"size":115340,"file":"chats/-1001158333230/media/2026-10/979400/979444.jpg"}},
@@ -301,5 +301,12 @@
 {"id":979484,"date":1792468999,"from":707953138,"text":"他是真不挑啊"},
 {"id":979485,"date":1792469004,"from":707953138,"text":"啥都吃"},
 {"id":979486,"date":1792469012,"from":331875747,"text":"我看合约是今天更新，明天再试试","reply":{"id":979450,"from":5291332414,"text":"据说是年底"}},
-{"id":979487,"date":1792470973,"from":7811168506,"media":{"type":"sticker","size":16564,"mime":"image/webp","w":512,"h":512,"emoji":"😁","file":"chats/-1001158333230/media/2026-10/979400/979487.webp"}}
+{"id":979487,"date":1792470973,"from":7811168506,"media":{"type":"sticker","size":16564,"mime":"image/webp","w":512,"h":512,"emoji":"😁","file":"chats/-1001158333230/media/2026-10/979400/979487.webp"}},
+{"id":979488,"date":1792482600,"from":5799965478,"text":"话说widevine你们研究过吗","reply":{"id":979388,"from":648806410,"text":"我记得这平台写了也恢复不了widevine工作"}},
+{"id":979489,"date":1792482631,"from":5799965478,"text":"用keymint的逻辑请求widevine keybox请求不到"},
+{"id":979490,"date":1792482654,"from":891951610,"text":"RKP Widevine可以正常工作","reply":{"id":979388,"from":648806410,"text":"我记得这平台写了也恢复不了widevine工作"}},
+{"id":979491,"date":1792482667,"from":891951610,"text":"非RKP的不能"},
+{"id":979492,"date":1792482675,"from":5799965478,"text":"这玩意理论上炸不了吧 除非服务器拉黑","reply":{"id":979470,"from":707953138,"text":"然后我的rkp感觉是被我永久玩炸了"}},
+{"id":979493,"date":1792482689,"from":5799965478,"text":"还有三星这种用UdsCert的"},
+{"id":979494,"date":1792482713,"from":5799965478,"text":"udscert如果存rpmb之类的在硬盘上的地方就可能炸"}
 ]
