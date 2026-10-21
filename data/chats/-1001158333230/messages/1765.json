@@ -396,7 +396,7 @@
 {"id":980081,"date":1792606845,"from":5536905909,"svc":{"type":"join"}},
 {"id":980082,"date":1792606845,"from":609517172,"text":"Hey there hustle castle, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":980083,"date":1792608610,"from":8697909312,"text":"114514是一个奇妙的数字","reply":{"id":979891,"from":-1001231173515,"text":"CVE-2026-99999 Linux 内核虚拟机逃逸漏洞 eMudhra TLS 根证书私钥泄露 CVE-2026-109618,109619 PHP 远程代码执行漏洞 CVE-2026-111497 Node.JS 远程代码执行漏洞 "}},
-{"id":980084,"date":1792609206,"from":-1001231173515,"text":"Chrome 也来咯\nhttps://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html\n\n其中包含了 CVE-2026-113328 极高危漏洞，可绕过 Sandbox 远程执行任意代码","ents":[["url",11,96],["phone",119,11]],"media":{"type":"webpage","url":"https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html","site":"Chrome Releases","title":"Stable Channel Update for Desktop","desc":"  The Chrome team is delighted to announce the promotion of Chrome 156 to the stable channel for Windows, Mac and Linux. This will roll out ..."},"edit":1792609286,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792609203},"reacts":[["👍",8],["🤯",7],["😇",2]],"views":1884},
+{"id":980084,"date":1792609206,"from":-1001231173515,"text":"Chrome 也来咯\nhttps://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html\n\n其中包含了 CVE-2026-113328 极高危漏洞，可绕过 Sandbox 远程执行任意代码","ents":[["url",11,96],["phone",119,11]],"media":{"type":"webpage","url":"https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html","site":"Chrome Releases","title":"Stable Channel Update for Desktop","desc":"  The Chrome team is delighted to announce the promotion of Chrome 156 to the stable channel for Windows, Mac and Linux. This will roll out ..."},"edit":1792609286,"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792609203},"reacts":[["👍",9],["🤯",7],["😇",2]],"views":1970},
 {"id":980085,"date":1792609226,"from":648749719,"text":"再来个，设备是电源插在沃尔达智能排插","reply":{"id":980076,"from":6040131581,"text":"让我们想象一下你司架构是 NGINX v1.23.0 作为边缘节点，后面挂着 PHP-FPM 7.3 (刚花了几周时间从 5.6 升级上来) 的源站 + 前段时间刚花了大价钱采购来的 TiDB NewDB + Node.js 24 LTS "}},
 {"id":980087,"date":1792612655,"from":266806493,"text":"各家针对8ee6黑屏的方案。#一加16 #小米18promax #iqoo16 #荣耀Magic9Promax\n\n▎Source","ents":[["b",0,14],["hashtag",14,5],["b",14,5],["b",19,1],["hashtag",20,11],["b",20,11],["b",31,1],["hashtag",32,7],["b",32,7],["b",39,1],["hashtag",40,15],["b",40,15],["b",57,1],["a",58,6,"https://www.douyin.com/note/7698275134554462819"],["b",58,6]],"media":{"type":"photo","w":972,"h":1862,"size":72446,"file":"chats/-1001158333230/media/2026-10/980000/980087.jpg"},"fwd":{"name":"聚合解析姬","date":1792612566}},
 {"id":980088,"date":1792613051,"from":1541031247,"text":"什么叫黑屏重启明显减少","reply":{"id":980087,"from":266806493,"text":"[图片] 各家针对8ee6黑屏的方案。#一加16 #小米18promax #iqoo16 #荣耀Magic9Promax  ▎Source"}},
@@ -455,7 +455,7 @@
 {"id":980141,"date":1792624375,"from":266806493,"text":"oom？","reply":{"id":980140,"from":2044508199,"text":"oom"}},
 {"id":980142,"date":1792624386,"from":2044508199,"text":"boom的意思）","reply":{"id":980141,"from":266806493,"text":"oom？"}},
 {"id":980143,"date":1792624405,"from":7162243624,"text":"你们喜欢什么手机"},
-{"id":980144,"date":1792624423,"from":868035986,"text":"ai检查人类作业，一堆不及格","reacts":[["😭",1]],"reply":{"id":980101,"from":594317380,"text":"[图片]"}},
+{"id":980144,"date":1792624423,"from":868035986,"text":"ai检查人类作业，一堆不及格","reacts":[["😭",2]],"reply":{"id":980101,"from":594317380,"text":"[图片]"}},
 {"id":980145,"date":1792624425,"from":266806493,"text":"学荣耀就行","reply":{"id":980142,"from":2044508199,"text":"boom的意思）"}},
 {"id":980146,"date":1792624435,"from":7162243624,"text":"ios及格吗","reply":{"id":980144,"from":868035986,"text":"ai检查人类作业，一堆不及格"}},
 {"id":980147,"date":1792624468,"from":266806493,"text":"ai：人类的代码千疮百孔","reacts":[["🥰",1],["😭",1]],"reply":{"id":980144,"from":868035986,"text":"ai检查人类作业，一堆不及格"}},
@@ -467,5 +467,7 @@
 {"id":980153,"date":1792624732,"from":5494601610,"text":"我米17pm解锁是43499漏洞好像是"},
 {"id":980154,"date":1792624738,"from":5494601610,"text":"酷安的脚本"},
 {"id":980155,"date":1792624747,"from":7162243624,"text":"4399游戏吗","reply":{"id":980153,"from":5494601610,"text":"我米17pm解锁是43499漏洞好像是"}},
-{"id":980156,"date":1792624850,"from":5494601610,"text":"Cve43499漏洞"}
+{"id":980156,"date":1792624850,"from":5494601610,"text":"Cve43499漏洞"},
+{"id":980157,"date":1792624952,"from":7162243624,"text":"哪个","media":{"type":"photo","w":1256,"h":531,"size":66473,"file":"chats/-1001158333230/media/2026-10/980000/980157.jpg"},"reply":{"id":980156,"from":5494601610,"text":"Cve43499漏洞"}},
+{"id":980158,"date":1792624994,"from":7162243624,"text":"第一个吗"}
 ]
