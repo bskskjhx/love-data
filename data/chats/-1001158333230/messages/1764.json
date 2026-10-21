@@ -347,7 +347,7 @@
 {"id":979530,"date":1792520884,"from":630729873,"text":"私钥的d居然是个位数"},
 {"id":979531,"date":1792520887,"from":630729873,"text":"d=4"},
 {"id":979532,"date":1792520892,"from":630729873,"text":"太抽象了"},
-{"id":979533,"date":1792520905,"from":630729873,"text":"666666\n什么叫三哥的CA私钥是一个字节？？\n我嘞个 India RNG 啊\n\nhttps://mastodon.catgirl.cloud/@49016/117474217042191790\n\nhttps://www.heise.de/news/Vorfall-bei-Zertifizierungsstelle-eMudhra-Acht-CA-Zertifikate-kompromittiert-11494412.html\n\nhttps://app.hncompanion.com/item?id=50166579&from=%2F","ents":[["url",42,56],["url",100,116],["url",218,53]],"media":{"type":"file","size":9660,"mime":"application/x-7z-compressed","name":"emudhra.7z","file":"chats/-1001158333230/media/2026-10/979400/979533.7z"},"fwd":{"name":"2.5次元日常 🍉","date":1792516787},"views":3270},
+{"id":979533,"date":1792520905,"from":630729873,"text":"666666\n什么叫三哥的CA私钥是一个字节？？\n我嘞个 India RNG 啊\n\nhttps://mastodon.catgirl.cloud/@49016/117474217042191790\n\nhttps://www.heise.de/news/Vorfall-bei-Zertifizierungsstelle-eMudhra-Acht-CA-Zertifikate-kompromittiert-11494412.html\n\nhttps://app.hncompanion.com/item?id=50166579&from=%2F","ents":[["url",42,56],["url",100,116],["url",218,53]],"media":{"type":"file","size":9660,"mime":"application/x-7z-compressed","name":"emudhra.7z","file":"chats/-1001158333230/media/2026-10/979400/979533.7z"},"fwd":{"name":"2.5次元日常 🍉","date":1792516787},"views":3287},
 {"id":979534,"date":1792520932,"from":648806410,"media":{"type":"sticker","size":189294,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"🧐","file":"chats/-1001158333230/media/2026-10/979400/979534.webm"}},
 {"id":979535,"date":1792520974,"from":630729873,"text":"我至今不敢相信","reply":{"id":979534,"from":648806410,"text":"🧐 贴纸"}},
 {"id":979536,"date":1792520977,"from":630729873,"text":"WebPKI的CA"},
@@ -356,7 +356,7 @@
 {"id":979539,"date":1792520995,"from":630729873,"text":"一次性漏了8个"},
 {"id":979540,"date":1792520998,"from":630729873,"text":"太牛逼了"},
 {"id":979541,"date":1792521001,"from":648806410,"text":"666"},
-{"id":979542,"date":1792521036,"from":630729873,"text":"撤销对疑似泄漏根证书颁发机构的信任\n\n接 Mozilla 通告，Nixpkgs 已于 #576390（26.05 #576401）撤销对以下根证书颁发机构的信任：\n- Comodo AAA Services root\n- emSign ECC Root CA - G3\n- emSign Root CA - C1\n- emSign ECC Root CA - C3\n\n鉴于 PR 合并后仍需时间才能到达发布频道，建议暂时在 NixOS 配置中做如下修改：\nsecurity.pki.caCertificateBlacklist = [\n  \"Comodo AAA Services root\"\n  \"emSign ECC Root CA - G3\"\n  \"emSign Root CA - C1\"\n  \"emSign ECC Root CA - C3\"\n];","ents":[["b",0,17],["a",21,10,"https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"],["a",43,7,"https://github.com/NixOS/nixpkgs/pull/576390"],["a",57,7,"https://github.com/NixOS/nixpkgs/pull/576401"],["pre",228,151]],"media":{"type":"webpage","url":"https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates","site":"Mozilla Security Blog","title":"Protecting Firefox users following the compromise of eMudhra intermediate certificates","desc":"On Saturday, October 17, at 20:06 UTC, Mozilla received a report that private keys associated with eight eMudhra intermediate certificates had been compromised. These keys could allow attackers to issue ..."},"fwd":{"name":"NixOS CN 新闻","date":1792506984},"views":3975},
+{"id":979542,"date":1792521036,"from":630729873,"text":"撤销对疑似泄漏根证书颁发机构的信任\n\n接 Mozilla 通告，Nixpkgs 已于 #576390（26.05 #576401）撤销对以下根证书颁发机构的信任：\n- Comodo AAA Services root\n- emSign ECC Root CA - G3\n- emSign Root CA - C1\n- emSign ECC Root CA - C3\n\n鉴于 PR 合并后仍需时间才能到达发布频道，建议暂时在 NixOS 配置中做如下修改：\nsecurity.pki.caCertificateBlacklist = [\n  \"Comodo AAA Services root\"\n  \"emSign ECC Root CA - G3\"\n  \"emSign Root CA - C1\"\n  \"emSign ECC Root CA - C3\"\n];","ents":[["b",0,17],["a",21,10,"https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/"],["a",43,7,"https://github.com/NixOS/nixpkgs/pull/576390"],["a",57,7,"https://github.com/NixOS/nixpkgs/pull/576401"],["pre",228,151]],"media":{"type":"webpage","url":"https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates","site":"Mozilla Security Blog","title":"Protecting Firefox users following the compromise of eMudhra intermediate certificates","desc":"On Saturday, October 17, at 20:06 UTC, Mozilla received a report that private keys associated with eight eMudhra intermediate certificates had been compromised. These keys could allow attackers to issue ..."},"fwd":{"name":"NixOS CN 新闻","date":1792506984},"views":3996},
 {"id":979543,"date":1792521040,"from":630729873,"text":"你看"},
 {"id":979544,"date":1792521041,"from":630729873,"text":"太牛逼了"},
 {"id":979545,"date":1792521046,"from":630729873,"text":"可以随便MITM了","reacts":[["❤",1]]},
@@ -450,5 +450,14 @@
 {"id":979633,"date":1792562480,"from":891951610,"media":{"type":"photo","w":761,"h":2560,"size":183716,"file":"chats/-1001158333230/media/2026-10/979600/979633.jpg"}},
 {"id":979634,"date":1792562843,"from":1405951570,"text":"系统非小米原系统，其会同意在质保期更换电池吗‘","edit":1792562847},
 {"id":979635,"date":1792562963,"from":554310524,"text":"我也挺想知道的，我的机器刷了主线 Linux 在当电脑用，电池现在也不太好😋"},
-{"id":979636,"date":1792563116,"from":1405951570,"text":"我就70的健康度了，3500mah 一天得两三充"}
+{"id":979636,"date":1792563116,"from":1405951570,"text":"我就70的健康度了，3500mah 一天得两三充"},
+{"id":979637,"date":1792563429,"from":707953138,"text":"以前的话是要刷回miui"},
+{"id":979638,"date":1792563435,"from":707953138,"text":"因为要cit跑诊断"},
+{"id":979639,"date":1792563442,"from":707953138,"text":"现在估计也一样"},
+{"id":979640,"date":1792563468,"from":707953138,"text":"然后顺便给你回锁并拉黑设备和账号永久不得解锁"},
+{"id":979641,"date":1792563471,"from":707953138,"media":{"type":"sticker","size":112724,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"👍","file":"chats/-1001158333230/media/2026-10/979600/979641.webm"}},
+{"id":979642,"date":1792563509,"from":554310524,"text":"boot_a boot_b recovery全都被扬了，那是不是得全部恢复啊..."},
+{"id":979643,"date":1792563608,"from":1405951570,"text":"回锁应该不会吧，毕竟这样得删数据"},
+{"id":979644,"date":1792563624,"from":1405951570,"text":"那就刷回去吧"},
+{"id":979645,"date":1792563634,"from":1405951570,"text":"质保剩一个月过期😮‍💨"}
 ]
