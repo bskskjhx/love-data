@@ -1,7 +1,7 @@
 [
 {"id":980190,"date":1792635169,"from":648749719,"text":"跑脚本扫描，不耗心神"},
 {"id":980191,"date":1792635675,"from":6040131581,"text":"我的via会弹窗然后点取消就是全绿","reply":{"id":980168,"from":7792122255,"text":"[图片]"}},
-{"id":980192,"date":1792635744,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://goldppx.github.io/Certificate-Health-Code","site":"goldppx.github.io","title":"我的证书健康码","desc":"我的证书健康码，自动检测当前浏览器与 eMudhra 风险证书链的连接情况。"},"fwd":{"name":"2.5次元日常 🍉","date":1792635236},"views":699},
+{"id":980192,"date":1792635744,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://goldppx.github.io/Certificate-Health-Code","site":"goldppx.github.io","title":"我的证书健康码","desc":"我的证书健康码，自动检测当前浏览器与 eMudhra 风险证书链的连接情况。"},"fwd":{"name":"2.5次元日常 🍉","date":1792635236},"views":700},
 {"id":980193,"date":1792635922,"from":7828121937,"svc":{"type":"join"}},
 {"id":980194,"date":1792635922,"from":609517172,"text":"Hey there 1, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":980195,"date":1792636059,"from":648749719,"text":"连接失败不应该是绿码吗🤔","reply":{"id":980192,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/"}},
@@ -21,5 +21,6 @@
 {"id":980209,"date":1792641859,"from":7949695652,"text":"你这什么什么手机呀？pixelos体验怎样","reply":{"id":980207,"from":1405951570,"text":"可以过"}},
 {"id":980210,"date":1792643357,"from":1405951570,"text":"k70pro"},
 {"id":980211,"date":1792643385,"from":1405951570,"media":{"type":"photo","w":576,"h":1280,"size":84331,"file":"chats/-1001158333230/media/2026-10/980200/980211.jpg"}},
-{"id":980212,"date":1792644182,"from":5644806608,"text":"他真的 我哭死 他告诉你这是骗子不能信，你跟他说不行不行我要信，然后被骗了骂他垃圾没拦着你😡","reply":{"id":980198,"from":7792122255,"text":"我去 我全点了确认"}}
+{"id":980212,"date":1792644182,"from":5644806608,"text":"他真的 我哭死 他告诉你这是骗子不能信，你跟他说不行不行我要信，然后被骗了骂他垃圾没拦着你😡","reply":{"id":980198,"from":7792122255,"text":"我去 我全点了确认"}},
+{"id":980214,"date":1792648212,"from":5543063792,"text":"Edge安全死了","media":{"type":"photo","w":1280,"h":720,"size":133243,"file":"chats/-1001158333230/media/2026-10/980200/980214.jpg"},"reply":{"id":979859,"from":-1001231173515,"text":"阿三草台互联网大逃杀，不是全绿可以准备换浏览器了  https://emudhra.we-have-a-problem.com/#check"}}
 ]
