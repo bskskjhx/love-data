@@ -1,7 +1,7 @@
 [
 {"id":980190,"date":1792635169,"from":648749719,"text":"跑脚本扫描，不耗心神"},
 {"id":980191,"date":1792635675,"from":6040131581,"text":"我的via会弹窗然后点取消就是全绿","reply":{"id":980168,"from":7792122255,"text":"[图片]"}},
-{"id":980192,"date":1792635744,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://goldppx.github.io/Certificate-Health-Code","site":"goldppx.github.io","title":"我的证书健康码","desc":"我的证书健康码，自动检测当前浏览器与 eMudhra 风险证书链的连接情况。"},"fwd":{"name":"2.5次元日常 🍉","date":1792635236},"views":863},
+{"id":980192,"date":1792635744,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/","ents":[["url",0,50]],"media":{"type":"webpage","url":"https://goldppx.github.io/Certificate-Health-Code","site":"goldppx.github.io","title":"我的证书健康码","desc":"我的证书健康码，自动检测当前浏览器与 eMudhra 风险证书链的连接情况。"},"fwd":{"name":"2.5次元日常 🍉","date":1792635236},"views":869},
 {"id":980193,"date":1792635922,"from":7828121937,"svc":{"type":"join"}},
 {"id":980194,"date":1792635922,"from":609517172,"text":"Hey there 1, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":980195,"date":1792636059,"from":648749719,"text":"连接失败不应该是绿码吗🤔","reply":{"id":980192,"from":226512546,"text":"https://goldppx.github.io/Certificate-Health-Code/"}},
@@ -106,6 +106,9 @@
 {"id":980296,"date":1792659166,"from":7792122255,"text":"这个 AAA 我没找到","media":{"type":"photo","w":582,"h":1280,"size":65561,"file":"chats/-1001158333230/media/2026-10/980200/980296.jpg"},"group":"14341273330022213","reply":{"id":980293,"quote":"AAA","from":1774385971,"text":"Android安全设置里有根证书凭证，可以禁用emSign和AAA"}},
 {"id":980297,"date":1792659166,"from":7792122255,"media":{"type":"photo","w":1080,"h":822,"size":49336,"file":"chats/-1001158333230/media/2026-10/980200/980297.jpg"},"group":"14341273330022213","reply":{"id":980293,"quote":"AAA","from":1774385971,"text":"Android安全设置里有根证书凭证，可以禁用emSign和AAA"}},
 {"id":980298,"date":1792659229,"from":7792122255,"text":"牛逼","media":{"type":"photo","w":582,"h":1280,"size":109009,"file":"chats/-1001158333230/media/2026-10/980200/980298.jpg"},"reply":{"id":980292,"from":1774385971,"text":"chrome://components/  都检查更新  CRLSet版本号要10852"}},
-{"id":980299,"date":1792659641,"from":-1001231173515,"text":"世 纪 名 画","media":{"type":"photo","w":1237,"h":913,"size":42066,"file":"chats/-1001158333230/media/2026-10/980200/980299.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792659638},"reacts":[["🆒",8],["🤣",2]],"views":125},
-{"id":980300,"date":1792659666,"from":1472644035,"text":"绷不住了"}
+{"id":980299,"date":1792659641,"from":-1001231173515,"text":"世 纪 名 画","media":{"type":"photo","w":1237,"h":913,"size":42066,"file":"chats/-1001158333230/media/2026-10/980200/980299.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792659638},"reacts":[["🆒",16],["🤣",4],["👍",1]],"views":353},
+{"id":980300,"date":1792659666,"from":1472644035,"text":"绷不住了"},
+{"id":980301,"date":1792659872,"from":201357424,"text":"chrome最新版😐😐","media":{"type":"photo","w":1080,"h":2376,"size":314031,"file":"chats/-1001158333230/media/2026-10/980200/980301.jpg"},"reply":{"id":979859,"from":-1001231173515,"text":"阿三草台互联网大逃杀，不是全绿可以准备换浏览器了  https://emudhra.we-have-a-problem.com/#check"}},
+{"id":980302,"date":1792660063,"from":-1001231173515,"text":"CVE-2026-110264 GitLab 远程代码执行漏洞（CVSS 10.0 满分）\n影响自托管服务器，涉及 12 年以来的所有版本","ents":[["phone",4,11]],"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792660060},"reacts":[["🤯",6],["👍",2],["💯",1],["🤣",1],["😨",1]],"views":178},
+{"id":980303,"date":1792660155,"from":1800996331,"text":"玩呢满分","reply":{"id":980302,"from":-1001231173515,"text":"CVE-2026-110264 GitLab 远程代码执行漏洞（CVSS 10.0 满分） 影响自托管服务器，涉及 12 年以来的所有版本"}}
 ]
