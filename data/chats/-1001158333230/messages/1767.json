@@ -127,5 +127,9 @@
 {"id":980821,"date":1792754242,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":980813,"from":648806410,"text":"pm disable-user com.oplus.appdetail"}},
 {"id":980822,"date":1792754243,"from":400911764,"text":"| ω・`)","reply":{"id":980821,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
 {"id":980823,"date":1792754303,"from":945889195,"media":{"type":"sticker","size":40742,"mime":"image/webp","w":512,"h":505,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/980800/980823.webp"},"reply":{"id":980819,"from":1472644035,"text":"洋人还要被谷歌操呢"}},
-{"id":980824,"date":1792754308,"from":945889195,"text":"ohno"}
+{"id":980824,"date":1792754308,"from":945889195,"text":"ohno"},
+{"id":980825,"date":1792754905,"from":1246387393,"text":"咱们米米有解锁节"},
+{"id":980826,"date":1792754912,"from":1246387393,"media":{"type":"sticker","size":12662,"mime":"image/webp","w":512,"h":512,"emoji":"🥵","file":"chats/-1001158333230/media/2026-10/980800/980826.webp"}},
+{"id":980827,"date":1792754940,"from":880075932,"text":"我米米没解锁好像也随便装"},
+{"id":980828,"date":1792755265,"from":5506662351,"text":"不解锁不root你买安卓机干嘛","reply":{"id":980823,"from":945889195,"text":"🌟 贴纸"}}
 ]
