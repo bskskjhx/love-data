@@ -117,5 +117,15 @@
 {"id":980811,"date":1792753328,"from":7792122255,"text":"你的 ColorOS 我的 ColorOS 好像不一样","media":{"type":"photo","w":582,"h":1280,"size":17842,"file":"chats/-1001158333230/media/2026-10/980800/980811.jpg"},"group":"14342026631385885","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
 {"id":980812,"date":1792753329,"from":7792122255,"media":{"type":"photo","w":582,"h":1280,"size":26375,"file":"chats/-1001158333230/media/2026-10/980800/980812.jpg"},"group":"14342026631385885","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
 {"id":980813,"date":1792753584,"from":648806410,"text":"pm disable-user com.oplus.appdetail","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
-{"id":980814,"date":1792753618,"from":1472644035,"text":"冻冻你的","ents":[["s",0,4]],"reply":{"id":980813,"from":648806410,"text":"pm disable-user com.oplus.appdetail"}}
+{"id":980814,"date":1792753618,"from":1472644035,"text":"冻冻你的","ents":[["s",0,4]],"reply":{"id":980813,"from":648806410,"text":"pm disable-user com.oplus.appdetail"}},
+{"id":980815,"date":1792753910,"from":945889195,"text":"冻冻你的","ents":[["s",0,4]],"fwd":{"name":"Sarankun","date":1792753618}},
+{"id":980816,"date":1792753948,"from":945889195,"text":"没root的人岂不是越来越难受了（）","reply":{"id":980808,"from":5802487999,"text":"root没"}},
+{"id":980817,"date":1792753951,"from":945889195,"media":{"type":"sticker","size":39890,"mime":"image/webp","w":512,"h":512,"emoji":"🫥","file":"chats/-1001158333230/media/2026-10/980800/980817.webp"}},
+{"id":980818,"date":1792754086,"from":5802487999,"text":"那就只能享受了","reply":{"id":980816,"from":945889195,"text":"没root的人岂不是越来越难受了（）"}},
+{"id":980819,"date":1792754148,"from":1472644035,"text":"洋人还要被谷歌操呢"},
+{"id":980820,"date":1792754156,"from":1472644035,"text":"大家都彼此彼此"},
+{"id":980821,"date":1792754242,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":980813,"from":648806410,"text":"pm disable-user com.oplus.appdetail"}},
+{"id":980822,"date":1792754243,"from":400911764,"text":"| ω・`)","reply":{"id":980821,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":980823,"date":1792754303,"from":945889195,"media":{"type":"sticker","size":40742,"mime":"image/webp","w":512,"h":505,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/980800/980823.webp"},"reply":{"id":980819,"from":1472644035,"text":"洋人还要被谷歌操呢"}},
+{"id":980824,"date":1792754308,"from":945889195,"text":"ohno"}
 ]
