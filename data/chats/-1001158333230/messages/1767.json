@@ -113,5 +113,9 @@
 {"id":980807,"date":1792752531,"from":880075932,"text":"OK","reply":{"id":980801,"from":955821087,"text":"顺电有"}},
 {"id":980808,"date":1792752534,"from":5802487999,"text":"root没","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
 {"id":980809,"date":1792752566,"from":880075932,"text":"这种不是能关的吗"},
-{"id":980810,"date":1792752572,"from":880075932,"text":"米米能关"}
+{"id":980810,"date":1792752572,"from":880075932,"text":"米米能关"},
+{"id":980811,"date":1792753328,"from":7792122255,"text":"你的 ColorOS 我的 ColorOS 好像不一样","media":{"type":"photo","w":582,"h":1280,"size":17842,"file":"chats/-1001158333230/media/2026-10/980800/980811.jpg"},"group":"14342026631385885","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
+{"id":980812,"date":1792753329,"from":7792122255,"media":{"type":"photo","w":582,"h":1280,"size":26375,"file":"chats/-1001158333230/media/2026-10/980800/980812.jpg"},"group":"14342026631385885","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
+{"id":980813,"date":1792753584,"from":648806410,"text":"pm disable-user com.oplus.appdetail","reply":{"id":980748,"from":945889195,"text":"[图片] ColorOS变成阿里郎OS了嘛"}},
+{"id":980814,"date":1792753618,"from":1472644035,"text":"冻冻你的","ents":[["s",0,4]],"reply":{"id":980813,"from":648806410,"text":"pm disable-user com.oplus.appdetail"}}
 ]
