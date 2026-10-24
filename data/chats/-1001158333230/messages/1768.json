@@ -86,5 +86,13 @@
 {"id":981281,"date":1792839942,"from":1246387393,"text":"我感觉我经常看到我的QQ进程蹦出来然后吃掉一个小核还跑了不短的时间"},
 {"id":981282,"date":1792839944,"from":1246387393,"media":{"type":"sticker","size":42025,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👀","file":"chats/-1001158333230/media/2026-10/981200/981282.webm"}},
 {"id":981283,"date":1792839963,"from":1541031247,"text":"qq直接杀就行了","reply":{"id":981280,"from":1246387393,"text":"不知道为什么米米明明有push对QQ的压制还是那么保守"}},
-{"id":981284,"date":1792840536,"from":5207934356,"text":"No deleted account found from 3555 scanned users from this group 🚫👻","ents":[["code",30,4]]}
+{"id":981284,"date":1792840536,"from":5207934356,"text":"No deleted account found from 3555 scanned users from this group 🚫👻","ents":[["code",30,4]]},
+{"id":981285,"date":1792841450,"from":880075932,"text":"【dy博主直播谈iPhone  duo适配，结果打开大屏动画也要适配-哔哩哔哩】 https://b23.tv/9kMXqr2","ents":[["url",41,22]]},
+{"id":981286,"date":1792841542,"from":880075932,"text":"笑死我了"},
+{"id":981287,"date":1792841579,"from":1143026161,"text":"dy博主直播谈iPhone  duo适配，结果打开大屏动画也要适配\ndy \n-\n@725DC:\n发布视频\n播放量:45.48万 弹幕:637 评论:1095\n点赞:7065 投币:200 收藏:769 转发:982\n发布日期:2026-10-23 06:16:09","ents":[["a",0,33,"https://www.bilibili.com/video/av117488713013078?p=1"],["quote",34,6,1],["a",40,6,"https://space.bilibili.com/410940773"],["quote",48,84,1]],"media":{"type":"video","size":60454641,"mime":"video/mp4","w":384,"h":854,"dur":908,"skip":"size","thumb":"chats/-1001158333230/media/2026-10/981200/981287_thumb.jpg"},"reply":{"id":981285,"from":880075932,"text":"【dy博主直播谈iPhone  duo适配，结果打开大屏动画也要适配-哔哩哔哩】 https://b23.tv/9kMXqr2"}},
+{"id":981288,"date":1792841591,"from":880075932,"media":{"type":"photo","w":589,"h":1280,"size":89605,"file":"chats/-1001158333230/media/2026-10/981200/981288.jpg"}},
+{"id":981289,"date":1792841596,"from":880075932,"text":"这才几天"},
+{"id":981290,"date":1792841601,"from":880075932,"text":"折的多一点的"},
+{"id":981291,"date":1792841605,"from":880075932,"text":"折痕依旧出现"},
+{"id":981292,"date":1792841625,"from":880075932,"text":"然后内屏又没抗反全靠磨砂膜抗反"}
 ]
