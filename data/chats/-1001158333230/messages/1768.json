@@ -114,5 +114,7 @@
 {"id":981311,"date":1792846791,"from":6835832312,"text":"下午正常访问，现在挂了"},
 {"id":981312,"date":1792846928,"from":5427296035,"text":"我超","reply":{"id":980302,"from":-1001231173515,"text":"CVE-2026-110264 GitLab 远程代码执行漏洞（CVSS 10.0 满分） 影响自托管服务器，涉及 12 年以来的所有版本"}},
 {"id":981313,"date":1792846935,"from":5427296035,"text":"刚准备部署呢","reply":{"id":980302,"from":-1001231173515,"text":"CVE-2026-110264 GitLab 远程代码执行漏洞（CVSS 10.0 满分） 影响自托管服务器，涉及 12 年以来的所有版本"}},
-{"id":981314,"date":1792847381,"from":5799965478,"text":"能帮我看看一加平板2的吗（","reply":{"id":979614,"from":648806410,"text":"不然就只能去内核源码对着projcode翻了"}}
+{"id":981314,"date":1792847381,"from":5799965478,"text":"能帮我看看一加平板2的吗（","reply":{"id":979614,"from":648806410,"text":"不然就只能去内核源码对着projcode翻了"}},
+{"id":981315,"date":1792847806,"from":1541031247,"text":"https://github.com/KHwang9883/MobileModels/blob/master/brands/oneplus.md\n这个是不是行","ents":[["url",0,72]],"media":{"type":"webpage","url":"https://github.com/KHwang9883/MobileModels/blob/master/brands/oneplus.md","site":"GitHub","title":"MobileModels/brands/oneplus.md at master · KHwang9883/MobileModels","desc":"手机品牌型号汇总 | Mobile Models | This repository is licensed under CC BY-NC-SA 4.0 - KHwang9883/MobileModels"},"reply":{"id":981314,"from":5799965478,"text":"能帮我看看一加平板2的吗（"}},
+{"id":981316,"date":1792847837,"from":1541031247,"text":"一加平板 2 (2025) (himalayan-o):\nOPD2508: 一加平板 2 (2025) 国行版","ents":[["b",0,15],["code",15,11],["b",26,2],["code",29,7]]}
 ]
