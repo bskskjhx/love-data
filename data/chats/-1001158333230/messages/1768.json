@@ -388,7 +388,7 @@
 {"id":981589,"date":1792927884,"from":6943030015,"text":"hyw","reply":{"id":981587,"from":7570671404,"text":"感兴趣可以看看GitHub.com/Baka-SU/BakaSU 有关wear_manager的"}},
 {"id":981590,"date":1792927925,"from":470460877,"text":"另一个duo可以","reply":{"id":981584,"from":880075932,"text":"duo内屏摄像头疑似没有自动对焦"}},
 {"id":981591,"date":1792927991,"from":6943030015,"text":"@Hanhanawa233 为什么要适配miwatch5","ents":[["mention",0,13]]},
-{"id":981592,"date":1792928555,"from":5802487999,"media":{"type":"photo","w":582,"h":1280,"size":82626,"file":"chats/-1001158333230/media/2026-10/981400/981592.jpg"}},
+{"id":981592,"date":1792928555,"from":5802487999,"media":{"type":"photo","w":582,"h":1280,"size":82626,"file":"chats/-1001158333230/media/2026-10/981400/981592.jpg"},"reacts":[["😁",1]]},
 {"id":981593,"date":1792928557,"from":5802487999,"text":"666"},
 {"id":981594,"date":1792928569,"from":5802487999,"text":"next都开起来了"},
 {"id":981595,"date":1792928646,"from":1472644035,"media":{"type":"sticker","size":11214,"mime":"image/webp","w":512,"h":512,"emoji":"🤔","file":"chats/-1001158333230/media/2026-10/981400/981595.webp"}},
@@ -397,5 +397,7 @@
 {"id":981598,"date":1792929542,"from":7570671404,"text":"很明显那个gradle库cn基本上魔改过watch表冠的都有适配","reply":{"id":981591,"from":6943030015,"text":"@Hanhanawa233 为什么要适配miwatch5"}},
 {"id":981599,"date":1792929566,"from":7570671404,"text":"我直接拿来用了（"},
 {"id":981600,"date":1792929569,"from":5614357283,"svc":{"type":"join"}},
-{"id":981601,"date":1792929569,"from":609517172,"text":"Hey there 스밀로, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":981601,"date":1792929569,"from":609517172,"text":"Hey there 스밀로, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":981602,"date":1792929960,"from":955821087,"text":"不是吧 东莞地铁网卡也就算了"},
+{"id":981603,"date":1792929973,"from":955821087,"text":"广州地铁在东莞网也卡"}
 ]
