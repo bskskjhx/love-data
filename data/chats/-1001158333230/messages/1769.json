@@ -1,5 +1,9 @@
 [
 {"id":981704,"date":1792937614,"from":1472644035,"text":"总有人有路径依赖"},
 {"id":981705,"date":1792940972,"from":6943030015,"text":"OPWWE261吧","reply":{"id":981625,"from":648806410,"text":"型号发一下"}},
-{"id":981706,"date":1792941066,"from":648806410,"text":"https://android.googleapis.com/packages/ota-api/package/bd05734562028e64bb1ee08e0a74870518037150.zip","ents":[["url",0,100]],"reply":{"id":981705,"from":6943030015,"text":"OPWWE261吧"}}
+{"id":981706,"date":1792941066,"from":648806410,"text":"https://android.googleapis.com/packages/ota-api/package/bd05734562028e64bb1ee08e0a74870518037150.zip","ents":[["url",0,100]],"reply":{"id":981705,"from":6943030015,"text":"OPWWE261吧"}},
+{"id":981707,"date":1792944822,"from":5614357283,"svc":{"type":"join"}},
+{"id":981708,"date":1792944822,"from":609517172,"text":"Hey there 스밀로, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":981709,"date":1792945113,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":981706,"from":648806410,"text":"https://android.googleapis.com/packages/ota-api/package/bd05734562028e64bb1ee08e0a74870518037150.zip"}},
+{"id":981710,"date":1792945115,"from":400911764,"text":"| ω・`)","reply":{"id":981709,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
 ]
