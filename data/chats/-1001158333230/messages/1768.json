@@ -125,7 +125,7 @@
 {"id":981322,"date":1792850027,"from":5799965478,"text":"对就是这个 谢了","reply":{"id":981316,"from":1541031247,"text":"一加平板 2 (2025) (himalayan-o): OPD2508: 一加平板 2 (2025) 国行版"}},
 {"id":981323,"date":1792852833,"from":5899043432,"svc":{"type":"join"}},
 {"id":981324,"date":1792852834,"from":609517172,"text":"Hey there 小, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":981325,"date":1792860387,"from":-1001231173515,"text":"OPPO Watch 4 Pro BootLoader Unlocked","media":{"type":"photo","w":380,"h":528,"size":20877,"file":"chats/-1001158333230/media/2026-10/981200/981325.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792860384},"reacts":[["👍",29],["🤯",29]],"views":1353},
+{"id":981325,"date":1792860387,"from":-1001231173515,"text":"OPPO Watch 4 Pro BootLoader Unlocked","media":{"type":"photo","w":380,"h":528,"size":20877,"file":"chats/-1001158333230/media/2026-10/981200/981325.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792860384},"reacts":[["🤯",30],["👍",29]],"views":1363},
 {"id":981326,"date":1792860414,"from":774093367,"media":{"type":"sticker","size":24398,"mime":"image/webp","w":512,"h":512,"emoji":"🥺","file":"chats/-1001158333230/media/2026-10/981200/981326.webp"},"reacts":[["🥰",1]],"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
 {"id":981327,"date":1792860439,"from":6382729446,"media":{"type":"sticker","size":37536,"mime":"image/webp","w":512,"h":512,"emoji":"👀","file":"chats/-1001158333230/media/2026-10/981200/981327.webp"},"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
 {"id":981328,"date":1792860518,"from":1405951570,"text":"顺便给 9 号的 BL 锁也解了","reacts":[["❤",1]],"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
@@ -164,7 +164,7 @@
 {"id":981361,"date":1792890987,"from":7162243624,"text":"为了舆论"},
 {"id":981362,"date":1792891014,"from":7162243624,"text":"如果不免费更换，这种情况就没有了"},
 {"id":981363,"date":1792891106,"from":1472644035,"media":{"type":"sticker","size":5162,"mime":"image/webp","w":512,"h":326,"emoji":"😐","file":"chats/-1001158333230/media/2026-10/981200/981363.webp"}},
-{"id":981364,"date":1792891314,"from":880075932,"media":{"type":"photo","w":1015,"h":1280,"size":224996,"file":"chats/-1001158333230/media/2026-10/981200/981364.jpg"},"reacts":[["🤣",2]]},
+{"id":981364,"date":1792891314,"from":880075932,"media":{"type":"photo","w":1015,"h":1280,"size":224996,"file":"chats/-1001158333230/media/2026-10/981200/981364.jpg"},"reacts":[["🤣",3]]},
 {"id":981365,"date":1792894084,"from":7792122255,"text":"后发劣势"},
 {"id":981366,"date":1792894457,"from":955821087,"text":"正常用就有","reply":{"id":981357,"from":7162243624,"text":"你反折干嘛呢"}},
 {"id":981367,"date":1792894740,"from":707953138,"media":{"type":"photo","w":1746,"h":2560,"size":450263,"file":"chats/-1001158333230/media/2026-10/981200/981367.jpg"},"group":"14343157926755509"},
@@ -208,5 +208,12 @@
 {"id":981406,"date":1792899127,"from":8978147532,"text":"得上传新的学生证"},
 {"id":981407,"date":1792899131,"from":5529229620,"text":"话说我jio和学生都领过了 现在被清算了还有什么办法"},
 {"id":981408,"date":1792899132,"from":5529229620,"media":{"type":"sticker","size":39145,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😿","file":"chats/-1001158333230/media/2026-10/981400/981408.webm"}},
-{"id":981409,"date":1792899149,"from":5529229620,"text":"当时认证sheerid随便bot生成的（"}
+{"id":981409,"date":1792899149,"from":5529229620,"text":"当时认证sheerid随便bot生成的（"},
+{"id":981410,"date":1792899167,"from":5529229620,"media":{"type":"photo","w":1280,"h":332,"size":24913,"file":"chats/-1001158333230/media/2026-10/981400/981410.jpg"},"reply":{"id":981401,"from":331875747,"text":"[图片]"}},
+{"id":981411,"date":1792899167,"from":1317086519,"text":"那个怎么还有在激活界面就炸了的","reply":{"id":981364,"from":880075932,"text":"[图片]"}},
+{"id":981412,"date":1792899242,"from":266806493,"text":"可能好奇 折了几下","reply":{"id":981411,"from":1317086519,"text":"那个怎么还有在激活界面就炸了的"}},
+{"id":981413,"date":1792899286,"from":1317086519,"text":"乐","reply":{"id":981412,"from":266806493,"text":"可能好奇 折了几下"}},
+{"id":981414,"date":1792899480,"from":266806493,"text":"很正常 外屏切内屏 再合上 再开 刚上手 新鲜感","edit":1792899497,"reply":{"id":981413,"from":1317086519,"text":"乐"}},
+{"id":981415,"date":1792899527,"from":1317086519,"text":"瞬间损坏","reply":{"id":981414,"from":266806493,"text":"很正常 外屏切内屏 再合上 再开 刚上手 新鲜感"}},
+{"id":981416,"date":1792899570,"from":266806493,"media":{"type":"sticker","size":44924,"mime":"image/webp","w":512,"h":336,"emoji":"👀","file":"chats/-1001158333230/media/2026-10/981400/981416.webp"},"reply":{"id":981415,"from":1317086519,"text":"瞬间损坏"}}
 ]
