@@ -125,7 +125,7 @@
 {"id":981322,"date":1792850027,"from":5799965478,"text":"对就是这个 谢了","reply":{"id":981316,"from":1541031247,"text":"一加平板 2 (2025) (himalayan-o): OPD2508: 一加平板 2 (2025) 国行版"}},
 {"id":981323,"date":1792852833,"from":5899043432,"svc":{"type":"join"}},
 {"id":981324,"date":1792852834,"from":609517172,"text":"Hey there 小, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":981325,"date":1792860387,"from":-1001231173515,"text":"OPPO Watch 4 Pro BootLoader Unlocked","media":{"type":"photo","w":380,"h":528,"size":20877,"file":"chats/-1001158333230/media/2026-10/981200/981325.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792860384},"reacts":[["🤯",37],["👍",29]],"views":1611},
+{"id":981325,"date":1792860387,"from":-1001231173515,"text":"OPPO Watch 4 Pro BootLoader Unlocked","media":{"type":"photo","w":380,"h":528,"size":20877,"file":"chats/-1001158333230/media/2026-10/981200/981325.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1792860384},"reacts":[["🤯",38],["👍",29]],"views":1617},
 {"id":981326,"date":1792860414,"from":774093367,"media":{"type":"sticker","size":24398,"mime":"image/webp","w":512,"h":512,"emoji":"🥺","file":"chats/-1001158333230/media/2026-10/981200/981326.webp"},"reacts":[["🥰",1]],"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
 {"id":981327,"date":1792860439,"from":6382729446,"media":{"type":"sticker","size":37536,"mime":"image/webp","w":512,"h":512,"emoji":"👀","file":"chats/-1001158333230/media/2026-10/981200/981327.webp"},"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
 {"id":981328,"date":1792860518,"from":1405951570,"text":"顺便给 9 号的 BL 锁也解了","reacts":[["❤",1]],"reply":{"id":981325,"from":-1001231173515,"text":"[图片] OPPO Watch 4 Pro BootLoader Unlocked"}},
@@ -164,7 +164,7 @@
 {"id":981361,"date":1792890987,"from":7162243624,"text":"为了舆论"},
 {"id":981362,"date":1792891014,"from":7162243624,"text":"如果不免费更换，这种情况就没有了"},
 {"id":981363,"date":1792891106,"from":1472644035,"media":{"type":"sticker","size":5162,"mime":"image/webp","w":512,"h":326,"emoji":"😐","file":"chats/-1001158333230/media/2026-10/981200/981363.webp"}},
-{"id":981364,"date":1792891314,"from":880075932,"media":{"type":"photo","w":1015,"h":1280,"size":224996,"file":"chats/-1001158333230/media/2026-10/981200/981364.jpg"},"reacts":[["🤣",4]]},
+{"id":981364,"date":1792891314,"from":880075932,"media":{"type":"photo","w":1015,"h":1280,"size":224996,"file":"chats/-1001158333230/media/2026-10/981200/981364.jpg"},"reacts":[["🤣",5]]},
 {"id":981365,"date":1792894084,"from":7792122255,"text":"后发劣势"},
 {"id":981366,"date":1792894457,"from":955821087,"text":"正常用就有","reply":{"id":981357,"from":7162243624,"text":"你反折干嘛呢"}},
 {"id":981367,"date":1792894740,"from":707953138,"media":{"type":"photo","w":1746,"h":2560,"size":450263,"file":"chats/-1001158333230/media/2026-10/981200/981367.jpg"},"group":"14343157926755509","reacts":[["😁",1]]},
@@ -270,5 +270,8 @@
 {"id":981469,"date":1792908764,"from":8477715488,"svc":{"type":"join"}},
 {"id":981470,"date":1792908765,"from":609517172,"text":"Hey there 林sir（92y国际）注册充值送58彩金哦, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":981471,"date":1792909576,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":981340,"from":648806410,"text":"买不起"}},
-{"id":981472,"date":1792909578,"from":400911764,"text":"| ω・`)","reply":{"id":981471,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
+{"id":981472,"date":1792909578,"from":400911764,"text":"| ω・`)","reply":{"id":981471,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":981473,"date":1792909752,"from":1269904484,"text":"手机这东西不是年抛的吗？只要寿命大于一年就行吧？","reply":{"id":981424,"from":554310524,"text":"折叠屏这种寿命堪忧的产品... 反正我是从来没被打动过"}},
+{"id":981474,"date":1792909781,"from":554310524,"text":"是这样吗... 我手机都用到第七个年头了...","reply":{"id":981473,"from":1269904484,"text":"手机这东西不是年抛的吗？只要寿命大于一年就行吧？"}},
+{"id":981475,"date":1792909861,"from":7570671404,"text":"🙃","reply":{"id":981378,"from":5799965478,"text":"接单吗（"}}
 ]
