@@ -386,5 +386,6 @@
 {"id":981587,"date":1792925625,"from":7570671404,"text":"感兴趣可以看看GitHub.com/Baka-SU/BakaSU 有关wear_manager的","ents":[["url",0,32]],"reply":{"id":981582,"from":7570671404,"text":"有没有解锁过bl的watch设备（"}},
 {"id":981588,"date":1792925667,"from":7570671404,"text":"PR（"},
 {"id":981589,"date":1792927884,"from":6943030015,"text":"hyw","reply":{"id":981587,"from":7570671404,"text":"感兴趣可以看看GitHub.com/Baka-SU/BakaSU 有关wear_manager的"}},
-{"id":981590,"date":1792927925,"from":470460877,"text":"另一个duo可以","reply":{"id":981584,"from":880075932,"text":"duo内屏摄像头疑似没有自动对焦"}}
+{"id":981590,"date":1792927925,"from":470460877,"text":"另一个duo可以","reply":{"id":981584,"from":880075932,"text":"duo内屏摄像头疑似没有自动对焦"}},
+{"id":981591,"date":1792927991,"from":6943030015,"text":"@Hanhanawa233 为什么要适配miwatch5","ents":[["mention",0,13]]}
 ]
