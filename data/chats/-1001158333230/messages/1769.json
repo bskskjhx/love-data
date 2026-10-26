@@ -282,5 +282,9 @@
 {"id":981985,"date":1793028548,"from":648806410,"text":"强解bl"},
 {"id":981986,"date":1793028784,"from":655801220,"text":"漏洞还是编程器？"},
 {"id":981987,"date":1793029166,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":981981,"from":648806410,"text":"可以（）"}},
-{"id":981988,"date":1793029167,"from":400911764,"text":"| ω・`)","reply":{"id":981987,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
+{"id":981988,"date":1793029167,"from":400911764,"text":"| ω・`)","reply":{"id":981987,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":981989,"date":1793029269,"from":40065588,"text":"@winzkh 我今天让AI给翻了翻，RKP widevine的逻辑和keymint差距有点大，估计不好弄","ents":[["mention",0,7]]},
+{"id":981990,"date":1793029279,"from":40065588,"text":"证书链都不是一条"},
+{"id":981991,"date":1793029417,"from":655801220,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]]},
+{"id":981992,"date":1793029418,"from":400911764,"text":"| ω・`)","reply":{"id":981991,"from":655801220,"text":"/prpr@MlgmXyysd"}}
 ]
