@@ -379,7 +379,7 @@
 {"id":982082,"date":1793072157,"from":1317086519,"text":"/report","ents":[["cmd",0,7]],"reply":{"id":982078,"from":8721892764,"text":""}},
 {"id":982083,"date":1793072158,"from":609517172,"text":"Reported 🟥 进 我 主 页 泑 女 精 选 🟥 ❤️ [8721892764] to admins.​​​​​","ents":[["mname",9,24,8721892764],["code",35,10],["mname",57,1,6114970732],["mname",58,1,1571950464],["mname",59,1,648806410],["mname",60,1,5738024493],["mname",61,1,701955158]],"reply":{"id":982078,"from":8721892764,"text":""}},
 {"id":982086,"date":1793072315,"from":5738024493,"text":"捅了银窝了"},
-{"id":982087,"date":1793072392,"from":672375106,"text":"一堆","media":{"type":"photo","w":534,"h":830,"size":47708,"file":"chats/-1001158333230/media/2026-10/982000/982087.jpg"}},
+{"id":982087,"date":1793072392,"from":672375106,"text":"一堆","media":{"type":"photo","w":534,"h":830,"size":47708,"file":"chats/-1001158333230/media/2026-10/982000/982087.jpg"},"reacts":[["😁",1]]},
 {"id":982088,"date":1793072398,"from":672375106,"media":{"type":"sticker","size":231750,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"😅","file":"chats/-1001158333230/media/2026-10/982000/982088.webm"}},
 {"id":982089,"date":1793073522,"from":8828266522,"svc":{"type":"join"}},
 {"id":982090,"date":1793073523,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
@@ -413,5 +413,10 @@
 {"id":982118,"date":1793074938,"from":7570671404,"text":"被片哥袭击了（"},
 {"id":982119,"date":1793076807,"from":5738024493,"text":"离谱"},
 {"id":982120,"date":1793076907,"from":1051201244,"text":"昨天睡覺前, 我看到刷了30+條了"},
-{"id":982121,"date":1793076934,"from":5738024493,"text":"得想个法子"}
+{"id":982121,"date":1793076934,"from":5738024493,"text":"得想个法子"},
+{"id":982123,"date":1793077170,"from":609517172,"text":"You are missing the following rights to use this command:\nCanChangeInfo","reply":{"id":982122}},
+{"id":982124,"date":1793077183,"from":5738024493,"text":"@MlgmXyysd 出来干活","ents":[["mention",0,10]]},
+{"id":982125,"date":1793077210,"from":5738024493,"text":"好像**被转义了"},
+{"id":982126,"date":1793077337,"from":5738024493,"text":"/addblocklist name:**进**我**主**页**泑**女**精**选** {ban} 疑似广告昵称","ents":[["cmd",0,13],["code",14,31]]},
+{"id":982127,"date":1793077338,"from":609517172,"text":"You are missing the following rights to use this command:\nCanChangeInfo","reply":{"id":982126,"from":5738024493,"text":"/addblocklist name:**进**我**主**页**泑**女**精**选** {ban} 疑似广告昵称"}}
 ]
