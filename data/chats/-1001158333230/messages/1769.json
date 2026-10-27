@@ -348,7 +348,7 @@
 {"id":982051,"date":1793056913,"from":5799965478,"text":"肯定啊","reply":{"id":981990,"from":40065588,"text":"证书链都不是一条"}},
 {"id":982052,"date":1793056945,"from":5799965478,"text":"吓哭了 怎么这么多片姐"},
 {"id":982053,"date":1793059515,"from":868035986,"text":"我怎么觉得有点","ents":[["s",0,7]],"media":{"type":"photo","w":800,"h":1280,"size":122924,"file":"chats/-1001158333230/media/2026-10/982000/982053.jpg"},"edit":1793059545},
-{"id":982054,"date":1793059770,"from":5488679691,"media":{"type":"photo","w":1264,"h":844,"size":131888,"file":"chats/-1001158333230/media/2026-10/982000/982054.jpg"}},
+{"id":982054,"date":1793059770,"from":5488679691,"media":{"type":"photo","w":1264,"h":844,"size":131888,"file":"chats/-1001158333230/media/2026-10/982000/982054.jpg"},"reacts":[["😁",1]]},
 {"id":982055,"date":1793061093,"from":8748107458,"svc":{"type":"join"}},
 {"id":982056,"date":1793061093,"from":609517172,"text":"Hey there Nora Brown, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":982057,"date":1793063435,"from":868035986,"text":"似曾相识","reply":{"id":982054,"from":5488679691,"text":"[图片]"}},
@@ -395,5 +395,15 @@
 {"id":982100,"date":1793073735,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":982101,"date":1793073752,"from":8532603164,"text":"我去"},
 {"id":982102,"date":1793073770,"from":7628584127,"svc":{"type":"join"}},
-{"id":982103,"date":1793073770,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":982103,"date":1793073770,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982104,"date":1793074477,"from":8825189150,"svc":{"type":"join"}},
+{"id":982105,"date":1793074478,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982106,"date":1793074490,"from":8384272512,"svc":{"type":"join"}},
+{"id":982107,"date":1793074491,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982108,"date":1793074509,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982109,"date":1793074509,"from":8800564764,"svc":{"type":"join"}},
+{"id":982110,"date":1793074722,"from":7148326357,"svc":{"type":"join"}},
+{"id":982111,"date":1793074722,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982112,"date":1793074768,"from":7805450750,"svc":{"type":"join"}},
+{"id":982113,"date":1793074768,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
