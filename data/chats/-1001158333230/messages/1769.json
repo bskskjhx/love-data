@@ -353,5 +353,19 @@
 {"id":982056,"date":1793061093,"from":609517172,"text":"Hey there Nora Brown, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":982057,"date":1793063435,"from":868035986,"text":"似曾相识","reply":{"id":982054,"from":5488679691,"text":"[图片]"}},
 {"id":982058,"date":1793066969,"from":8978147532,"text":"https://x.com/47news_official/status/2114892093479112914?s=46","ents":[["url",0,61]],"media":{"type":"webpage","url":"https://x.com/47news_official/status/2114892093479112914?s=46","site":"X (formerly Twitter)","title":"47NEWS (@47news_official) on X","desc":"【速報】GMO、パソコン電源落とすよう呼びかけ\nhttps://t.co/V2ZOYknogI"}},
-{"id":982059,"date":1793069474,"from":880075932,"media":{"type":"photo","w":1280,"h":933,"size":262026,"file":"chats/-1001158333230/media/2026-10/982000/982059.jpg"},"reply":{"id":982054,"from":5488679691,"text":"[图片]"}}
+{"id":982059,"date":1793069474,"from":880075932,"media":{"type":"photo","w":1280,"h":933,"size":262026,"file":"chats/-1001158333230/media/2026-10/982000/982059.jpg"},"reply":{"id":982054,"from":5488679691,"text":"[图片]"}},
+{"id":982060,"date":1793071404,"from":7643483646,"svc":{"type":"join"}},
+{"id":982061,"date":1793071404,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982062,"date":1793071421,"from":8612346128,"svc":{"type":"join"}},
+{"id":982063,"date":1793071421,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982064,"date":1793071432,"from":8535665534,"svc":{"type":"join"}},
+{"id":982065,"date":1793071432,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 👑, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982066,"date":1793071447,"from":8890220562,"svc":{"type":"join"}},
+{"id":982067,"date":1793071447,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🌹, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982068,"date":1793071639,"from":5799965478,"text":"AntiRaid\n\nSome people on telegram find it entertaining to \"raid\" chats. During a raid, hundreds of users join a chat to spam.\n\nThe antiraid module allows you to quickly stop anyone from joining when such a raid is happening.\nAll new joins will be temporarily banned for the next few hours, allowing you to wait out the spam attack until the trolls stop.\n\nAdmin commands:\n- /antiraid <optional time/off/no>: Toggle antiraid. All new joins will be temporarily banned for the next few hours.\n- /raidtime <time>: View or set the desired antiraid duration. Default 6h.\n- /raidactiontime <time>: View or set the time for antiraid to tempban users for. Default 1h.\n- /autoantiraid <number/off/no>: Set the number of joins per minute after which to enable automatic antiraid. Set to '0', 'off', or 'no' to disable.\n\nExamples:\n- Enable antiraid for 3 hours:\n-> /antiraid 3h\n\n- Disable antiraid:\n-> /antiraid off\n\n- Automatically enable antiraid if over 15 users join in under a minute:\n-> /autoantiraid 15\n\n- Disable automatic antiraid:\n-> /autoantiraid off","ents":[["b",0,8],["b",355,14],["cmd",373,9],["code",383,22],["cmd",491,9],["code",501,6],["cmd",566,15],["code",582,6],["cmd",660,13],["code",674,15],["b",808,8],["code",852,12],["code",889,13],["code",980,16],["code",1031,17]],"fwd":{"name":"Rose","date":1793071627}},
+{"id":982069,"date":1793071644,"from":5799965478,"text":"@MlgmXyysd","ents":[["mention",0,10]]},
+{"id":982070,"date":1793071669,"from":7805891828,"svc":{"type":"join"}},
+{"id":982071,"date":1793071669,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":982072,"date":1793071692,"from":8928735266,"svc":{"type":"join"}},
+{"id":982073,"date":1793071692,"from":609517172,"text":"Hey there 🟥 进 我 主 页 泑 女 精 选 🟥 🎀, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
