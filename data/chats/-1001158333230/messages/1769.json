@@ -351,5 +351,6 @@
 {"id":982054,"date":1793059770,"from":5488679691,"media":{"type":"photo","w":1264,"h":844,"size":131888,"file":"chats/-1001158333230/media/2026-10/982000/982054.jpg"}},
 {"id":982055,"date":1793061093,"from":8748107458,"svc":{"type":"join"}},
 {"id":982056,"date":1793061093,"from":609517172,"text":"Hey there Nora Brown, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":982057,"date":1793063435,"from":868035986,"text":"似曾相识","reply":{"id":982054,"from":5488679691,"text":"[图片]"}}
+{"id":982057,"date":1793063435,"from":868035986,"text":"似曾相识","reply":{"id":982054,"from":5488679691,"text":"[图片]"}},
+{"id":982058,"date":1793066969,"from":8978147532,"text":"https://x.com/47news_official/status/2114892093479112914?s=46","ents":[["url",0,61]],"media":{"type":"webpage","url":"https://x.com/47news_official/status/2114892093479112914?s=46","site":"X (formerly Twitter)","title":"47NEWS (@47news_official) on X","desc":"【速報】GMO、パソコン電源落とすよう呼びかけ\nhttps://t.co/V2ZOYknogI"}}
 ]
