@@ -171,5 +171,8 @@
 {"id":982883,"date":1793196081,"from":707953138,"text":"byd oddo直接给ace5pro的内测包端上来了"},
 {"id":982884,"date":1793196096,"from":707953138,"text":"然后fastboot进不去了"},
 {"id":982885,"date":1793196105,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-10/982800/982885.webm"}},
-{"id":982886,"date":1793196284,"from":5124015719,"media":{"type":"sticker","size":13472,"mime":"image/webp","w":512,"h":479,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/982800/982886.webp"}}
+{"id":982886,"date":1793196284,"from":5124015719,"media":{"type":"sticker","size":13472,"mime":"image/webp","w":512,"h":479,"emoji":"🌟","file":"chats/-1001158333230/media/2026-10/982800/982886.webp"}},
+{"id":982887,"date":1793197648,"from":1246387393,"text":"iPhone Duo算不算一种速成机"},
+{"id":982888,"date":1793197652,"from":1246387393,"media":{"type":"sticker","size":8064,"mime":"application/x-tgsticker","w":512,"h":512,"emoji":"😒","animated":true,"file":"chats/-1001158333230/media/2026-10/982800/982888.tgs"}},
+{"id":982889,"date":1793197790,"from":5324653156,"text":"感觉算，至少测试应该是没做好","reply":{"id":982887,"from":1246387393,"text":"iPhone Duo算不算一种速成机"}}
 ]
