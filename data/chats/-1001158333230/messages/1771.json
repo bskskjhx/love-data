@@ -283,5 +283,11 @@
 {"id":982997,"date":1793231640,"from":7186939869,"text":"牛大了"},
 {"id":982998,"date":1793231647,"from":7186939869,"text":"官方维修都能活动结束"},
 {"id":982999,"date":1793231649,"from":7186939869,"media":{"type":"sticker","size":18204,"mime":"image/webp","w":512,"h":512,"emoji":"🤔","file":"chats/-1001158333230/media/2026-10/982800/982999.webp"}},
-{"id":983000,"date":1793231683,"from":7186939869,"text":"这玩意居然还是活动","media":{"type":"photo","w":510,"h":438,"size":14861,"file":"chats/-1001158333230/media/2026-10/983000/983000.jpg"}}
+{"id":983000,"date":1793231683,"from":7186939869,"text":"这玩意居然还是活动","media":{"type":"photo","w":510,"h":438,"size":14861,"file":"chats/-1001158333230/media/2026-10/983000/983000.jpg"}},
+{"id":983001,"date":1793233823,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","ents":[["url",0,83]],"media":{"type":"webpage","url":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","site":"🧵 Thread • FixupX","title":"adiii (@adiicodess)","desc":"New issue with the iPhone Duo 👀👇\n\nWhen the iPhone Duo is half-open, you can see its internal structure from the side.\n\nDoes this gap affect its dust resistance???"},"reply":{"id":982834,"from":5287285590,"text":"[图片]"}},
+{"id":983002,"date":1793233852,"from":5799965478,"text":"啥牌子","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
+{"id":983003,"date":1793233874,"from":5799965478,"text":"看一次笑一次","reply":{"id":983001,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46"}},
+{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（"},
+{"id":983005,"date":1793234096,"from":1794475072,"text":"欧加三系","reply":{"id":983002,"from":5799965478,"text":"啥牌子"}},
+{"id":983006,"date":1793234120,"from":1794475072,"text":"入口有变动，现在叫寄修服务","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}}
 ]
