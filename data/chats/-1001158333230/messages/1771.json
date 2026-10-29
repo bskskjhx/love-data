@@ -287,7 +287,7 @@
 {"id":983001,"date":1793233823,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","ents":[["url",0,83]],"media":{"type":"webpage","url":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","site":"🧵 Thread • FixupX","title":"adiii (@adiicodess)","desc":"New issue with the iPhone Duo 👀👇\n\nWhen the iPhone Duo is half-open, you can see its internal structure from the side.\n\nDoes this gap affect its dust resistance???"},"reply":{"id":982834,"from":5287285590,"text":"[图片]"}},
 {"id":983002,"date":1793233852,"from":5799965478,"text":"啥牌子","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983003,"date":1793233874,"from":5799965478,"text":"看一次笑一次","reply":{"id":983001,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46"}},
-{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（","reacts":[["😁",3]]},
+{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（","reacts":[["😁",4]]},
 {"id":983005,"date":1793234096,"from":1794475072,"text":"欧加三系","reply":{"id":983002,"from":5799965478,"text":"啥牌子"}},
 {"id":983006,"date":1793234120,"from":1794475072,"text":"入口有变动，现在叫寄修服务","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983007,"date":1793234261,"from":955821087,"media":{"type":"photo","w":1448,"h":1086,"size":74474,"file":"chats/-1001158333230/media/2026-10/983000/983007.jpg"}},
@@ -346,5 +346,7 @@
 {"id":983060,"date":1793249001,"from":7662425983,"text":"草","reply":{"id":983037,"from":8978991226,"text":"全删了fcm刚唤醒还没接受完消息又冻上了 还是没通知"}},
 {"id":983061,"date":1793249021,"from":7662425983,"text":"我的解决方案是qv supress+fcm fix"},
 {"id":983062,"date":1793249657,"from":8978991226,"text":"我有墓碑，开网络自启经常自己启动，只能fcm唤醒去接通知","reply":{"id":983051,"from":5456107983,"text":"活了又怎么样，这个需要开启软件自启动，且微信也只是 FCM 保活，不推送消息"}},
-{"id":983063,"date":1793249903,"from":8978991226,"text":"qvsupress是什么，之前没听说过","edit":1793249919,"reply":{"id":983061,"from":7662425983,"text":"我的解决方案是qv supress+fcm fix"}}
+{"id":983063,"date":1793249903,"from":8978991226,"text":"qvsupress是什么，之前没听说过","edit":1793249919,"reply":{"id":983061,"from":7662425983,"text":"我的解决方案是qv supress+fcm fix"}},
+{"id":983064,"date":1793256917,"from":5287285590,"text":"反正一个鲁老师","reply":{"id":982858,"from":880075932,"text":"鲁老师还吹什么3d打印"}},
+{"id":983065,"date":1793256924,"from":5287285590,"text":"一个简机测评"}
 ]
