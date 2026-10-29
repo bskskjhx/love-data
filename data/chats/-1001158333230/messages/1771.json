@@ -287,11 +287,20 @@
 {"id":983001,"date":1793233823,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","ents":[["url",0,83]],"media":{"type":"webpage","url":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","site":"🧵 Thread • FixupX","title":"adiii (@adiicodess)","desc":"New issue with the iPhone Duo 👀👇\n\nWhen the iPhone Duo is half-open, you can see its internal structure from the side.\n\nDoes this gap affect its dust resistance???"},"reply":{"id":982834,"from":5287285590,"text":"[图片]"}},
 {"id":983002,"date":1793233852,"from":5799965478,"text":"啥牌子","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983003,"date":1793233874,"from":5799965478,"text":"看一次笑一次","reply":{"id":983001,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46"}},
-{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（"},
+{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（","reacts":[["😁",1]]},
 {"id":983005,"date":1793234096,"from":1794475072,"text":"欧加三系","reply":{"id":983002,"from":5799965478,"text":"啥牌子"}},
 {"id":983006,"date":1793234120,"from":1794475072,"text":"入口有变动，现在叫寄修服务","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983007,"date":1793234261,"from":955821087,"media":{"type":"photo","w":1448,"h":1086,"size":74474,"file":"chats/-1001158333230/media/2026-10/983000/983007.jpg"}},
 {"id":983008,"date":1793234267,"from":955821087,"text":"m5的mbp没货了"},
 {"id":983009,"date":1793234273,"from":955821087,"text":"那不就是要逼着我上m6？"},
-{"id":983010,"date":1793234444,"from":5324653156,"text":"还真就被他一语成谶了","reply":{"id":982994,"from":7352338657,"text":"[图片]"}}
+{"id":983010,"date":1793234444,"from":5324653156,"text":"还真就被他一语成谶了","reply":{"id":982994,"from":7352338657,"text":"[图片]"}},
+{"id":983011,"date":1793235389,"from":1541031247,"text":"ipx8有可能，他那个8有没有还是两说","reply":{"id":983004,"from":5799965478,"text":"这鬼东西咋做的ip68（"}},
+{"id":983012,"date":1793235405,"from":1541031247,"text":"也没人测啊"},
+{"id":983013,"date":1793235406,"from":1541031247,"media":{"type":"sticker","size":233949,"mime":"video/webm","w":512,"h":170,"dur":3,"emoji":"😂","file":"chats/-1001158333230/media/2026-10/983000/983013.webm"}},
+{"id":983014,"date":1793235417,"from":1541031247,"text":"只能说17代之后苹果的ipx8，都不是很8"},
+{"id":983015,"date":1793235423,"from":1541031247,"text":"因为胶会自己溢出来"},
+{"id":983016,"date":1793235428,"from":1541031247,"text":"好像16就有问题了？"},
+{"id":983017,"date":1793235432,"from":331875747,"text":"是"},
+{"id":983018,"date":1793235434,"from":331875747,"text":"16就有问题"},
+{"id":983019,"date":1793235440,"from":331875747,"text":"高温之后防水会失效"}
 ]
