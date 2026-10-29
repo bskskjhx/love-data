@@ -287,7 +287,7 @@
 {"id":983001,"date":1793233823,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","ents":[["url",0,83]],"media":{"type":"webpage","url":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46","site":"🧵 Thread • FixupX","title":"adiii (@adiicodess)","desc":"New issue with the iPhone Duo 👀👇\n\nWhen the iPhone Duo is half-open, you can see its internal structure from the side.\n\nDoes this gap affect its dust resistance???"},"reply":{"id":982834,"from":5287285590,"text":"[图片]"}},
 {"id":983002,"date":1793233852,"from":5799965478,"text":"啥牌子","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983003,"date":1793233874,"from":5799965478,"text":"看一次笑一次","reply":{"id":983001,"from":648806410,"text":"https://fixupx.com/adiicodess/status/2115384022712910100?a=_TCncbGzGIhFlzbtluc&s=46"}},
-{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（","reacts":[["😁",1]]},
+{"id":983004,"date":1793233886,"from":5799965478,"text":"这鬼东西咋做的ip68（","reacts":[["😁",2]]},
 {"id":983005,"date":1793234096,"from":1794475072,"text":"欧加三系","reply":{"id":983002,"from":5799965478,"text":"啥牌子"}},
 {"id":983006,"date":1793234120,"from":1794475072,"text":"入口有变动，现在叫寄修服务","reply":{"id":983000,"from":7186939869,"text":"[图片] 这玩意居然还是活动"}},
 {"id":983007,"date":1793234261,"from":955821087,"media":{"type":"photo","w":1448,"h":1086,"size":74474,"file":"chats/-1001158333230/media/2026-10/983000/983007.jpg"}},
@@ -314,5 +314,12 @@
 {"id":983028,"date":1793238373,"from":1794475072,"text":"现在换主板不如买二手了，主板价格已经高于二手价格"},
 {"id":983029,"date":1793240153,"from":7559976749,"media":{"type":"sticker","size":28406,"mime":"image/webp","w":512,"h":480,"emoji":"👌","file":"chats/-1001158333230/media/2026-10/983000/983029.webp"}},
 {"id":983030,"date":1793240589,"from":1310788969,"text":"15 16+512还得3700-3800吧"},
-{"id":983031,"date":1793241164,"from":8978991226,"text":"沟槽微信一嘎嘎吃我内存。","reply":{"id":982630,"from":1794475072,"text":"[图片] 反正我的fcm没活过"}}
+{"id":983031,"date":1793241164,"from":8978991226,"text":"沟槽微信一嘎嘎吃我内存。","reply":{"id":982630,"from":1794475072,"text":"[图片] 反正我的fcm没活过"}},
+{"id":983032,"date":1793241172,"from":891951610,"text":"重新定义IP68","reacts":[["😁",1]],"reply":{"id":983004,"from":5799965478,"text":"这鬼东西咋做的ip68（"}},
+{"id":983033,"date":1793241202,"from":8978991226,"text":"咱也不知道这他妈是什么傻逼屎山"},
+{"id":983034,"date":1793241245,"from":8978991226,"text":"2g运存占用你受得了吗兄弟。"},
+{"id":983035,"date":1793241290,"from":8978991226,"text":"厂商通知通道不适配"},
+{"id":983036,"date":1793241340,"from":8978991226,"text":"noactive＋fcmfix还不能在后台给微信全删了"},
+{"id":983037,"date":1793241395,"from":8978991226,"text":"全删了fcm刚唤醒还没接受完消息又冻上了 还是没通知","edit":1793241496},
+{"id":983038,"date":1793241459,"from":8978991226,"text":"我不知道你有没有用墓碑哈，用墓碑的要开启允许fcm唤醒","reply":{"id":982630,"from":1794475072,"text":"[图片] 反正我的fcm没活过"}}
 ]
