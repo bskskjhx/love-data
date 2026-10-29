@@ -29,7 +29,7 @@
 {"id":983244,"date":1793283280,"from":6948784790,"text":"那个触屏Mac如何"},
 {"id":983245,"date":1793283300,"from":8978147532,"text":"This channel can’t be displayed because it was used to spread pornographic content.","fwd":{"name":"🔮 奇闻异录 与 沙雕时刻 meme collection","date":1793283023}},
 {"id":983247,"date":1793283301,"from":8978147532,"text":"This channel can’t be displayed because it was used to spread pornographic content.","fwd":{"name":"🔮 奇闻异录 与 沙雕时刻 meme collection","date":1793283023}},
-{"id":983248,"date":1793284804,"from":-1001231173515,"text":"iPadOS 17 on Xiaomi 18 Pro","media":{"type":"photo","w":1707,"h":2560,"size":449519,"file":"chats/-1001158333230/media/2026-10/983200/983248.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1793284801},"reacts":[["👍",17],["😱",8],["🤣",6],["❤",1]],"views":560},
+{"id":983248,"date":1793284804,"from":-1001231173515,"text":"iPadOS 17 on Xiaomi 18 Pro","media":{"type":"photo","w":1707,"h":2560,"size":449519,"file":"chats/-1001158333230/media/2026-10/983200/983248.jpg"},"fwd":{"name":"不靠谱的喵(>^ω^<) #CatGPT","date":1793284801},"reacts":[["👍",20],["😱",10],["🤣",6],["❤",1]],"views":645},
 {"id":983249,"date":1793284813,"from":6865717603,"text":"好👍","reply":{"id":983248,"from":-1001231173515,"text":"[图片] iPadOS 17 on Xiaomi 18 Pro"}},
 {"id":983250,"date":1793284829,"from":7252855002,"media":{"type":"sticker","size":19630,"mime":"image/webp","w":512,"h":512,"emoji":"👍","file":"chats/-1001158333230/media/2026-10/983200/983250.webp"},"reply":{"id":983248,"from":-1001231173515,"text":"[图片] iPadOS 17 on Xiaomi 18 Pro"}},
 {"id":983251,"date":1793284852,"from":1312105710,"media":{"type":"sticker","size":12634,"mime":"image/webp","w":512,"h":461,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/983200/983251.webp"}},
@@ -39,5 +39,10 @@
 {"id":983257,"date":1793285363,"from":5506662351,"media":{"type":"sticker","size":251875,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"😕","file":"chats/-1001158333230/media/2026-10/983200/983257.webm"},"reply":{"id":983248,"from":-1001231173515,"text":"[图片] iPadOS 17 on Xiaomi 18 Pro"}},
 {"id":983258,"date":1793285805,"from":7134638314,"text":"omg","reply":{"id":983248,"from":-1001231173515,"text":"[图片] iPadOS 17 on Xiaomi 18 Pro"}},
 {"id":983259,"date":1793286217,"from":5506662351,"media":{"type":"gif","size":120151,"mime":"video/mp4","w":320,"h":320,"dur":4,"file":"chats/-1001158333230/media/2026-10/983200/983259.mp4","thumb":"chats/-1001158333230/media/2026-10/983200/983259_thumb.jpg"}},
-{"id":983260,"date":1793286658,"from":8978147532,"media":{"type":"sticker","size":25282,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🚇","file":"chats/-1001158333230/media/2026-10/983200/983260.webm"}}
+{"id":983260,"date":1793286658,"from":8978147532,"media":{"type":"sticker","size":25282,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"🚇","file":"chats/-1001158333230/media/2026-10/983200/983260.webm"}},
+{"id":983261,"date":1793286711,"from":8978147532,"text":"以后高通机器解BL就为了刷iOS"},
+{"id":983262,"date":1793286791,"from":5506662351,"text":"江灵夏草说是已经快解决了wifi啥的了"},
+{"id":983263,"date":1793286851,"from":5506662351,"media":{"type":"photo","w":1164,"h":2560,"size":200767,"file":"chats/-1001158333230/media/2026-10/983200/983263.jpg"}},
+{"id":983264,"date":1793286876,"from":5506662351,"text":"GPU啥的都解决了"},
+{"id":983265,"date":1793286878,"from":5506662351,"text":"太强了"}
 ]
