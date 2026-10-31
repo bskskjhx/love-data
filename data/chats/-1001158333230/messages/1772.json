@@ -425,5 +425,7 @@
 {"id":983645,"date":1793456537,"from":6565455016,"text":"没有","reply":{"id":983643,"from":266806493,"text":"啊 27有安卓的侧滑了吗"}},
 {"id":983646,"date":1793456564,"from":266806493,"text":"那什么鬼","reply":{"id":983645,"from":6565455016,"text":"没有"}},
 {"id":983647,"date":1793462891,"from":266806493,"text":"https://x.com/enp39s0/status/2116545810594939288?s=46","ents":[["url",0,53]],"media":{"type":"webpage","url":"https://x.com/enp39s0/status/2116545810594939288?s=46","site":"X (formerly Twitter)","title":"MidoriKochiya0/0/1🐱🍨 (@enp39s0) on X","desc":"让比较没道德的模型跑了一次，还有更好玩的东西：通过云控发起扫描、禁用应用、禁用无障碍、把任意应用的APK打包上传到服务器\n你国安卓厂商是会玩的"},"fwd":{"name":"Cairetina","date":1793462570}},
-{"id":983648,"date":1793464493,"from":5207934356,"text":"No deleted account found from 3560 scanned users from this group 🚫👻","ents":[["code",30,4]]}
+{"id":983648,"date":1793464493,"from":5207934356,"text":"No deleted account found from 3560 scanned users from this group 🚫👻","ents":[["code",30,4]]},
+{"id":983649,"date":1793470778,"from":880075932,"text":"国行苹果智能能好用吗"},
+{"id":983650,"date":1793470795,"from":880075932,"text":"我感觉手机系统ai也都没演示的这么顺畅"}
 ]
