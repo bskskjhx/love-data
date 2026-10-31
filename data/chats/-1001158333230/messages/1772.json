@@ -306,7 +306,7 @@
 {"id":983525,"date":1793417473,"from":1794475072,"text":"是这样","reply":{"id":983522,"from":5844954002,"text":"那清完转头不是又生成了吗"}},
 {"id":983526,"date":1793418398,"from":6016989484,"svc":{"type":"join"}},
 {"id":983527,"date":1793418398,"from":609517172,"text":"Hey there Remilia, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":983528,"date":1793422601,"from":5493108680,"text":"18 个月Gemini Pro：领取gemini pro 18个月/plus 12个月","ents":[["a",16,27,"https://t.me/gemini_plusv_bot?start=ref_UNLBI5EG"]],"fwd":{"name":"xhh","date":1793422537},"views":113},
+{"id":983528,"date":1793422601,"from":5493108680,"text":"18 个月Gemini Pro：领取gemini pro 18个月/plus 12个月","ents":[["a",16,27,"https://t.me/gemini_plusv_bot?start=ref_UNLBI5EG"]],"fwd":{"name":"xhh","date":1793422537},"views":115},
 {"id":983529,"date":1793422756,"from":1541031247,"media":{"type":"sticker","size":55266,"mime":"video/webm","w":512,"h":506,"dur":2,"emoji":"❓","file":"chats/-1001158333230/media/2026-10/983400/983529.webm"}},
 {"id":983530,"date":1793424506,"from":8213758499,"text":"K100标准版解锁有指望吗（"},
 {"id":983531,"date":1793424586,"from":1246387393,"text":"感觉应该不难吧"},
@@ -429,5 +429,7 @@
 {"id":983649,"date":1793470778,"from":880075932,"text":"国行苹果智能能好用吗"},
 {"id":983650,"date":1793470795,"from":880075932,"text":"我感觉手机系统ai也都没演示的这么顺畅"},
 {"id":983651,"date":1793472347,"from":1269904484,"text":"怎么搞的？这里也太粗大了吧。。。。","media":{"type":"photo","w":1188,"h":1016,"size":121281,"file":"chats/-1001158333230/media/2026-11/983600/983651.jpg"},"reply":{"id":983575,"from":5757170270,"text":"[图片] @FifthSnow"}},
-{"id":983652,"date":1793472421,"from":5757170270,"text":"bzd 耶"}
+{"id":983652,"date":1793472421,"from":5757170270,"text":"bzd 耶"},
+{"id":983653,"date":1793474280,"from":880075932,"text":"截图问题吧"},
+{"id":983654,"date":1793474300,"from":880075932,"text":"应该是吞咽的动作比较刻意夸张，加扭脖子"}
 ]
