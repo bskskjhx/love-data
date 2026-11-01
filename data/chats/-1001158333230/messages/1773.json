@@ -15,5 +15,11 @@
 {"id":983735,"date":1793519683,"from":955821087,"text":"我换了真AirPlay 2音箱之后"},
 {"id":983736,"date":1793519693,"from":955821087,"text":"才知道AirPlay 2具体是怎么样的机制"},
 {"id":983737,"date":1793519798,"from":5802487999,"text":"国外万事达怎么给国内个人用户付款啊"},
-{"id":983738,"date":1793519803,"from":5802487999,"media":{"type":"sticker","size":13694,"mime":"image/webp","w":512,"h":459,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/983600/983738.webp"}}
+{"id":983738,"date":1793519803,"from":5802487999,"media":{"type":"sticker","size":13694,"mime":"image/webp","w":512,"h":459,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/983600/983738.webp"}},
+{"id":983739,"date":1793519861,"from":1794475072,"text":"tenpaygo app or alipayplus合作支付方式\nhttps://apps.apple.com/cn/app/tenpaygo/id6778755338 tenpaygo\nhttps://www.alipayplus.com/mobile-payment-provider-list/\nalipayplus合作商户","ents":[["url",33,51],["url",94,56]],"edit":1793520042,"reply":{"id":983737,"from":5802487999,"text":"国外万事达怎么给国内个人用户付款啊"}},
+{"id":983740,"date":1793519973,"from":5802487999,"media":{"type":"photo","w":581,"h":1280,"size":45076,"file":"chats/-1001158333230/media/2026-11/983600/983740.jpg"}},
+{"id":983741,"date":1793519973,"from":5802487999,"media":{"type":"sticker","size":13694,"mime":"image/webp","w":512,"h":459,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/983600/983741.webp"}},
+{"id":983742,"date":1793520002,"from":5802487999,"text":"有无Android","reply":{"id":983739,"from":1794475072,"text":"tenpaygo app or alipayplus合作支付方式 https://apps.apple.com/cn/app/tenpaygo/id6778755338 tenpaygo https://www.alipayplus.com"}},
+{"id":983743,"date":1793520064,"from":1794475072,"text":"赞赏码不是支付，不支持国际用户赞赏","reply":{"id":983740,"from":5802487999,"text":"[图片]"}},
+{"id":983744,"date":1793520071,"from":5802487999,"text":"好吧"}
 ]
