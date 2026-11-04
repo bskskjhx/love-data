@@ -132,7 +132,7 @@
 {"id":984358,"date":1793717048,"from":5506662351,"text":"刷16.0.10的abl就回来了","reply":{"id":984351,"from":7662425983,"text":"[图片]"}},
 {"id":984359,"date":1793717051,"from":5506662351,"text":"很简单"},
 {"id":984360,"date":1793721354,"from":5287285590,"text":"似乎最近看到有air用户在爆骂国行esim了"},
-{"id":984361,"date":1793721396,"from":5287285590,"text":"说是删了卡跑运营商把esim转实体卡也被显示占用esim槽位","reacts":[["😁",3]]},
+{"id":984361,"date":1793721396,"from":5287285590,"text":"说是删了卡跑运营商把esim转实体卡也被显示占用esim槽位","reacts":[["😁",4]]},
 {"id":984362,"date":1793721417,"from":5287285590,"text":"导致出二手直接买家原地宕机"},
 {"id":984363,"date":1793721516,"from":5506662351,"text":"天朝特色"},
 {"id":984364,"date":1793721523,"from":5506662351,"media":{"type":"sticker","size":255170,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"🤓","file":"chats/-1001158333230/media/2026-11/984200/984364.webm"}},
@@ -144,7 +144,7 @@
 {"id":984370,"date":1793722706,"from":594317380,"text":"其实我有在想能不能拿 32 位转译 64 位的那层玩意做一个 wrapper"},
 {"id":984371,"date":1793723009,"from":594317380,"text":"Tango 来着，但不是开源的"},
 {"id":984372,"date":1793723029,"from":594317380,"text":"这些转译层都他妈是商业产品，libhoudini 也是"},
-{"id":984373,"date":1793723044,"from":594317380,"text":"libhoudini 甚至还有时间炸弹","reacts":[["🤯",2]]},
+{"id":984373,"date":1793723044,"from":594317380,"text":"libhoudini 甚至还有时间炸弹","reacts":[["🤯",3]]},
 {"id":984374,"date":1793723708,"from":868035986,"text":"有源码好弄，没有源码的怎么移植？","reply":{"id":984368,"from":594317380,"text":"源码泄露了，游戏里美术资源脚本音频才是大头，程序那些才几十一百M，有源码的情况下移植起来会挺快的"}},
 {"id":984375,"date":1793723744,"from":868035986,"text":"嗯嗯","reply":{"id":984372,"from":594317380,"text":"这些转译层都他妈是商业产品，libhoudini 也是"}},
 {"id":984376,"date":1793724004,"from":594317380,"text":"举个例子","reply":{"id":984374,"from":868035986,"text":"有源码好弄，没有源码的怎么移植？"}},
@@ -237,5 +237,11 @@
 {"id":984464,"date":1793763904,"from":8842822910,"text":"我看日本和欧洲有但是别的国家似乎没有"},
 {"id":984465,"date":1793763936,"from":949196498,"text":"佬买了那个东芝11代u轻薄本吗","reply":{"id":984354,"from":470460877,"text":"[图片] 我同事三百块淘了一个泼糇m4 pro"}},
 {"id":984466,"date":1793764004,"from":470460877,"text":"没","reply":{"id":984465,"from":949196498,"text":"佬买了那个东芝11代u轻薄本吗"}},
-{"id":984467,"date":1793764126,"from":949196498,"text":"不过没固态","media":{"type":"photo","w":468,"h":431,"size":32104,"file":"chats/-1001158333230/media/2026-11/984400/984467.jpg"},"reply":{"id":984466,"from":470460877,"text":"没"}}
+{"id":984467,"date":1793764126,"from":949196498,"text":"不过没固态","media":{"type":"photo","w":468,"h":431,"size":32104,"file":"chats/-1001158333230/media/2026-11/984400/984467.jpg"},"reply":{"id":984466,"from":470460877,"text":"没"}},
+{"id":984468,"date":1793765035,"from":5757170270,"text":"这 27.3beta 的资源库背景模糊呢"},
+{"id":984469,"date":1793765181,"from":648806410,"text":"哈？","reply":{"id":984373,"from":594317380,"text":"libhoudini 甚至还有时间炸弹"}},
+{"id":984470,"date":1793765202,"from":648806410,"text":"这么阴"},
+{"id":984471,"date":1793765273,"from":5799965478,"text":"实在不行用qemu tcg吧（"},
+{"id":984472,"date":1793765281,"from":5799965478,"text":"就是性能挺炸裂的"},
+{"id":984473,"date":1793765532,"from":594317380,"text":"https://github.com/MustardChef/WSABuilds/issues/793#issuecomment-5524617489","ents":[["url",0,75]],"media":{"type":"webpage","url":"https://github.com/MustardChef/WSABuilds/issues/793","site":"GitHub","title":"[BUG]Some apps crash or fail to launch after September 1, 2026 · Issue #793 · MustardChef/WSABuilds","desc":"Describe the bug Issue Description: I discovered this issue on September 2, 2026. After launching certain apps, CPU usage spikes heavily until the app crashes or closes automatically without proper..."},"edit":1793765562,"reply":{"id":984469,"from":648806410,"text":"哈？"}}
 ]
