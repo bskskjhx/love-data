@@ -243,5 +243,16 @@
 {"id":984470,"date":1793765202,"from":648806410,"text":"这么阴"},
 {"id":984471,"date":1793765273,"from":5799965478,"text":"实在不行用qemu tcg吧（"},
 {"id":984472,"date":1793765281,"from":5799965478,"text":"就是性能挺炸裂的"},
-{"id":984473,"date":1793765532,"from":594317380,"text":"https://github.com/MustardChef/WSABuilds/issues/793#issuecomment-5524617489","ents":[["url",0,75]],"media":{"type":"webpage","url":"https://github.com/MustardChef/WSABuilds/issues/793","site":"GitHub","title":"[BUG]Some apps crash or fail to launch after September 1, 2026 · Issue #793 · MustardChef/WSABuilds","desc":"Describe the bug Issue Description: I discovered this issue on September 2, 2026. After launching certain apps, CPU usage spikes heavily until the app crashes or closes automatically without proper..."},"edit":1793765562,"reply":{"id":984469,"from":648806410,"text":"哈？"}}
+{"id":984473,"date":1793765532,"from":594317380,"text":"https://github.com/MustardChef/WSABuilds/issues/793#issuecomment-5524617489","ents":[["url",0,75]],"media":{"type":"webpage","url":"https://github.com/MustardChef/WSABuilds/issues/793","site":"GitHub","title":"[BUG]Some apps crash or fail to launch after September 1, 2026 · Issue #793 · MustardChef/WSABuilds","desc":"Describe the bug Issue Description: I discovered this issue on September 2, 2026. After launching certain apps, CPU usage spikes heavily until the app crashes or closes automatically without proper..."},"edit":1793766028,"reacts":[["😁",1]],"reply":{"id":984469,"from":648806410,"text":"哈？"}},
+{"id":984474,"date":1793766033,"from":1541031247,"text":"难绷"},
+{"id":984475,"date":1793766316,"from":648806410,"text":"66","reply":{"id":984473,"from":594317380,"text":"https://github.com/MustardChef/WSABuilds/issues/793#issuecomment-5524617489"}},
+{"id":984476,"date":1793766346,"from":648806410,"text":"正好我也在搞wsa"},
+{"id":984477,"date":1793766393,"from":648806410,"text":"搞了个WSABootLoader项目，能直接加载Magisk和KernelSU LKM进去（KernelSU需要重编译内核）"},
+{"id":984478,"date":1793766408,"from":5799965478,"text":"bootloader？","reply":{"id":984477,"from":648806410,"text":"搞了个WSABootLoader项目，能直接加载Magisk和KernelSU LKM进去（KernelSU需要重编译内核）"}},
+{"id":984479,"date":1793766415,"from":648806410,"text":"还能在不修改WSA的前提下，加载Magisk和KernelSU"},
+{"id":984480,"date":1793766425,"from":648806410,"text":"系统里安装的是原版WSA msixbundle"},
+{"id":984481,"date":1793766427,"from":648806410,"media":{"type":"sticker","size":168939,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"💔","file":"chats/-1001158333230/media/2026-11/984400/984481.webm"}},
+{"id":984482,"date":1793766433,"from":594317380,"text":"我是小猫猫"},
+{"id":984483,"date":1793766440,"from":5799965478,"text":"我什么时候把我那个uefi实现看看能不能在wsa跑吧（"},
+{"id":984484,"date":1793766446,"from":5799965478,"text":"美美使用gbl说是"}
 ]
