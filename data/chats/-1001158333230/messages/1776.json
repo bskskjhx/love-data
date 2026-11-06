@@ -81,5 +81,7 @@
 {"id":985352,"date":1793969901,"from":1800996331,"text":"觉得没少的可以去看其他地方的"},
 {"id":985353,"date":1793969906,"from":1800996331,"media":{"type":"sticker","size":260346,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"❤️","file":"chats/-1001158333230/media/2026-11/985200/985353.webm"}},
 {"id":985354,"date":1793970045,"from":1794475072,"text":"更新不需要切换ID","reply":{"id":985335,"from":5802487999,"text":"用外区id的话在国内生活要用的app怎么办"}},
-{"id":985355,"date":1793970067,"from":1794475072,"text":"此外，媒体服务和iCloud并不关联"}
+{"id":985355,"date":1793970067,"from":1794475072,"text":"此外，媒体服务（App Store、Apple Music、Apple TV、iTunes Store）和iCloud并不关联","edit":1793970196},
+{"id":985356,"date":1793970095,"from":1794475072,"text":"我现在是常驻US ID+媒体turky ID"},
+{"id":985357,"date":1793970102,"from":1794475072,"text":"谁用CN ID啊"}
 ]
