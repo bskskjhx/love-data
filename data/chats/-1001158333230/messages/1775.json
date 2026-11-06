@@ -417,7 +417,7 @@
 {"id":985184,"date":1793945257,"from":331875747,"text":"6"},
 {"id":985185,"date":1793945269,"from":5799965478,"text":"当然你附近有售后的话随便玩无所谓"},
 {"id":985186,"date":1793945293,"from":5799965478,"text":"就算ocdt飞了其实返厂也能刷"},
-{"id":985187,"date":1793946136,"from":331875747,"text":"酷安忠实用户😦\n\nfrom 平壤卫视\n​","ents":[["i",10,4],["a",15,4,"https://t.me/pingrangTV/69178"],["a",20,1,"http://t.me/BEUPK_7YLofzVlQpKZEeKdofdt1CsTp7nSFasSBCcBjUTnExA4CJOMNl_GPG4TdBYe40Me05xZv-EUW9q5RaH-xyiGJ9rWL794WU540Hk6_s6o-2"]],"media":{"type":"photo","w":690,"h":1501,"size":130195,"file":"chats/-1001158333230/media/2026-11/985000/985187.jpg"},"fwd":{"name":"每日沙雕墙","date":1793917125},"reacts":[["😁",2]],"views":1208},
+{"id":985187,"date":1793946136,"from":331875747,"text":"酷安忠实用户😦\n\nfrom 平壤卫视\n​","ents":[["i",10,4],["a",15,4,"https://t.me/pingrangTV/69178"],["a",20,1,"http://t.me/BEUPK_7YLofzVlQpKZEeKdofdt1CsTp7nSFasSBCcBjUTnExA4CJOMNl_GPG4TdBYe40Me05xZv-EUW9q5RaH-xyiGJ9rWL794WU540Hk6_s6o-2"]],"media":{"type":"photo","w":690,"h":1501,"size":130195,"file":"chats/-1001158333230/media/2026-11/985000/985187.jpg"},"fwd":{"name":"每日沙雕墙","date":1793917125},"reacts":[["😁",2]],"views":1214},
 {"id":985188,"date":1793946748,"from":648806410,"text":"有啥用","reply":{"id":985180,"from":5799965478,"text":"防熔断呗"}},
 {"id":985189,"date":1793946895,"from":5799965478,"text":"自己刷些什么分区刷炸了不就有救了吗","reply":{"id":985188,"from":648806410,"text":"有啥用"}},
 {"id":985190,"date":1793946898,"from":5799965478,"text":"不对"},
@@ -467,5 +467,8 @@
 {"id":985234,"date":1793948172,"from":5799965478,"text":"挂圈"},
 {"id":985235,"date":1793948186,"from":5799965478,"text":"某些他们认为很牛的外挂作者"},
 {"id":985236,"date":1793948196,"from":5799965478,"text":"就是爱搞这些"},
-{"id":985237,"date":1793948197,"from":5799965478,"text":"不过也算是报应吧"}
+{"id":985237,"date":1793948197,"from":5799965478,"text":"不过也算是报应吧"},
+{"id":985238,"date":1793949520,"from":648806410,"text":"https://x.com/leeking420/status/2118212892411777196","ents":[["url",0,51]],"media":{"type":"webpage","url":"https://x.com/leeking420/status/2118212892411777196","site":"X (formerly Twitter)","title":"二旬老汉 (@leeking420) on X","desc":"最近看到很多小米手机内置后门、自动录屏上传的言论，我是双持党，安卓用的就是小米17 Pro，虽然我已经root了，但是仍然比较关注这个消息\n\n我认为，一个非小作坊手机厂商，不至于有这样的行为，在我了解的过程中，看到这样一篇文章，手机正好有root，接入GPT一番分析，和文章里大差不差的结论\n\n本地有行为画像，数据在本地保留72小时；本地画像无法发自行开关；自行开启AI预警会上传通话和录屏到…"},"reply":{"id":985196,"from":2116526758,"text":"刷个 x，色图也不发了，黄片也没有了。 全是在说隐私信息被上传的推。"}},
+{"id":985239,"date":1793949537,"from":648806410,"text":"笑死，还是lsp干的","reply":{"id":985230,"from":5799965478,"text":"edxp那个测试版炸了多少人了都"}},
+{"id":985240,"date":1793949571,"from":2116526758,"text":"昨晚刷到了。","reply":{"id":985238,"from":648806410,"text":"https://x.com/leeking420/status/2118212892411777196"}}
 ]
