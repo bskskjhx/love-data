@@ -60,5 +60,7 @@
 {"id":987339,"date":1794163561,"from":92744695,"text":"我主力系统是Linux，所以还开发了一个Linux的耳机控制软件\nhttps://github.com/onlymash/WaveTune","ents":[["url",33,36]],"media":{"type":"webpage","url":"https://github.com/onlymash/WaveTune","site":"GitHub","title":"GitHub - onlymash/WaveTune: 面向 Linux 桌面的非官方无线耳机控制中心","desc":"面向 Linux 桌面的非官方无线耳机控制中心. Contribute to onlymash/WaveTune development by creating an account on GitHub."}},
 {"id":987340,"date":1794164928,"from":707953138,"text":"我倒是无所谓，一直都开的ldac"},
 {"id":987341,"date":1794168782,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":987297,"from":648806410,"text":"飞了"}},
-{"id":987342,"date":1794168787,"from":400911764,"text":"| ω・`)","reply":{"id":987341,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
+{"id":987342,"date":1794168787,"from":400911764,"text":"| ω・`)","reply":{"id":987341,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":987343,"date":1794175843,"from":7847060049,"svc":{"type":"join"}},
+{"id":987344,"date":1794175843,"from":609517172,"text":"Hey there 蔓越莓, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
