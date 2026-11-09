@@ -76,5 +76,7 @@
 {"id":987355,"date":1794183963,"from":5324653156,"text":"这样的吗","reply":{"id":987348,"from":5799965478,"text":"但是这玩意扩展起来很容易的"}},
 {"id":987356,"date":1794184772,"from":5799965478,"text":"对 往rpmb里写自定义vbmeta公钥 然后在开了这个feat的话检查vbmeta公钥的时候改读这个就好了","reply":{"id":987355,"from":5324653156,"text":"这样的吗"}},
 {"id":987357,"date":1794185561,"from":7468120786,"svc":{"type":"join"}},
-{"id":987358,"date":1794185561,"from":609517172,"text":"Hey there zhengyi, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":987358,"date":1794185561,"from":609517172,"text":"Hey there zhengyi, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":987359,"date":1794192446,"from":7690864393,"svc":{"type":"join"}},
+{"id":987360,"date":1794192446,"from":609517172,"text":"Hey there SAIFUL ISLAM, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
