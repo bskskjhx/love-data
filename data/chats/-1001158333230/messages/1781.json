@@ -144,5 +144,10 @@
 {"id":987929,"date":1794315923,"from":8781545419,"text":"最幽默的是下载时点取消会重新下载"},
 {"id":987930,"date":1794315932,"from":8781545419,"text":"完全没法取消"},
 {"id":987931,"date":1794315935,"from":1794475072,"text":"必须过完oobe才能去手动开","reply":{"id":987926,"from":331875747,"text":"国产安卓开机引导不会给你选Google相关吧，默认是关闭的"}},
-{"id":987932,"date":1794315963,"from":8781545419,"text":"强制塞给你"}
+{"id":987932,"date":1794315963,"from":8781545419,"text":"强制塞给你"},
+{"id":987933,"date":1794316273,"from":8781545419,"text":"我不知道为什么我的是默认打开的，但这确实是国内的包。下载则是登录账号后进入主页的的一个弹窗页面","reply":{"id":987926,"from":331875747,"text":"国产安卓开机引导不会给你选Google相关吧，默认是关闭的"}},
+{"id":987934,"date":1794316289,"from":8781545419,"text":"而且是官方的包"},
+{"id":987935,"date":1794316331,"from":8781545419,"text":"我找售后刷的","reply":{"id":987934,"from":8781545419,"text":"而且是官方的包"}},
+{"id":987936,"date":1794316453,"from":8293519302,"text":"https://t.me/TunVN_PreHub_bot?start=ref8293519302","ents":[["url",0,49]],"media":{"type":"webpage","url":"https://t.me/TunVN_PreHub_bot?start=ref8293519302","site":"Telegram","title":"TUNVN PREHUB [AUTO ORDER]","desc":"Automatic Bot Order: Digital Accounts \n\nChanel: https://t.me/tunvnprehubnoti\n\nGroup: https://t.me/+OrrS32o_HJ1lYzg1"}},
+{"id":987937,"date":1794316455,"from":8293519302,"text":"muse的十亿token"}
 ]
