@@ -87,5 +87,10 @@
 {"id":987872,"date":1794299710,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":987868,"from":648806410,"text":"QCS5430"}},
 {"id":987873,"date":1794299711,"from":400911764,"text":"| ω・`)","reply":{"id":987872,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
 {"id":987874,"date":1794300036,"from":8781545419,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]]},
-{"id":987875,"date":1794300039,"from":400911764,"text":"| ω・`)","reply":{"id":987874,"from":8781545419,"text":"/prpr@MlgmXyysd"}}
+{"id":987875,"date":1794300039,"from":400911764,"text":"| ω・`)","reply":{"id":987874,"from":8781545419,"text":"/prpr@MlgmXyysd"}},
+{"id":987876,"date":1794304167,"from":8781545419,"text":"https://m.youtube.com/shorts/PCaIuOFBXAM","ents":[["url",0,40]],"media":{"type":"webpage","url":"https://m.youtube.com/shorts/PCaIuOFBXAM","site":"YouTube","title":"Cirno 67 #fyp #foryoupage #touhou #touhouproject #cirno #67 #sixseven","desc":"Credits: https://x.com/Lavi_Oto/status/2082211165590204807\n#trendingshorts #fyp #touhou #touhouproject #cirno"}},
+{"id":987877,"date":1794304280,"from":40065588,"text":"防窥屏就是纯粹的anti-feature","reply":{"id":987862,"from":6814075513,"text":"看看国际版会不会上防窥屏"}},
+{"id":987878,"date":1794304290,"from":40065588,"text":"不知道米怎么想的"},
+{"id":987879,"date":1794304305,"from":6814075513,"text":"我只希望国际版最好不上"},
+{"id":987880,"date":1794304309,"from":6814075513,"text":"那就很完美了"}
 ]
