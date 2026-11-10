@@ -39,5 +39,16 @@
 {"id":987823,"date":1794293851,"from":8781545419,"text":"其实我是Qu"},
 {"id":987824,"date":1794293923,"from":8238059224,"media":{"type":"sticker","size":181612,"mime":"video/webm","w":512,"h":288,"dur":3,"emoji":"🧊","file":"chats/-1001158333230/media/2026-11/987800/987824.webm"}},
 {"id":987825,"date":1794294025,"from":5506662351,"media":{"type":"sticker","size":34508,"mime":"image/webp","w":512,"h":443,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/987800/987825.webp"}},
-{"id":987826,"date":1794294034,"from":7962809057,"media":{"type":"sticker","size":54098,"mime":"image/webp","w":512,"h":443,"emoji":"✨","file":"chats/-1001158333230/media/2026-11/987800/987826.webp"}}
+{"id":987826,"date":1794294034,"from":7962809057,"media":{"type":"sticker","size":54098,"mime":"image/webp","w":512,"h":443,"emoji":"✨","file":"chats/-1001158333230/media/2026-11/987800/987826.webp"}},
+{"id":987827,"date":1794294062,"from":5506662351,"media":{"type":"sticker","size":30104,"mime":"image/webp","w":512,"h":443,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/987800/987827.webp"}},
+{"id":987829,"date":1794294221,"from":648806410,"text":"我不是和你说过嘛","reply":{"id":987774,"from":6814075513,"text":"这个key有啥用"}},
+{"id":987830,"date":1794294232,"from":7962809057,"media":{"type":"sticker","size":38358,"mime":"image/webp","w":512,"h":443,"emoji":"😄","file":"chats/-1001158333230/media/2026-11/987800/987830.webp"},"reply":{"id":987827,"from":5506662351,"text":"🌟 贴纸"}},
+{"id":987831,"date":1794294239,"from":707953138,"media":{"type":"photo","w":1175,"h":2560,"size":187263,"file":"chats/-1001158333230/media/2026-11/987800/987831.jpg"}},
+{"id":987832,"date":1794294242,"from":707953138,"text":"乐"},
+{"id":987833,"date":1794294260,"from":648806410,"media":{"type":"photo","w":2560,"h":2023,"size":352224,"file":"chats/-1001158333230/media/2026-11/987800/987833.jpg"}},
+{"id":987834,"date":1794294260,"from":707953138,"text":"这代码还没删干净"},
+{"id":987835,"date":1794294274,"from":6814075513,"text":"想起来了","reply":{"id":987829,"from":648806410,"text":"我不是和你说过嘛"}},
+{"id":987836,"date":1794294287,"from":6814075513,"media":{"type":"sticker","size":18410,"mime":"image/webp","w":512,"h":512,"emoji":"🤑","file":"chats/-1001158333230/media/2026-11/987800/987836.webp"}},
+{"id":987837,"date":1794294396,"from":8640761346,"svc":{"type":"join"}},
+{"id":987838,"date":1794294397,"from":609517172,"text":"Hey there Candia, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
 ]
