@@ -333,5 +333,14 @@
 {"id":988123,"date":1794372464,"from":8781545419,"text":"6*7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7-6+7=67"},
 {"id":988124,"date":1794372642,"from":7847060049,"svc":{"type":"join"}},
 {"id":988125,"date":1794372642,"from":609517172,"text":"Hey there 蔓越莓, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":988126,"date":1794372656,"from":8781545419,"text":"67+67*(67-67)/67=67","ents":[["cmd",13,3]]}
+{"id":988126,"date":1794372656,"from":8781545419,"text":"67+67*(67-67)/67=67","ents":[["cmd",13,3]]},
+{"id":988127,"date":1794373135,"from":8781545419,"media":{"type":"sticker","size":37012,"mime":"image/webp","w":512,"h":420,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988127.webp"}},
+{"id":988128,"date":1794373144,"from":8781545419,"media":{"type":"sticker","size":177312,"mime":"video/webm","w":512,"h":288,"dur":3,"emoji":"🧊","file":"chats/-1001158333230/media/2026-11/988000/988128.webm"}},
+{"id":988129,"date":1794373191,"from":8781545419,"media":{"type":"sticker","size":140443,"mime":"video/webm","w":512,"h":288,"dur":3,"emoji":"🧊","file":"chats/-1001158333230/media/2026-11/988000/988129.webm"}},
+{"id":988130,"date":1794373203,"from":8781545419,"media":{"type":"sticker","size":32206,"mime":"image/webp","w":512,"h":443,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988130.webp"}},
+{"id":988131,"date":1794373226,"from":8781545419,"media":{"type":"sticker","size":40394,"mime":"image/webp","w":512,"h":443,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988131.webp"}},
+{"id":988132,"date":1794373255,"from":7962809057,"media":{"type":"sticker","size":32726,"mime":"image/webp","w":512,"h":442,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988132.webp"},"reply":{"id":988130,"from":8781545419,"text":"🌟 贴纸"}},
+{"id":988133,"date":1794373276,"from":8781545419,"media":{"type":"sticker","size":35162,"mime":"image/webp","w":512,"h":443,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988133.webp"}},
+{"id":988134,"date":1794373281,"from":7962809057,"media":{"type":"sticker","size":32712,"mime":"image/webp","w":512,"h":442,"emoji":"✨","file":"chats/-1001158333230/media/2026-11/988000/988134.webp"}},
+{"id":988135,"date":1794373399,"from":8781545419,"media":{"type":"sticker","size":28926,"mime":"image/webp","w":512,"h":442,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/988000/988135.webp"}}
 ]
