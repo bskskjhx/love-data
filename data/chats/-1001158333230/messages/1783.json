@@ -282,7 +282,7 @@
 {"id":989092,"date":1794507635,"from":609517172,"text":"Hey there Adelene, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":989093,"date":1794507774,"from":9219125236,"svc":{"type":"join"}},
 {"id":989094,"date":1794507774,"from":609517172,"text":"Hey there 8——12岁 来看 🌈, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":989095,"date":1794508075,"from":1312105710,"text":"大字报开始了\nhttps://cn.nytimes.com/opinion/20261112/jensen-huang-leather-jacket/","ents":[["url",7,68]],"media":{"type":"webpage","url":"https://cn.nytimes.com/opinion/20261112/jensen-huang-leather-jacket/dual","site":"NY Times","title":"黄仁勋令皮夹克爱好者蒙羞","desc":"一个男人的肉体过失不应玷污我们的第二层皮肤。一个亿万富豪装扮成叛逆者已足够令人恼火，如今我们这个皮夹克爱好者群体更是被迫反思。"},"fwd":{"name":"MJJ出征","date":1794499179},"views":1673},
+{"id":989095,"date":1794508075,"from":1312105710,"text":"大字报开始了\nhttps://cn.nytimes.com/opinion/20261112/jensen-huang-leather-jacket/","ents":[["url",7,68]],"media":{"type":"webpage","url":"https://cn.nytimes.com/opinion/20261112/jensen-huang-leather-jacket/dual","site":"NY Times","title":"黄仁勋令皮夹克爱好者蒙羞","desc":"一个男人的肉体过失不应玷污我们的第二层皮肤。一个亿万富豪装扮成叛逆者已足够令人恼火，如今我们这个皮夹克爱好者群体更是被迫反思。"},"fwd":{"name":"MJJ出征","date":1794499179},"views":1675},
 {"id":989096,"date":1794508096,"from":1312105710,"text":"这群是不是被盯上了"},
 {"id":989097,"date":1794508244,"from":9184930716,"svc":{"type":"join"}},
 {"id":989098,"date":1794508244,"from":609517172,"text":"Hey there 8——12岁 来看 🦊, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
@@ -434,5 +434,11 @@
 {"id":989251,"date":1794555013,"from":609517172,"text":"Hey there 卿, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":989252,"date":1794555067,"from":868035986,"media":{"type":"photo","w":1024,"h":600,"size":74170,"file":"chats/-1001158333230/media/2026-11/989200/989252.jpg"}},
 {"id":989253,"date":1794555096,"from":868035986,"text":"看看我的充电器断载瞬态","reply":{"id":989252,"from":868035986,"text":"[图片]"}},
-{"id":989254,"date":1794555163,"from":868035986,"text":"1us阶跃，5A，过冲50mv，纹波0.15mv左右","reply":{"id":989252,"from":868035986,"text":"[图片]"}}
+{"id":989254,"date":1794555163,"from":868035986,"text":"1us阶跃，5A，过冲50mv，纹波0.15mv左右","reply":{"id":989252,"from":868035986,"text":"[图片]"}},
+{"id":989255,"date":1794555725,"from":868035986,"text":"这个纹波是叠了示波器40uv底噪估测的，实际上纹波低到不可见，因为小于1mv之后，环境引入干扰噪声都比它大","reply":{"id":989252,"from":868035986,"text":"[图片]"}},
+{"id":989256,"date":1794555743,"from":331875747,"text":"搜酷态科10U第一个就是","reply":{"id":989249,"from":868035986,"text":"链接发来"}},
+{"id":989257,"date":1794555753,"from":868035986,"text":"好，我看看","reply":{"id":989256,"from":331875747,"text":"搜酷态科10U第一个就是"}},
+{"id":989258,"date":1794555759,"from":707953138,"media":{"type":"photo","w":1175,"h":2560,"size":249684,"file":"chats/-1001158333230/media/2026-11/989200/989258.jpg"},"reacts":[["😁",1]]},
+{"id":989259,"date":1794555762,"from":707953138,"media":{"type":"sticker","size":10136,"mime":"image/webp","w":512,"h":512,"emoji":"😃","file":"chats/-1001158333230/media/2026-11/989200/989259.webp"}},
+{"id":989260,"date":1794555812,"from":707953138,"text":"最近好多阿三"}
 ]
