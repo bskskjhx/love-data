@@ -445,7 +445,7 @@
 {"id":989262,"date":1794556644,"from":868035986,"text":"功能太多了，翻车了","reply":{"id":989243,"from":707953138,"text":"[图片]"}},
 {"id":989263,"date":1794556651,"from":7962809057,"media":{"type":"sticker","size":34918,"mime":"image/webp","w":512,"h":512,"emoji":"😄","file":"chats/-1001158333230/media/2026-11/989200/989263.webp"}},
 {"id":989264,"date":1794556803,"from":868035986,"text":"好多年前我说过，国产现在这些半导体小厂，就天天强调功能多少多少，细节是打死不说，比如动态，上下电过渡，切换过渡，环路稳定性等等。。"},
-{"id":989265,"date":1794556851,"from":7962809057,"text":"https://fixupx.com/v12sec/status/2121045471808622776","ents":[["url",0,52]],"media":{"type":"webpage","url":"https://fixupx.com/v12sec/status/2121045471808622776","site":"🧵 Thread • FixupX","title":"V12 (@v12sec)","desc":"Here's another RCE that works on the \"patched\" Windows @telegram client.\n\nEven if individual bugs get patched, allowing (unsandboxed!) QuickJS in messages massively opens up the attack surface."},"fwd":{"name":"Tadi Channel","date":1794556428},"views":160},
+{"id":989265,"date":1794556851,"from":7962809057,"text":"https://fixupx.com/v12sec/status/2121045471808622776","ents":[["url",0,52]],"media":{"type":"webpage","url":"https://fixupx.com/v12sec/status/2121045471808622776","site":"🧵 Thread • FixupX","title":"V12 (@v12sec)","desc":"Here's another RCE that works on the \"patched\" Windows @telegram client.\n\nEven if individual bugs get patched, allowing (unsandboxed!) QuickJS in messages massively opens up the attack surface."},"fwd":{"name":"Tadi Channel","date":1794556428},"views":166},
 {"id":989266,"date":1794556919,"from":1794475072,"text":"破案了，都是肯德基干的","media":{"type":"photo","w":960,"h":1713,"size":227295,"file":"chats/-1001158333230/media/2026-11/989200/989266.jpg"},"group":"14356455356479401","reacts":[["😁",1]],"reply":{"id":989264,"from":868035986,"text":"好多年前我说过，国产现在这些半导体小厂，就天天强调功能多少多少，细节是打死不说，比如动态，上下电过渡，切换过渡，环路稳定性等等。。"}},
 {"id":989267,"date":1794556920,"from":1794475072,"media":{"type":"photo","w":2560,"h":1440,"size":409103,"file":"chats/-1001158333230/media/2026-11/989200/989267.jpg"},"group":"14356455356479401","reply":{"id":989264,"from":868035986,"text":"好多年前我说过，国产现在这些半导体小厂，就天天强调功能多少多少，细节是打死不说，比如动态，上下电过渡，切换过渡，环路稳定性等等。。"}},
 {"id":989268,"date":1794556944,"from":868035986,"text":"那些up也就光会测个纹波，不测阶跃响应，不测协议切换过渡。。\n至少atx电源版块的up还会做阶跃响应测试。。","reply":{"id":989264,"from":868035986,"text":"好多年前我说过，国产现在这些半导体小厂，就天天强调功能多少多少，细节是打死不说，比如动态，上下电过渡，切换过渡，环路稳定性等等。。"}},
@@ -486,5 +486,13 @@
 {"id":989305,"date":1794562813,"from":868035986,"text":"另外就是，据说安装vpn app被反炸打电话的，算不算是骚扰？"},
 {"id":989306,"date":1794562842,"from":868035986,"text":"如果rom内不内置反炸，是不是更清静？"},
 {"id":989307,"date":1794562855,"from":1541031247,"text":"神经病","reply":{"id":989283,"from":707953138,"text":"[图片] 这能发的啊"}},
-{"id":989308,"date":1794562870,"from":868035986,"text":"先不说什么监控，从体验上讲"}
+{"id":989308,"date":1794562870,"from":868035986,"text":"先不说什么监控，从体验上讲"},
+{"id":989309,"date":1794562963,"from":868035986,"text":"你o家过渡动画相比于类原生简直耻辱！","reply":{"id":989303,"from":868035986,"text":"手机厂的负优化行为，比监控还要更麻烦"}},
+{"id":989310,"date":1794562968,"from":8533056180,"text":"手机厂的rom"},
+{"id":989311,"date":1794562987,"from":8533056180,"text":"消息和小窗还是好的（）"},
+{"id":989312,"date":1794562991,"from":8533056180,"text":"也就这俩了……"},
+{"id":989313,"date":1794563020,"from":8533056180,"text":"我喜欢的pixel os我自己搞不好伪装（悲"},
+{"id":989314,"date":1794563039,"from":8533056180,"text":"能力不够搞机……"},
+{"id":989315,"date":1794563077,"from":868035986,"text":"所以，防手机厂负优化是第一，什么监控那是后话。。另外手机厂对用户大数据情况更严重"},
+{"id":989316,"date":1794563188,"from":868035986,"text":"看个人需求侧重点吧","reply":{"id":989313,"from":8533056180,"text":"我喜欢的pixel os我自己搞不好伪装（悲"}}
 ]
