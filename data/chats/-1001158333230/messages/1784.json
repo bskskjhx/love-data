@@ -119,5 +119,16 @@
 {"id":989438,"date":1794566543,"from":6814075513,"media":{"type":"sticker","size":11038,"mime":"image/webp","w":512,"h":509,"emoji":"⭐","file":"chats/-1001158333230/media/2026-11/989400/989438.webp"}},
 {"id":989439,"date":1794566568,"from":5802487999,"media":{"type":"sticker","size":164506,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"😭","file":"chats/-1001158333230/media/2026-11/989400/989439.webm"}},
 {"id":989440,"date":1794567184,"from":470460877,"media":{"type":"photo","w":800,"h":1280,"size":94555,"file":"chats/-1001158333230/media/2026-11/989400/989440.jpg"},"fwd":{"name":"Kamishiro Rui","date":1794561633}},
-{"id":989441,"date":1794567756,"from":1472644035,"media":{"type":"sticker","size":11214,"mime":"image/webp","w":512,"h":512,"emoji":"🤔","file":"chats/-1001158333230/media/2026-11/989400/989441.webp"}}
+{"id":989441,"date":1794567756,"from":1472644035,"media":{"type":"sticker","size":11214,"mime":"image/webp","w":512,"h":512,"emoji":"🤔","file":"chats/-1001158333230/media/2026-11/989400/989441.webp"}},
+{"id":989442,"date":1794568978,"from":868035986,"text":"想看群主的福利，没有😔","reply":{"id":989435,"from":5802487999,"text":"@drakeblick82 能不能发点年轻的"}},
+{"id":989443,"date":1794569152,"from":5799965478,"text":"为什么歧视老人😡","reply":{"id":989377,"from":701955158,"text":"/fban @nedl93"}},
+{"id":989444,"date":1794569182,"from":5799965478,"text":"我超市你","reply":{"id":989421,"from":6814075513,"text":"你也是个萝莉你知道吧"}},
+{"id":989445,"date":1794569196,"from":5799965478,"text":"看看吊","reply":{"id":989427,"from":701955158,"text":"我都怕删太快不小心把其他群友删掉了"}},
+{"id":989446,"date":1794569599,"from":40065588,"text":"相比隐私问题，更值得思考的是为什么大家对反诈这个“好事”的印象这么差\n以至于“手机内置反诈”成了一个需要辟谣的东西","reply":{"id":989305,"from":868035986,"text":"另外就是，据说安装vpn app被反炸打电话的，算不算是骚扰？"}},
+{"id":989447,"date":1794569667,"from":470460877,"text":"我自己用的motorola就没有内置"},
+{"id":989448,"date":1794569685,"from":470460877,"text":"我xt2507用了一年半了都没事","reply":{"id":989447,"from":470460877,"text":"我自己用的motorola就没有内置"}},
+{"id":989449,"date":1794569708,"from":470460877,"text":"用了这么久只接到了两次，似乎是误报"},
+{"id":989450,"date":1794569840,"from":7792122255,"text":"那个代码里不是有OPPO，VIVO，xiaomi，Samsung，ZTE，moto吗"},
+{"id":989451,"date":1794569962,"from":470460877,"text":"是什么代码","reply":{"id":989450,"from":7792122255,"text":"那个代码里不是有OPPO，VIVO，xiaomi，Samsung，ZTE，moto吗"}},
+{"id":989452,"date":1794569989,"from":470460877,"text":"如果你说的是 com.mobiletools.systemhelper ，xt2507里面没有"}
 ]
