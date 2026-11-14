@@ -88,5 +88,6 @@
 {"id":989911,"date":1794675491,"from":1794475072,"text":"2、5A是不是一种网络制式？\n5A不是一种网络制式，是……\n3、5A和5G-A（5GA）的区别是什么？5A是不是5G？5A是5G-A（5GA）吗？5A是不是5.5G？\n5A不等同于5G-A（5GA），也不等同于5.5G。\n5A是指5A级的优质网络体验，代表华为终端先进的通信技术，可以为用户带来更快接入、更快网速、更低时延、更稳定连接的综合通信体验。\n5G是第5代通信技术，是一种网络制式。\n……\nhttps://consumer.huawei.com/cn/support/content/zh-cn16081318/","ents":[["u",15,10],["quote",84,92,1],["u",176,19],["spoiler",178,9],["url",199,61]],"edit":1794675630},
 {"id":989912,"date":1794675533,"from":1794475072,"text":"反正5G和5A不相关，理由如上"},
 {"id":989913,"date":1794676018,"from":7153296667,"svc":{"type":"join"}},
-{"id":989914,"date":1794676018,"from":609517172,"text":"Hey there 3125359311, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?","ents":[["phone",10,10]]}
+{"id":989914,"date":1794676018,"from":609517172,"text":"Hey there 3125359311, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?","ents":[["phone",10,10]]},
+{"id":989915,"date":1794678880,"from":5080650772,"text":"好像不适配 A17 了，开始改造","reply":{"id":970320,"from":-1001231173515,"text":"📎 Vysor-Pro-win-5.0.72-NekoYuzu.exe Vysor Pro 5.0.72 破解版 for Windows  ClockworkMod 出品，基于 Electron 的 Android/iOS 屏幕镜像软件，对"}}
 ]
