@@ -151,5 +151,6 @@
 {"id":989974,"date":1794716967,"from":1051201244,"text":"這些東西是通用的, 模塊的, 可以配置的","reacts":[["👍",1]]},
 {"id":989975,"date":1794717037,"from":1051201244,"text":"你說長期, 現在比如糧食, 從來沒有長期版本, 都是aosp出一個版本, 自己適配上去.... MIUI是, hyperOS也是, 哪有長期?","reacts":[["👍",1]]},
 {"id":989976,"date":1794717669,"from":5547672193,"svc":{"type":"join"}},
-{"id":989977,"date":1794717669,"from":609517172,"text":"Hey there Jaime Andrés, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":989977,"date":1794717669,"from":609517172,"text":"Hey there Jaime Andrés, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":989978,"date":1794720697,"from":1794475072,"text":"但你说的全部没用于iot","reply":{"id":989975,"from":1051201244,"text":"你說長期, 現在比如糧食, 從來沒有長期版本, 都是aosp出一個版本, 自己適配上去.... MIUI是, hyperOS也是, 哪有長期?"}}
 ]
