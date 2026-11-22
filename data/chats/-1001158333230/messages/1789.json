@@ -130,5 +130,6 @@
 {"id":992041,"date":1795378632,"from":8624028502,"media":{"type":"sticker","size":206260,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"😑","file":"chats/-1001158333230/media/2026-11/992000/992041.webm"}},
 {"id":992042,"date":1795379796,"from":8624028502,"media":{"type":"sticker","size":205483,"mime":"video/webm","w":512,"h":512,"dur":0,"emoji":"😥","file":"chats/-1001158333230/media/2026-11/992000/992042.webm"}},
 {"id":992043,"date":1795379841,"from":8624028502,"media":{"type":"sticker","size":103415,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"😈","file":"chats/-1001158333230/media/2026-11/992000/992043.webm"}},
-{"id":992044,"date":1795383446,"from":7162243624,"text":"唧唧哎呦"}
+{"id":992044,"date":1795383446,"from":7162243624,"text":"唧唧哎呦"},
+{"id":992045,"date":1795389215,"from":266806493,"text":"下海补仓","reply":{"id":992043,"from":8624028502,"text":"😈 贴纸"}}
 ]
