@@ -144,7 +144,7 @@
 {"id":992055,"date":1795395221,"from":1051201244,"text":"AI 逆向vm ， 刚开始还肯干的，后来快完成了，就不肯干了。。。用的deepseek 4.1f opencode的和cursor的都不行。\n\n那个AI 最宽松？，grok以前说很松，就是这货最开始拒绝的。然后ds 4.1f 也拒绝了。","edit":1795395712},
 {"id":992056,"date":1795395618,"from":8995607584,"svc":{"type":"join"}},
 {"id":992057,"date":1795395618,"from":609517172,"text":"Hey there Jhon, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
-{"id":992058,"date":1795396351,"from":648806410,"text":"glm 和 dsf","reply":{"id":992055,"from":1051201244,"text":"AI 逆向vm ， 刚开始还肯干的，后来快完成了，就不肯干了。。。用的deepseek 4.1f opencode的和cursor的都不行。  那个AI 最宽松？，grok以前说很松，就是这货最开始拒绝的。然后ds 4.1f 也拒绝了。"}},
+{"id":992058,"date":1795396351,"from":648806410,"text":"glm 和 dsf","reacts":[["👍",1]],"reply":{"id":992055,"from":1051201244,"text":"AI 逆向vm ， 刚开始还肯干的，后来快完成了，就不肯干了。。。用的deepseek 4.1f opencode的和cursor的都不行。  那个AI 最宽松？，grok以前说很松，就是这货最开始拒绝的。然后ds 4.1f 也拒绝了。"}},
 {"id":992059,"date":1795396353,"from":648806410,"media":{"type":"sticker","size":247815,"mime":"video/webm","w":512,"h":512,"dur":1,"emoji":"0️⃣","file":"chats/-1001158333230/media/2026-11/992000/992059.webm"}},
 {"id":992060,"date":1795396421,"from":1317086519,"text":"我的呢","reply":{"id":992026,"from":5757170270,"text":"最后用的是 s24u，没用过 8e 之后的三星了"}},
 {"id":992061,"date":1795397408,"from":868035986,"media":{"type":"photo","w":800,"h":1280,"size":205893,"file":"chats/-1001158333230/media/2026-11/992000/992061.jpg"},"reply":{"id":992046,"from":868035986,"text":"说个你们不知道的，前段时间我拆了一个奥海的12v适配器，里面没y电容这个先不论好坏，但是tl431基准没有环路补偿，有补偿元件的焊盘但是没焊，我严重怀疑他们出厂之前没有做环路测试。。 说人话就是有可能会因为输出滤波电容或者某些负载发生正反馈"}},
@@ -172,5 +172,6 @@
 {"id":992083,"date":1795406480,"from":1541031247,"media":{"type":"sticker","size":257566,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"🍟","file":"chats/-1001158333230/media/2026-11/992000/992083.webm"}},
 {"id":992084,"date":1795408261,"from":5506662351,"media":{"type":"sticker","size":50936,"mime":"image/webp","w":512,"h":512,"emoji":"🙂‍↕️","file":"chats/-1001158333230/media/2026-11/992000/992084.webp"},"reply":{"id":991881,"from":-1001231173515,"text":"大肥鱼 KSU （开源主题） https://github.com/NekoWannn/baifan-ksu-lkm"}},
 {"id":992086,"date":1795408321,"from":5506662351,"text":"/prpr@MlgmXyysd","ents":[["cmd",0,15]],"reply":{"id":991884,"from":648806410,"text":"下载 dsh 登录领免费白饭"}},
-{"id":992087,"date":1795408323,"from":400911764,"text":"| ω・`)","reply":{"id":992086,"from":5506662351,"text":"/prpr@MlgmXyysd"}}
+{"id":992087,"date":1795408323,"from":400911764,"text":"| ω・`)","reply":{"id":992086,"from":5506662351,"text":"/prpr@MlgmXyysd"}},
+{"id":992088,"date":1795410248,"from":5324653156,"text":"太惨了","reply":{"id":992025,"from":5287285590,"text":"看通吧那帮SOC搞研究的人深扒架构，再结合高通这两年SOC的变化，基本上与Nuvia团队的人走能吻合，高通下一代可能又回公版了，因为Nuvia的人走了以后高通确实废了"}}
 ]
