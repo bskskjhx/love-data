@@ -155,5 +155,6 @@
 {"id":992066,"date":1795397812,"from":868035986,"text":"隔壁石龙代工的就加了补偿元件，没偷懒","reply":{"id":992065,"from":868035986,"text":"[图片]"}},
 {"id":992067,"date":1795397932,"from":868035986,"text":"这个事之前不想说的，既然你们聊奥海了，那我就说几句吧"},
 {"id":992068,"date":1795397938,"from":868035986,"media":{"type":"sticker","size":25250,"mime":"image/webp","w":512,"h":512,"emoji":"😜","file":"chats/-1001158333230/media/2026-11/992000/992068.webp"}},
-{"id":992069,"date":1795398224,"from":5207934356,"text":"No deleted account found from 3568 scanned users from this group 🚫👻","ents":[["code",30,4]]}
+{"id":992069,"date":1795398224,"from":5207934356,"text":"No deleted account found from 3568 scanned users from this group 🚫👻","ents":[["code",30,4]]},
+{"id":992070,"date":1795399530,"from":868035986,"text":"不过，也不必太担心，因为目前已知只有这一个型号有这个事，而且不能确定它就是一定有问题，只是说环路不稳定风险比较大。。","ents":[["b",30,28]],"reply":{"id":992067,"from":868035986,"text":"这个事之前不想说的，既然你们聊奥海了，那我就说几句吧"}}
 ]
