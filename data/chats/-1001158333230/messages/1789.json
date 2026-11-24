@@ -444,5 +444,7 @@
 {"id":992361,"date":1795524135,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-11/992200/992361.webm"}},
 {"id":992362,"date":1795524171,"from":707953138,"media":{"type":"photo","w":686,"h":167,"size":22744,"file":"chats/-1001158333230/media/2026-11/992200/992362.jpg"}},
 {"id":992363,"date":1795524183,"from":868035986,"text":"乌鸦嘴这一块","reply":{"id":992360,"from":707953138,"text":"你们刚说完我推特被封了"}},
-{"id":992364,"date":1795524223,"from":5694534255,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/992200/992364.webm"},"reacts":[["🤡",1]]}
+{"id":992364,"date":1795524223,"from":5694534255,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/992200/992364.webm"},"reacts":[["🤡",1]]},
+{"id":992365,"date":1795524392,"from":707953138,"media":{"type":"photo","w":706,"h":702,"size":55608,"file":"chats/-1001158333230/media/2026-11/992200/992365.jpg"}},
+{"id":992366,"date":1795524393,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-11/992200/992366.webm"}}
 ]
