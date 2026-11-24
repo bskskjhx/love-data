@@ -439,5 +439,10 @@
 {"id":992356,"date":1795523711,"from":7768178092,"svc":{"type":"join"}},
 {"id":992357,"date":1795523711,"from":609517172,"text":"Hey there 土豆月亮, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
 {"id":992358,"date":1795523714,"from":722212800,"svc":{"type":"join"}},
-{"id":992359,"date":1795523715,"from":609517172,"text":"Hey there ~菠萝, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"}
+{"id":992359,"date":1795523715,"from":609517172,"text":"Hey there ~菠萝, and welcome to 沙雕羊村复读机 - Games 🐱 | 老年表演娱乐中心 | 米米 GPT! How are you?"},
+{"id":992360,"date":1795524132,"from":707953138,"text":"你们刚说完我推特被封了"},
+{"id":992361,"date":1795524135,"from":707953138,"media":{"type":"sticker","size":77308,"mime":"video/webm","w":512,"h":512,"dur":2,"emoji":"👏","file":"chats/-1001158333230/media/2026-11/992200/992361.webm"}},
+{"id":992362,"date":1795524171,"from":707953138,"media":{"type":"photo","w":686,"h":167,"size":22744,"file":"chats/-1001158333230/media/2026-11/992200/992362.jpg"}},
+{"id":992363,"date":1795524183,"from":868035986,"text":"乌鸦嘴这一块","reply":{"id":992360,"from":707953138,"text":"你们刚说完我推特被封了"}},
+{"id":992364,"date":1795524223,"from":5694534255,"media":{"type":"sticker","size":233788,"mime":"video/webm","w":512,"h":512,"dur":3,"emoji":"🌟","file":"chats/-1001158333230/media/2026-11/992200/992364.webm"},"reacts":[["🤡",1]]}
 ]
