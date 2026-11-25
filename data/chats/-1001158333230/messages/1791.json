@@ -116,5 +116,7 @@
 {"id":993034,"date":1795605829,"from":1663851031,"text":"90/120就没有任何问题"},
 {"id":993035,"date":1795605832,"from":1663851031,"text":"是的","reply":{"id":993032,"from":266806493,"text":"不会是糇厂的吧"}},
 {"id":993036,"date":1795605835,"from":1663851031,"text":"rubypro"},
-{"id":993037,"date":1795605862,"from":266806493,"text":"糇配田鸡是这样的","reply":{"id":993036,"from":1663851031,"text":"rubypro"}}
+{"id":993037,"date":1795605862,"from":266806493,"text":"糇配田鸡是这样的","reply":{"id":993036,"from":1663851031,"text":"rubypro"}},
+{"id":993038,"date":1795605941,"from":1663851031,"media":{"type":"sticker","size":25130,"mime":"image/webp","w":512,"h":512,"emoji":"🥺","file":"chats/-1001158333230/media/2026-11/993000/993038.webp"}},
+{"id":993039,"date":1795606280,"from":5164215469,"text":"新项目发布喵\nhttps://github.com/Zircon10086/vivo-xfold-2-unlock","ents":[["url",7,50]],"media":{"type":"webpage","url":"https://github.com/Zircon10086/vivo-xfold-2-unlock","site":"GitHub","title":"GitHub - Zircon10086/vivo-xfold-2-unlock: Bootloader unlock for vivo X Fold 2 (PD2266): devinfo flag write + recovery factory reset. Scope: unlock only.","desc":"Bootloader unlock for vivo X Fold 2 (PD2266): devinfo flag write + recovery factory reset. Scope: unlock only. - Zircon10086/vivo-xfold-2-unlock"},"reply":{"id":992665,"from":5164215469,"text":"[图片] 搞定！vivo X Fold2已解锁"}}
 ]
